@@ -201,6 +201,25 @@ Cluster observations into themes; note **how many people** support each.
 literally.** Distinguish signal from noise; watch for **saturation** (new
 interviews stop surprising you).
 
+### From observation to insight
+A finding tells you *what* happened; an **insight** tells you *why* and *so
+what*. Climb the ladder:
+- **Observation** — one thing a single person said or did (a quote/fact).
+- **Finding** — the same observation recurring across several people (a pattern).
+- **Insight** — a non-obvious explanation of the *why* behind the pattern — the
+  motivation, tension, or unmet need — that you can act on.
+- **Opportunity** — the problem to solve or bet the insight unlocks.
+
+A real insight is **non-obvious** (it reframes, not restates), **evidence-backed**
+(traceable to several people), **about motivation** (not just behaviour), and
+**actionable**. Write it as: *"[Segment] do/feel [X] because [underlying why],
+which means [opportunity]."* "Users want it faster" is a restated finding, not an
+insight.
+
+> Provenance: this insight discipline reflects **general UX-research practice**
+> and is a placeholder for the specific principles in the Magnetic Notes article
+> (see `../../CREDITS.md`), to be reconciled once that text is available.
+
 ### Map back to your assumptions
 For each: **validated / invalidated / still unknown / new**, and update a
 **conviction** score (e.g., 1–5). Weight **commitment** (time, money, data, a

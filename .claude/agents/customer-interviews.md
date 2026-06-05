@@ -84,9 +84,14 @@ Grep/Read). Then produce:
    (inferences), kept in separate columns.
 2. **Patterns across interviews** — each with how many people support it; flag
    signal vs. noise and saturation.
-3. **Assumption scorecard** — validated / invalidated / still unknown / new, with
+3. **Insights** — climb the ladder observation → finding → **insight** (a
+   non-obvious *why*, backed by several people, that points to an action) →
+   opportunity. Hold each to the bar (non-obvious, evidence-backed, about
+   motivation, actionable) and phrase as "[segment] do/feel X because [why],
+   which means [opportunity]."
+4. **Assumption scorecard** — validated / invalidated / still unknown / new, with
    an updated conviction score, weighting commitment signals.
-4. **Recommendation** — persevere / pivot / dig deeper, and the next test to run.
+5. **Recommendation** — persevere / pivot / dig deeper, and the next test to run.
 
 Call out any **bias risks** you notice (confirmation, sample, loudest-voice,
 recency).

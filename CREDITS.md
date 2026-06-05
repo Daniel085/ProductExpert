@@ -39,10 +39,13 @@ the property of their authors and are included for reference and attribution.
     **Rupert Tebb** and **Richard Edgley** (on what makes user research effective
     and insightful), and a case study by **Alice Wilkie** / **Fluxx** (customer
     experience for a Dubai bank).
-  - **Status:** referenced source. Its specific insights are *not yet* folded in
-    — the full article body is gated and could not be read automatically. Once
-    the text is available, the relevant principles will be added to the synthesis
-    method and this entry updated to record exactly what was used.
+  - **Status:** referenced, not yet folded in — the article body is gated and
+    could not be read from this environment (tried the live page, a reader proxy,
+    web search, the Wayback Machine, and Medium's JSON endpoint). As a
+    **placeholder**, an "observation → finding → insight → opportunity" discipline
+    was added to the synthesis method from **general UX-research practice — not
+    from this article**. Provide the text and these will be aligned to Stefano's
+    specific principles and credited precisely here.
 
 ---
 
