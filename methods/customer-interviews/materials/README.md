@@ -1,7 +1,8 @@
 # Source materials — Customer Interviews
 
-Drop the raw *Talking to Humans* materials here, plus anything else that should
-ground the agent:
+The official *Talking to Humans* companion materials are already here
+(`TalkingToHumans-*.pdf`, with machine-readable text under `extracted/`). Add
+anything else that should ground the agent:
 
 - The free **Talking to Humans** PDF / ebook
 - The companion **worksheet**
