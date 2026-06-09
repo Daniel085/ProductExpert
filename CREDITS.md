@@ -30,22 +30,21 @@ the property of their authors and are included for reference and attribution.
 - **Eric Ries** — *The Lean Startup* (validated learning; build–measure–learn).
 - **Rob Fitzpatrick** — *The Mom Test* (how to ask good interview questions).
 
-### Additional reference
+### Research & insight — Fluxx "Experiments in Design" (via Magnetic Notes)
 - **"First Principles of Customer Research — How to quickly find out what you
-  really need to know"** by **Stefano Bellucci Sessa**, *Magnetic Notes*
-  (Medium), 18 July 2016 —
+  really need to know"** — **sketchnotes by Stefano Bellucci Sessa**
+  (@bs_stefano), *Magnetic Notes* (Medium), 18 July 2016 —
   https://medium.com/magnetic/research-and-insights-4fb85003edb4
-  - Reports principles from the **"Experiments in Design"** meetup, featuring
-    **Rupert Tebb** and **Richard Edgley** (on what makes user research effective
-    and insightful), and a case study by **Alice Wilkie** / **Fluxx** (customer
-    experience for a Dubai bank).
-  - **Status:** referenced, not yet folded in — the article body is gated and
-    could not be read from this environment (tried the live page, a reader proxy,
-    web search, the Wayback Machine, and Medium's JSON endpoint). As a
-    **placeholder**, an "observation → finding → insight → opportunity" discipline
-    was added to the synthesis method from **general UX-research practice — not
-    from this article**. Provide the text and these will be aligned to Stefano's
-    specific principles and credited precisely here.
+  A recap of the Fluxx **"Experiments in Design"** meetup. The post is a "1 min
+  read" whose substance is a hand-drawn **sketchnote**; its content is
+  transcribed in
+  `methods/customer-interviews/materials/extracted/magnetic-first-principles.txt`
+  (source PDF alongside) and folded into
+  `methods/customer-interviews/research-and-insight.md`:
+  - **Rupert Tebb** (@rupert_Tebb) — 8 principles of effective research.
+  - **Richard Edgley** (@Richard_Edgley) — 6 criteria for a good insight.
+  - **Alice Wilkie** (@Alice_Wilkie) — Dubai-bank case study and the
+    "We believe / To verify / Built / Measured / Found out" experiment format.
 
 ---
 

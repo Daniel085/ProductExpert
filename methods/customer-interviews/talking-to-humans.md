@@ -216,9 +216,10 @@ A real insight is **non-obvious** (it reframes, not restates), **evidence-backed
 which means [opportunity]."* "Users want it faster" is a restated finding, not an
 insight.
 
-> Provenance: this insight discipline reflects **general UX-research practice**
-> and is a placeholder for the specific principles in the Magnetic Notes article
-> (see `../../CREDITS.md`), to be reconciled once that text is available.
+> The ladder is general practice; the **quality bar for a good insight** is
+> credited to **Richard Edgley** (Fluxx). See
+> [`research-and-insight.md`](./research-and-insight.md) for his six criteria
+> and Rupert Tebb's principles of effective research.
 
 ### Map back to your assumptions
 For each: **validated / invalidated / still unknown / new**, and update a

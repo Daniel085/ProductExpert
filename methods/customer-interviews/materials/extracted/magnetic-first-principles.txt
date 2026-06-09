@@ -1,0 +1,65 @@
+Source: Stefano Bellucci Sessa — "First Principles of Customer Research — How to
+quickly find out what you really need to know" (Magnetic Notes / Medium,
+18 Jul 2016). Sketchnotes from the Fluxx "Experiments in Design" meetup.
+URL: https://medium.com/magnetic/research-and-insights-4fb85003edb4
+
+NOTE: The post is a "1 min read" whose substance is a hand-drawn SKETCHNOTE
+(image), not body text. This is a faithful transcription of that sketchnote,
+read from the PDF provided. Minor wording may vary because it is hand-lettered.
+
+Intro text from the post:
+"Experiments in Design is our monthly Service Design meetup at Fluxx HQ. This
+time Rupert Tebb and Richard Edgley talked about what makes user research
+effective and insightful and Alice Wilkie explained how Fluxx used research and
+experiments to improve the customer experience for a Dubai bank."
+
+================================================================
+PRINCIPLES — Rupert Tebb (@rupert_Tebb) — what makes research effective
+================================================================
+#1  START WITH CUSTOMER NEED
+#2  GET THE RIGHT SAMPLE
+#3  PAY ATTENTION TO PEOPLE'S BEHAVIOURS  (they lie!)
+#4  EXAMINE THE WIDER CONTEXT
+#5  FOSTER EMPATHY BETWEEN THE TEAM & USER  (see Rupert's Medium post)
+#6  RESEARCH IS A TEAM SPORT
+#7  SPEND LOTS OF TIME SHOWING RESEARCH
+#8  CUMULATIVE not SUMMATIVE
+
+================================================================
+WHAT MAKES GOOD INSIGHT? — Richard Edgley (@Richard_Edgley)
+================================================================
+Quote: "You never really know a man until you understand things from his point
+of view, until you climb into his skin and walk around in it."  (To Kill a
+Mockingbird)
+
+A good insight should:
+1  BE BASED ON A FIRST-PERSON EXPERIENCE — get into their shoes
+2  AHA — A FRESH PERSPECTIVE ON SOMETHING IMPLICIT ALL THE TIME
+3  BE BASED ON TRUTH, NEED & TENSION — being provocative is a good thing
+4  BE TARGETED — focus on a specific sample
+5  SUGGEST AN IDEA OR IDEAS
+6  IT'S OK TO BE WRONG — keep researching, experimenting & learning
+
+Remember that:
+- Insights aren't an exact science
+- We are looking for insights, not proof
+
+================================================================
+CASE STUDY — Dubai bank — Alice Wilkie (@Alice_Wilkie)
+================================================================
+Customers: Arab & Indian expats. "We like the SMS notifications currently
+offered by banks."
+
+EXPERIMENT
+- We believe that... customers would react positively to smartphone
+  notifications that are personalised and timely, based on their personal data
+  and behaviour.
+- To verify that... we send personalised SMSs to customers based on their
+  behaviour.
+- Built: smart notifications — intelligent and contextual hints and tips based
+  on customer behaviour to help save money.
+- Measured: number of opt-outs; a "wow" experience gauged via follow-up calls.
+- Found out that: ~30% took the trial subscription; (some) customers opted out;
+  60% of customers changed their behaviour.
+
+Sketchnotes by Stefano Bellucci Sessa (@bs_stefano).
