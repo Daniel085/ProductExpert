@@ -230,6 +230,12 @@ referral) above stated enthusiasm.
 Make the call the discovery was *for*: **persevere, pivot, or dig deeper** — and
 name the **next test**.
 
+> **Graduating to quantification:** when the decision is *persevere* and the
+> question becomes "which needs do we prioritize?", the validated job —
+> phrased solution-agnostically as `Job Executor + Core Functional Job` — is
+> the market definition that starts the ODI pipeline
+> (see [`../odi/process-map.md`](../odi/process-map.md)).
+
 ### Watch your biases
 Confirmation bias · sample bias (only friends/fans) · loudest-voice bias ·
 recency bias.

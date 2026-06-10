@@ -10,7 +10,11 @@ description: >-
   "Talking to Humans" and Steve Blank's Customer Development. Trigger it when the
   user mentions customer interviews, customer discovery, validating an idea, an
   interview guide, or making sense of interview notes. It prepares and
-  synthesizes; it does NOT conduct interviews.
+  synthesizes; it does NOT conduct interviews. This is the OPEN-ENDED,
+  qualitative track (is the problem real? who has it?); for structured
+  ODI/JTBD discovery — job maps, desired outcome statements,
+  importance-satisfaction quantification — use the odi-interviewer and the
+  ODI pipeline instead.
 tools: Read, Write, Edit, Glob, Grep
 model: inherit
 ---
@@ -97,7 +101,11 @@ Grep/Read). Then produce:
    an updated conviction score, weighting commitment signals.
 5. **Recommendation** — persevere / pivot / dig deeper, and the next test to run,
    framed with Wilkie's "We believe… / To verify… / Built… / Measured… / Found
-   out…" experiment format.
+   out…" experiment format. If the call is **persevere** and the PM now needs
+   to know *which* customer needs to prioritize, hand off to the ODI pipeline:
+   the validated job, phrased solution-agnostically as
+   `Job Executor + Core Functional Job`, is exactly the market definition the
+   **odi-interviewer** starts from.
 
 Call out any **bias risks** you notice (confirmation, sample, loudest-voice,
 recency).

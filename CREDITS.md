@@ -48,6 +48,44 @@ the property of their authors and are included for reference and attribution.
 
 ---
 
+## ODI agents (odi-interviewer, odi-outcome-editor, odi-survey-builder, odi-data-scientist)
+
+### Primary source — Outcome-Driven Innovation
+- **Outcome-Driven Innovation (ODI)** and its core constructs — markets
+  defined as *job executor + job-to-be-done*, desired outcome statements, the
+  opportunity algorithm (`Importance + max(Importance − Satisfaction, 0)`),
+  needs-based segmentation, and the growth-strategy framework — were created
+  by **Tony (Anthony W.) Ulwick** at **Strategyn**.
+- The **Universal Job Map** (the 8 job steps) comes from **Lance A.
+  Bettencourt & Anthony W. Ulwick**, "The Customer-Centered Innovation Map,"
+  *Harvard Business Review*, May 2008.
+- Key resources the method docs distill:
+  - Strategyn — ODI process: https://strategyn.com/outcome-driven-innovation-process/
+  - Strategyn — ODI overview: https://strategyn.com/outcome-driven-innovation/
+  - Tony Ulwick, "Outcome-Driven Innovation (ODI) is Jobs-to-be-Done Theory in
+    Practice" (Medium): https://jobs-to-be-done.com/outcome-driven-innovation-odi-is-jobs-to-be-done-theory-in-practice-2944c6ebc40e
+  - Digital Leadership — ODI guide: https://digitalleadership.com/blog/outcome-driven-innovation/
+  - *What Customers Want* — Anthony Ulwick (McGraw-Hill, 2005)
+  - *Jobs to be Done: Theory to Practice* — Anthony Ulwick (free PDF at
+    jobs-to-be-done-book.com)
+
+### Provenance of these agents
+- The four ODI agents and `methods/odi/` were **ported from
+  [Daniel085/Product-Discovery-ODI](https://github.com/Daniel085/Product-Discovery-ODI)**
+  (Daniel O'Rorke's prior agent system implementing ODI), restructured to
+  this repo's behavior/knowledge architecture: shared knowledge deduplicated
+  into single canonical method docs, agents given Claude Code frontmatter,
+  and the developer/partner interviewer variant folded into `odi-interviewer`
+  as a mode (multi-call discovery, dual-job framing, developer question
+  banks).
+
+### Intellectual lineage
+- **Clayton Christensen** — popularized Jobs-to-be-Done theory (*The
+  Innovator's Solution*, with the "milkshake" framing), which ODI
+  operationalizes.
+
+---
+
 ## How attribution works here
 - Every `methods/<topic>/` doc cites its sources in a **Sources & materials**
   section.
