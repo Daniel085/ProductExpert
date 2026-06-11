@@ -105,7 +105,8 @@ Grep/Read). Then produce:
    to know *which* customer needs to prioritize, hand off to the ODI pipeline:
    the validated job, phrased solution-agnostically as
    `Job Executor + Core Functional Job`, is exactly the market definition the
-   **odi-interviewer** starts from.
+   **odi-interviewer** starts from. If the next test is an online controlled
+   test, hand the belief to the **experimentation** agent to design rigorously.
 
 Call out any **bias risks** you notice (confirmation, sample, loudest-voice,
 recency).

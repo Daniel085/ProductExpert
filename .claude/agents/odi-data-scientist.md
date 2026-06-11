@@ -64,4 +64,7 @@ This is the end of the pipeline: deliver to the PM with the strategic
 implications stated plainly — which unmet needs to solve, which segments to
 target, what strategy the data supports, and how to evaluate proposed
 solutions against it. Where the PM goes next (concept work, roadmap bets) is
-their call; give them the evidence to make it.
+their call; give them the evidence to make it. Two natural next steps to
+offer: turning the top opportunity into a written product vision is the
+**prfaq** agent's job, and defining the metrics that will track the chosen
+strategy is the **metrics** agent's.

@@ -86,6 +86,45 @@ the property of their authors and are included for reference and attribution.
 
 ---
 
+## PR/FAQ agent (prfaq)
+
+- **Working Backwards: Insights, Stories, and Secrets from Inside Amazon** —
+  **Colin Bryar & Bill Carr** (St. Martin's Press, 2021) — the
+  working-backwards process, the PR/FAQ document (press release + FAQ), the
+  five customer questions, narratives-over-slides, and the
+  single-threaded-leader idea.
+- The PR/FAQ practice itself originates at **Amazon**.
+
+## Experimentation agent (experimentation)
+
+- **Trustworthy Online Controlled Experiments: A Practical Guide to A/B
+  Testing** — **Ron Kohavi, Diane Tang & Ya Xu** (Cambridge University
+  Press, 2020) — OEC, guardrail metrics, sample ratio mismatch, the
+  16σ²/δ² sample-size rule of thumb, novelty/primacy effects, the
+  peeking/multiple-comparisons discipline, and the
+  practical-significance decision framework.
+- **Twyman's law** ("any figure that looks interesting or different is
+  usually wrong") — attributed to **Tony Twyman** (media research).
+- **HiPPO** (Highest Paid Person's Opinion) — popularized by **Avinash
+  Kaushik**.
+
+## Metrics agent (metrics)
+
+- **The North Star Playbook** — **John Cutler** and the **Amplitude** team —
+  the North Star Framework: NSM criteria, input metrics, the three games
+  (attention / transaction / productivity). The "North Star Metric" term was
+  popularized by **Sean Ellis** and the growth community.
+- **Lean Analytics: Use Data to Build a Better Startup Faster** —
+  **Alistair Croll & Benjamin Yoskovitz** (O'Reilly, 2013) — the good-metric
+  criteria, vanity vs. actionable metrics, the One Metric That Matters, the
+  five stages, business-model archetypes, cohort discipline.
+- **AARRR ("pirate metrics")** — **Dave McClure** (500 Startups).
+- **Goodhart's law** — **Charles Goodhart**; the common phrasing ("when a
+  measure becomes a target, it ceases to be a good measure") is **Marilyn
+  Strathern's**.
+
+---
+
 ## How attribution works here
 - Every `methods/<topic>/` doc cites its sources in a **Sources & materials**
   section.
