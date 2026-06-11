@@ -12,18 +12,28 @@ ProductExpert/
 │   ├── odi-interviewer.md           #   ODI Phase 1: discover
 │   ├── odi-outcome-editor.md        #   ODI Phase 1.5: curate
 │   ├── odi-survey-builder.md        #   ODI Phase 2: quantify
-│   └── odi-data-scientist.md        #   ODI Phase 3: analyze & act
+│   ├── odi-data-scientist.md        #   ODI Phase 3: analyze & act
+│   ├── prfaq.md                     #   Working Backwards PR/FAQ coach
+│   ├── experimentation.md           #   A/B test design & readout
+│   └── metrics.md                   #   North Star trees, OMTM, tracking plans
 ├── methods/                         # KNOWLEDGE — what the agents read
 │   ├── customer-interviews/
 │   │   ├── talking-to-humans.md     #   method + templates
 │   │   ├── research-and-insight.md  #   effective research & good insight
 │   │   └── materials/               #   third-party source materials
-│   └── odi/
-│       ├── process-map.md           #   the pipeline spec (phases, steps, gates)
-│       ├── outcome-statements.md    #   canonical statement grammar & rules
-│       ├── interviewing.md          #   interview protocols (incl. partner mode)
-│       ├── survey-design.md         #   instrument, sizing, dataset standards
-│       └── opportunity-analysis.md  #   scoring, segmentation, strategy
+│   ├── odi/
+│   │   ├── process-map.md           #   the pipeline spec (phases, steps, gates)
+│   │   ├── outcome-statements.md    #   canonical statement grammar & rules
+│   │   ├── interviewing.md          #   interview protocols (incl. partner mode)
+│   │   ├── survey-design.md         #   instrument, sizing, dataset standards
+│   │   └── opportunity-analysis.md  #   scoring, segmentation, strategy
+│   ├── prfaq/
+│   │   └── working-backwards.md     #   PR structure, FAQ banks, process
+│   ├── experimentation/
+│   │   └── trustworthy-experiments.md # design, trust checks, decisions
+│   └── metrics/
+│       ├── north-star.md            #   NSM, metric trees, tracking plans
+│       └── lean-analytics.md        #   good metrics, OMTM, stages, cohorts
 ├── docs/                            # THIS documentation
 │   ├── principles.md                #   the ideas the system runs on
 │   ├── how-it-works.md              #   (this file)
@@ -137,6 +147,30 @@ customer-interviews ──(validated job)──> odi-interviewer ──> … pip
         └── "the problem isn't validated yet" ◄────────────────────┘
 ```
 
+### The define–test–measure layer
+
+Three agents sit around both tracks and consume their evidence:
+
+```
+discovery evidence (Track 1 insights · Track 2 scores/segments)
+        │
+        ▼
+      prfaq ──("what we'd need to believe")──> experimentation
+        │                                            ▲
+        └──("how we'll measure success")──> metrics ─┘
+                                            (OEC & guardrails)
+```
+
+- **prfaq** writes the product vision *backwards* from the customer, citing
+  discovery artifacts as its evidence base; its hardest open beliefs become
+  test hypotheses.
+- **metrics** owns what's worth measuring — the North Star tree and
+  counter-metrics — which the other two inherit (success metrics for the
+  PR/FAQ; OEC and guardrails for experiments).
+- **experimentation** turns beliefs into pre-registered, trust-checked A/B
+  tests and feeds validated learning back to the documents and decisions
+  that spawned them.
+
 ## Where knowledge lives (single source of truth)
 
 Knowledge shared by several agents is written exactly once:
@@ -150,6 +184,10 @@ Knowledge shared by several agents is written exactly once:
 | Opportunity algorithm, segmentation, strategy | `methods/odi/opportunity-analysis.md` | odi-data-scientist |
 | Qualitative interview method & templates | `methods/customer-interviews/talking-to-humans.md` | customer-interviews |
 | Effective-research principles & insight quality bar | `methods/customer-interviews/research-and-insight.md` | customer-interviews |
+| PR/FAQ structure, FAQ banks, working-backwards process | `methods/prfaq/working-backwards.md` | prfaq |
+| Experiment design, trust checks, decision framework | `methods/experimentation/trustworthy-experiments.md` | experimentation |
+| North Star framework, metric trees, tracking plans | `methods/metrics/north-star.md` | metrics, experimentation |
+| Good-metric tests, OMTM, stages, archetypes, cohorts | `methods/metrics/lean-analytics.md` | metrics |
 
 If a rule changes (say, the abstraction guide for statements), it changes in
 one file and every agent inherits it on its next run.

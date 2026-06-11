@@ -16,6 +16,9 @@ Start from where you are:
 | "I have 150 raw outcome statements — clean them up" | `odi-outcome-editor` | Validate, dedupe, level, coverage-check |
 | "Turn these curated outcomes into a survey" | `odi-survey-builder` | Importance × satisfaction instrument + fielding specs |
 | "Survey data is back — what should we build, for whom?" | `odi-data-scientist` | Opportunity scores, segments, growth strategy |
+| "Write/review the one-pager for this product idea" | `prfaq` | Working Backwards PR/FAQ, draft or critique |
+| "Design this A/B test properly" / "test results are in — ship it?" | `experimentation` | Pre-registration, or trust-checked readout + decision |
+| "What should our north star / KPIs be?" / "audit our dashboard" | `metrics` | Metric tree, OMTM, vanity audit, tracking plan |
 
 Rules of thumb:
 - **Problem unvalidated → Track 1** (qualitative). **Job validated,
@@ -125,6 +128,49 @@ it those too and it scores their coverage and segment fit.
 **What you walk away with:** which unmet needs to target (scored), which
 segment to serve first (sized and profiled), and which strategy the data
 supports — evidence for the roadmap conversation, not a substitute for it.
+
+## The define–test–measure layer
+
+Three agents pick up where the discovery tracks leave off. They compose —
+each one's output is another's input — but each works standalone too.
+
+**PR/FAQ** (`prfaq`)
+> "Use the **prfaq** agent to draft a PR/FAQ for `<opportunity>` using the
+> synthesis in `discovery/<project>/`."
+
+Give it your discovery artifacts; it gates on the five customer questions,
+drafts the one-page press release + FAQs with every claim evidence-cited or
+flagged `[ASSUMPTION]`, and ends with an honest verdict recommendation
+(iterate / build / kill / park — kill is a success). Also strong in critique
+mode: hand it an existing one-pager and ask it to play the skeptical review
+room.
+
+**Experimentation** (`experimentation`)
+> "Have the **experimentation** agent design a test for: *We believe that…*"
+> "Read out `experiments/checkout-test-results.csv` — ship or not?"
+
+Design mode produces a frozen pre-registration (OEC, guardrails, MDE,
+sample size with the math shown, run length) and a feasibility check
+against your traffic. Readout mode runs trust checks **first** (sample
+ratio mismatch can invalidate everything), then gives you confidence
+intervals and a ship/don't/iterate call against the boundary you set at
+design time. It will tell you when an A/B test is the wrong tool.
+
+**Metrics** (`metrics`)
+> "Use the **metrics** agent to define our north star and input metrics."
+> "Audit `dashboards/kpis.md` for vanity metrics."
+
+Design, critique, or instrument: a North Star tree with definition cards
+and counter-metrics, the One Metric That Matters for your stage, or an
+event tracking plan. Expect pushback if you ask for revenue as a north
+star or scale-stage metrics on a pre-fit product — that's the method
+working.
+
+**How they chain:** discovery evidence → `prfaq` (vision + "what we'd need
+to believe") → `experimentation` (test the weakest beliefs) → `metrics`
+(define what success means, feeding OECs back to the tests). A typical
+loop: PR/FAQ flags its riskiest assumption → experiment pre-registration →
+readout → revise the PR/FAQ's verdict with real evidence.
 
 ## Tips
 

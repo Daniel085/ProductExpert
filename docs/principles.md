@@ -115,6 +115,31 @@ The output of any research round is the next test, framed explicitly:
 that…"** — with a qualitative "wow" check alongside the metric. It's OK to be
 wrong; it's not OK to be unfalsifiable. *(Wilkie; Ries's build–measure–learn.)*
 
+### 15. Work backwards from the customer experience
+Before building, write the press release announcing the finished product —
+in customer language — plus the FAQ that answers the questions you'd rather
+avoid. Narrative prose forces complete thinking that bullet points hide, and
+iterating a one-pager costs hours where iterating a product costs quarters.
+The document is a truth-seeking filter, not a pitch: **most PR/FAQs should
+die, and killing one cheaply is a success.** *(Bryar & Carr; Amazon.)*
+
+### 16. Distrust delightful data
+Twyman's law: any figure that looks interesting or different is usually
+wrong. Pre-register the hypothesis, metric, and decision boundary before
+seeing data; run the trust checks (sample ratio mismatch, A/A health,
+peeking, segment-fishing) **before** interpreting effects; replicate
+surprises before celebrating them. An experiment earns authority by
+surviving attempts to break it. *(Kohavi, Tang & Xu; Twyman.)*
+
+### 17. A metric must change behavior — and every target needs a counter
+The test for any number: *what would you do differently based on it?* No
+answer → it's decoration. A North Star expresses customer **value
+exchange** (revenue is the lagging result, not the star); work happens on
+its input metrics; cohorts over averages, always. And Goodhart's law is a
+schedule, not a risk: every metric under pressure gets gamed, so every
+target ships with the counter-metric that catches it. *(Croll & Yoskovitz;
+Cutler/Amplitude; Goodhart.)*
+
 ---
 
 ## System design principles

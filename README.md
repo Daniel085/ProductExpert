@@ -45,6 +45,12 @@ customer-interviews                  odi-interviewer ──> odi-outcome-editor
                                                                · strategy
 ```
 
+Around both tracks sits a **define–test–measure layer**: **`prfaq`** turns
+validated opportunity into a written product vision (and its "what we'd
+need to believe" list), **`experimentation`** turns the riskiest beliefs
+into trustworthy A/B tests, and **`metrics`** defines the North Star tree,
+OECs, and guardrails the other two depend on.
+
 ## Agents
 
 ### Customer Interviews — `customer-interviews`
@@ -83,6 +89,29 @@ landscape, needs-based segmentation (factor + cluster, statistically gated),
 segment profiles, and a growth-strategy recommendation — computed with real,
 saved Python. Method: [`methods/odi/opportunity-analysis.md`](methods/odi/opportunity-analysis.md)
 
+### PR/FAQ — `prfaq`
+Drafts, critiques, and iterates **Working Backwards** PR/FAQs (Bryar &
+Carr / Amazon): one-page future-dated press release in customer language +
+external FAQs + the hard internal FAQs, every claim evidence-cited or
+flagged `[ASSUMPTION]`. Killing the idea counts as success.
+Method: [`methods/prfaq/working-backwards.md`](methods/prfaq/working-backwards.md)
+
+### Experimentation — `experimentation`
+Designs and reads out A/B tests per *Trustworthy Online Controlled
+Experiments* (Kohavi, Tang & Xu): pre-registration (OEC, guardrails, MDE,
+sample size), then trust-checks-first readouts (SRM, peeking, multiple
+comparisons) with confidence intervals and a ship/don't/iterate call —
+computed with real, saved Python.
+Method: [`methods/experimentation/trustworthy-experiments.md`](methods/experimentation/trustworthy-experiments.md)
+
+### Metrics — `metrics`
+Defines North Star metric trees with definition cards and counter-metrics
+(Amplitude/Cutler), picks the One Metric That Matters by stage and business
+model (*Lean Analytics*), audits dashboards for vanity metrics and Goodhart
+risks, and writes event tracking plans. Supplies OECs/guardrails to
+`experimentation` and success metrics to `prfaq`.
+Methods: [`methods/metrics/`](methods/metrics/)
+
 ## Using the agents
 
 Claude auto-delegates based on each agent's `description`, or invoke one
@@ -110,15 +139,22 @@ Full conventions: [docs/how-it-works.md](docs/how-it-works.md#extending-the-syst
 ## Roadmap (candidate agents)
 
 - **Opportunity solution trees** (Teresa Torres) — next: structures
-  discovered opportunities against outcomes and experiments. Gains two
-  inputs here: qualitative insights (Track 1) and scored opportunities
-  (Track 2). *Terminology note: Ulwick's "opportunity" (an underserved
-  outcome) ≠ Torres's "opportunity" (an unmet need/pain/desire on the tree) —
-  the agent will need to define both.*
+  discovered opportunities against outcomes and experiments. Gains three
+  inputs here: qualitative insights (Track 1), scored opportunities
+  (Track 2), and outcome metrics (`metrics`). *Terminology note: Ulwick's
+  "opportunity" (an underserved outcome) ≠ Torres's "opportunity" (an unmet
+  need/pain/desire on the tree) — the agent will need to define both.*
 - **Usability testing** (Krug) — evaluative complement to generative
   discovery.
-- **Positioning & messaging** (Dunford).
+- **Positioning & messaging** (Dunford) — *Obviously Awesome*, with launch/
+  GTM and sales-narrative work (*Sales Pitch*) folded into the same family.
+- **Pricing & packaging** (Ramanujam & Tacke, *Monetizing Innovation*) —
+  willingness-to-pay before building; pairs with ODI's needs-based segments.
+- **Strategy stress-tester** (Rumelt, *Good Strategy Bad Strategy*) —
+  kernel-or-fluff critique of strategy docs; pressure-tests the ODI growth
+  strategy recommendation.
 - ~~Jobs-to-be-Done interviews~~ — covered by the ODI family
   (`odi-interviewer`).
 - ~~Survey design~~ — covered for needs-quantification by
   `odi-survey-builder`; a general-purpose survey agent remains optional.
+- ~~PR/FAQ~~, ~~experimentation~~, ~~metrics~~ — built (see Agents above).
