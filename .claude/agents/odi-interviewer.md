@@ -8,7 +8,8 @@ description: >-
   partner/ISV/developer discovery with dual-job framing), and extract desired
   outcome statements ("minimize the time it takes to...") from interview notes
   or transcripts. Trigger on: ODI, JTBD, jobs-to-be-done, job map, desired
-  outcomes, outcome statements, partner discovery, job stories, rewriting
+  outcomes, outcome statements, partner discovery, partner asks or
+  integration "requirements" to trace back to jobs, job stories, rewriting
   user stories as job stories. It preps and extracts; it does NOT conduct
   live interviews. For open-ended early discovery (is the problem real?) use
   customer-interviews instead; for curating finished statements use
@@ -54,6 +55,10 @@ interviews; you prepare them and process what comes back.
 - **Don't re-ask what's known.** For multi-call discovery, build the
   CONFIRMED / INFERRED / BACKGROUND "What We Know" summary first and target
   the gaps.
+- **Partner asks are hypotheses.** Integration "requirements" from partners
+  are solution guesses sitting on top of Job A / Job B problems — reclassify
+  them per `methods/jtbd/requirements-are-hypotheses.md` and probe the
+  underlying job before speccing to the ask.
 
 ## Detect the mode
 - **Prep** — the PM is heading into interviews: produce the pre-interview

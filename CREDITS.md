@@ -149,6 +149,24 @@ the property of their authors and are included for reference and attribution.
 
 ---
 
+## Shared method — Requirements Are Hypotheses (`methods/jtbd/`)
+
+- **Marty Cagan**, "Requirements Are Not," **Silicon Valley Product Group
+  (SVPG)** — https://svpg.com/requirements-are-not/ — customer
+  "requirements" as hypotheses about unstated problems, stakeholder
+  "requirements" as personal theories, form/function intertwined (the
+  waterfall inversion), the ingredient-substitution analogy, and the
+  closing standard ("our only real requirement is to discover product
+  solutions that work well for our users, our customers and our business").
+- The three-bin **intake classification** (true constraint / stakeholder
+  theory / customer solution-hypothesis) is **this repo's operational
+  extension** of Cagan's argument, marked as such in the method doc —
+  Cagan's article itself draws no constraint exception.
+- Broader lineage: Cagan's *INSPIRED* and *EMPOWERED* (SVPG) — teams given
+  problems to solve rather than features to build.
+
+---
+
 ## How attribution works here
 - Every `methods/<topic>/` doc cites its sources in a **Sources & materials**
   section.

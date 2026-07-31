@@ -29,6 +29,7 @@ ProductExpert/
 │   │   └── opportunity-analysis.md  #   scoring, segmentation, strategy
 │   ├── jtbd/
 │   │   ├── job-stories.md           #   job-story framing; user-story rewrites
+│   │   ├── requirements-are-hypotheses.md # de-requirement intake protocol
 │   │   └── materials/               #   Product Institute lesson (source PDF)
 │   ├── prfaq/
 │   │   └── working-backwards.md     #   PR structure, FAQ banks, process
@@ -192,6 +193,7 @@ Knowledge shared by several agents is written exactly once:
 | North Star framework, metric trees, tracking plans | `methods/metrics/north-star.md` | metrics, experimentation |
 | Good-metric tests, OMTM, stages, archetypes, cohorts | `methods/metrics/lean-analytics.md` | metrics |
 | Job-story framing (needs vs. features; user-story rewrites) | `methods/jtbd/job-stories.md` | customer-interviews, odi-interviewer, prfaq |
+| Requirement intake (constraint / theory / hypothesis) | `methods/jtbd/requirements-are-hypotheses.md` | customer-interviews, odi-interviewer, prfaq |
 
 If a rule changes (say, the abstraction guide for statements), it changes in
 one file and every agent inherits it on its next run.

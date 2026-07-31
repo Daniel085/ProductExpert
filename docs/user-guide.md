@@ -19,6 +19,7 @@ Start from where you are:
 | "Write/review the one-pager for this product idea" | `prfaq` | Working Backwards PR/FAQ, draft or critique |
 | "Design this A/B test properly" / "test results are in — ship it?" | `experimentation` | Pre-registration, or trust-checked readout + decision |
 | "What should our north star / KPIs be?" / "audit our dashboard" | `metrics` | Metric tree, OMTM, vanity audit, tracking plan |
+| "We've been handed a requirements list / stakeholder asks" | `customer-interviews` | De-requirements it: reclassify each ask, trace to problems, then discover |
 
 Rules of thumb:
 - **Problem unvalidated → Track 1** (qualitative). **Job validated,

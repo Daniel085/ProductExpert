@@ -9,8 +9,9 @@ description: >-
   assumption scorecard, and a persevere/pivot/dig-deeper decision). Grounded in
   "Talking to Humans" and Steve Blank's Customer Development. Trigger it when the
   user mentions customer interviews, customer discovery, validating an idea, an
-  interview guide, or making sense of interview notes. It prepares and
-  synthesizes; it does NOT conduct interviews. This is the OPEN-ENDED,
+  interview guide, making sense of interview notes, or a requirements list /
+  feature requests / stakeholder asks that need tracing back to real problems.
+  It prepares and synthesizes; it does NOT conduct interviews. This is the OPEN-ENDED,
   qualitative track (is the problem real? who has it?); for structured
   ODI/JTBD discovery — job maps, desired outcome statements,
   importance-satisfaction quantification — use the odi-interviewer and the
@@ -58,6 +59,12 @@ what they learn. You do **not** run the interviews yourself.
 - If it's genuinely unclear, ask one short question. Otherwise infer and proceed.
 
 ## Prep mode — deliver a ready-to-run plan
+If the starting point arrives as **"requirements"** (a feature list,
+stakeholder asks, an RFP), de-requirement it first per
+`methods/jtbd/requirements-are-hypotheses.md`: reclassify each item (true
+constraint / stakeholder theory / customer solution-hypothesis) and aim
+discovery at the traced problems, not the asks.
+
 Gather only what you need; ask up to ~3 focused questions if these are missing:
 **(a)** the idea in one line, **(b)** who the customer is, **(c)** the single
 riskiest thing that must be true. Then produce:

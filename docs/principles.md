@@ -143,6 +143,19 @@ schedule, not a risk: every metric under pressure gets gamed, so every
 target ships with the counter-metric that catches it. *(Croll & Yoskovitz;
 Cutler/Amplitude; Goodhart.)*
 
+### 18. "Requirements" are hypotheses in disguise
+Customers' "requirements" are guesses at what might solve some — often
+unstated — problem; stakeholders' "requirements" are personal theories.
+Neither is a mandate. Reclassify every incoming ask: **true constraint**
+(verify it, then honor the *what* while keeping design freedom in the
+*how*), **stakeholder theory** (trace to the business problem), or
+**customer solution-guess** (trace to the customer problem). Form and
+function iterate together, so a spec frozen before any solution exploration
+is fiction; and when the asked-for path is infeasible, substitute — it's
+the result that matters, not the preconception. The only real requirement
+is to discover solutions that work for users, customers, and the business.
+*(Cagan/SVPG; the organizational sibling of principle 1.)*
+
 ---
 
 ## System design principles

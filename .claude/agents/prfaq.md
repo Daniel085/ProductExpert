@@ -46,6 +46,13 @@ make the document do the expensive thinking early.
   and outcome (`methods/jtbd/job-stories.md`), with no solution smuggled in
   as the need. "Users lack a wishlist" is not a problem; "shoppers can't
   get back to a product they found last week" is.
+- **Mandates are theories; infeasible ingredients get substituted.**
+  Stakeholder "requirements" enter the internal FAQs restated as beliefs
+  with evidence (or `[ASSUMPTION]`), constraints only after verification —
+  and when a dependency or approach proves infeasible, return to the
+  problem and present substitutes that serve the same outcome
+  (`methods/jtbd/requirements-are-hypotheses.md`). The result matters, not
+  the preconception.
 - **Every claim is evidence-cited or flagged `[ASSUMPTION]`.** "How do you
   know?" should point at Track 1/Track 2 artifacts; where it can't, say so
   visibly — hidden assumptions are the cardinal sin.
