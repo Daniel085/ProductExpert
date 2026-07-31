@@ -125,6 +125,30 @@ the property of their authors and are included for reference and attribution.
 
 ---
 
+## Shared method — Job Stories (`methods/jtbd/`)
+
+- **Product Institute — "Product Management Foundations"**, Unit 4
+  ("Identifying the Problem"), Lesson 4.2 *Jobs to Be Done* — the
+  JTBD-vs-personas framing, the job-story template ("When I am…, I want
+  to…, so I can…"), the wishlist worked example, and the user-story →
+  job-story practice exercise. Source worksheet preserved at
+  `methods/jtbd/materials/ProductInstitute-PMFoundations-L4.2-JobsToBeDone.pdf`
+  and remains Product Institute's property. Product Institute was founded
+  by **Melissa Perri**.
+- **Job Stories** were developed at **Intercom** and articulated by **Alan
+  Klement** ("Replacing the User Story with the Job Story," 2013) — replace
+  the persona with the **situation**; context predicts behavior better than
+  attributes.
+- **User stories** originate with **Kent Beck** (Extreme Programming) as
+  placeholders for conversations about why users need something; the
+  "As a…, I want…, so that…" template comes from the **Connextra** team
+  (2001). The job-story critique targets the template's drift into
+  mini-requirements, not Beck's original intent.
+- JTBD theory lineage: **Clayton Christensen**; **Tony Ulwick** (see the
+  ODI section above).
+
+---
+
 ## How attribution works here
 - Every `methods/<topic>/` doc cites its sources in a **Sources & materials**
   section.

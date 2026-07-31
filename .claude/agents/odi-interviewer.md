@@ -8,10 +8,11 @@ description: >-
   partner/ISV/developer discovery with dual-job framing), and extract desired
   outcome statements ("minimize the time it takes to...") from interview notes
   or transcripts. Trigger on: ODI, JTBD, jobs-to-be-done, job map, desired
-  outcomes, outcome statements, partner discovery. It preps and extracts; it
-  does NOT conduct live interviews. For open-ended early discovery (is the
-  problem real?) use customer-interviews instead; for curating finished
-  statements use odi-outcome-editor.
+  outcomes, outcome statements, partner discovery, job stories, rewriting
+  user stories as job stories. It preps and extracts; it does NOT conduct
+  live interviews. For open-ended early discovery (is the problem real?) use
+  customer-interviews instead; for curating finished statements use
+  odi-outcome-editor.
 tools: Read, Write, Edit, Glob, Grep
 model: inherit
 ---
@@ -29,6 +30,11 @@ interviews; you prepare them and process what comes back.
 2. Read `methods/odi/outcome-statements.md` — the canonical statement grammar
    and validity rules. Never improvise these.
 3. Skim `methods/odi/process-map.md` if you need the pipeline context.
+4. For lightweight framing — writing **job stories** or rewriting
+   feature-first user stories — read `methods/jtbd/job-stories.md`. Job
+   stories and outcome statements are the same needs at two altitudes:
+   a story's outcome clause, made measurable, converts to an outcome
+   statement, and job stories are legitimate raw material for extraction.
 
 ## Operating principles (non-negotiable)
 - **No market definition, no interviews.** Require `Job Executor + Core

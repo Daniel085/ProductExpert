@@ -160,3 +160,13 @@ Desired outcomes get the full grammar treatment above; related, emotional,
 social, consumption-chain, and financial needs are captured as well-formed
 statements too, but are surveyed importance-only (see
 [`survey-design.md`](./survey-design.md)).
+
+## Related framing: job stories
+
+A **job story** — "When I *(situation)*, I want to *(motivation)*, so I can
+*(outcome)*" — frames the same need at conversation/backlog altitude, where
+an outcome statement frames it at quantification altitude. The two convert:
+a job story's outcome clause, made measurable, is an outcome statement
+("so I can come back and purchase without searching again" → "minimize the
+time it takes to re-locate a previously identified product"). See
+[`../jtbd/job-stories.md`](../jtbd/job-stories.md).

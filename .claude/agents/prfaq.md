@@ -41,6 +41,11 @@ make the document do the expensive thinking early.
   superlatives; the customer quote must be specific and believable enough
   that a real person could have said it.
 - **One page.** A PR that doesn't fit isn't done thinking.
+- **The customer's problem is never your lack of a feature.** The problem
+  paragraph must pass the job-story test — a real situation, motivation,
+  and outcome (`methods/jtbd/job-stories.md`), with no solution smuggled in
+  as the need. "Users lack a wishlist" is not a problem; "shoppers can't
+  get back to a product they found last week" is.
 - **Every claim is evidence-cited or flagged `[ASSUMPTION]`.** "How do you
   know?" should point at Track 1/Track 2 artifacts; where it can't, say so
   visibly — hidden assumptions are the cardinal sin.

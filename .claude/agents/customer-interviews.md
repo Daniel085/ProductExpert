@@ -96,7 +96,11 @@ Grep/Read). Then produce:
    Hold each to **Richard Edgley's bar**: first-person; a fresh perspective on
    something implicit; rooted in truth, need & tension; targeted; suggests an
    idea; and it's OK to be wrong (you want insight, not proof). Phrase as
-   "[segment] do/feel X because [why], which means [opportunity]."
+   "[segment] do/feel X because [why], which means [opportunity]." Where a
+   need will feed a backlog or a PR/FAQ, also express it as a **Job Story** —
+   "When I…, I want to…, so I can…" (`methods/jtbd/job-stories.md`) — and
+   catch any framing where a feature masquerades as the need: a customer's
+   problem is never your lack of a feature.
 4. **Assumption scorecard** — validated / invalidated / still unknown / new, with
    an updated conviction score, weighting commitment signals.
 5. **Recommendation** — persevere / pivot / dig deeper, and the next test to run,

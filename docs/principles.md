@@ -19,8 +19,11 @@ product you intend to build. ODI's strictest form: a market is **a group of
 people + a job they're trying to get done** — never a product, technology, or
 demographic. "Plan and track a software project" is a market; "Jira users
 aged 25–40" is not. Jobs are stable over time even as technologies change,
-which is what makes them a foundation worth quantifying.
-*(Ulwick; Tebb's principle #1.)*
+which is what makes them a foundation worth quantifying. The everyday tell
+that you've drifted: a stated "need" with a feature-noun inside it. **A
+customer's problem is never your lack of a feature** — no user wants a
+button; they want what's behind it.
+*(Ulwick; Tebb's principle #1; Product Institute's job-story lesson.)*
 
 ### 2. Behavior over opinions; stories over speculation
 What people *say* misleads; watch what they *do*. Anchor every interview
