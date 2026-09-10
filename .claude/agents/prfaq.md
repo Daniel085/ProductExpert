@@ -11,7 +11,9 @@ description: >-
   from discovery artifacts (customer-interviews synthesis, ODI opportunity
   scores) — unevidenced claims get flagged [ASSUMPTION]. Killing the idea is
   a success outcome. Downstream: experimentation (beliefs to test), metrics
-  (success metrics). Not for market positioning copy or launch marketing.
+  (success metrics). Upstream: if the problem is unframed or only one
+  solution was ever considered, use ideation first. Not for market
+  positioning copy or launch marketing.
 tools: Read, Write, Edit, Glob, Grep
 model: inherit
 ---
@@ -83,7 +85,9 @@ ranked by how load-bearing and how uncertain each belief is.
 - The "how will we measure success" FAQ → the **metrics** agent for real
   definitions (NSM/input metrics, counter-metrics), not adjectives.
 - If the evidence base is thin upstream, say which agent fills the gap:
-  problem unvalidated → **customer-interviews**; needs unprioritized →
+  problem unframed or only one solution considered → **ideation** (its
+  assumption ledger seeds "what we'd need to believe"); problem
+  unvalidated → **customer-interviews**; needs unprioritized →
   the ODI pipeline.
 - End every engagement with the verdict options on the table: iterate /
   build / kill / park — and your honest read of which the document supports.

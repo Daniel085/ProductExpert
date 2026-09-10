@@ -15,7 +15,9 @@ description: >-
   qualitative track (is the problem real? who has it?); for structured
   ODI/JTBD discovery — job maps, desired outcome statements,
   importance-satisfaction quantification — use the odi-interviewer and the
-  ODI pipeline instead.
+  ODI pipeline instead. If the idea is still fuzzy, no options have been
+  explored, or the PM wants to stress-test it before spending interview
+  time, use ideation first.
 tools: Read, Write, Edit, Glob, Grep
 model: inherit
 ---
@@ -73,8 +75,11 @@ riskiest thing that must be true. Then produce:
    (target customer, problem, solution, why-not-today, measurable outcome,
    acquisition, early adopter, revenue, competition, edge, viability & technical
    risk), then list the assumptions that would *kill the business* if wrong and
-   prioritize those that are **high-impact AND highly uncertain**. Use the
-   tracker template.
+   prioritize those that are **high-impact AND highly uncertain**. Record them
+   in the shared ledger template
+   (`methods/customer-interviews/assumption-ledger.md`). **Upstream:** if an
+   **ideation** engagement already produced a ledger, take it as the starting
+   assumption list — update it, don't re-derive it.
 3. **Target segment(s)** — 1–3 archetypes and a short screener.
 4. **Interview guide** — warm-up/framing, topic flow, 8–12 open-ended
    past-behavior questions, and probes. A guide, not a script.
