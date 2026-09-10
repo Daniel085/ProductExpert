@@ -156,6 +156,16 @@ the result that matters, not the preconception. The only real requirement
 is to discover solutions that work for users, customers, and the business.
 *(Cagan/SVPG; the organizational sibling of principle 1.)*
 
+### 19. Diverge before you converge
+The first idea is rarely the best and always the anchor. Before evaluating
+anything, generate at least five distinct options — varied across scope,
+approach, and timing, including one that inverts the premise and one that
+removes something instead of adding. Feasibility judgments wait for
+convergence; constraints re-enter only after the option set is real. A
+"brainstorm" that evaluates its first idea is a decision wearing a
+costume. *(Anthropic's product-brainstorming skill; divergent-thinking
+practice broadly.)*
+
 ---
 
 ## System design principles

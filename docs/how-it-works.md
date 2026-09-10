@@ -8,6 +8,7 @@ actually happens, and how the agents compose into pipelines.
 ```
 ProductExpert/
 ├── .claude/agents/                  # BEHAVIOR — one file per agent
+│   ├── ideation.md                  #   front-door brainstorming partner
 │   ├── customer-interviews.md       #   qualitative discovery coach
 │   ├── odi-interviewer.md           #   ODI Phase 1: discover
 │   ├── odi-outcome-editor.md        #   ODI Phase 1.5: curate
@@ -17,9 +18,13 @@ ProductExpert/
 │   ├── experimentation.md           #   A/B test design & readout
 │   └── metrics.md                   #   North Star trees, OMTM, tracking plans
 ├── methods/                         # KNOWLEDGE — what the agents read
+│   ├── ideation/
+│   │   ├── brainstorming.md         #   modes, rhythm, scan protocol
+│   │   └── materials/               #   product-brainstorming skill (verbatim)
 │   ├── customer-interviews/
 │   │   ├── talking-to-humans.md     #   method + templates
 │   │   ├── research-and-insight.md  #   effective research & good insight
+│   │   ├── assumption-ledger.md     #   shared assumption-ledger template
 │   │   └── materials/               #   third-party source materials
 │   ├── odi/
 │   │   ├── process-map.md           #   the pipeline spec (phases, steps, gates)
@@ -86,9 +91,16 @@ where it can be shared, versioned, and corrected in one place.
 
 ## The two method families — and the bridge
 
-### Track 1 — Qualitative discovery (`customer-interviews`)
+### Track 1 — Qualitative discovery (`ideation` → `customer-interviews`)
 
-For when the riskiest thing is the idea itself. One agent with two modes:
+For when the riskiest thing is the idea itself. The front door is
+**`ideation`** — a conversational thinking partner for the stage before
+interview time is justified: frame → diverge → provoke → converge →
+capture, with a short landscape scan recorded as **BACKGROUND-tier**
+knowledge (per the CONFIRMED/INFERRED/BACKGROUND tiering — a scan gives
+context, never a verdict; only interviews validate a problem) and a ranked
+**assumption ledger** as the handoff object. Then `customer-interviews`
+takes the ledger forward, with two modes:
 
 ```
 PREP:        learning goal → ranked assumptions → segments & screener
@@ -194,6 +206,8 @@ Knowledge shared by several agents is written exactly once:
 | Good-metric tests, OMTM, stages, archetypes, cohorts | `methods/metrics/lean-analytics.md` | metrics |
 | Job-story framing (needs vs. features; user-story rewrites) | `methods/jtbd/job-stories.md` | customer-interviews, odi-interviewer, prfaq |
 | Requirement intake (constraint / theory / hypothesis) | `methods/jtbd/requirements-are-hypotheses.md` | customer-interviews, odi-interviewer, prfaq |
+| Brainstorming modes, divergence rules, landscape-scan protocol | `methods/ideation/brainstorming.md` | ideation |
+| Assumption-ledger template (categories, tiers, ranking, lifecycle) | `methods/customer-interviews/assumption-ledger.md` | ideation, customer-interviews, prfaq, experimentation |
 
 If a rule changes (say, the abstraction guide for statements), it changes in
 one file and every agent inherits it on its next run.

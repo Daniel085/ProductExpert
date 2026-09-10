@@ -9,6 +9,7 @@ Start from where you are:
 
 | Your situation | Agent | Why |
 |----------------|-------|-----|
+| "I have an idea — is it viable? Let's brainstorm / stress-test it" | `ideation` | Front door: four modes, landscape scan, assumption ledger + routing call |
 | "I have an idea — is the problem even real? Who has it?" | `customer-interviews` | Open-ended discovery: assumptions, guide, recruiting |
 | "I have interview notes/transcripts — what did we learn? What now?" | `customer-interviews` | Synthesis: patterns → insights → persevere/pivot |
 | "The job is validated — I need to map it and capture customer success metrics" | `odi-interviewer` | Job map + desired outcome statements |
@@ -45,6 +46,16 @@ A practical habit: keep one working folder per discovery effort (e.g.
 and save theirs there, so each stage picks up where the last left off.
 
 ## Track 1 walkthrough — qualitative discovery
+
+**0 · Ideate (when the idea is still fuzzy).**
+> "Use the **ideation** agent. Idea: `<one line>`."
+
+A conversation, not a document: it names its mode, frames the problem
+around the job, forces real divergence (≥5 options before evaluating
+any), provokes, runs a short landscape scan (recorded as BACKGROUND —
+context, never a verdict), and captures an **assumption ledger** with the
+riskiest assumption, its cheapest test, and a routing call. If the route
+is "interview," the ledger becomes step 1's assumption list as-is.
 
 **1 · Prep.**
 > "Use the **customer-interviews** agent to prep interviews for `<idea>`."

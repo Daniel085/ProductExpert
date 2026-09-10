@@ -36,13 +36,16 @@ starts Track 2.
 ```
 TRACK 1 · QUALITATIVE                TRACK 2 · ODI PIPELINE (quantitative)
 
-customer-interviews                  odi-interviewer ──> odi-outcome-editor
-  prep → you interview → synthesize        │      ▲______________│
-  → persevere / pivot / dig deeper         │      (follow-ups if gaps)
+ideation — the front door            odi-interviewer ──> odi-outcome-editor
+  frame → diverge → provoke                │      ▲______________│
+  → converge → assumption ledger           │      (follow-ups if gaps)
         │                                  ▼
-        └── validated job ──────────> odi-survey-builder ──> odi-data-scientist
-            (= market definition)       you field the survey   scores · segments
-                                                               · strategy
+        ▼                            odi-survey-builder ──> odi-data-scientist
+customer-interviews                    you field the survey   scores · segments
+  prep → you interview → synthesize                           · strategy
+  → persevere / pivot / dig deeper
+        │
+        └── validated job (= market definition) ──> starts Track 2
 ```
 
 Around both tracks sits a **define–test–measure layer**: **`prfaq`** turns
@@ -52,6 +55,17 @@ into trustworthy A/B tests, and **`metrics`** defines the North Star tree,
 OECs, and guardrails the other two depend on.
 
 ## Agents
+
+### Ideation — `ideation`
+Front-door thinking partner for the fuzzy front end — before interviews or
+documents are justified. Four modes (problem exploration, solution
+ideation, assumption testing, strategy exploration), a
+frame→diverge→provoke→converge→capture rhythm, a BACKGROUND-tagged
+landscape scan, and a gated output: the shared assumption ledger naming
+the riskiest assumption and its cheapest test, plus a routing call
+(interview / quantify / PR-FAQ / park / kill). Distilled from Anthropic's
+`product-brainstorming` plugin skill.
+Method: [`methods/ideation/brainstorming.md`](methods/ideation/brainstorming.md)
 
 ### Customer Interviews — `customer-interviews`
 Preps and synthesizes open-ended discovery interviews. Grounded in *Talking
@@ -139,9 +153,10 @@ Full conventions: [docs/how-it-works.md](docs/how-it-works.md#extending-the-syst
 ## Roadmap (candidate agents)
 
 - **Opportunity solution trees** (Teresa Torres) — next: structures
-  discovered opportunities against outcomes and experiments. Gains three
-  inputs here: qualitative insights (Track 1), scored opportunities
-  (Track 2), and outcome metrics (`metrics`). *Terminology note: Ulwick's
+  discovered opportunities against outcomes and experiments. Gains four
+  inputs here: ideation's options-considered capture, qualitative insights
+  (Track 1), scored opportunities (Track 2), and outcome metrics
+  (`metrics`). *Terminology note: Ulwick's
   "opportunity" (an underserved outcome) ≠ Torres's "opportunity" (an unmet
   need/pain/desire on the tree) — the agent will need to define both.*
 - **Usability testing** (Krug) — evaluative complement to generative
