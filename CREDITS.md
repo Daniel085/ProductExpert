@@ -167,6 +167,30 @@ the property of their authors and are included for reference and attribution.
 
 ---
 
+## Ideation agent (ideation)
+
+- **Primary source:** the **`product-brainstorming`** skill from
+  Anthropic's **`product-management`** plugin (public
+  `knowledge-work-plugins` marketplace) — the four modes, session rhythm,
+  ideation techniques, provocation questions, anti-patterns, and the
+  thinking-partner register. Retrieved 2026-09-10 from
+  https://github.com/anthropics/knowledge-work-plugins (commit
+  `1f1a239e`), licensed **Apache License 2.0**; no individual author
+  listed. Verbatim copy preserved at
+  `methods/ideation/materials/product-brainstorming-SKILL.md`.
+- **Framework lineage:** How Might We (**IDEO** / **Stanford d.school**);
+  SCAMPER (**Bob Eberle**); the OODA loop (**John Boyd**); reverse
+  brainstorming and first-principles decomposition (common practice);
+  **Teresa Torres** for opportunity solution trees (*Continuous Discovery
+  Habits*) — cross-referenced, not distilled, pending the README roadmap
+  item.
+- The **landscape-scan protocol** and the shared **assumption ledger**
+  (`methods/customer-interviews/assumption-ledger.md`) are this repo's
+  additions: the ledger's six categories come from the skill; its ranking
+  rule (impact × uncertainty) from *Talking to Humans* (see above).
+
+---
+
 ## How attribution works here
 - Every `methods/<topic>/` doc cites its sources in a **Sources & materials**
   section.
