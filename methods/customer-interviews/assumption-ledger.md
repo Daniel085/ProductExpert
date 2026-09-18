@@ -3,8 +3,9 @@
 *The single assumption-tracking format used across the system: **ideation**
 produces it, **customer-interviews** consumes and updates it,
 **problem-selection** files its *Not yet* gaps in it,
-**prfaq** seeds "what we'd need to believe" from it, and
-**experimentation** picks up its cheapest tests. Assumption *categories*
+**prfaq** seeds "what we'd need to believe" from it,
+**lean-experiments** turns its cheapest tests into experiment cards, and
+**experimentation** picks up the beliefs that need A/B rigor. Assumption *categories*
 come from the `product-brainstorming` skill (see
 `methods/ideation/materials/`); the ranking discipline is
 [`talking-to-humans.md`](./talking-to-humans.md)'s impact × uncertainty
@@ -67,8 +68,11 @@ cheapest test is not done.
    customers = CONFIRMED, 3 = INFERRED, 1–2 or desk research = BACKGROUND).
 4. **prfaq** turns surviving load-bearing entries into the internal FAQ's
    "what we'd need to believe" list.
-5. **experimentation** designs the tests the "cheapest test" column only
-   sketched, when a belief warrants real rigor.
+5. **lean-experiments** designs the "cheapest test" column's entries as
+   experiment cards when nothing is built yet (concept, concierge,
+   Wizard of Oz, MLP) and files every kata cycle's *Learned* here.
+6. **experimentation** designs pre-registered A/B tests when a belief
+   warrants causal rigor on a live product.
 
 One ledger per idea, updated in place — it is the idea's evidence trail
 from first hunch to build/kill decision.

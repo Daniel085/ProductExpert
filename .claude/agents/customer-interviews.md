@@ -20,7 +20,9 @@ description: >-
   time, use ideation first. When synthesis leaves several competing
   problems, or the question is which problem to prioritize against
   business goals using evidence from tickets, analytics and interviews
-  together, use problem-selection.
+  together, use problem-selection. To test a proposed solution cheaply
+  before building it (concierge, Wizard of Oz, concept test), use
+  lean-experiments.
 tools: Read, Write, Edit, Glob, Grep
 model: inherit
 ---
@@ -127,8 +129,10 @@ Grep/Read). Then produce:
    to know *which* customer needs to prioritize, hand off to the ODI pipeline:
    the validated job, phrased solution-agnostically as
    `Job Executor + Core Functional Job`, is exactly the market definition the
-   **odi-interviewer** starts from. If the next test is an online controlled
-   test, hand the belief to the **experimentation** agent to design rigorously.
+   **odi-interviewer** starts from. If the next test is a pre-build test
+   of a solution — concierge, Wizard of Oz, concept test, an MLP slice —
+   hand the belief to **lean-experiments**; if it is an online controlled
+   test on a live product, to the **experimentation** agent.
    If synthesis surfaces **several competing problems** — or the PM must
    weigh the interview evidence against tickets, analytics, and business
    goals to pick one — hand the candidates to **problem-selection**; the

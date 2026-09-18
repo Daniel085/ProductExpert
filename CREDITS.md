@@ -223,6 +223,74 @@ the property of their authors and are included for reference and attribution.
 
 ---
 
+## Lean Experiments agent (lean-experiments)
+
+- **Tristan Kromer** — *"Wizard of Oz Prototyping vs. Concierge Test: The
+  Key Difference"*, Kromatic blog (originally Grasshopper Herder), 15 Sep
+  2015 — the user-awareness distinction, generative vs. evaluative, the
+  human-presence bias; with **Roger L. Cauvin**'s comment-thread point
+  that concierge tests also uncover problems, and Kromer's prerequisites
+  for one. Kromer credits **J. F. Kelley** (1975) for the Wizard of Oz
+  technique and cites Aardvark, CardMunch, Wealthfront and Food on the
+  Table (**Manuel Rosso**, spelled "Russo" in the article). Source page preserved at
+  `methods/lean-experiments/materials/Kromatic-WizardOfOzVsConcierge.pdf`.
+- **Melissa Perri** — *"The Product Kata"*, melissaperri.com, 22 Jul 2015
+  (later part of *Escaping the Build Trap*, O'Reilly 2018) — adapting
+  **Mike Rother**'s *Toyota Kata* (McGraw-Hill, 2009; improvement kata
+  and coaching kata) via **Håkan Forss**'s Kanban Kata. Source page at
+  `methods/lean-experiments/materials/MelissaPerri-TheProductKata.pdf`.
+  The seven-step summary in the method doc is **Daniel O'Rorke's**.
+- **Chris Matts** (*The IT Risk Manager*) — *"MVP considered harmful.
+  Introducing the MVI."*, 26 Mar 2016 — MVP vs. minimum viable
+  investment, the "minimum viable rewrite" anti-pattern, instrument
+  first; with **Gus Power**'s "minimum sustainable product" comment.
+  Source page at
+  `methods/lean-experiments/materials/ITRiskManager-MVPConsideredHarmful-MVI.pdf`.
+- **Karen von Schmieden** — *"Feeling in Control: Bank of America Helps
+  Customers to 'Keep the Change'"*, thisisdesignthinking.net — the case
+  (IDEO ethnography → 80 concepts → cartoon-video concept test with 1,600
+  respondents → iteration), quoting **Tim Brown** and **Sally Madsen**
+  (IDEO) and **Faith Tucker** (Bank of America). Source page at
+  `methods/lean-experiments/materials/ThisIsDesignThinking-BankOfAmerica-KeepTheChange.pdf`.
+- **Tomer London** (co-founder & CPO, Gusto) with **Melissa Perri** —
+  *Product Thinking* podcast, episode 200, "Building a Minimal Lovable
+  Product", Produx Labs, 4 Dec 2024 (post by **Stephanie Rogers**) — the
+  minimum lovable product, "what are we trying to prove", the manual
+  back-end with an automation vision, the unit-economics rule, the
+  functional / intuitive / delightful bar, killing QSEHRA. Source page at
+  `methods/lean-experiments/materials/ProduxLabs-Ep200-MinimalLovableProduct-TomerLondon.pdf`.
+- **Paul Graham** — *"Do Things That Don't Scale"* (2013): the Airbnb
+  photographers example; the manual-Groupon example is common lore of
+  the same lesson. **Eric Ries** — *The Lean Startup* (MVP, concierge
+  MVP). Not reproduced here.
+- The "trying to prove" chooser, the catalogue's
+  prerequisite/measure/bias/stop structure, the MVP–MLP–MVI table, the
+  experiment card, the kata record template and the anti-patterns are
+  **this repo's operational extensions**.
+
+---
+
+## Shared method — Value Proposition (`methods/jtbd/`)
+
+- **Strategyzer AG** — *The Value Proposition Canvas* (customer jobs /
+  pains / gains ↔ products & services / pain relievers / gain creators,
+  with trigger questions), strategyzer.com; from **Alexander Osterwalder,
+  Yves Pigneur, Greg Bernarda & Alan Smith**, *Value Proposition Design*
+  (Wiley, 2014). The 2-page canvas PDF is preserved at
+  `methods/jtbd/materials/Strategyzer-TheValuePropositionCanvas.pdf`
+  (copyright Strategyzer AG) with a transcription under
+  `materials/extracted/`. Further playbooks:
+  https://www.strategyzer.com/playbook-library
+- **Product Institute** (founded by **Melissa Perri**) — *Product
+  Management Foundations*, the value-proposition lesson: functional +
+  emotional jobs → "We [deliver outcome] by [solving key job]". Licensed
+  course material — **paraphrased only; nothing quoted and the course's
+  example not reproduced.**
+- The tells table, text template and fit-to-agents mapping are this
+  repo's operational extension.
+
+---
+
 ## Methodology evaluations (`docs/methodology-evaluations/`)
 
 - The 25-criterion evaluation **rubric** is **Daniel O'Rorke's** own;

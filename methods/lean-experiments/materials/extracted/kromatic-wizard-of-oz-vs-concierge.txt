@@ -1,0 +1,141 @@
+SOURCE: Tristan Kromer, "Wizard of Oz Prototyping vs. Concierge Test: The
+Key Difference — One fakes it, the other sits down with you — and mixing
+them up ruins everything", Kromatic blog (originally Grasshopper Herder),
+15 September 2015. Transcribed from the PDF alongside; navigation,
+newsletter and product promotion removed; the FAQ block and the
+Cauvin/Kromer comment exchange kept (abridged) for their substance. All
+rights remain with the author.
+
+----------------------------------------------------------------------
+
+WIZARD OF OZ PROTOTYPING
+
+In the lean startup world, the wizard of oz prototyping method was used by
+companies like Aardvark and CardMunch. Both were able to create amazing
+effective prototypes very quickly by not building anything. Aardvark
+connected people with questions to people with expertise. Cardmunch
+managed to transcribe blurry photos of business cards better than any
+other Optical Character Recognition (OCR) system at the time. Neither had
+any technology or algorithm behind them. The technology was human beings.
+Cardmunch leveraged Amazon's Mechanical Turk while Aardvark used interns.
+Instead of building complex algorithms both just faked it. Since neither
+needed a real-time response to provide their core value propositions,
+there was no need to build anything. To the user, the products delivered
+exactly what they promised. A little slow perhaps...but the value was
+there. (Note: Lean Startup did not invent this technique. It was already
+being used in the lab by 1975 by J. F. Kelley.)
+
+Quick Answer: Wizard of Oz prototyping and concierge testing both deliver
+value manually without technology, but the key difference is user
+awareness. In wizard of Oz prototyping, the user doesn't know a human is
+doing the work behind the scenes, making it ideal for evaluating a
+specific solution hypothesis. In a concierge test, the customer knows
+they're working with a person, which adds social bias but makes it great
+for generative research when we don't yet know what the solution should
+be. Confusing them leads to faulty reasoning and flawed business models.
+
+CONCIERGE TEST
+
+Concierge testing was used by companies such as Wealthfront and Food on
+the Table. The approach is similar in that there is no technology
+involved. Both companies performed the service they were offering as a
+concierge at a hotel might. Purely manually. Wealthfront would work with
+its customers to provide wealth management advice and portfolio
+management. They would sit with them, pen and paper in hand, and figure
+out solutions to wealth management issues step by step. Manuel Russo used
+to personally go shopping with his customers to help them plan their
+meals. (Not very scalable!)
+
+So both Wizard of oz prototyping and Concierge testing provide the value
+proposition manually without any technology. What's the difference?
+
+USER EXPERIENCE
+
+The difference is that in one case, the user knows about the concierge,
+while the Wizard of Oz is hidden from the user. This is a key difference
+for the user experience. In a Wizard of Oz test, the user experience is a
+complete simulation of the actual intended product, but with a slight time
+delay since a human cannot react as fast as a computer. The delivered
+value proposition is almost identical but slightly under performing. In a
+Concierge test, the value proposition is actually significantly higher
+than the eventual product. That's because the customer is aware and is
+interacting with a real human being.
+
+HUMANS ARE SOCIAL CREATURES
+
+Human interaction, as a whole, is generally a positive value proposition.
+We're social creatures and even introverts like me gather in groups to
+socialize. There are some circumstances where we do not want to interact
+with a human being. [...] A Concierge test has an extra value proposition
+that a Wizard of Oz test does not. Or at the very least, the test is
+severely affected by the visible presence of a human being.
+
+GENERATIVE VS. EVALUATIVE
+
+This brings us back to the distinction of Generative Research vs.
+Evaluative Experiments. Wizard of Oz testing allow us to test a clearly
+defined hypothesis about what solution will provide the value proposition
+to the customer. We test it by simulating the user experience as precisely
+as possible without technology. The lack of technology means we can
+rapidly test a variety of hypothesis and rapidly iterate. Since Wizard of
+Oz allows us to test and falsify a solution hypothesis, it's an Evaluative
+Product Experiment. Concierge testing has a huge human factor which biases
+the test. If we attempt to use a Concierge test to validate our solution
+hypothesis, we're liable to get a bias towards a false positive or perhaps
+even to a false negative in some circumstances. It's simply the wrong type
+of test to falsify a clear hypothesis. Concierge testing is very bad when
+we have a clear idea of the solution, but very good when we're not exactly
+sure what the solution should be!
+
+GENERATING IDEAS
+
+When Wealthfront sat down with their customers, they had some idea on how
+to manage finances, but they didn't have a step 1, 2, 3 algorithm of how
+to do it. There were many unknowns including how to best represent the
+portfolio information to the customer in an intelligible way to them to
+make their own decisions. Concierge testing allows us to work with the
+customer without having a clear solution hypothesis. A vague idea, or even
+no idea, will sometimes be enough to muddle through the process while
+talking with the customer and getting constant feedback. We might think
+that it's impossible to go to a customer and just sell the promise of a
+solution without having any clear idea of how to provide it. It's not.
+(Note: Lean startup didn't come up with Concierge testing either.
+Consulting has been around since the before the pharaohs.) By the time
+we've manually performed the task a few times for our consulting clients,
+we have a much clearer idea of what form an automated solution can take
+and what the minimum viable feature set looks like. The solution is not
+yet validated, but we can take that hypothesis and begin the process of
+evaluating experimentation with a Wizard of Oz test, paper prototyping,
+usability tests, etc.
+
+LESSONS LEARNED
+
+Confusing them can lead to faulty reasoning and flawed business models.
+
+FAQ (abridged)
+- When should I use a concierge test instead of a Wizard of Oz test? When
+  we don't yet have a clear solution hypothesis and need to generate
+  ideas. It's a generative research method, best for exploring the problem
+  space rather than validating a specific solution.
+- Why is a concierge test bad for validating a solution hypothesis?
+  Because the visible presence of a human being adds an extra value
+  proposition that biases results — customers may respond favorably to the
+  personal attention rather than the actual solution.
+
+----------------------------------------------------------------------
+Comment exchange (abridged), Roger L. Cauvin and Tristan Kromer, Sept 2015:
+
+Cauvin: a concierge MVP is also "great for better understanding market
+problems and for uncovering 'new' ones" — hands-on engagement surfaces
+unknown unknowns that interviews and evaluative tests miss; the problems
+discovered may cause a major pivot, not just a tweak.
+
+Kromer: agrees you "must have a general/main pain point before running
+concierge" — otherwise it is ethnography, not a concierge test. What he
+wants in hand before a concierge test: "a clear customer segment;
+evidence that the customer segment has a problem [...]; the value
+proposition for that segment that will solve that general pain point;
+evidence that the customer will 'pay' for that service by committing money
+and/or time to do the concierge test." Everything may still turn out
+wrong and send you back to customer discovery — "that's the case at any
+stage of testing with any type of test."

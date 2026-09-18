@@ -16,7 +16,8 @@ description: >-
   the job is even defined, use ideation; for choosing which of several
   problems to pursue against business goals before committing to a job,
   use problem-selection; for curating finished statements use
-  odi-outcome-editor.
+  odi-outcome-editor; to compress a job map and ranked outcomes into a
+  value proposition or canvas, use lean-experiments.
 tools: Read, Write, Edit, Glob, Grep
 model: inherit
 ---

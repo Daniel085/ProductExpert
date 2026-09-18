@@ -98,7 +98,10 @@ Found out that: … (result → validated / invalidated / surprised)
 - **Synthesis** — Edgley's six criteria are the **quality bar** for the insights
   step; pair with the insight ladder in `talking-to-humans.md`.
 - **Next test** — use Wilkie's *We believe / To verify / Built / Measured /
-  Found out* format to design the follow-up experiment.
+  Found out* format to design the follow-up experiment. The pre-build
+  experiment card and the Product Kata record
+  (`methods/lean-experiments/`) extend this same format with *Expected*
+  and *Would disprove* lines written before the run.
 
 ---
 

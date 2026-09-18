@@ -140,3 +140,8 @@ load-spreading, real-time crowding info, or off-peak incentives.
   no feature smuggled in.
 - **Job story → experiment.** "We believe that [people in situation] want
   [motivation]…" — the story is the belief; the experiment tests it.
+- **Job story → value proposition.** The motivation is a *job*, the
+  situation its *context*, the outcome a *gain* — the customer side of
+  the Value Proposition Canvas
+  ([`./value-proposition.md`](./value-proposition.md)); the statement
+  "We [deliver outcome] by [solving key job]" is the story's promise.

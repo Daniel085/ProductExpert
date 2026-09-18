@@ -189,6 +189,57 @@ themselves. And a theme is a bucket, not a conclusion: it still has to be
 written as a problem and explained as an insight before anyone acts on
 it. *(Kawakita's K-J method, via ASQ.)*
 
+### 22. Prove the solution before you build it — with things that don't scale
+A validated problem does not validate your answer to it: teams hear what
+users ask for, build exactly that, and learn it wasn't what they wanted.
+So before engineering time, run the cheapest experiment that could say
+no — and know which kind you are running. A **concierge** test (deliver
+the value by hand, visibly) is *generative*: it discovers what the
+solution should be, and the human in the room inflates every result, so
+it can never validate one. A **Wizard of Oz** (simulate the product,
+humans behind the curtain), a **concept test** or a **smoke test** is
+*evaluative*: it falsifies a defined solution hypothesis. Fake the
+back-end freely — Airbnb's photographers, Gusto's staff phoning carriers
+— but only with a written vision of how it automates and a rule that
+growth continues only while unit economics improve. Every card states
+*what we're trying to prove*, the *expected* result and *what would
+disprove it* before the run. *(Kromer; Graham; London/Gusto; Bank of
+America "Keep the Change".)*
+
+### 23. Slice by what you're trying to prove — and know which minimum you mean
+The first version is a risk-management device, not a small product. Pick
+the slice by the single thing that most needs to be true right now, not
+by what's easy to build. **MVP** (new product, new market) tests the
+segment and its needs; a **minimum lovable product** tests that a tiny,
+superb version earns love in one narrow segment — end-to-end, intuitive,
+delightful, measured by referrals and retention, expanding one step at a
+time only after love shows up; a **minimum viable investment** (existing
+product, existing customers) instruments first and makes small,
+outside-in steps — never a "minimum viable rewrite" that spends two
+years in staging with no market feedback. *(Matts; London/Gusto; Ries.)*
+
+### 24. Measure the current condition before you experiment, then iterate in katas
+Direction → current condition → next target condition → biggest obstacle
+→ one small step with a written expectation → learned → re-measure →
+repeat. The step most teams skip is the second: Perri's seller-portal
+kata spent its first three cycles just counting calls (the guess was
+four a week; the truth was seven) before changing anything, and learned
+in three weeks what a shipped portal took four months to reveal. Steps
+take a week or less, name their measure, and are rarely features.
+Unknowns are obstacles; "we don't know" is a legitimate current
+condition and the first thing to fix. *(Rother's Toyota Kata; Perri's
+Product Kata.)*
+
+### 25. The value proposition is the promise — and a hypothesis
+Write it from the jobs, pains and gains you have evidence for — customer
+side of the canvas first, value side designed to it — and compress it to
+one sentence: *we [deliver outcome] by [solving the key job]*, usually
+one functional payoff and one emotional one. It names a change in
+someone's life, not a feature or an adjective. Until a concept test,
+Wizard of Oz or lovable slice has tested it, it is a belief in the
+ledger, not a fact in the press release. *(Strategyzer's Value
+Proposition Canvas; Product Institute.)*
+
 ---
 
 ## System design principles

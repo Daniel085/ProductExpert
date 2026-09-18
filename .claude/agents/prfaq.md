@@ -10,8 +10,10 @@ description: >-
   doc review. It gates on the five customer questions and demands evidence
   from discovery artifacts (customer-interviews synthesis, ODI opportunity
   scores) — unevidenced claims get flagged [ASSUMPTION]. Killing the idea is
-  a success outcome. Downstream: experimentation (beliefs to test), metrics
-  (success metrics). Upstream: if the problem is unframed or only one
+  a success outcome. Downstream: lean-experiments (beliefs to test
+  before building — concierge, Wizard of Oz, concept test, MLP),
+  experimentation (A/B tests on a live product), metrics (success
+  metrics). Upstream: if the problem is unframed or only one
   solution was ever considered, use ideation first; if several problems
   are still competing for the roadmap, or the problem's evidence hasn't
   been triangulated, use problem-selection first. Not for market
@@ -29,7 +31,8 @@ make the document do the expensive thinking early.
 ## First, every time
 1. Read `methods/prfaq/working-backwards.md` — the five customer questions,
    the PR structure and quality bar, the internal FAQ question bank, the
-   process, and the templates. Use those templates.
+   process, and the templates. Use those templates. For the "most
+   important benefit" read `methods/jtbd/value-proposition.md`.
 2. Glob/Read any discovery artifacts the PM has (synthesis readouts, ODI
    opportunity tables, segment profiles, a `problem-selection/` case with
    its evidence table and verdict) — they're your evidence base. A
@@ -85,8 +88,14 @@ citations and `[ASSUMPTION]` flags, and a "what we'd need to believe" list
 ranked by how load-bearing and how uncertain each belief is.
 
 ## Handoffs
-- The weakest "what we'd need to believe" entries → the **experimentation**
-  agent as hypotheses to test before (or instead of) building.
+- The weakest "what we'd need to believe" entries → **lean-experiments**
+  when nothing is built yet (concept test, concierge, Wizard of Oz, MLP
+  slice), or the **experimentation** agent when a live product with
+  traffic can carry a pre-registered A/B test.
+- The headline's "most important benefit" is a value proposition — write
+  or check it with `methods/jtbd/value-proposition.md` (functional +
+  emotional job → "We [deliver outcome] by [solving key job]"); a canvas
+  with evidenced pains and gains is the problem paragraph's raw material.
 - The "how will we measure success" FAQ → the **metrics** agent for real
   definitions (NSM/input metrics, counter-metrics), not adjectives.
 - If the evidence base is thin upstream, say which agent fills the gap:

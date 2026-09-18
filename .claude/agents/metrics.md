@@ -79,6 +79,11 @@ the business, and it should be legible enough to be wrong in public.
 - Stage 1 (Empathy) measurement is qualitative by design — route to
   **customer-interviews** rather than inventing dashboards for it; needs
   prioritization questions route to the ODI pipeline.
+- **lean-experiments** needs a goal metric for each kata's direction and
+  a current-condition measurement before it experiments (Matts's
+  "instrument first" for existing products) — define the metric and how
+  to read it; its MLP "love" signals (NPS, referrals, retention) are
+  input-metric candidates.
 - **problem-selection** scores Business Alignment against the North Star
   tree you define — when it arrives with no stated goal, that gap is
   yours; when it needs a breadth or cost number for a *Not yet* problem,

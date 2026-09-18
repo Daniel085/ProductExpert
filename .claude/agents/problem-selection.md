@@ -20,8 +20,10 @@ description: >-
   opportunity score), not beliefs about a solution (experimentation). It
   does not validate on its own: "Not yet" routes the missing evidence to
   customer-interviews (qualitative) or metrics / the ODI pipeline
-  (quantitative); "Yes" hands the problem to prfaq. Needs a stated business
-  goal to score alignment — if there is none, use metrics first.
+  (quantitative); "Yes" hands the problem to prfaq, or to
+  lean-experiments when a proposed solution should be tested cheaply
+  first. Needs a stated business goal to score alignment — if there is
+  none, use metrics first.
 tools: Read, Write, Edit, Glob, Grep
 model: inherit
 ---
@@ -129,7 +131,9 @@ rows rather than starting a second tracker.
 - **Yes** → **prfaq**: the job story is the problem paragraph; the evidence
   table is the "how do you know" answer. If the next question is *which
   needs within this job* → **odi-interviewer** with the job as the market
-  definition.
+  definition. If a solution is already on the table and the PM wants to
+  test it before building → **lean-experiments** (the case is its
+  problem-evidence gate).
 - **Not yet**, qualitative gap (pain, why, who) → **customer-interviews**
   prep, with the candidate's ledger rows as the starting assumptions.
 - **Not yet**, quantitative gap (breadth, cost) → **metrics** for the

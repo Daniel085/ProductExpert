@@ -1,0 +1,89 @@
+SOURCE: The IT Risk Manager (Chris Matts, "theitriskmanager"), "MVP considered
+harmful. Introducing the MVI.", 26 March 2016.
+https://theitriskmanager.wordpress.com/2016/03/26/mvp-considered-harmful-introducing-the-mvi/
+Transcribed from the PDF alongside; navigation, archive lists and most
+comments removed (one comment kept for its point). All rights remain with
+the author.
+
+----------------------------------------------------------------------
+
+When adopting Agile at scale, we always need to remember the three things
+that have the most impact... Context, Context, and Context.
+
+MVP or Minimum Viable Product is a fantastic idea for start ups. It tells
+you to build the smallest, most minimal product that will be viable for
+your target customer segment or market. MVP is about discovering a market
+for a new product. Interestingly many people miss the important aspect of
+MVPs. MVPs are a risk management approach to help you determine whether
+your hypotheses about your target customer segment and their needs (or
+jobs to be done) are correct or not. MVPs are nothing to do with your
+product really. They are to do with the customer segment and their needs.
+A start up is defined as a organisation that is establishing its customer
+segment and the customer's needs.
+
+Normally when we talk about scaling Agile, we are talking about
+introducing Agile to an organisation with established products and
+markets. And this is the problem. These companies already have customers.
+These companies already have market share. These companies already have
+products that are more than minimally viable. As they engage in an Agile
+transformation, they adopt Agile, Lean, Lean UX and Lean Startup
+concepts... including MVP. However they already have a product so they
+assume that MVP means the MVR or "Minimum Viable Rewrite" as they
+transform to Agile and completely replace existing products with "Agile"
+products. MVP becomes the minimum amount of the existing product that
+needs to be recreated in the new "Agile" product. That minimum tends to be
+a complete rewrite of the existing product. In other words, a completely
+non Agile approach to transformation.
+
+Over the past few years I have seen a pattern emerging in organisations
+that have mature products as they adopt Agile. They all have a flagship
+Agile project that has a scarily familiar description. They have
+successfully implemented "Scrum" (This is in no way a criticism of Scrum
+because they are not really doing Scrum). They proudly tell everyone about
+their two week sprints and monthly/bi-monthly releases. The problem is
+that the releases are always into a "testing" / "staging" / "pseudo
+production" environment. The flagship project normally has one or two
+years worth of inventory in the non production environment and they are
+about to release a huge change on the business. The only risk this
+approach addresses is the risk that "IT" will deliver into that
+environment. There is no feedback from the market that the rewrite product
+is fit for purpose. In effect the risk that the business case
+(understanding of the target market's needs) is wrong or the damage to the
+existing product (market share) are ignored.
+
+The alternative for organisations with mature products is to consider an
+MVI or Minimum Viable Investment approach. First instrument up your
+product so that you understand your current metrics. Then identify
+investments into your product to improve it. Gradually make small
+investments into your product until you can make big architectural changes
+easily. In effect you refactor your product towards a new vision of the
+product. Start from the outside and work your way in. In other words,
+start with your customer and work back through the value stream.
+Understand that taking an inside-out approach will lead to a massive and
+risky transformation that ignores your customer.
+
+Transform your approach to your product rather than try to transform your
+product itself. Transforming your product is normally a good indicator
+that you have not transformed your approach and thinking. It is big batch
+change.
+
+To summarise:
+- If you are building a new product for a new market, use an MVP approach.
+- If you have an existing product (i.e. market), adopt an MVI approach.
+- If your transformation partner (consultancy) is advocating a big bang
+  approach to transformation, sack them. They do not understand Agile and
+  should be cast out and shunned for selling snake oil. Obviously they
+  wont say its a big bang approach, but measure the lead time to
+  production customers. Let the data reveal reality rather than opinions.
+
+----------------------------------------------------------------------
+Selected comment (Gus Power, 26 March 2016): "We've been using the term
+'MSP' – minimal *sustainable* product for quite some time to emphasise the
+difference between a product or service built for marketing testing vs.
+one that can be run as BAU. There can be quite a delta as operational
+concerns (security, performance etc.) can be descoped under the banner of
+'minimal' – where 'minimal' has a features-only emphasis. [...]
+Establishing a baseline from the current state as a basis to measure
+investment effectiveness is good advice +1"
+Author's reply to a later comment: "Think strategic. Deliver tactically
+(iteratively)."

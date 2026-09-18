@@ -1,0 +1,114 @@
+SOURCE: Karen von Schmieden, "Feeling in Control: Bank of America Helps
+Customers to 'Keep the Change'", thisisdesignthinking.net (Design Thinking
+Stories). Transcribed from the PDF alongside; site navigation, author
+lists and comments removed (one sceptical comment kept). All rights remain
+with the author/site.
+
+----------------------------------------------------------------------
+
+How do you encourage new customers to open bank accounts? In 2004, Bank of
+America assigned design agency IDEO to boost their enrollment numbers: a
+problem lacking any user perspective or problem (yet).
+
+The bank hoped to bring a human-centered angle to an industry which is
+hardly known for innovation. They were especially interested in the
+customer segment of boomer-age women with children. To conduct the
+ethnographic research, a team of five BoA employees partnered up with four
+agency designers. In their user research, the group conducted interviews
+and observed families in Atlanta, Baltimore, and San Francisco. According
+to IDEO designer Sally Madsen, the team was "talking to people who were
+great at saving, and people who struggled with it, taking inspiration from
+some of the existing, every-day habits people have around savings". They
+observed a dozen families, and followed mothers around when they went
+shopping or dining. Soon, they realized an interesting pattern: In many
+families, mothers were in charge of managing finances. An extreme group in
+this pattern turned out to be single mothers: They are often on a tight
+budget and have to keep track of their spending meticulously.
+
+Many of these women kept checkbook registries, in which they listed their
+bills, expenses and ATM withdrawals. In the beginning of the 2000s, this
+was a common way to manage money – a time before banking apps and online
+banking was widespread. When the design researchers looked at the
+checkbook of a woman in Atlanta, they realized that she rounded up
+numbers: Instead of listing 22,73 dollar for a refueling bill, she listed
+23 dollars, for example. This simplified calculations, but it also added a
+little buffer each month – at the end, a few unexpected dollars were left
+over for her. A second, important realization concerned the inability of
+mothers to save. Some of them simply did not have enough money to put
+anything aside, others could not control their impulse buying. The
+researchers realized that this behavior revealed an unaddressed need in
+banking, and offered the opportunity to create value for customers and the
+bank.
+
+KEEP THE CHANGE
+
+Two Bank of America Vice Presidents, Faith Tucker and Ray Chinn, assembled
+a team of product managers, finance experts, software engineers, and
+operation experts for brainstorming. The team held 20 sessions and
+generated 80 product concepts. They favored one idea: the "Keep the
+Change" program. "Keep the Change" is a service that automatically rounds
+up all purchases made with a debit card. These rounded up cents are
+transferred to a savings account.
+
+To test a prototype of the idea, the team created a cartoon video
+displaying the rounding up service and tested it in an online survey with
+1600 participants. After an extremely positive response, "Keep the Change"
+was pitched to the consumer division and got approved. In an iteration of
+the idea, the product development team added three features, as a
+Bloomberg case study describes: Firstly, a summary of the rounded-up
+transactions in the account; secondly, a feature preventing a rounding-up
+transfer from pushing the user's account into overdraft; and thirdly, a
+promotion. As a treat, Bank of America matches the saving at 100 per cent
+for the first three months up to a certain amount.
+
+Phase / Result (table):
+- Finding / Insights: 1. one woman rounded up her checkbook numbers for
+  easier calculations and a buffer; 2. mothers struggle with saving money
+  because they have nothing to put aside, or because of impulse buying.
+- Brainstorming: team of product managers, finance experts, software
+  engineers, and operation experts; 20 brainstorming sessions, 80 product
+  concepts, 1 favored idea.
+- Prototype and Testing: a cartoon video displaying the service was shown
+  to 1600 testers and surveyed.
+- Iteration: 1. a summary of the rounded-up transactions in the account;
+  2. a feature preventing a rounding-up transfer from pushing the user's
+  account into overdraft; 3. a promotion: Bank of America matches the
+  saving at 100 per cent for the first three months.
+
+In a major marketing campaign, Bank of America put a 6 meter couch in New
+York's Grand Central Terminal, hiding coins in the furniture. Passengers
+were invited to look for the change.
+
+The "Keep the Change" service turned out to be a huge success for Bank of
+America. After its launch in September 2005, the program attracted 2
+million customers in less than a year. Since then, more than 12 million
+customers signed up for the program and saved more than 2 billion dollars
+in total. 60% of all new customers enroll for "Keep the Change". 99% of
+customers who signed up for the program stayed with it.
+
+Closely observing user behavior and interpreting their workarounds was a
+crucial step leading to this successful outcome: "People couldn't tell us
+that they wanted a debit card that would 'keep the change.' It didn't
+occur to them", IDEO CEO Tim Brown said in a Forbes interview. "But we saw
+how many people were rounding up to the next dollar when they paid for
+things." He describes that the success of this innovation lies "in its
+appeal to an instinctive desire we have to put money aside in a painless
+and invisible way" in his 2008 Harvard Business Review article. According
+to Sally Madsen, the Keep the Change program "meets Bank of America's goal
+of generating more business for their savings programs, but it's also
+something that meets a core basic need that people have, which is finding
+ways to manage their financial security."
+
+Bank of America' former Senior Vice President and product developer Faith
+Tucker underlined the feeling of empowerment for Bank of America customers
+in a designbetter interview: "There was an almost unexpected and very
+emotional effect from this new service. People who previously never had
+savings suddenly did. And it wasn't the amount that mattered; even a small
+amount of money in their savings account gave them a sense of power and
+control over their finances."
+
+----------------------------------------------------------------------
+Selected comment (David Meiri, 8 July 2020): "So customers saved on
+average $10 a year. Besides PR, I don't see much gain here. Smoke and
+mirrors." [kept as the counter-view: enrollment and retention were the
+bank's goal metrics; the customer-side saving per head is small.]

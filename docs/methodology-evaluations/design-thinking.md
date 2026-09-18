@@ -55,8 +55,10 @@ should not be relied on where the problem is non-human, where numbers are
 required, or where a go/no-go is needed.
 
 **In ProductExpert terms:** the ODI track and the `metrics` agent cover
-quantification and KPIs; `experimentation` covers the rigorous end of 3.4
-and supplies decision boundaries; `ideation` now owns the divergence
+quantification and KPIs; `lean-experiments` now owns the cheap
+validate-before-build end of 3.4 (concierge, Wizard of Oz, concept test,
+lovable slice) and `experimentation` its rigorous end, supplying decision
+boundaries; `ideation` now owns the divergence
 strength (2.1) as the system's front door; the roadmap's positioning
 (Dunford) and pricing (Ramanujam & Tacke) candidates cover the commercial
 layer. One criterion was a gap in the system itself at the time of
@@ -314,6 +316,9 @@ here.
   Business Alignment with a triangulated evidence table; competing
   *solution* requirements are still unowned. No criterion score changed:
   the evaluation is of Design Thinking, not of the system.
+- **Summary, "In ProductExpert terms"** (2026-09-18, again): noted that
+  `lean-experiments` now covers the cheap end of 3.4, which the system
+  previously left to the ledger's "cheapest test" column. No score changed.
 - **1.9** was first scored *Some support* under a reading of "not directly
   **use**-based" (the adjacent-human reframe earned partial credit). The
   criterion was corrected to "not directly **user**-based," which targets

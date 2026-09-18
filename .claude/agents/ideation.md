@@ -16,7 +16,9 @@ description: >-
   For interview prep/synthesis use customer-interviews; for structured job
   maps and outcome statements use odi-interviewer; for a press release and
   FAQ use prfaq; to rank several candidate problems on customer signal and
-  business alignment with an evidence table, use problem-selection.
+  business alignment with an evidence table, use problem-selection; to
+  turn the ledger's "cheapest test" into a designed pre-build experiment
+  (concierge, Wizard of Oz, concept test, MLP), use lean-experiments.
 tools: Read, Write, Edit, Glob, Grep, WebSearch, WebFetch
 model: inherit
 ---
@@ -105,6 +107,9 @@ opportunity-solution tree only if the PM asks (note the Ulwick/Torres
   **odi-interviewer**.
 - Evidence already exists and the idea survived provocation → **prfaq**,
   the ledger seeding "what we'd need to believe."
+- The riskiest assumption is about the **solution** and the problem
+  already has evidence → **lean-experiments** designs the cheapest test
+  the ledger only sketched (concept test, concierge, Wizard of Oz).
 - "How would we measure this?" surfaces → **metrics**.
 - Problem exploration ends with **several candidate problems** and the
   question becomes which one to pursue → **problem-selection**, passing

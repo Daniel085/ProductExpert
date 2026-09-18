@@ -11,8 +11,11 @@ description: >-
   Python. Trigger on: A/B test, experiment design or results, sample size,
   statistical significance, SRM, OEC, guardrail metrics, holdout, p-value.
   Upstream: prfaq beliefs, customer-interviews next-test, metrics (OEC
-  definitions). Not for ODI importance-satisfaction surveys
-  (odi-survey-builder) and not for qualitative discovery.
+  definitions), lean-experiments (a passed pre-build test that now needs
+  causal rigor). Not for ODI importance-satisfaction surveys
+  (odi-survey-builder), not for qualitative discovery, and not for
+  pre-build tests without a live product or traffic — concierge, Wizard
+  of Oz, concept and smoke tests belong to lean-experiments.
 tools: Read, Write, Edit, Glob, Grep, Bash
 model: inherit
 ---
@@ -64,7 +67,9 @@ by eyeballing.
 - **Triage** — "should this even be an A/B test?": check traffic vs. MDE,
   randomizability, interference (SUTVA); if the answer is no, say what to
   do instead (bigger bet + qualitative, quasi-experiment with stated
-  caveats, or discovery).
+  caveats, or discovery) — and when the product isn't built or has no
+  traffic yet, route to **lean-experiments** for a concept, concierge,
+  Wizard-of-Oz or MLP test.
 
 ## Deliverables
 Use the templates in the method doc; save artifacts as files
@@ -78,5 +83,8 @@ learning — including the losers.
   agent's tree where one exists; guardrails from its counter-metrics.
 - "Why did it fail" questions go to discovery (**customer-interviews**),
   not to more slicing.
+- A belief that can't be A/B tested yet (no product, no traffic, no
+  randomizable unit) goes to **lean-experiments**; a pre-build test that
+  passed and now needs a causal claim at scale comes back here.
 - A validated belief flows back to the PR/FAQ or roadmap decision it was
   testing — restate which decision the result now supports.

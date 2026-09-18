@@ -15,6 +15,7 @@ ProductExpert/
 │   ├── odi-survey-builder.md        #   ODI Phase 2: quantify
 │   ├── odi-data-scientist.md        #   ODI Phase 3: analyze & act
 │   ├── problem-selection.md         #   which problem, on what evidence
+│   ├── lean-experiments.md          #   pre-build tests, product kata, value props
 │   ├── prfaq.md                     #   Working Backwards PR/FAQ coach
 │   ├── experimentation.md           #   A/B test design & readout
 │   └── metrics.md                   #   North Star trees, OMTM, tracking plans
@@ -36,7 +37,12 @@ ProductExpert/
 │   ├── jtbd/
 │   │   ├── job-stories.md           #   job-story framing; user-story rewrites
 │   │   ├── requirements-are-hypotheses.md # de-requirement intake protocol
-│   │   └── materials/               #   Product Institute lesson (source PDF)
+│   │   ├── value-proposition.md     #   functional+emotional jobs → statement; Strategyzer canvas
+│   │   └── materials/               #   Product Institute lesson; Strategyzer canvas (PDFs)
+│   ├── lean-experiments/
+│   │   ├── pre-build-experiments.md #   chooser, generative/evaluative, catalogue, card
+│   │   ├── product-kata.md          #   Toyota Kata → Product Kata; record template
+│   │   └── materials/               #   Kromer, Perri, Matts, BofA case, Gusto podcast
 │   ├── problem-selection/
 │   │   ├── picking-the-right-problem.md # criteria, goal readings, 4-step case, ranking
 │   │   ├── affinity-mapping.md      #   K-J method, text-mode protocol (shared)
@@ -93,6 +99,26 @@ where it can be shared, versioned, and corrected in one place.
    can pick them up.
 5. **Handing off.** The agent ends by naming what's next: which agent takes
    this output, and what gate that agent will apply.
+
+## The three phases
+
+Every agent serves one of three phases — **Opportunity Discovery**,
+**Problem Validation**, **Solution Validation** — and the handoff gates
+below are the boundaries between them:
+
+```
+ 1 · OPPORTUNITY DISCOVERY      2 · PROBLEM VALIDATION            3 · SOLUTION VALIDATION
+ ideation                       customer-interviews (synthesis)   lean-experiments
+ customer-interviews (prep)     odi-outcome-editor → survey       (concept · concierge · WoZ
+ odi-interviewer                   builder → data-scientist         · MLP · kata · value prop)
+                                problem-selection                 prfaq · experimentation · metrics
+ ─── what's worth a look? ───>  ─── real? for whom? which? ───>   ─── does THIS solve it, cheaply? ───>
+```
+
+The third phase is where "we heard what they asked for and built it"
+gets caught: a validated problem still has to have its *solution*
+falsified cheaply (concierge, Wizard of Oz, concept test, a lovable
+slice) before the PR/FAQ commits to it and an A/B test measures it.
 
 ## The two method families — and the bridge
 
@@ -203,19 +229,28 @@ evidence type; no Business Alignment score without a stated goal (that's
 the discovery agent that owns the missing evidence type, *Probably not*
 to an archive that records why.
 
-### The define–test–measure layer
+### The solution-validation layer
 
-Three agents sit around both tracks and consume their evidence:
+Four agents sit around both tracks and consume their evidence:
 
 ```
-discovery evidence (Track 1 insights · Track 2 scores/segments)
+discovery evidence (Track 1 insights · Track 2 scores/segments · problem-selection Yes)
         │
         ▼
-      prfaq ──("what we'd need to believe")──> experimentation
-        │                                            ▲
-        └──("how we'll measure success")──> metrics ─┘
-                                            (OEC & guardrails)
+ lean-experiments ──(passed; needs causal rigor)──> experimentation
+   concept · concierge · WoZ · MLP · kata                 ▲
+   value proposition                                      │
+        │                                                 │
+        ▼                                                 │
+      prfaq ──("what we'd need to believe")───────────────┤
+        │                                                 │
+        └──("how we'll measure success")──> metrics ──────┘
+                                            (goal metric · OEC & guardrails)
 ```
+
+- **lean-experiments** proves the solution before anything is built —
+  the cheapest experiment that could say no, gated on problem evidence
+  and a written value proposition; iterates in Product Kata cycles.
 
 - **prfaq** writes the product vision *backwards* from the customer, citing
   discovery artifacts as its evidence base; its hardest open beliefs become
@@ -245,6 +280,9 @@ Knowledge shared by several agents is written exactly once:
 | North Star framework, metric trees, tracking plans | `methods/metrics/north-star.md` | metrics, experimentation |
 | Good-metric tests, OMTM, stages, archetypes, cohorts | `methods/metrics/lean-analytics.md` | metrics |
 | Job-story framing (needs vs. features; user-story rewrites) | `methods/jtbd/job-stories.md` | customer-interviews, odi-interviewer, prfaq |
+| Value proposition (functional + emotional jobs → statement; Strategyzer canvas; fit) | `methods/jtbd/value-proposition.md` | lean-experiments, prfaq, odi-interviewer |
+| Pre-build experiments (chooser, generative/evaluative, catalogue, MVP/MLP/MVI, card) | `methods/lean-experiments/pre-build-experiments.md` | lean-experiments, experimentation (triage) |
+| Product Kata (rhythm, coaching questions, record template) | `methods/lean-experiments/product-kata.md` | lean-experiments |
 | Requirement intake (constraint / theory / hypothesis) | `methods/jtbd/requirements-are-hypotheses.md` | customer-interviews, odi-interviewer, prfaq |
 | Brainstorming modes, divergence rules, landscape-scan protocol | `methods/ideation/brainstorming.md` | ideation |
 | Assumption-ledger template (categories, tiers, ranking, lifecycle) | `methods/customer-interviews/assumption-ledger.md` | ideation, customer-interviews, problem-selection, prfaq, experimentation |

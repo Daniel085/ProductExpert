@@ -25,6 +25,20 @@ are gated inputs of the next.
 > materials, without touching how it behaves. Knowledge shared by several
 > agents is written exactly once.
 
+## The three phases
+
+A good product process runs **Opportunity Discovery → Problem Validation
+→ Solution Validation**, and each agent belongs to one of them. The
+recurring failure is hearing what users ask for, building exactly that,
+and learning it wasn't what they wanted — which is why the third phase
+exists and runs *before* engineering, not after.
+
+| Phase | The question | Agents |
+|-------|--------------|--------|
+| **1 · Opportunity Discovery** | What's out there, and what's worth a look? | `ideation`, `customer-interviews` (prep), `odi-interviewer` |
+| **2 · Problem Validation** | Is the problem real, for whom, how much, and which one first? | `customer-interviews` (synthesis), `odi-outcome-editor` → `odi-survey-builder` → `odi-data-scientist`, `problem-selection` |
+| **3 · Solution Validation** | Does *this* solution solve it — proven cheaply, before we build? | `lean-experiments` (concept · concierge · Wizard of Oz · MLP · kata), `prfaq`, `experimentation`, `metrics` |
+
 ## The two tracks
 
 **Track 1 — Qualitative discovery** answers *"is the problem real, and do we
@@ -50,9 +64,9 @@ customer-interviews                    you field the survey   scores · segments
         both tracks · tickets · analytics · stakeholder asks
                               │
                               ▼
-                      problem-selection ──── Yes ──────────> prfaq
-                      theme → case → rank ── Not yet ──────> back to discovery
-                                          ── Probably not ─> archive
+                      problem-selection ──── Yes ──────────> lean-experiments ──> prfaq
+                      theme → case → rank ── Not yet ──────> back to discovery      │
+                                          ── Probably not ─> archive          experimentation
 ```
 
 Between discovery and the documents sits a **selection gate**:
@@ -61,11 +75,15 @@ tickets, analytics, stakeholders) throw up, themes them with affinity
 mapping, builds an evidence case per problem, and ranks them on Customer
 Signal × Business Alignment with a *Yes / Not yet / Probably not* verdict.
 
-Around both tracks sits a **define–test–measure layer**: **`prfaq`** turns
-validated opportunity into a written product vision (and its "what we'd
-need to believe" list), **`experimentation`** turns the riskiest beliefs
-into trustworthy A/B tests, and **`metrics`** defines the North Star tree,
-OECs, and guardrails the other two depend on.
+Around both tracks sits a **solution-validation layer**:
+**`lean-experiments`** proves a proposed solution cheaply before anything
+is built (concept test, concierge, Wizard of Oz, minimum lovable product,
+Product Kata cycles) and writes the value proposition it tests;
+**`prfaq`** turns validated opportunity into a written product vision (and
+its "what we'd need to believe" list); **`experimentation`** turns the
+riskiest beliefs a live product can carry into trustworthy A/B tests; and
+**`metrics`** defines the North Star tree, goal metrics, OECs, and
+guardrails the other three depend on.
 
 ## Agents
 
@@ -129,6 +147,25 @@ internal-tool goals; *Not yet* becomes a learn list with the missing
 evidence named. Ranks problems — not solutions (`ideation`), not outcomes
 within a job (ODI).
 Methods: [`methods/problem-selection/`](methods/problem-selection/)
+
+### Lean Experiments — `lean-experiments`
+Proves a solution is worth building **before building it**. Starts from
+one sentence — *what are we trying to prove right now?* — then picks and
+designs the cheapest test that could say no: **concept test** (Bank of
+America's cartoon video + 1,600-person survey), **landing page / smoke
+test**, **concierge** (generative: deliver by hand, visibly, to find the
+solution), **Wizard of Oz** (evaluative: simulate the product, humans
+behind the curtain), **minimum lovable product** with a manual back-end
+and an automation vision (Gusto), or **minimum viable investment** steps
+for an existing product (Matts). Every experiment card carries *Expected*
+and *Would disprove* written before the run. Runs the **Product Kata**
+(Perri, from Toyota Kata) as the rhythm for an initiative: direction →
+current condition → obstacle → small step → learned → re-measure. Also
+writes **value propositions** — functional + emotional jobs → "We [deliver
+outcome] by [solving key job]" — on the Strategyzer canvas. Not A/B tests
+(`experimentation`), not problem validation.
+Methods: [`methods/lean-experiments/`](methods/lean-experiments/) ·
+[`methods/jtbd/value-proposition.md`](methods/jtbd/value-proposition.md)
 
 ### PR/FAQ — `prfaq`
 Drafts, critiques, and iterates **Working Backwards** PR/FAQs (Bryar &
@@ -194,7 +231,8 @@ Completed: [Design Thinking (Stanford d.school)](docs/methodology-evaluations/de
   "opportunity" (an underserved outcome) ≠ Torres's "opportunity" (an unmet
   need/pain/desire on the tree) — the agent will need to define both.*
 - **Usability testing** (Krug) — evaluative complement to generative
-  discovery.
+  discovery; `lean-experiments` carries a placeholder prototype-test card
+  until it exists.
 - **Positioning & messaging** (Dunford) — *Obviously Awesome*, with launch/
   GTM and sales-narrative work (*Sales Pitch*) folded into the same family.
 - **Pricing & packaging** (Ramanujam & Tacke, *Monetizing Innovation*) —
@@ -209,5 +247,6 @@ Completed: [Design Thinking (Stanford d.school)](docs/methodology-evaluations/de
   (`odi-interviewer`).
 - ~~Survey design~~ — covered for needs-quantification by
   `odi-survey-builder`; a general-purpose survey agent remains optional.
-- ~~PR/FAQ~~, ~~experimentation~~, ~~metrics~~, ~~problem selection~~ —
-  built (see Agents above).
+- ~~PR/FAQ~~, ~~experimentation~~, ~~metrics~~, ~~problem selection~~,
+  ~~lean experiments / product kata / value proposition~~ — built (see
+  Agents above).

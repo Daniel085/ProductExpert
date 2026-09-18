@@ -1,0 +1,212 @@
+SOURCE: Melissa Perri, "The Product Kata", melissaperri.com blog, 22 July
+(2015). Transcribed from the PDF alongside; site navigation, author bio and
+trackbacks removed; two comments kept for their substance. Figures (the
+kata boards CPI-1..5) are not reproduced. All rights remain with the
+author.
+
+----------------------------------------------------------------------
+
+A while ago, I was introducing the Kanban Kata by Hakan Forss to a team
+that was struggling to meet their deadline. They had failed twice before
+and their jobs were in jeopardy. Implementing Continuous Improvement and
+Kata helped the teams create better processes and remove bottlenecks. I
+was the coach that took them through the motions that Hakan eloquently
+teaches, which is based on the Toyota Kata by Mike Rother. The team was
+able to solve their own problems by getting into a habit of learning. They
+shipped on time, and kept their jobs.
+
+As I was working with the Kanban team, I realized that I was using this
+process to create successful products. This framework was just much
+clearer than the way I was going about it in my own head.
+
+Before I tell you how to apply this to products and Product Management,
+let's first start with the fundamentals.
+
+Toyota Kata is a Continuous Improvement framework that creates the habit
+of improving by focusing on learning. It's teaches you how to analyze
+problems and then create small experiments to solve them. This is the
+secret sauce that made Toyota great. Every team member was responsible for
+improving the company's processes. With thousands of people flexing their
+problem solving muscles daily, they were able to reduce waste while
+delivering the highest quality.
+
+The 4 steps of Toyota Kata are fairly simple. [figure: 1. understand the
+direction/challenge; 2. grasp the current condition; 3. establish the next
+target condition; 4. iterate toward the target condition]
+
+Management will set the challenge while the teams grasp the current
+condition and establish target conditions.
+
+Next, you follow the Coaching Kata to plan the steps to get to the next
+target condition. The coach is a team member who asks the the following
+questions during every meeting. The whole team then answers and plans the
+work. [figure: the five coaching kata questions — What is the target
+condition? What is the actual condition now? What obstacles are preventing
+you from reaching the target condition; which one are you addressing now?
+What is your next step, and what do you expect? How quickly can we see
+what we have learned from taking that step?]
+
+This is a very quick overview, but If you want to learn more about Kata
+you should visit Mike Rother's page or read his book (which I highly
+recommend).
+
+Hakan took these processes and applied them to improving the Kanban, which
+ultimately improves you work. I've been taking these principles and
+applying them to building software products. I call it Product Kata.
+
+Following the Product Kata helps us take small steps to learn about our
+customers' needs, and start solving their problems faster.
+
+If you've been at one of my talks, you may have heard about a disaster
+project I built a few years ago. I was working at an ecommerce company
+that sold items that celebrity "sellers" endorsed. At the beginning of the
+year, management tasked my team with building a Seller Portal, where all
+of the celebrities could manage their own stores. We set out to interview
+a few of them and find out what they needed. For the next quarter, we
+built a portal for them and released it. Long story short, no one ended up
+using it. We really didn't understand their needs from the short time we
+spent interviewing them. We built them a complicated tool that was bloated
+with useless features. We ended up rebuilding the portal and eventually
+found something that they wanted to use.
+
+So how would we have done this if we used Product Kata? Here's an idea of
+what that might look like:
+
+First, we would have understood the direction.
+
+It was incredibly costly for us to manage our seller's stores. A quarter
+of our employees were spending upwards of 15 hours each week on the phone
+with the sellers to answer their questions. Our management gave us the
+challenge of figuring out how to make our sellers self sufficient. Now, a
+note about challenges - they are lofty goals. Sometimes we'll never reach
+this goal exactly, but we're going to get as close as we possibly can.
+
+Direction/Challenge: Make our sellers completely self sufficient in
+managing their stores.
+
+But how do we get there? The first time we built this portal, we jumped to
+the first solution we could think of too quickly - build them software
+that does everything. We didn't stop to consider that there are a million
+unknowns in reaching that lofty goal. We didn't know what the sellers were
+calling about now. We didn't know their technology habits. We didn't know
+which ones called more than others.
+
+When you run the Product Kata, you recognize that these questions are just
+obstacles that need to be addressed to get to your next target condition.
+
+So what would be our target condition? Since we're not sure how to get to
+the final result yet, what is one step towards it that we can take. We can
+start with reducing the number of calls a week, which would help free up
+our staff.
+
+Target Condition: Sellers call office less than twice a week.
+
+At the present, they were calling more than twice a week but we weren't
+sure exactly how much. This was our first obstacle. In order to improve
+something, you need to be able to measure the change.
+
+Obstacle: We're not sure how often sellers are calling now.
+
+The first thing we need to do is answer this question quickly. We can ask
+the staff who answer the seller's calls to measure how often they call for
+the next week. Right now, we think they're calling about 4 times each per
+week.
+
+Step: Staff measures how often sellers are calling by counting calls over
+one week.
+Expected: We believe they are calling about 4 times a week now.
+
+When planning experiments, you want to reduce the time between learning so
+you can move quickly to your target conditions. Steps shouldn't take more
+than a week where possible. If they do take longer, try to break them
+down.
+
+What did we learn? In reality, the curators were calling 7 times per week,
+almost double what we thought. Woah.
+
+Learned: Sellers were calling 7 times per week.
+
+We then measured our current condition again and found out nothing had
+change. We hadn't met our target condition yet so we asked ourselves what
+obstacles are we facing now, and continued experimenting.
+
+Current Condition: Sellers were calling 7 times per week.
+Is the target condition met?: No.
+
+We learned more about why the sellers were calling and which were the most
+frequent asks. Now we were able to start solving their problems.
+
+SIDEBAR: The first three iterations of here we weren't experimenting
+because we still did not have data around the current condition. We had to
+clarify exactly where we are what problems needed to be solved before we
+moved on. This is a step most people miss when they start experimenting.
+They will jump in without making the current condition very clear.
+
+We tackled getting them to call less for revenue by providing them with a
+weekly email. We found out they wanted a more frequent update, especially
+when they had a lot of sales going during that week. Most of the time, the
+sellers were not putting new sales out but every once in a while they had
+a booming week where they launched a bunch of new products. They wanted to
+know the return on them every day so they knew which ones to promote more
+to their audiences on social media.
+
+Current Condition: Sellers are calling 5 times per week.
+Obstacle: Have sellers call less for revenue.
+Step: Staff would provide the sellers with a weekly email about their
+revenue. Measuring amount of calls about revenue over two weeks.
+Expected: The sellers will stop calling for revenue all together.
+Learned: Sellers want revenue updates every day so they can promote the
+best sellers on social media.
+Have we met our target condition?: No
+
+It's also important that every step you take, you also say how you will
+measure its progress. A step with no measurements can't tell you if you
+are improving.
+
+Providing them with their revenue every day through email cut down the
+phone calls to three times a week. We continued experimenting like this
+until we got it down to once a week, freeing up many hours for our staff
+to work on other things.
+
+If you look at these steps, you will see that we weren't building new
+features for the sellers. That would have taken a lot of time, and we
+wanted to learn quickly. The biggest mistake we made at our first pass of
+the portal was including monthly revenue, but not daily revenue. Every
+seller was pissed off by this, but it took four months to learn. With
+Kata, we learned this in a matter of three weeks, and we were able to
+include it in a wildly more successful future version.
+
+Learning is one of the most important parts of the product development
+cycle, but too often we skip over these steps and just rush into creating
+products. When we work with Product Katas, we can address each thing we
+need to learn and then incorporate that into the final products. Not only
+is this a faster way of working, but we have a much better shot at getting
+the product right the first time.
+
+----------------------------------------------------------------------
+Selected comments:
+
+Adriana Beal: "The concept seems useful, Melissa, but the example seems
+too granular for me. Don't you think the learning cycle could be more
+efficient in this case? Problem: A quarter of our employees are spending
+upwards of 15 hours each week on the phone with the sellers to answer
+their questions, when the goal is for sellers to be self-sufficient.
+Obstacle: We don't know who is calling, how frequently, and for what
+reasons. Step: Gather information (start measuring number of calls, get
+staff to log name of caller and topics of calls, etc.). Then it's a matter
+of doing the analysis to identify the actions that will provide the most
+return on the investment [...]"
+
+Melissa Perri (reply): "[...] We just break it down to smaller
+assumptions. The problem I've found is that if we go out on a generic
+'learning cycle' we don't cover all the questions we need because we don't
+restructure feedback along the way. [...] The important part for me about
+the first few cycles of this kata was to figure out 'where are we now?' I
+see a lot of work get done where we are jumping into solution building
+without fully understanding that. This was just explicitly addressing that
+in a cyclical way. I'd also like to point out, that whole section took
+about a week."
+
+Melissa Perri (on the word "kata"): "That's where the word comes from. :)
+It is supposed to be a training exercise - you repeat it enough until it
+becomes second nature."

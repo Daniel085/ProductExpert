@@ -1,0 +1,131 @@
+SOURCE: Strategyzer AG, "The Value Proposition Canvas" (2-page PDF: the
+canvas, and the canvas with trigger questions). strategyzer.com. Copyright
+Strategyzer AG — "the makers of Business Model Generation and Strategyzer".
+Transcribed from the PDF alongside for machine readability. All rights
+remain with Strategyzer AG.
+
+----------------------------------------------------------------------
+
+THE VALUE PROPOSITION CANVAS
+Left square: VALUE PROPOSITION — Products & Services · Gain Creators ·
+Pain Relievers.
+Right circle: CUSTOMER SEGMENT — Customer Job(s) · Gains · Pains.
+
+--- CUSTOMER SEGMENT ---
+
+CUSTOMER JOB(S)
+Describe what a specific customer segment is trying to get done. It could
+be the tasks they are trying to perform and complete, the problems they
+are trying to solve, or the needs they are trying to satisfy.
+- What functional jobs are you helping your customer get done? (e.g.
+  perform or complete a specific task, solve a specific problem, ...)
+- What social jobs are you helping your customer get done? (e.g. trying
+  to look good, gain power or status, ...)
+- What emotional jobs are you helping your customer get done? (e.g.
+  esthetics, feel good, security, ...)
+- What basic needs are you helping your customer satisfy? (e.g.
+  communication, sex, ...)
+Besides trying to get a core job done, your customer performs ancillary
+jobs in different roles. Describe the jobs your customer is trying to get
+done as: Buyer / Co-creator / Transferrer.
+Rank each job according to its significance to your customer. Is it
+crucial or is it trivial? For each job indicate how often it occurs.
+Outline in which specific context a job is done, because that may impose
+constraints or limitations (e.g. while driving, outside, ...).
+
+PAINS
+Describe negative emotions, undesired costs and situations, and risks that
+your customer experiences or could experience before, during, and after
+getting the job done.
+- What does your customer find too costly? (takes a lot of time, costs
+  too much money, requires substantial efforts, ...)
+- What makes your customer feel bad? (frustrations, annoyances, things
+  that give them a headache, ...)
+- How are current solutions under-performing for your customer? (lack of
+  features, performance, malfunctioning, ...)
+- What are the main difficulties and challenges your customer encounters?
+  (understanding how things work, difficulties getting things done,
+  resistance, ...)
+- What negative social consequences does your customer encounter or fear?
+  (loss of face, power, trust, or status, ...)
+- What risks does your customer fear? (financial, social, technical
+  risks, or what could go awfully wrong, ...)
+- What's keeping your customer awake at night? (big issues, concerns,
+  worries, ...)
+- What common mistakes does your customer make? (usage mistakes, ...)
+- What barriers are keeping your customer from adopting solutions?
+  (upfront investment costs, learning curve, resistance to change, ...)
+Rank each pain according to the intensity it represents for your
+customer. Is it very intense or is it very light? For each pain indicate
+how often it occurs.
+
+GAINS
+Describe the benefits your customer expects, desires or would be surprised
+by. This includes functional utility, social gains, positive emotions, and
+cost savings.
+- Which savings would make your customer happy? (time, money and effort)
+- What outcomes does your customer expect and what would go beyond
+  his/her expectations? (quality level, more of something, less of
+  something, ...)
+- How do current solutions delight your customer? (specific features,
+  performance, quality, ...)
+- What would make your customer's job or life easier? (flatter learning
+  curve, more services, lower cost of ownership, ...)
+- What positive social consequences does your customer desire? (makes
+  them look good, increase in power, status, ...)
+- What are customers looking for? (good design, guarantees, specific or
+  more features, ...)
+- What do customers dream about? (big achievements, big reliefs, ...)
+- How does your customer measure success and failure? (performance,
+  cost, ...)
+- What would increase the likelihood of adopting a solution? (lower cost,
+  less investments, lower risk, better quality, performance, design, ...)
+Rank each gain according to its relevance to your customer. Is it
+substantial or is it insignificant? For each gain indicate how often it
+occurs.
+
+--- VALUE PROPOSITION ---
+
+PRODUCTS & SERVICES
+List all the products and services your value proposition is built
+around. Which products and services do you offer that help your customer
+get either a functional, social, or emotional job done, or help him/her
+satisfy basic needs? Which ancillary products and services help your
+customer perform the roles of Buyer (compare offers, decide, buy, take
+delivery, ...), Co-creator (co-design solutions, contribute value, ...),
+Transferrer (dispose of a product, transfer it to others, or resell, ...)?
+Products and services may be tangible (manufactured goods, face-to-face
+customer service), digital/virtual (downloads, online recommendations),
+intangible (copyrights, quality assurance), or financial (investment
+funds, financing services).
+Rank all products and services according to their importance to your
+customer. Are they crucial or trivial to your customer?
+
+PAIN RELIEVERS
+Describe how your products and services alleviate customer pains. How do
+they eliminate or reduce negative emotions, undesired costs and
+situations, and risks your customer experiences or could experience
+before, during, and after getting the job done? Do they... produce
+savings? make your customers feel better? fix under-performing solutions?
+put an end to difficulties and challenges? wipe out negative social
+consequences? eliminate risks your customers fear? help your customers
+better sleep at night? limit or eradicate common mistakes? get rid of
+barriers that are keeping your customer from adopting solutions?
+Rank each pain your products and services kill according to their
+intensity for your customer. Is it very intense or very light? For each
+pain indicate how often it occurs.
+
+GAIN CREATORS
+Describe how your products and services create customer gains. How do
+they create benefits your customer expects, desires or would be surprised
+by, including functional utility, social gains, positive emotions, and
+cost savings? Do they... create savings that make your customer happy?
+produce outcomes your customer expects or that go beyond their
+expectations? copy or outperform current solutions that delight your
+customer? make your customer's job or life easier? create positive social
+consequences? do something customers are looking for? fulfill something
+customers are dreaming about? produce positive outcomes matching your
+customers' success and failure criteria? help make adoption easier?
+Rank each gain your products and services create according to its
+relevance to your customer. Is it substantial or insignificant? For each
+gain indicate how often it occurs.

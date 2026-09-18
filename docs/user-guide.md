@@ -21,6 +21,9 @@ Start from where you are:
 | "Theme this pile of tickets / feedback / survey comments" | `problem-selection` | Affinity mapping: group before naming, distinct-source counts |
 | "Is this problem validated enough to build for?" | `problem-selection` | Verdict Yes / Not yet / Probably not, with the missing evidence named |
 | "Write/review the one-pager for this product idea" | `prfaq` | Working Backwards PR/FAQ, draft or critique |
+| "How do we test this before we build it?" / "concierge or Wizard of Oz?" | `lean-experiments` | Experiment card: family, trying-to-prove, Expected / Would-disprove |
+| "Run this initiative as a kata" / "what's our current condition?" | `lean-experiments` | Product Kata record: direction → target → obstacle → step → learned |
+| "Write / check our value proposition" | `lean-experiments` | Functional + emotional jobs → statement; Strategyzer canvas from evidence |
 | "Design this A/B test properly" / "test results are in — ship it?" | `experimentation` | Pre-registration, or trust-checked readout + decision |
 | "What should our north star / KPIs be?" / "audit our dashboard" | `metrics` | Metric tree, OMTM, vanity audit, tracking plan |
 | "We've been handed a requirements list / stakeholder asks" | `customer-interviews` | De-requirements it: reclassify each ask, trace to problems, then discover |
@@ -170,6 +173,28 @@ and its cheapest source — interviews, a metric query, a ticket audit);
 vivid source type is never enough — and expect it to refuse to score
 "users need bulk export" until it's a problem rather than a feature.
 
+## Solution validation — prove it before you build it
+
+**Lean experiments** (`lean-experiments`)
+> "Use the **lean-experiments** agent. We're trying to prove `<one
+> thing>`. Problem evidence: `problem-selection/<topic>-problems.md`."
+> "Set up a kata for `<initiative>`; goal metric: `<name>`."
+> "Write the value proposition for `<product>` from `discovery/<project>/`."
+
+Give it the problem evidence and one sentence on what most needs to be
+true right now. It checks the foundation (evidence, value proposition,
+goal), picks the experiment family — **generative** (concierge: deliver
+by hand, visibly, to find the solution) or **evaluative** (concept test,
+landing page, Wizard of Oz, minimum lovable product: falsify a defined
+solution) — and writes the **experiment card** with *Expected* and *Would
+disprove* filled in before you run it. You run it with real customers.
+Readout compares to those lines and ends persevere / pivot / kill / next
+experiment. In **kata** mode it keeps an initiative's record cycle by
+cycle — and the first cycles are measurement, because "we don't know the
+current condition" is the first obstacle. Expect it to refuse a concierge
+test as validation, a manual back-end with no automation vision, or an
+"MVP" that is really a rewrite.
+
 ## The define–test–measure layer
 
 Three agents pick up where the discovery tracks leave off. They compose —
@@ -208,10 +233,12 @@ star or scale-stage metrics on a pre-fit product — that's the method
 working.
 
 **How they chain:** discovery evidence → `problem-selection` (the problem
-worth a document, with its evidence table) → `prfaq` (vision + "what we'd
-need to believe") → `experimentation` (test the weakest beliefs) → `metrics`
-(define what success means, feeding OECs back to the tests). A typical
-loop: PR/FAQ flags its riskiest assumption → experiment pre-registration →
+worth a document, with its evidence table) → `lean-experiments` (prove
+the solution cheaply; write the value proposition) → `prfaq` (vision +
+"what we'd need to believe") → `experimentation` (A/B-test the beliefs a
+live product can carry) → `metrics` (define what success means, feeding
+goal metrics to katas and OECs to tests). A typical loop: PR/FAQ flags
+its riskiest assumption → a Wizard-of-Oz card or a pre-registration →
 readout → revise the PR/FAQ's verdict with real evidence.
 
 ## Tips
