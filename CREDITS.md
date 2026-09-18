@@ -191,6 +191,18 @@ the property of their authors and are included for reference and attribution.
 
 ---
 
+## Methodology evaluations (`docs/methodology-evaluations/`)
+
+- The 25-criterion evaluation **rubric** is **Daniel O'Rorke's** own;
+  recorded in `rubric.md` for reuse across methodologies.
+- **Design Thinking** was evaluated against the **Stanford d.school**'s
+  published materials — *An Introduction to Design Thinking: Process Guide*
+  and the *Bootcamp Bootleg* / *Design Thinking Bootleg* method cards — with
+  the desirability / feasibility / viability lens from **Tim Brown / IDEO**.
+  No d.school material is reproduced in this repo.
+
+---
+
 ## How attribution works here
 - Every `methods/<topic>/` doc cites its sources in a **Sources & materials**
   section.

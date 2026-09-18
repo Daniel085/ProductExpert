@@ -150,6 +150,13 @@ human: see the **[user guide](docs/user-guide.md)**. Manage agents with the
 
 Full conventions: [docs/how-it-works.md](docs/how-it-works.md#extending-the-system).
 
+## Methodology evaluations
+
+Before adopting a methodology into the system, it gets scored against a
+25-criterion rubric (problem / solution / market) — see
+[`docs/methodology-evaluations/rubric.md`](docs/methodology-evaluations/rubric.md).
+Completed: [Design Thinking (Stanford d.school)](docs/methodology-evaluations/design-thinking.md).
+
 ## Roadmap (candidate agents)
 
 - **Opportunity solution trees** (Teresa Torres) — next: structures
