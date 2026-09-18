@@ -155,7 +155,14 @@ Full conventions: [docs/how-it-works.md](docs/how-it-works.md#extending-the-syst
 Before adopting a methodology into the system, it gets scored against a
 25-criterion rubric (problem / solution / market) — see
 [`docs/methodology-evaluations/rubric.md`](docs/methodology-evaluations/rubric.md).
-Completed: [Design Thinking (Stanford d.school)](docs/methodology-evaluations/design-thinking.md).
+Completed: [Design Thinking](docs/methodology-evaluations/design-thinking.md) ·
+[Talking to Humans](docs/methodology-evaluations/talking-to-humans.md) ·
+[ODI](docs/methodology-evaluations/odi.md) ·
+[JTBD](docs/methodology-evaluations/jtbd.md) — and the
+**[four-way comparison](docs/methodology-evaluations/comparison.md)**, which
+shows they are complements (their strengths together cover 19 of 25
+criteria) and names the six criteria at the discovery→business-case seam
+that none of them covers.
 
 ## Roadmap (candidate agents)
 
@@ -175,8 +182,12 @@ Completed: [Design Thinking (Stanford d.school)](docs/methodology-evaluations/de
 - **Strategy stress-tester** (Rumelt, *Good Strategy Bad Strategy*) —
   kernel-or-fluff critique of strategy docs; pressure-tests the ODI growth
   strategy recommendation.
-- ~~Jobs-to-be-Done interviews~~ — covered by the ODI family
-  (`odi-interviewer`).
+- ~~Jobs-to-be-Done interviews~~ — the *quantitative* half is covered by
+  the ODI family (`odi-interviewer`) and job stories by `methods/jtbd/`;
+  the qualitative switch/timeline interview and the four forces of
+  progress are **not yet distilled** (see the
+  [comparison](docs/methodology-evaluations/comparison.md)) — candidate:
+  `methods/jtbd/switch-interviews.md`.
 - ~~Survey design~~ — covered for needs-quantification by
   `odi-survey-builder`; a general-purpose survey agent remains optional.
 - ~~PR/FAQ~~, ~~experimentation~~, ~~metrics~~ — built (see Agents above).

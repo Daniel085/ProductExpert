@@ -79,3 +79,7 @@ is conditional, keep the single label and state the condition in the why.
 ## Evaluations
 
 - [Design Thinking (Stanford d.school)](./design-thinking.md)
+- [Talking to Humans (Constable & Rimalovski)](./talking-to-humans.md)
+- [Outcome-Driven Innovation (Ulwick)](./odi.md)
+- [Jobs-to-be-Done, qualitative school (Christensen / Moesta / Klement)](./jtbd.md)
+- **[Comparison matrix — all four](./comparison.md)**

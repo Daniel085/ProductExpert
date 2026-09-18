@@ -200,6 +200,15 @@ the property of their authors and are included for reference and attribution.
   and the *Bootcamp Bootleg* / *Design Thinking Bootleg* method cards — with
   the desirability / feasibility / viability lens from **Tim Brown / IDEO**.
   No d.school material is reproduced in this repo.
+- **Talking to Humans** and **ODI** were evaluated against the sources
+  already credited above (Constable & Rimalovski; Ulwick / Strategyn;
+  Bettencourt & Ulwick).
+- **JTBD (qualitative school)** was evaluated against **Clayton
+  Christensen** (*The Innovator's Solution*; *Competing Against Luck*, with
+  Taddy Hall, Karen Dillon & David S. Duncan), **Bob Moesta** and the
+  **Re-Wired Group** (switch/timeline interviews; the four forces of
+  progress), **Alan Klement** (job stories), and **Jim Kalbach** (*The Jobs
+  to be Done Playbook*).
 
 ---
 
