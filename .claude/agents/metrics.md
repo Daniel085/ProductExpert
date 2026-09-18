@@ -10,9 +10,10 @@ description: >-
   Trigger on: north star metric, KPI, metrics tree, OMTM, AARRR, vanity
   metrics, retention/activation definition, instrumentation, tracking plan,
   analytics events, dashboard review. It supplies OECs and guardrails to
-  experimentation and success metrics to prfaq. Not for computing
-  opportunity scores (odi-data-scientist) or running test statistics
-  (experimentation).
+  experimentation, success metrics to prfaq, and the stated goal that
+  problem-selection scores Business Alignment against. Not for computing
+  opportunity scores (odi-data-scientist), running test statistics
+  (experimentation), or ranking candidate problems (problem-selection).
 tools: Read, Write, Edit, Glob, Grep
 model: inherit
 ---
@@ -78,3 +79,7 @@ the business, and it should be legible enough to be wrong in public.
 - Stage 1 (Empathy) measurement is qualitative by design — route to
   **customer-interviews** rather than inventing dashboards for it; needs
   prioritization questions route to the ODI pipeline.
+- **problem-selection** scores Business Alignment against the North Star
+  tree you define — when it arrives with no stated goal, that gap is
+  yours; when it needs a breadth or cost number for a *Not yet* problem,
+  write the metric definition or query it should run.

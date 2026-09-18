@@ -17,6 +17,9 @@ Start from where you are:
 | "I have 150 raw outcome statements — clean them up" | `odi-outcome-editor` | Validate, dedupe, level, coverage-check |
 | "Turn these curated outcomes into a survey" | `odi-survey-builder` | Importance × satisfaction instrument + fielding specs |
 | "Survey data is back — what should we build, for whom?" | `odi-data-scientist` | Opportunity scores, segments, growth strategy |
+| "We have ten problems and one quarter — which first?" | `problem-selection` | Case per problem (job story, evidence table, patterns, verdict), ranked on Customer Signal × Business Alignment |
+| "Theme this pile of tickets / feedback / survey comments" | `problem-selection` | Affinity mapping: group before naming, distinct-source counts |
+| "Is this problem validated enough to build for?" | `problem-selection` | Verdict Yes / Not yet / Probably not, with the missing evidence named |
 | "Write/review the one-pager for this product idea" | `prfaq` | Working Backwards PR/FAQ, draft or critique |
 | "Design this A/B test properly" / "test results are in — ship it?" | `experimentation` | Pre-registration, or trust-checked readout + decision |
 | "What should our north star / KPIs be?" / "audit our dashboard" | `metrics` | Metric tree, OMTM, vanity audit, tracking plan |
@@ -141,6 +144,32 @@ it those too and it scores their coverage and segment fit.
 segment to serve first (sized and profiled), and which strategy the data
 supports — evidence for the roadmap conversation, not a substitute for it.
 
+## The selection gate — which problem?
+
+**Problem selection** (`problem-selection`)
+> "Use the **problem-selection** agent. Goal this quarter: `<North Star /
+> committed outcome>`. Candidates: `<list>` — or theme
+> `discovery/<project>/tickets.csv` first."
+
+Give it the goal (it needs one to score Business Alignment — no goal, it
+sends you to `metrics`) and the candidates or the raw pile. It first says
+which **goal reading** applies — default, the acquisition flip (breadth
+counts on the business side), or internal tools — then, if the input is
+raw, **affinity-maps** it (groups before naming, counts distinct sources,
+keeps loners). For each candidate you get a four-step case: the problem as
+a **job story** (solution-nouns rewritten), an **evidence table** —
+*Source / Type (qualitative · quantitative · operational) / Confidence
+1–5 / Findings* — the **patterns** (which source types converge, which
+conflict and why, which are missing), and a verdict: **Yes / Not yet /
+Probably not**, with the rule that produced it.
+
+Then the ranking table: *Yes* verdicts ordered by Customer Signal ×
+Business Alignment; *Not yet* as a **learn list** (the missing evidence
+and its cheapest source — interviews, a metric query, a ticket audit);
+*Probably not* archived with the reason. Expect *Not yet* often — one
+vivid source type is never enough — and expect it to refuse to score
+"users need bulk export" until it's a problem rather than a feature.
+
 ## The define–test–measure layer
 
 Three agents pick up where the discovery tracks leave off. They compose —
@@ -178,8 +207,9 @@ event tracking plan. Expect pushback if you ask for revenue as a north
 star or scale-stage metrics on a pre-fit product — that's the method
 working.
 
-**How they chain:** discovery evidence → `prfaq` (vision + "what we'd need
-to believe") → `experimentation` (test the weakest beliefs) → `metrics`
+**How they chain:** discovery evidence → `problem-selection` (the problem
+worth a document, with its evidence table) → `prfaq` (vision + "what we'd
+need to believe") → `experimentation` (test the weakest beliefs) → `metrics`
 (define what success means, feeding OECs back to the tests). A typical
 loop: PR/FAQ flags its riskiest assumption → experiment pre-registration →
 readout → revise the PR/FAQ's verdict with real evidence.

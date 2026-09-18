@@ -166,6 +166,29 @@ convergence; constraints re-enter only after the option set is real. A
 costume. *(Anthropic's product-brainstorming skill; divergent-thinking
 practice broadly.)*
 
+### 20. Pick problems on customer signal × business alignment — triangulated
+A problem earns roadmap time on two criteria: how painful it is and for
+how many (**Customer Signal**), and how directly solving it moves the
+*stated* goal (**Business Alignment**). Read the criteria through the
+goal — when the goal is acquisition, breadth moves to the business side;
+for internal tools, the customer is the employee and alignment is time
+saved and errors avoided for others. Then make the case on paper: the
+problem as a job story, an evidence table with **confidence scored per
+source**, and a pattern check — because when qualitative, quantitative,
+and operational sources point at the same problem it is far less likely
+to be bias or opinion. One source type, however vivid, is *Not yet*; a
+conflict gets explained, never averaged. *(The "pick the right problem"
+framework; the evidence-tier discipline of principle 8.)*
+
+### 21. Let themes emerge before you name them
+Faced with many observations, tickets or ideas, group them by affinity
+**silently and without pre-set categories**, name each group only after
+its shape is visible, keep the loners, and count **distinct sources** —
+not notes — per theme. Categories decided in advance only ever find
+themselves. And a theme is a bucket, not a conclusion: it still has to be
+written as a problem and explained as an insight before anyone acts on
+it. *(Kawakita's K-J method, via ASQ.)*
+
 ---
 
 ## System design principles

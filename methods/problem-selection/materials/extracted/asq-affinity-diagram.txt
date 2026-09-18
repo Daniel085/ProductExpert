@@ -1,0 +1,187 @@
+SOURCE: ASQ (American Society for Quality) — "What is an Affinity Diagram? (K-J Method)"
+Learn About Quality / Quality Resources / Affinity. Adapted from *The Quality
+Toolbox*, Second Edition, ASQ Quality Press. © American Society for Quality.
+Page captured 2026 (PDF alongside). Transcribed for machine readability;
+navigation, advertising and footer text removed. All rights remain with ASQ.
+
+--------------------------------------------------------------------------
+
+WHAT IS AN AFFINITY DIAGRAM?
+
+Quality Glossary Definition: Affinity diagram
+Also called: affinity chart, affinity mapping, K-J Method, thematic analysis
+
+The affinity diagram organizes a large number of ideas into their natural
+relationships. It is the organized output from a brainstorming session. Use
+it to generate, organize, and consolidate information related to a product,
+process, complex issue, or problem. After generating ideas, group them
+according to their affinity, or similarity. This idea creation method taps a
+team's creativity and intuition. It was created in the 1960s by Japanese
+anthropologist Jiro Kawakita.
+
+WHEN TO USE AN AFFINITY DIAGRAM
+
+Typical situations are:
+- When you are confronted with many facts or ideas in apparent chaos
+- When issues seem too large and complex to grasp
+- When group consensus is necessary
+- After a brainstorming exercise
+- When analyzing verbal data, such as survey results
+- When collecting and organizing large data sets
+- When developing relationships or themes among ideas
+- When reducing attributes to categories that can be addressed at a higher
+  level
+
+AFFINITY DIAGRAM PROCESS
+
+The affinity diagram process lets a group move beyond its habitual thinking
+and preconceived categories. This technique accesses the great knowledge and
+understanding residing untapped in our intuition. Affinity diagrams tend to
+have 40 to 60 items; however, it is not unusual to see 100 to 200 items.
+
+Materials needed: Sticky notes or cards, marking pens, and large work
+surface (wall, table, or floor).
+
+Step 1: Record each idea with a marking pen on a separate sticky note or card
+(During a brainstorming session, write directly onto sticky notes or cards
+if you suspect you will be following the brainstorm with an affinity
+diagram.) Randomly spread notes on a large work surface so all notes are
+visible to everyone. The entire team gathers around the notes and
+participates in the next steps.
+Tips: Use markers so words can be read clearly even from a distance. With
+regular pens, it is hard to read ideas from any distance. Written ideas
+should be between three and seven words long.
+
+Step 2: Look for ideas that seem to be related in some way and place them
+side by side
+Attempt to look for relationships between individual ideas and have team
+members simultaneously sort the ideas (without talking) into five to 10
+related groupings. Repeat until all notes are grouped. It's okay to have
+"loners" that don't seem to fit a group. It is also okay to move a note
+someone else has already moved. If a note seems to belong in two groups,
+make a second note.
+Tips: It is very important that no one talk during this step. The focus
+should be on looking for and grouping related ideas. It is also important to
+call these "groupings." Do not place the notes in any order or determine
+categories or headings in advance.
+
+Step 3: Begin a discussion with your team
+From these relationships, attempt to define categories and create summary
+or header cards for each grouping or category. You can discuss the shape of
+the chart, any surprising patterns, and especially reasons for moving
+controversial notes. Make changes and move ideas around as necessary. When
+ideas are grouped to the team's satisfaction, select a heading for each
+group. To do so, look for a note in each grouping that captures the meaning
+of the group. Place it at the top of the group. If there is no such note,
+write one. Often it is useful to write or highlight this note in a different
+color.
+Tips: Header cards should clearly identify the common thread for all
+groupings and should be descriptive of that thread.
+
+Step 4: Combine groups into "supergroups," if appropriate
+Assign all ideas to the identified categories by placing ideas under header
+cards.
+Tip: Base assignment on "gut feel," not through contemplation.
+
+AFFINITY DIAGRAM EXAMPLE #1
+
+The ZZ-400 manufacturing team used an affinity diagram to organize its list
+of potential performance indicators. Figure 1 shows the list team members
+brainstormed. Because the team works a shift schedule and members could not
+meet to do the affinity diagram together, they modified the procedure.
+
+The team members wrote each idea on sticky notes and placed the notes, in
+random order, on a rarely used door. Over several days, everyone reviewed
+the notes and moved the notes into related groups. Some people reviewed the
+evolving pattern several times. After a few days, the natural grouping shown
+in Figure 2 had emerged.
+
+Notice that one of the notes, "Safety," has become part of the heading for
+its group. The rest of the headings were added after the grouping emerged.
+Five broad areas of performance were identified: product quality, equipment
+maintenance, manufacturing cost, production volume, and safety and
+environmental.
+
+AFFINITY DIAGRAM EXAMPLE #2
+
+The following example comes from a hospital setting. Seeking to better
+understand the barriers to on-time delivery of medications, the team created
+an affinity diagram in six steps.
+
+1. Assigned a group leader for the activity.
+2. Agreed on a statement of the issue or problem.
+   Tip: Stating the problem in the form of a question ("What are the
+   barriers to on-time delivery of medications?") can often prove useful.
+3. Brainstormed and recorded ideas.
+   Tip: You have two main options for gathering ideas from team members.
+   Participation by everyone in the group is assured with silent recording
+   (option b, below), but traditional brainstorming can also generate ideas.
+   a. Traditional brainstorming — In order around the group, each person
+      writes an idea or response to the question on a 3" x 5" card while
+      announcing the content of the card to the group.
+   b. Silent recording — Each person writes responses on 3" x 5" cards or
+      sticky notes, one idea per card, until all team members have exhausted
+      their store of ideas.
+4. Attached all of the cards to the wall, grouping similar ideas together.
+   For example, the team posted together all topics that suggested that the
+   pharmacy may be understaffed.
+   Tip: After posting all ideas the first time, fine-tune the groupings by
+   moving cards from one pile to another to reflect closer ties. Team
+   members should talk with each other as they arrange the ideas.
+5. Labeled each final grouping with a header identifying the general topic
+   that all items in the group share. See Figure 3.
+6. Reviewed final groupings and headers. By walking around and examining the
+   posted notes, all members of the group had an opportunity to see the
+   groupings and then to comment on them.
+
+Next Steps: Making Connections to Other Tools
+While an affinity diagram may present interesting data and useful ideas, the
+exercise itself should lead to further analysis. The team can now use an
+interrelationship diagram, for example, or even a cause-and-effect diagram
+to get to root causes for late medications.
+
+An affinity diagram, above all, stimulates discussion about a problem or
+issue, opening up possibilities for improvement or solution.
+
+AFFINITY DIAGRAM EXAMPLE #3
+
+Company SQBOK seeks to understand the difficulties around and excessive time
+needed for onboarding new employees. A team of hiring managers, new
+employees, human resource managers, and peer employees conducted a
+brainstorming session and identified 15 problems. In an affinity diagram
+process, all of the ideas were written down on "sticky" pages affixed to a
+board.
+
+A separate group charged with managing the onboarding process was asked to
+identify any commonalities or relationships between the ideas. The group
+identified four main categories: training, paperwork, regulatory, and
+technology. Each idea was categorized under these general areas. Company
+SQBOK can now track these four areas and assign them to the appropriate
+groups for resolution. The process also highlights areas of deficiency.
+
+Details of this exercise (table, reconstructed by column):
+
+Training
+- Orientation is too long
+- Orientation does not cover office hour access times
+- Classes specific to our company are too infrequently offered
+
+Paperwork
+- Organization charts do not get updated
+- Request for parking pass should be online
+- I4 form difficult to understand
+
+Regulatory
+- Citizenship establishment process is too lengthy
+- Drug testing results not available prior to start
+- Badges need access levels established prior to start
+- Cell phone policy confusing
+
+Technology
+- Badges are not returned quickly
+- System logon access needs to be complete prior to day 1
+- Computers are all different models and configurations
+- Applications needed for each job are different
+- Requirements for a laptop need to be identified
+
+Adapted from The Quality Toolbox, Second Edition, ASQ Quality Press.

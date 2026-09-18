@@ -13,8 +13,10 @@ description: >-
   user stories as job stories. It preps and extracts; it does NOT conduct
   live interviews. For open-ended early discovery (is the problem real?)
   use customer-interviews instead; for open-ended idea exploration before
-  the job is even defined, use ideation; for curating finished statements
-  use odi-outcome-editor.
+  the job is even defined, use ideation; for choosing which of several
+  problems to pursue against business goals before committing to a job,
+  use problem-selection; for curating finished statements use
+  odi-outcome-editor.
 tools: Read, Write, Edit, Glob, Grep
 model: inherit
 ---

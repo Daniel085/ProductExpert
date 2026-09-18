@@ -14,6 +14,7 @@ ProductExpert/
 │   ├── odi-outcome-editor.md        #   ODI Phase 1.5: curate
 │   ├── odi-survey-builder.md        #   ODI Phase 2: quantify
 │   ├── odi-data-scientist.md        #   ODI Phase 3: analyze & act
+│   ├── problem-selection.md         #   which problem, on what evidence
 │   ├── prfaq.md                     #   Working Backwards PR/FAQ coach
 │   ├── experimentation.md           #   A/B test design & readout
 │   └── metrics.md                   #   North Star trees, OMTM, tracking plans
@@ -36,6 +37,10 @@ ProductExpert/
 │   │   ├── job-stories.md           #   job-story framing; user-story rewrites
 │   │   ├── requirements-are-hypotheses.md # de-requirement intake protocol
 │   │   └── materials/               #   Product Institute lesson (source PDF)
+│   ├── problem-selection/
+│   │   ├── picking-the-right-problem.md # criteria, goal readings, 4-step case, ranking
+│   │   ├── affinity-mapping.md      #   K-J method, text-mode protocol (shared)
+│   │   └── materials/               #   ASQ affinity-diagram page (verbatim)
 │   ├── prfaq/
 │   │   └── working-backwards.md     #   PR structure, FAQ banks, process
 │   ├── experimentation/
@@ -163,6 +168,41 @@ customer-interviews ──(validated job)──> odi-interviewer ──> … pip
         └── "the problem isn't validated yet" ◄────────────────────┘
 ```
 
+### The selection gate
+
+Discovery produces more problems than a roadmap can hold, and not all of
+them arrive through the tracks — tickets, funnels, sales notes and
+stakeholder theories all nominate problems. **`problem-selection`** is the
+gate between "we know about these problems" and "we're writing the PR/FAQ
+for this one":
+
+```
+Track 1 insights · Track 2 opportunities · tickets · analytics · asks
+                                │
+                    ┌───────────▼───────────┐
+                    │   problem-selection   │
+                    │ theme (affinity map)  │
+                    │ case per problem:     │
+                    │  job story → evidence │
+                    │  table → patterns →   │
+                    │  verdict              │
+                    │ rank on Signal ×      │
+                    │  Alignment            │
+                    └───┬───────┬───────┬───┘
+                   Yes  │  Not  │  Prob.│
+                        │  yet  │  not  │
+                        ▼       ▼       ▼
+                     prfaq   customer-  archive
+                      (or    interviews (with
+                      ODI)   / metrics   reason)
+```
+
+Its gates: no solution-noun in a problem statement; no *Yes* from a single
+evidence type; no Business Alignment score without a stated goal (that's
+`metrics`'s job). Its verdicts route: *Yes* forward, *Not yet* back to
+the discovery agent that owns the missing evidence type, *Probably not*
+to an archive that records why.
+
 ### The define–test–measure layer
 
 Three agents sit around both tracks and consume their evidence:
@@ -207,7 +247,9 @@ Knowledge shared by several agents is written exactly once:
 | Job-story framing (needs vs. features; user-story rewrites) | `methods/jtbd/job-stories.md` | customer-interviews, odi-interviewer, prfaq |
 | Requirement intake (constraint / theory / hypothesis) | `methods/jtbd/requirements-are-hypotheses.md` | customer-interviews, odi-interviewer, prfaq |
 | Brainstorming modes, divergence rules, landscape-scan protocol | `methods/ideation/brainstorming.md` | ideation |
-| Assumption-ledger template (categories, tiers, ranking, lifecycle) | `methods/customer-interviews/assumption-ledger.md` | ideation, customer-interviews, prfaq, experimentation |
+| Assumption-ledger template (categories, tiers, ranking, lifecycle) | `methods/customer-interviews/assumption-ledger.md` | ideation, customer-interviews, problem-selection, prfaq, experimentation |
+| Problem-selection criteria, goal readings, evidence table, verdicts, ranking | `methods/problem-selection/picking-the-right-problem.md` | problem-selection |
+| Affinity mapping (K-J): process, text-mode protocol, output template | `methods/problem-selection/affinity-mapping.md` | problem-selection, customer-interviews, ideation |
 
 If a rule changes (say, the abstraction guide for statements), it changes in
 one file and every agent inherits it on its next run.

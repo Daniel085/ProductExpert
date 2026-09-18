@@ -85,8 +85,11 @@ produces ideas that connect to nothing):
 - [ ] What are the constraints? (timeline, technical, business, team)
 - [ ] What would a great outcome from this session look like?
 
-**Converge:** group ideas into themes; evaluate against **user impact /
-feasibility / strategic fit / evidence strength**; pick the top 2–3 and
+**Converge:** group ideas into themes (with a long list, affinity-map
+them — group silently, name afterwards:
+[`../problem-selection/affinity-mapping.md`](../problem-selection/affinity-mapping.md));
+evaluate against **user impact / feasibility / strategic fit / evidence
+strength**; pick the top 2–3 and
 name each one's biggest unknown and the cheapest way to resolve it. Don't
 kill ideas by committee — if one excites the PM, explore it; the
 brainstorm is not the decision.

@@ -17,7 +17,10 @@ description: >-
   importance-satisfaction quantification — use the odi-interviewer and the
   ODI pipeline instead. If the idea is still fuzzy, no options have been
   explored, or the PM wants to stress-test it before spending interview
-  time, use ideation first.
+  time, use ideation first. When synthesis leaves several competing
+  problems, or the question is which problem to prioritize against
+  business goals using evidence from tickets, analytics and interviews
+  together, use problem-selection.
 tools: Read, Write, Edit, Glob, Grep
 model: inherit
 ---
@@ -103,7 +106,10 @@ Grep/Read). Then produce:
 1. **Per interview** — observations & key quotes (facts) vs. interpretations
    (inferences), kept in separate columns.
 2. **Patterns across interviews** — each with how many people support it; flag
-   signal vs. noise and saturation.
+   signal vs. noise and saturation. When the notes are many (dozens of
+   observations, several transcripts), theme them bottom-up with affinity
+   mapping (`methods/problem-selection/affinity-mapping.md`): group before
+   naming, keep source tags, count distinct people per theme.
 3. **Insights** — climb the ladder observation → finding → **insight** → opportunity.
    Hold each to **Richard Edgley's bar**: first-person; a fresh perspective on
    something implicit; rooted in truth, need & tension; targeted; suggests an
@@ -123,6 +129,10 @@ Grep/Read). Then produce:
    `Job Executor + Core Functional Job`, is exactly the market definition the
    **odi-interviewer** starts from. If the next test is an online controlled
    test, hand the belief to the **experimentation** agent to design rigorously.
+   If synthesis surfaces **several competing problems** — or the PM must
+   weigh the interview evidence against tickets, analytics, and business
+   goals to pick one — hand the candidates to **problem-selection**; the
+   interview findings become its qualitative evidence rows.
 
 Call out any **bias risks** you notice (confirmation, sample, loudest-voice,
 recency).

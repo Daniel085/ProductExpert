@@ -2,6 +2,7 @@
 
 *The single assumption-tracking format used across the system: **ideation**
 produces it, **customer-interviews** consumes and updates it,
+**problem-selection** files its *Not yet* gaps in it,
 **prfaq** seeds "what we'd need to believe" from it, and
 **experimentation** picks up its cheapest tests. Assumption *categories*
 come from the `product-brainstorming` skill (see
@@ -59,9 +60,14 @@ cheapest test is not done.
    prep (no re-derivation) and updates it at synthesis: statuses become
    validated / invalidated / still unknown / new, evidence entries gain
    CONFIRMED tiers, confidence moves on evidence.
-3. **prfaq** turns surviving load-bearing entries into the internal FAQ's
+3. **problem-selection** adds a row per *Not yet* problem ("this problem
+   is painful for X" / "widespread among Y"), with the missing evidence
+   type as *what would disprove it* and the cheapest source as the test;
+   its evidence-table confidence scores map onto the tiers (4–5 from
+   customers = CONFIRMED, 3 = INFERRED, 1–2 or desk research = BACKGROUND).
+4. **prfaq** turns surviving load-bearing entries into the internal FAQ's
    "what we'd need to believe" list.
-4. **experimentation** designs the tests the "cheapest test" column only
+5. **experimentation** designs the tests the "cheapest test" column only
    sketched, when a belief warrants real rigor.
 
 One ledger per idea, updated in place — it is the idea's evidence trail

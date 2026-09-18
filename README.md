@@ -46,7 +46,20 @@ customer-interviews                    you field the survey   scores · segments
   → persevere / pivot / dig deeper
         │
         └── validated job (= market definition) ──> starts Track 2
+
+        both tracks · tickets · analytics · stakeholder asks
+                              │
+                              ▼
+                      problem-selection ──── Yes ──────────> prfaq
+                      theme → case → rank ── Not yet ──────> back to discovery
+                                          ── Probably not ─> archive
 ```
+
+Between discovery and the documents sits a **selection gate**:
+**`problem-selection`** takes the competing problems both tracks (and
+tickets, analytics, stakeholders) throw up, themes them with affinity
+mapping, builds an evidence case per problem, and ranks them on Customer
+Signal × Business Alignment with a *Yes / Not yet / Probably not* verdict.
 
 Around both tracks sits a **define–test–measure layer**: **`prfaq`** turns
 validated opportunity into a written product vision (and its "what we'd
@@ -102,6 +115,20 @@ Phase 3 (Analyze & Act): opportunity scores
 landscape, needs-based segmentation (factor + cluster, statistically gated),
 segment profiles, and a growth-strategy recommendation — computed with real,
 saved Python. Method: [`methods/odi/opportunity-analysis.md`](methods/odi/opportunity-analysis.md)
+
+### Problem Selection — `problem-selection`
+Decides **which problem to work on** when several compete. Themes raw
+input (tickets, feedback, transcripts, stakeholder asks) with **affinity
+mapping** (K-J method, ASQ) — group before naming, count distinct sources
+— then builds a four-step case per candidate: job-story problem statement
+→ evidence table (qualitative / quantitative / operational, confidence
+1–5) → patterns (convergence, conflicts, gaps) → verdict *Yes / Not yet /
+Probably not*. Ranks the *Yes* verdicts on **Customer Signal × Business
+Alignment**, read differently for retention, acquisition, and
+internal-tool goals; *Not yet* becomes a learn list with the missing
+evidence named. Ranks problems — not solutions (`ideation`), not outcomes
+within a job (ODI).
+Methods: [`methods/problem-selection/`](methods/problem-selection/)
 
 ### PR/FAQ — `prfaq`
 Drafts, critiques, and iterates **Working Backwards** PR/FAQs (Bryar &
@@ -172,6 +199,9 @@ Completed: [Design Thinking (Stanford d.school)](docs/methodology-evaluations/de
   GTM and sales-narrative work (*Sales Pitch*) folded into the same family.
 - **Pricing & packaging** (Ramanujam & Tacke, *Monetizing Innovation*) —
   willingness-to-pay before building; pairs with ODI's needs-based segments.
+- **Root-cause tools** (interrelationship / cause-and-effect diagrams,
+  *The Quality Toolbox*) — ASQ's own "next step" after an affinity map;
+  would sit between `problem-selection`'s themes and the insight ladder.
 - **Strategy stress-tester** (Rumelt, *Good Strategy Bad Strategy*) —
   kernel-or-fluff critique of strategy docs; pressure-tests the ODI growth
   strategy recommendation.
@@ -179,4 +209,5 @@ Completed: [Design Thinking (Stanford d.school)](docs/methodology-evaluations/de
   (`odi-interviewer`).
 - ~~Survey design~~ — covered for needs-quantification by
   `odi-survey-builder`; a general-purpose survey agent remains optional.
-- ~~PR/FAQ~~, ~~experimentation~~, ~~metrics~~ — built (see Agents above).
+- ~~PR/FAQ~~, ~~experimentation~~, ~~metrics~~, ~~problem selection~~ —
+  built (see Agents above).

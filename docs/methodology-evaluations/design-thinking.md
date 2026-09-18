@@ -59,9 +59,11 @@ quantification and KPIs; `experimentation` covers the rigorous end of 3.4
 and supplies decision boundaries; `ideation` now owns the divergence
 strength (2.1) as the system's front door; the roadmap's positioning
 (Dunford) and pricing (Ramanujam & Tacke) candidates cover the commercial
-layer. One criterion no agent covers yet — structured
-**conflicting-requirements prioritization** (3.1) — is a gap in the system
-itself, not just in this methodology.
+layer. One criterion was a gap in the system itself at the time of
+scoring — structured **conflicting-requirements prioritization** (3.1);
+`problem-selection` has since covered its problem-side half (competing
+*problems* ranked on evidence and goal fit — see revision log), while
+conflicting *solution* requirements remain open.
 
 ---
 
@@ -305,6 +307,13 @@ here.
 
 ## Revision log
 
+- **Summary, "In ProductExpert terms"** (2026-09-18, later the same day):
+  updated after the `problem-selection` agent was added. The 3.1 gap
+  ("no agent covers conflicting-requirements prioritization") is now
+  partly closed — competing *problems* are ranked on Customer Signal ×
+  Business Alignment with a triangulated evidence table; competing
+  *solution* requirements are still unowned. No criterion score changed:
+  the evaluation is of Design Thinking, not of the system.
 - **1.9** was first scored *Some support* under a reading of "not directly
   **use**-based" (the adjacent-human reframe earned partial credit). The
   criterion was corrected to "not directly **user**-based," which targets

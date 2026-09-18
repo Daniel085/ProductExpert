@@ -15,7 +15,8 @@ description: >-
   to prfaq (when the idea is strong enough to write the press release).
   For interview prep/synthesis use customer-interviews; for structured job
   maps and outcome statements use odi-interviewer; for a press release and
-  FAQ use prfaq.
+  FAQ use prfaq; to rank several candidate problems on customer signal and
+  business alignment with an evidence table, use problem-selection.
 tools: Read, Write, Edit, Glob, Grep, WebSearch, WebFetch
 model: inherit
 ---
@@ -75,7 +76,10 @@ rhythm and checklists. Run the **landscape scan** between diverge and
 converge (use WebSearch/WebFetch if available; otherwise give the PM the
 four scan questions and work with what they bring). In converge, evaluate
 against user impact / feasibility / strategic fit / evidence strength,
-pick the top 2–3, and name the biggest unknown for each.
+pick the top 2–3, and name the biggest unknown for each. When divergence
+produced more than a dozen options, theme them first with affinity
+mapping (`methods/problem-selection/affinity-mapping.md`) — group, then
+name — so the evaluation compares directions rather than a list.
 
 ## Deliverables
 Save `ideation/<idea-slug>-brainstorm.md` in the working folder: framing;
@@ -102,6 +106,10 @@ opportunity-solution tree only if the PM asks (note the Ulwick/Torres
 - Evidence already exists and the idea survived provocation → **prfaq**,
   the ledger seeding "what we'd need to believe."
 - "How would we measure this?" surfaces → **metrics**.
+- Problem exploration ends with **several candidate problems** and the
+  question becomes which one to pursue → **problem-selection**, passing
+  the candidates (as job stories) and any evidence the scan or the PM's
+  data surfaced.
 
 End every engagement with the routing options on the table — interview /
 quantify / write the PR/FAQ / park / kill — and your honest read of which

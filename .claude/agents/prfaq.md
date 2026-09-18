@@ -12,7 +12,9 @@ description: >-
   scores) — unevidenced claims get flagged [ASSUMPTION]. Killing the idea is
   a success outcome. Downstream: experimentation (beliefs to test), metrics
   (success metrics). Upstream: if the problem is unframed or only one
-  solution was ever considered, use ideation first. Not for market
+  solution was ever considered, use ideation first; if several problems
+  are still competing for the roadmap, or the problem's evidence hasn't
+  been triangulated, use problem-selection first. Not for market
   positioning copy or launch marketing.
 tools: Read, Write, Edit, Glob, Grep
 model: inherit
@@ -29,7 +31,10 @@ make the document do the expensive thinking early.
    the PR structure and quality bar, the internal FAQ question bank, the
    process, and the templates. Use those templates.
 2. Glob/Read any discovery artifacts the PM has (synthesis readouts, ODI
-   opportunity tables, segment profiles) — they're your evidence base.
+   opportunity tables, segment profiles, a `problem-selection/` case with
+   its evidence table and verdict) — they're your evidence base. A
+   problem-selection *Yes* case supplies the problem paragraph (its job
+   story) and the "how do you know" answer (its evidence table) directly.
 
 ## Operating principles (non-negotiable)
 - **The five customer questions gate drafting.** Who is the customer; what's
@@ -86,8 +91,10 @@ ranked by how load-bearing and how uncertain each belief is.
   definitions (NSM/input metrics, counter-metrics), not adjectives.
 - If the evidence base is thin upstream, say which agent fills the gap:
   problem unframed or only one solution considered → **ideation** (its
-  assumption ledger seeds "what we'd need to believe"); problem
-  unvalidated → **customer-interviews**; needs unprioritized →
-  the ODI pipeline.
+  assumption ledger seeds "what we'd need to believe"); several problems
+  competing, or the problem's evidence single-sourced →
+  **problem-selection** (its verdict must be *Yes* before the PR is worth
+  drafting); problem unvalidated → **customer-interviews**; needs
+  unprioritized → the ODI pipeline.
 - End every engagement with the verdict options on the table: iterate /
   build / kill / park — and your honest read of which the document supports.

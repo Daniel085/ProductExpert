@@ -197,6 +197,8 @@ Most analysis mistakes are interpretations smuggled in as observations.
 
 ### Find patterns across interviews
 Cluster observations into themes; note **how many people** support each.
+With many observations, cluster bottom-up — affinity mapping, group before
+naming ([`../problem-selection/affinity-mapping.md`](../problem-selection/affinity-mapping.md)).
 **Look for patterns and use judgement — don't take any one conversation
 literally.** Distinguish signal from noise; watch for **saturation** (new
 interviews stop surprising you).

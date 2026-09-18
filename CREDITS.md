@@ -191,6 +191,38 @@ the property of their authors and are included for reference and attribution.
 
 ---
 
+## Problem Selection agent (problem-selection)
+
+- **"How to pick the right problem"** — the two criteria (Customer Signal:
+  pain and breadth; Business Alignment: fit to goals), the acquisition
+  flip (breadth becomes the business criterion), the internal-tools
+  reading (employee suffering; time saved and errors avoided for others),
+  and the four-step execution framework — JTBD problem statement; evidence
+  table with *Source / Type / Confidence in evidence (1–5) / Findings*
+  across qualitative, quantitative and operational sources; pattern check
+  (convergence, conflicting signals); validation verdict *Yes / Not yet /
+  Probably not*. Provided as **Daniel O'Rorke's** working notes
+  (2026-09-18); original lineage unrecorded — if these derive from a
+  published course or article, cite it here and in
+  `methods/problem-selection/picking-the-right-problem.md`.
+- **Affinity diagram / K-J Method** — created by Japanese anthropologist
+  **Jiro Kawakita** (1960s). Distilled from **ASQ (American Society for
+  Quality)**, *"What is an Affinity Diagram? (K-J Method)"*, Learn About
+  Quality / Quality Resources — adapted from ***The Quality Toolbox*,
+  Second Edition** (ASQ Quality Press). Source page preserved at
+  `methods/problem-selection/materials/ASQ-WhatIsAnAffinityDiagram-KJMethod.pdf`
+  with a transcription under `materials/extracted/`; it remains ASQ's
+  property.
+- The scoring anchors, per-row confidence anchors, verdict rules, ranking
+  table, and the text-mode affinity protocol (source tags,
+  group-before-name, distinct-source counts) are **this repo's
+  operational extensions**, marked as such in the method docs.
+- Shared lineage: job stories (Product Institute / Klement, above);
+  requirements-as-hypotheses (Cagan, above); evidence tiers (ODI
+  multi-call discovery, above).
+
+---
+
 ## Methodology evaluations (`docs/methodology-evaluations/`)
 
 - The 25-criterion evaluation **rubric** is **Daniel O'Rorke's** own;
