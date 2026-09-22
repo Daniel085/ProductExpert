@@ -241,10 +241,15 @@ the property of their authors and are included for reference and attribution.
   precursors **W. Randolph Ford** (1975), **Allen Munro & Don Norman**
   (Xerox PARC, c. 1975) and **Nigel Cross** (1960s); the name is from
   **L. Frank Baum**'s novel.
-- **Eugene Kim** — *"The inside story of how Amazon created Echo"*,
-  Business Insider, 2 Apr 2016 — the Amazon Echo / Alexa Wizard-of-Oz
-  tests and **Jeff Bezos**'s one-second latency directive. Cited, not
-  reproduced.
+- **Eugene Kim** — *"The inside story of how Amazon created Echo, the
+  next billion-dollar business no one saw coming"*, Business Insider,
+  2 Apr 2016 — the Amazon Echo / Alexa Wizard-of-Oz tests, **Jeff
+  Bezos**'s reported one-second latency directive (**Dave Limp** does
+  not recall the figure), and the music-as-hook finding. Article
+  preserved at
+  `methods/lean-experiments/materials/BusinessInsider-InsideStoryAmazonEcho-Kim2016.pdf`
+  with a transcription under `materials/extracted/`; it remains Business
+  Insider's property.
 - **Melissa Perri** — *"The Product Kata"*, melissaperri.com, 22 Jul 2015
   (later part of *Escaping the Build Trap*, O'Reilly 2018) — adapting
   **Mike Rother**'s *Toyota Kata* (McGraw-Hill, 2009; improvement kata

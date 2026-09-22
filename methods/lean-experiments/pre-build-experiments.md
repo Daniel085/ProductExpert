@@ -149,17 +149,23 @@ measure · known biases · when to stop.
   CardMunch "OCR'd" business cards with workers on Amazon's Mechanical
   Turk; Gusto's benefits enrollment showed a finished-looking flow while
   staff phoned insurance carriers. **Amazon's Echo** team tested the
-  Alexa experience before the speech stack existed: a human "wizard" in
-  another room heard each question and typed the answer, which the
-  device spoke — testers usually weren't told — and fifty people ran the
-  same script with varied response times and sentence structures to
-  learn what made a voice assistant feel exciting rather than
-  frustrating. The user sees the intended product, a little slower.
-- **Vary the variable you care about.** Echo's wizard runs deliberately
-  varied *latency* and *phrasing* across participants; that is how the
-  team learned that responsiveness, not vocabulary, drove delight — and
-  why Bezos set the (then unheard-of) one-second latency target. A
-  wizard can A/B a design decision by hand before the design exists.
+  Alexa experience before the speech stack could carry it: a human
+  "wizard" in another room heard each question and typed the answer,
+  which the device spoke — testers usually weren't told — then each
+  tester filled out a satisfaction report on what they liked. The user
+  sees the intended product, a little slower.
+- **Use it when there is no reference product.** Echo had no screen and
+  nothing comparable to benchmark against (Siri, Voice Search and Kinect
+  all worked differently), so the *experience itself* was the
+  hypothesis: "it really had to feel like talking to a human being." A
+  wizard is how you test an experience that can't yet be built.
+- **Vary the variable you care about.** Echo ran fifty people through
+  the same script with deliberately varied *response times* and
+  *sentence structures*, scoring each on the satisfaction report —
+  "almost a psychology experiment to figure out what does it take to
+  really make people excited." A wizard can A/B a design decision by
+  hand before the design exists; the measure is the tester's report,
+  not the wizard's impression.
 - **Replace the wizard piece by piece.** The original HCI use (Kelley,
   1980; Munro & Norman at Xerox PARC, 1975) had the wizard handle
   everything in session one and hand successive pieces to code in each
@@ -320,14 +326,31 @@ generative/evaluative need; the pass/fail lines are on the card.
 - **Aardvark / CardMunch.** Wizard of Oz at product scale: interns and
   Amazon Mechanical Turk workers were the "algorithm"; no real-time requirement,
   so nothing needed building to prove the value.
-- **Amazon Echo / Alexa (c. 2011–14).** Wizard of Oz for a real-time
-  product: a human in the next room typed the answer to each spoken
-  question and the prototype voiced it, usually without telling the
-  tester. Fifty participants, one script, response time and phrasing
-  varied deliberately — "almost a psychology experiment to figure out
-  what does it take to really make people excited." The learning
-  (responsiveness is the product) set the one-second latency target
-  Bezos imposed against an industry norm of 2.5–3 seconds.
+- **Amazon Echo / Alexa (2011–14).** Pitched in 2011 as a screenless,
+  voice-controlled household appliance; Dave Limp's first reaction was
+  "this is going to be hard." Three lessons from Eugene Kim's account:
+  1. **Wizard of Oz for an experience with no precedent.** A human in
+     the next room typed the answer to each spoken question and the
+     prototype voiced it, usually without telling the tester; testers
+     then filled out satisfaction reports. Fifty people, one script,
+     response time and phrasing varied deliberately — "a constant
+     science project" focused "maniacally on quality of speaking."
+  2. **A top-down bar, then data to reach it.** At the plan review Bezos
+     reportedly replaced the team's two-second latency goal (industry:
+     2.5–3 s) with one second — "let me give you the pain upfront" —
+     and added that they had convinced him latency mattered, so they
+     should believe in themselves. Limp does not recall a specific
+     one-second figure. The route there was thousands of internal tests
+     and weekly analysis with speech scientists; the product shipped
+     below 1.5 seconds, well ahead of competitors.
+  3. **The tester data found the hook.** Over 40% of early testers said
+     their main intent was music, so the team doubled down on music as
+     the frequency-of-engagement entry point — the prototype grew from
+     hockey-puck size to fit a real speaker — while Bezos worried it
+     would be read as "just a music player." The entry-point job and
+     the platform vision were in tension, and the data decided the
+     entry point without surrendering the vision. Pre-orders passed a
+     million in under two weeks, far above the team's own estimate.
 - **The method's origin.** Named by John F. Kelley (Johns Hopkins, c.
   1980) for a calendar-keeping natural-language system; the same
   experimenter-in-the-loop idea ran at Johns Hopkins (Ford, 1975), at
@@ -356,11 +379,16 @@ generative/evaluative need; the pass/fail lines are on the card.
   iteration. Wikitext:
   `./materials/extracted/wikipedia-wizard-of-oz-experiment.txt`. The
   article does **not** mention Amazon or Alexa.
-- **Eugene Kim**, *"The inside story of how Amazon created Echo"*,
-  Business Insider, 2 Apr 2016 (syndicated on Yahoo Finance) — the Echo
-  team's Wizard-of-Oz tests (wizard in another room typing answers, 50
-  participants, varied latency and phrasing) and Bezos's one-second
-  latency directive. Not reproduced here; cited from the public article.
+- **Eugene Kim**, *"The inside story of how Amazon created Echo, the
+  next billion-dollar business no one saw coming"*, Business Insider,
+  2 Apr 2016 — the Echo team's Wizard-of-Oz tests (wizard in another
+  room typing answers, satisfaction reports, 50 participants, varied
+  latency and phrasing), Bezos's reported one-second latency directive
+  (which **Dave Limp** does not recall), the sub-1.5-second outcome, and
+  the music-as-hook finding. Source:
+  `./materials/BusinessInsider-InsideStoryAmazonEcho-Kim2016.pdf`;
+  transcription:
+  `./materials/extracted/businessinsider-inside-story-amazon-echo.txt`.
 - **Karen von Schmieden**, *"Feeling in Control: Bank of America Helps
   Customers to 'Keep the Change'"*, thisisdesignthinking.net — quoting
   **Tim Brown** (IDEO), **Sally Madsen** (IDEO) and **Faith Tucker**

@@ -12,6 +12,8 @@ authors.
 | `ITRiskManager-MVPConsideredHarmful-MVI.pdf` → `extracted/itriskmanager-mvp-considered-harmful-mvi.txt` | Chris Matts, *The IT Risk Manager*, 26 Mar 2016 | MVP (new market) vs. MVI (existing product): instrument first, small outside-in investments, never a "minimum viable rewrite" |
 | `ThisIsDesignThinking-BankOfAmerica-KeepTheChange.pdf` → `extracted/thisisdesignthinking-bofa-keep-the-change.txt` | Karen von Schmieden, thisisdesignthinking.net | Keep the Change case: workaround observed → 80 concepts → concept test (cartoon video + 1,600-person survey) → iteration |
 | `ProduxLabs-Ep200-MinimalLovableProduct-TomerLondon.pdf` → `extracted/produxlabs-ep200-minimal-lovable-product.txt` (raw) | Product Thinking podcast ep. 200, Melissa Perri with Tomer London (Gusto), Dec 2024 | Minimum *lovable* product; "what are we trying to prove"; the manual back-end with an automation vision; grow-only-while-unit-economics-improve; functional / intuitive / delightful; killing QSEHRA |
+| `BusinessInsider-InsideStoryAmazonEcho-Kim2016.pdf` → `extracted/businessinsider-inside-story-amazon-echo.txt` | Eugene Kim, Business Insider, 2 Apr 2016 | Amazon Echo / Alexa: Wizard-of-Oz tests with satisfaction reports (50 testers, varied latency and phrasing); the reported one-second latency bar and the sub-1.5 s result; music as the engagement hook |
+| `extracted/wikipedia-wizard-of-oz-experiment.txt` (wikitext, CC BY-SA) | Wikipedia, "Wizard of Oz experiment", retrieved 2026-09-22 | The method's HCI origin (Kelley c. 1980; Ford; Munro & Norman; Cross) and the wizard-replaced-by-code iteration. No Amazon mention |
 
 Also referenced but **not** attached here:
 
@@ -20,15 +22,10 @@ Also referenced but **not** attached here:
   essay at paulgraham.com/ds.html.
 - Mike Rother, *Toyota Kata* (McGraw-Hill, 2009) — the source Perri
   adapts; Wikipedia overview at en.wikipedia.org/wiki/Toyota_Kata.
-- The **Amazon Echo / Alexa** Wizard-of-Oz case (a human in the next
-  room typing the answers the prototype spoke; 50 testers; latency and
-  phrasing varied) is from **Eugene Kim, "The inside story of how Amazon
-  created Echo", Business Insider, 2 Apr 2016** — cited in the method
-  doc, not reproduced here. The **Wikipedia** article on the Wizard of
-  Oz experiment (`extracted/wikipedia-wizard-of-oz-experiment.txt`, CC
-  BY-SA) supplies the method's HCI origin and the wizard-replaced-by-code
-  pattern; it does not mention Amazon. Kromer's article separately cites
-  **CardMunch**'s use of Amazon's Mechanical Turk as its wizard.
+- The "Amazon Wizard of Oz" case in the PM's notes is the **Echo /
+  Alexa** story above (now preserved). Kromer's article separately cites
+  **CardMunch**'s use of Amazon's Mechanical Turk as its wizard — a
+  different Amazon connection.
 
 Add your own experiment cards, kata records and post-mortems too — the
 agent reads `.md`, `.txt` and (via `extracted/`) `.pdf`. When you add a
