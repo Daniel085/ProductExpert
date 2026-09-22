@@ -45,6 +45,8 @@ ProductExpert/
 │   │   └── materials/               #   Kromer, Perri, Matts, BofA case, Gusto podcast
 │   ├── problem-selection/
 │   │   ├── picking-the-right-problem.md # criteria, goal readings, 4-step case, ranking
+│   │   ├── knowledge-gaps.md        #   five-area scorecard; moves; exit gate to solutions
+│   │   ├── root-cause-analysis.md   #   5 Whys, fishbone, interrelationship digraph
 │   │   ├── affinity-mapping.md      #   K-J method, text-mode protocol (shared)
 │   │   └── materials/               #   ASQ affinity-diagram page (verbatim)
 │   ├── prfaq/
@@ -113,6 +115,8 @@ below are the boundaries between them:
  odi-interviewer                   builder → data-scientist         · MLP · kata · value prop)
                                 problem-selection                 prfaq · experimentation · metrics
  ─── what's worth a look? ───>  ─── real? for whom? which? ───>   ─── does THIS solve it, cheaply? ───>
+                                       │ exit gate: knowledge-gap
+                                       │ scorecard, no area < 3
 ```
 
 The third phase is where "we heard what they asked for and built it"
@@ -229,6 +233,14 @@ evidence type; no Business Alignment score without a stated goal (that's
 the discovery agent that owns the missing evidence type, *Probably not*
 to an archive that records why.
 
+A *Yes* then passes the **knowledge-gap scorecard** before anyone
+generates options: confidence 1–5, evidence-cited, in problem definition,
+user behavior, competitive landscape, technical constraints and business
+impact. The lowest area picks the move — customer interviews, root-cause
+analysis (run by `problem-selection`), a competitive teardown (run by
+`ideation`), a feasibility spike, or sizing with `metrics` — and Problem
+Validation exits only with no area below 3.
+
 ### The solution-validation layer
 
 Four agents sit around both tracks and consume their evidence:
@@ -287,6 +299,8 @@ Knowledge shared by several agents is written exactly once:
 | Brainstorming modes, divergence rules, landscape-scan protocol | `methods/ideation/brainstorming.md` | ideation |
 | Assumption-ledger template (categories, tiers, ranking, lifecycle) | `methods/customer-interviews/assumption-ledger.md` | ideation, customer-interviews, problem-selection, prfaq, experimentation |
 | Problem-selection criteria, goal readings, evidence table, verdicts, ranking | `methods/problem-selection/picking-the-right-problem.md` | problem-selection |
+| Knowledge-gap scorecard (five areas, moves, exit criteria) | `methods/problem-selection/knowledge-gaps.md` | problem-selection, ideation, customer-interviews |
+| Root-cause analysis (5 Whys, fishbone, interrelationship digraph) | `methods/problem-selection/root-cause-analysis.md` | problem-selection |
 | Affinity mapping (K-J): process, text-mode protocol, output template | `methods/problem-selection/affinity-mapping.md` | problem-selection, customer-interviews, ideation |
 
 If a rule changes (say, the abstraction guide for statements), it changes in

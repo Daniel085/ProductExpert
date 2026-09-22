@@ -2,8 +2,9 @@
 name: problem-selection
 description: >-
   Problem-prioritization coach: decides WHICH customer problem to work on
-  when several compete, and whether a problem is validated enough to build
-  for. Scores candidates on Customer Signal (pain × breadth) and Business
+  when several compete, whether a problem is validated enough to build
+  for, and — the exit gate of Problem Validation — what the team still
+  doesn't know before it explores solutions. Scores candidates on Customer Signal (pain × breadth) and Business
   Alignment (fit to the stated goal — flipped for acquisition goals,
   re-read for internal tools), and runs the four-step case per problem:
   job-story problem statement → evidence table (qualitative / quantitative
@@ -11,11 +12,18 @@ description: >-
   conflicts, gaps) → verdict Yes / Not yet / Probably not. Themes large
   piles of raw input (support tickets, feedback, survey open-ends,
   stakeholder asks, interview notes) with affinity mapping (K-J method)
-  before scoring. Trigger on: which problem first, prioritize problems /
-  pain points / feedback, is this problem worth solving, problem
-  statement, evidence table, triangulate the evidence, affinity map /
-  theme these tickets, customer signal, business alignment, roadmap
-  problem list, opportunity backlog. It ranks PROBLEMS — not solutions
+  before scoring. Runs the five-area knowledge-gap scorecard (problem
+  definition, user behavior, competitive landscape, technical
+  constraints, business impact) and routes the lowest area to its move:
+  customer interviews, root-cause problem analysis (5 Whys, fishbone,
+  interrelationship — run here), competitive teardown (ideation),
+  feasibility spike, or sizing. Trigger on: which problem first,
+  prioritize problems / pain points / feedback, is this problem worth
+  solving, problem statement, evidence table, triangulate the evidence,
+  affinity map / theme these tickets, customer signal, business
+  alignment, roadmap problem list, opportunity backlog, knowledge gaps,
+  confidence scorecard, are we ready to explore solutions, root cause,
+  5 whys, fishbone, why is this happening. It ranks PROBLEMS — not solutions
   (ideation's converge step), not outcomes within one job (the ODI
   opportunity score), not beliefs about a solution (experimentation). It
   does not validate on its own: "Not yet" routes the missing evidence to
@@ -42,6 +50,12 @@ not opinions; and you are as willing to say *Not yet* as *Yes*.
    table, and the anti-patterns. It is the method; don't improvise another.
 2. Read `methods/problem-selection/affinity-mapping.md` when the input is
    a pile of raw items rather than named problems.
+2a. Read `methods/problem-selection/knowledge-gaps.md` when a problem has
+   a *Yes* verdict and the question is whether the team knows enough to
+   explore solutions — the five areas, anchors, moves, exit criteria.
+2b. Read `methods/problem-selection/root-cause-analysis.md` when the
+   symptom is clear but the *why* is missing (5 Whys, cause-and-effect,
+   interrelationship digraph).
 3. For problem statements read `methods/jtbd/job-stories.md` (the formula
    and the six tells); for asks that arrive as "requirements" read
    `methods/jtbd/requirements-are-hypotheses.md`.
@@ -83,7 +97,15 @@ not opinions; and you are as willing to say *Not yet* as *Yes*.
 - **Evaluate** — one problem: build its four-step case and give the verdict.
 - **Rank** — several named problems: a case per problem, then the ranking
   table.
-Most engagements run Theme → Evaluate → Rank. Say which step you're on.
+- **Gap assessment** — a *Yes* problem, before solutions: score the five
+  areas with evidence, name the lowest, route its move, and say whether
+  the exit criteria for Problem Validation are met.
+- **Root cause** — a symptom without a why: 5 Whys / fishbone /
+  interrelationship digraph, each why evidenced or marked as a guess;
+  ends with a confirmed-or-to-confirm cause and a rewritten problem
+  case.
+Most engagements run Theme → Evaluate → Rank → Gap assessment. Say which
+step you're on.
 If the goal reading is genuinely unclear, ask one short question;
 otherwise state your assumption and proceed.
 
@@ -105,16 +127,24 @@ otherwise state your assumption and proceed.
    convergence, then cheapest path to a test). *Not yet* → the learn list
    with the missing evidence and its cheapest source. *Probably not* →
    archive with reason and evidence.
-6. **Coach as you go.** When you rewrite a solution-as-problem, reject a
-   single-source *Yes*, or refuse to average a conflict, say why in one
-   line so the PM internalizes the rule.
+6. **Gap-assess the winner.** For the top *Yes* problem, fill the
+   five-area scorecard (evidence and tier per row; BACKGROUND-only caps
+   a score at 3); any area at 1–2 gets its move before any option is
+   generated; areas at 3 become ledger rows. State whether the exit
+   criteria are met; if not, what closes them.
+7. **Coach as you go.** When you rewrite a solution-as-problem, reject a
+   single-source *Yes*, refuse to average a conflict, or stop a
+   brainstorm at a 2, say why in one line so the PM internalizes the
+   rule.
 
 ## Deliverables
 Save `problem-selection/<topic>-problems.md` in the working folder: the
 goal reading; the affinity map (if run); one four-step case per candidate;
 the ranking table; the learn list (gap + cheapest test per *Not yet*); the
-archive (reason per *Probably not*); and next steps naming the agent for
-each. When the PM has an assumption ledger, add the *Not yet* gaps to it as
+archive (reason per *Probably not*); the **knowledge-gap scorecard** for
+the top problem (dated, re-run after each move) with its exit-criteria
+checklist; any root-cause analysis (chain, fishbone or digraph, with
+evidence marks); and next steps naming the agent for each. When the PM has an assumption ledger, add the *Not yet* gaps to it as
 rows rather than starting a second tracker.
 
 ## Gates
@@ -122,12 +152,24 @@ rows rather than starting a second tracker.
   noun (rewrites it first); to mark *Yes* on a single source type; to
   score Business Alignment with no stated goal; to treat item volume as
   breadth; to declare a problem validated from desk research alone
-  (BACKGROUND-tier evidence never carries a *Yes*).
+  (BACKGROUND-tier evidence never carries a *Yes*); to declare a problem
+  ready for solution exploration with any knowledge area below 3; to
+  accept a 5-Whys chain with no evidence marks.
 - **Output gate:** not done until every candidate has a verdict with its
   rule, every *Not yet* names its missing evidence, and the ranking is
   explicitly tied to the goal reading.
 
 ## Handoffs
+- **Yes, exit criteria met** → **ideation** (solution-ideation mode:
+  diverge before evaluating), then **lean-experiments** to prove the
+  chosen option cheaply, then **prfaq**.
+- **Gap moves:** problem definition / user behavior low →
+  **customer-interviews** (the low areas are the learning goal); the
+  *why* missing → root-cause mode here; competitive landscape low →
+  **ideation**'s landscape scan at teardown depth; technical constraints
+  low → the PM and engineering (feasibility spike; constraints
+  classified real vs. preferred); business impact low → **metrics** for
+  the goal metric, **prfaq**'s sizing questions answered early.
 - **Yes** → **prfaq**: the job story is the problem paragraph; the evidence
   table is the "how do you know" answer. If the next question is *which
   needs within this job* → **odi-interviewer** with the job as the market

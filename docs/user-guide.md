@@ -20,6 +20,8 @@ Start from where you are:
 | "We have ten problems and one quarter — which first?" | `problem-selection` | Case per problem (job story, evidence table, patterns, verdict), ranked on Customer Signal × Business Alignment |
 | "Theme this pile of tickets / feedback / survey comments" | `problem-selection` | Affinity mapping: group before naming, distinct-source counts |
 | "Is this problem validated enough to build for?" | `problem-selection` | Verdict Yes / Not yet / Probably not, with the missing evidence named |
+| "Are we ready to explore solutions? What don't we know yet?" | `problem-selection` | Five-area knowledge-gap scorecard; lowest area → its move; exit gate |
+| "Why is this happening?" / "find the root cause" | `problem-selection` | 5 Whys, fishbone or interrelationship digraph, every why evidenced or marked a guess |
 | "Write/review the one-pager for this product idea" | `prfaq` | Working Backwards PR/FAQ, draft or critique |
 | "How do we test this before we build it?" / "concierge or Wizard of Oz?" | `lean-experiments` | Experiment card: family, trying-to-prove, Expected / Would-disprove |
 | "Run this initiative as a kata" / "what's our current condition?" | `lean-experiments` | Product Kata record: direction → target → obstacle → step → learned |
@@ -172,6 +174,18 @@ and its cheapest source — interviews, a metric query, a ticket audit);
 *Probably not* archived with the reason. Expect *Not yet* often — one
 vivid source type is never enough — and expect it to refuse to score
 "users need bulk export" until it's a problem rather than a feature.
+
+**Before you explore options** — the exit gate:
+> "Gap-assess `<problem>` — are we ready for solutions?"
+
+You get the five-area scorecard (problem definition, user behavior,
+competitive landscape, technical constraints, business impact), each
+score tied to an artifact and its evidence tier, the lowest area named,
+and its move: more interviews, a root-cause pass (5 Whys / fishbone /
+digraph, which it runs with you), a competitive teardown (it hands that
+to `ideation`), an engineering spike, or sizing with `metrics`. No area
+below 3 → Problem Validation is done and `ideation` opens the solution
+space. It re-scores after each move and keeps the dated deltas.
 
 ## Solution validation — prove it before you build it
 

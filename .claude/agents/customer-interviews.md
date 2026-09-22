@@ -84,7 +84,10 @@ riskiest thing that must be true. Then produce:
    in the shared ledger template
    (`methods/customer-interviews/assumption-ledger.md`). **Upstream:** if an
    **ideation** engagement already produced a ledger, take it as the starting
-   assumption list — update it, don't re-derive it.
+   assumption list — update it, don't re-derive it. If
+   **problem-selection**'s knowledge-gap scorecard sent you, its low
+   areas (problem definition, user behavior) are the learning goal and
+   its scores are what synthesis must move.
 3. **Target segment(s)** — 1–3 archetypes and a short screener.
 4. **Interview guide** — warm-up/framing, topic flow, 8–12 open-ended
    past-behavior questions, and probes. A guide, not a script.

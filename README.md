@@ -36,7 +36,7 @@ exists and runs *before* engineering, not after.
 | Phase | The question | Agents |
 |-------|--------------|--------|
 | **1 · Opportunity Discovery** | What's out there, and what's worth a look? | `ideation`, `customer-interviews` (prep), `odi-interviewer` |
-| **2 · Problem Validation** | Is the problem real, for whom, how much, and which one first? | `customer-interviews` (synthesis), `odi-outcome-editor` → `odi-survey-builder` → `odi-data-scientist`, `problem-selection` |
+| **2 · Problem Validation** | Is the problem real, for whom, how much, and which one first — and what don't we know yet? | `customer-interviews` (synthesis), `odi-outcome-editor` → `odi-survey-builder` → `odi-data-scientist`, `problem-selection` (verdict + knowledge-gap scorecard + root cause) |
 | **3 · Solution Validation** | Does *this* solution solve it — proven cheaply, before we build? | `lean-experiments` (concept · concierge · Wizard of Oz · MLP · kata), `prfaq`, `experimentation`, `metrics` |
 
 ## The two tracks
@@ -145,7 +145,14 @@ Probably not*. Ranks the *Yes* verdicts on **Customer Signal × Business
 Alignment**, read differently for retention, acquisition, and
 internal-tool goals; *Not yet* becomes a learn list with the missing
 evidence named. Ranks problems — not solutions (`ideation`), not outcomes
-within a job (ODI).
+within a job (ODI). Then closes Problem Validation with the **knowledge-gap
+scorecard** (Product Institute): confidence 1–5 in problem definition,
+user behavior, competitive landscape, technical constraints and business
+impact, evidence-cited; the lowest area picks the move — customer
+interviews, **root-cause problem analysis** (5 Whys, fishbone,
+interrelationship digraph, run here), competitive teardown (`ideation`),
+a feasibility spike, or sizing — and no area below 3 is the exit gate
+into solution exploration.
 Methods: [`methods/problem-selection/`](methods/problem-selection/)
 
 ### Lean Experiments — `lean-experiments`
@@ -237,9 +244,10 @@ Completed: [Design Thinking (Stanford d.school)](docs/methodology-evaluations/de
   GTM and sales-narrative work (*Sales Pitch*) folded into the same family.
 - **Pricing & packaging** (Ramanujam & Tacke, *Monetizing Innovation*) —
   willingness-to-pay before building; pairs with ODI's needs-based segments.
-- **Root-cause tools** (interrelationship / cause-and-effect diagrams,
-  *The Quality Toolbox*) — ASQ's own "next step" after an affinity map;
-  would sit between `problem-selection`'s themes and the insight ladder.
+- ~~Root-cause tools~~ — first cut built into `problem-selection`
+  (`methods/problem-selection/root-cause-analysis.md`: 5 Whys, fishbone,
+  interrelationship digraph); no source document preserved yet — add
+  one when it arrives.
 - **Strategy stress-tester** (Rumelt, *Good Strategy Bad Strategy*) —
   kernel-or-fluff critique of strategy docs; pressure-tests the ODI growth
   strategy recommendation.

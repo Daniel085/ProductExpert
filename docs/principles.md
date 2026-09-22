@@ -240,6 +240,20 @@ Wizard of Oz or lovable slice has tested it, it is a belief in the
 ledger, not a fact in the press release. *(Strategyzer's Value
 Proposition Canvas; Product Institute.)*
 
+### 26. Score what you don't know before you explore solutions
+A validated problem is not the same as a well-understood one. Before
+generating options, score confidence 1–5, with the artifact that backs
+each score, in five areas: **problem definition**, **user behavior**
+(how they cope today), **competitive landscape**, **technical
+constraints**, and **business impact**. The lowest score chooses the
+next move — interviews when the customer's side is unclear, root-cause
+analysis when the symptom has no *why*, a competitive teardown when the
+market is a blank — and no area below 3 is the gate into solution
+exploration. Options generated past a 2 inherit the gap. Desk research
+alone never scores above 3; two people who would score differently
+score at the lower value. *(Product Institute; the evidence tiers of
+principle 8.)*
+
 ---
 
 ## System design principles

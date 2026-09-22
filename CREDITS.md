@@ -220,6 +220,23 @@ the property of their authors and are included for reference and attribution.
 - Shared lineage: job stories (Product Institute / Klement, above);
   requirements-as-hypotheses (Cagan, above); evidence tiers (ODI
   multi-call discovery, above).
+- **Knowledge-gap assessment** — **Product Institute** (founded by
+  **Melissa Perri**), *Product Management Foundations*: the five
+  confidence areas at the close of problem validation (problem
+  definition, user behavior, competitive landscape, technical
+  constraints, business impact) and the three next moves (customer
+  interviews, problem analysis, competitive analysis). Licensed course
+  material — **paraphrased from Daniel O'Rorke's notes; nothing
+  quoted.** The 1–5 anchors, the two added routes, decision rules,
+  teardown table and exit criteria are this repo's extension.
+- **Root-cause analysis** — public canon, no source document preserved:
+  **5 Whys** (Toyota Production System; **Sakichi Toyoda**, **Taiichi
+  Ohno**); the **cause-and-effect / fishbone diagram** (**Kaoru
+  Ishikawa**, *Guide to Quality Control*, 1968); the **interrelationship
+  digraph** (seven management and planning tools, JUSE, as catalogued in
+  **ASQ**'s *The Quality Toolbox*, **Nancy R. Tague**). The
+  product-specific categories, evidence-per-why rule and gate are this
+  repo's extension.
 
 ---
 

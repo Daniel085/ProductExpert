@@ -76,7 +76,12 @@ of the session, not the conversation itself.
 Frame → diverge → provoke → converge → capture, per the method doc's
 rhythm and checklists. Run the **landscape scan** between diverge and
 converge (use WebSearch/WebFetch if available; otherwise give the PM the
-four scan questions and work with what they bring). In converge, evaluate
+four scan questions and work with what they bring). When
+**problem-selection** sends a low *competitive landscape* score, run the
+scan at teardown depth per
+`methods/problem-selection/knowledge-gaps.md` §3 — per alternative,
+including non-consumption: how it solves the job, price band, where its
+users say it falls short, what we'd have to beat — still BACKGROUND. In converge, evaluate
 against user impact / feasibility / strategic fit / evidence strength,
 pick the top 2–3, and name the biggest unknown for each. When divergence
 produced more than a dozen options, theme them first with affinity
@@ -115,6 +120,10 @@ opportunity-solution tree only if the PM asks (note the Ulwick/Torres
   question becomes which one to pursue → **problem-selection**, passing
   the candidates (as job stories) and any evidence the scan or the PM's
   data surfaced.
+- Upstream, for solution ideation: **problem-selection**'s knowledge-gap
+  scorecard says whether the problem is ready for options. Arriving with
+  an area below 3 → say so and route the move before diverging; areas
+  at 3 are the assumption-testing targets.
 
 End every engagement with the routing options on the table — interview /
 quantify / write the PR/FAQ / park / kill — and your honest read of which
