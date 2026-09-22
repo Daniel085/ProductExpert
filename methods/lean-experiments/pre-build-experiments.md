@@ -145,8 +145,9 @@ measure · known biases · when to stop.
 - **What it tests:** whether a specific, defined solution produces the
   outcome, by simulating the product exactly while humans do the work
   behind the curtain.
-- **How:** Aardvark routed questions to experts by hand; CardMunch
-  "OCR'd" business cards with Mechanical Turk workers; Gusto's benefits
+- **How:** Aardvark routed questions to experts by hand (interns);
+  CardMunch "OCR'd" business cards with workers on Amazon's Mechanical
+  Turk — the "Amazon Wizard of Oz" case; Gusto's benefits
   enrollment showed a finished-looking flow while staff phoned insurance
   carriers. The user sees the intended product, a little slower.
 - **Prerequisites:** a solution hypothesis clear enough to script; a job
@@ -301,7 +302,7 @@ generative/evaluative need; the pass/fail lines are on the card.
   improve. **Kill:** QSEHRA, after 4–6 months of "pulling teeth" and
   poor economics.
 - **Aardvark / CardMunch.** Wizard of Oz at product scale: interns and
-  Mechanical Turk workers were the "algorithm"; no real-time requirement,
+  Amazon Mechanical Turk workers were the "algorithm"; no real-time requirement,
   so nothing needed building to prove the value.
 - **Wealthfront / Food on the Table / Airbnb.** Concierge: sit with the
   customer, do the job by hand, learn what the automated version must

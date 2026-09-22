@@ -20,8 +20,10 @@ Also referenced but **not** attached here:
   essay at paulgraham.com/ds.html.
 - Mike Rother, *Toyota Kata* (McGraw-Hill, 2009) — the source Perri
   adapts; Wikipedia overview at en.wikipedia.org/wiki/Toyota_Kata.
-- An **Amazon Wizard-of-Oz** case was mentioned in the PM's notes but no
-  attachment arrived; add it here if you have it.
+- The "Amazon Wizard of Oz" case in the PM's notes is the **CardMunch**
+  example in Kromer's article: the "OCR" behind the product was people
+  on **Amazon's Mechanical Turk**. It is covered in the transcription and
+  the method doc; there is no separate Amazon source.
 
 Add your own experiment cards, kata records and post-mortems too — the
 agent reads `.md`, `.txt` and (via `extracted/`) `.pdf`. When you add a
