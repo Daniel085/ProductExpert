@@ -234,6 +234,17 @@ the property of their authors and are included for reference and attribution.
   technique and cites Aardvark, CardMunch, Wealthfront and Food on the
   Table (**Manuel Rosso**, spelled "Russo" in the article). Source page preserved at
   `methods/lean-experiments/materials/Kromatic-WizardOfOzVsConcierge.pdf`.
+- **Wikipedia contributors** — *"Wizard of Oz experiment"*, Wikipedia,
+  retrieved 2026-09-22; text under **CC BY-SA 4.0**, wikitext preserved
+  at `methods/lean-experiments/materials/extracted/wikipedia-wizard-of-oz-experiment.txt`.
+  Credits the method to **John F. Kelley** (Johns Hopkins, c. 1980), with
+  precursors **W. Randolph Ford** (1975), **Allen Munro & Don Norman**
+  (Xerox PARC, c. 1975) and **Nigel Cross** (1960s); the name is from
+  **L. Frank Baum**'s novel.
+- **Eugene Kim** — *"The inside story of how Amazon created Echo"*,
+  Business Insider, 2 Apr 2016 — the Amazon Echo / Alexa Wizard-of-Oz
+  tests and **Jeff Bezos**'s one-second latency directive. Cited, not
+  reproduced.
 - **Melissa Perri** — *"The Product Kata"*, melissaperri.com, 22 Jul 2015
   (later part of *Escaping the Build Trap*, O'Reilly 2018) — adapting
   **Mike Rother**'s *Toyota Kata* (McGraw-Hill, 2009; improvement kata

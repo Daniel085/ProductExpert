@@ -20,10 +20,15 @@ Also referenced but **not** attached here:
   essay at paulgraham.com/ds.html.
 - Mike Rother, *Toyota Kata* (McGraw-Hill, 2009) — the source Perri
   adapts; Wikipedia overview at en.wikipedia.org/wiki/Toyota_Kata.
-- The "Amazon Wizard of Oz" case in the PM's notes is the **CardMunch**
-  example in Kromer's article: the "OCR" behind the product was people
-  on **Amazon's Mechanical Turk**. It is covered in the transcription and
-  the method doc; there is no separate Amazon source.
+- The **Amazon Echo / Alexa** Wizard-of-Oz case (a human in the next
+  room typing the answers the prototype spoke; 50 testers; latency and
+  phrasing varied) is from **Eugene Kim, "The inside story of how Amazon
+  created Echo", Business Insider, 2 Apr 2016** — cited in the method
+  doc, not reproduced here. The **Wikipedia** article on the Wizard of
+  Oz experiment (`extracted/wikipedia-wizard-of-oz-experiment.txt`, CC
+  BY-SA) supplies the method's HCI origin and the wizard-replaced-by-code
+  pattern; it does not mention Amazon. Kromer's article separately cites
+  **CardMunch**'s use of Amazon's Mechanical Turk as its wizard.
 
 Add your own experiment cards, kata records and post-mortems too — the
 agent reads `.md`, `.txt` and (via `extracted/`) `.pdf`. When you add a

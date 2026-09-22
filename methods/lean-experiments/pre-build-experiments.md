@@ -147,9 +147,25 @@ measure · known biases · when to stop.
   behind the curtain.
 - **How:** Aardvark routed questions to experts by hand (interns);
   CardMunch "OCR'd" business cards with workers on Amazon's Mechanical
-  Turk — the "Amazon Wizard of Oz" case; Gusto's benefits
-  enrollment showed a finished-looking flow while staff phoned insurance
-  carriers. The user sees the intended product, a little slower.
+  Turk; Gusto's benefits enrollment showed a finished-looking flow while
+  staff phoned insurance carriers. **Amazon's Echo** team tested the
+  Alexa experience before the speech stack existed: a human "wizard" in
+  another room heard each question and typed the answer, which the
+  device spoke — testers usually weren't told — and fifty people ran the
+  same script with varied response times and sentence structures to
+  learn what made a voice assistant feel exciting rather than
+  frustrating. The user sees the intended product, a little slower.
+- **Vary the variable you care about.** Echo's wizard runs deliberately
+  varied *latency* and *phrasing* across participants; that is how the
+  team learned that responsiveness, not vocabulary, drove delight — and
+  why Bezos set the (then unheard-of) one-second latency target. A
+  wizard can A/B a design decision by hand before the design exists.
+- **Replace the wizard piece by piece.** The original HCI use (Kelley,
+  1980; Munro & Norman at Xerox PARC, 1975) had the wizard handle
+  everything in session one and hand successive pieces to code in each
+  later session, until the system could run unattended and the wizard
+  only observed. The wizard's log is the backlog for that replacement —
+  and the automation vision the manual-first pattern below demands.
 - **Prerequisites:** a solution hypothesis clear enough to script; a job
   that tolerates a delay (no real-time requirement); a plan to disclose
   or transition.
@@ -304,6 +320,22 @@ generative/evaluative need; the pass/fail lines are on the card.
 - **Aardvark / CardMunch.** Wizard of Oz at product scale: interns and
   Amazon Mechanical Turk workers were the "algorithm"; no real-time requirement,
   so nothing needed building to prove the value.
+- **Amazon Echo / Alexa (c. 2011–14).** Wizard of Oz for a real-time
+  product: a human in the next room typed the answer to each spoken
+  question and the prototype voiced it, usually without telling the
+  tester. Fifty participants, one script, response time and phrasing
+  varied deliberately — "almost a psychology experiment to figure out
+  what does it take to really make people excited." The learning
+  (responsiveness is the product) set the one-second latency target
+  Bezos imposed against an industry norm of 2.5–3 seconds.
+- **The method's origin.** Named by John F. Kelley (Johns Hopkins, c.
+  1980) for a calendar-keeping natural-language system; the same
+  experimenter-in-the-loop idea ran at Johns Hopkins (Ford, 1975), at
+  Xerox PARC (Munro & Norman, c. 1975) and, as a "black box filled with
+  people," in Nigel Cross's simulated CAD studies of the 1960s. Kelley's
+  wizard-then-code iteration reached 86–97% recognition in 16 trials —
+  the empirical case that faking first, then automating what the fake
+  taught you, converges.
 - **Wealthfront / Food on the Table / Airbnb.** Concierge: sit with the
   customer, do the job by hand, learn what the automated version must
   do — and, for Airbnb, that professional photos were the lever.
@@ -316,6 +348,19 @@ generative/evaluative need; the pass/fail lines are on the card.
   `./materials/Kromatic-WizardOfOzVsConcierge.pdf`; transcription under
   `./materials/extracted/`. Kromer credits **J. F. Kelley** (1975) for the
   Wizard of Oz technique.
+- **Wikipedia**, *"Wizard of Oz experiment"* (CC BY-SA 4.0; retrieved
+  2026-09-22) — the HCI definition and origin: **John F. Kelley**'s
+  naming (c. 1980), **W. Randolph Ford**'s experimenter-in-the-loop
+  (1975), **Allen Munro & Don Norman** at Xerox PARC (c. 1975), **Nigel
+  Cross**'s 1960s simulated-CAD studies, and the wizard-replaced-by-code
+  iteration. Wikitext:
+  `./materials/extracted/wikipedia-wizard-of-oz-experiment.txt`. The
+  article does **not** mention Amazon or Alexa.
+- **Eugene Kim**, *"The inside story of how Amazon created Echo"*,
+  Business Insider, 2 Apr 2016 (syndicated on Yahoo Finance) — the Echo
+  team's Wizard-of-Oz tests (wizard in another room typing answers, 50
+  participants, varied latency and phrasing) and Bezos's one-second
+  latency directive. Not reproduced here; cited from the public article.
 - **Karen von Schmieden**, *"Feeling in Control: Bank of America Helps
   Customers to 'Keep the Change'"*, thisisdesignthinking.net — quoting
   **Tim Brown** (IDEO), **Sally Madsen** (IDEO) and **Faith Tucker**

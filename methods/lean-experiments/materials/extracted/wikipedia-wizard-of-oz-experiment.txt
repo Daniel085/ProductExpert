@@ -1,0 +1,57 @@
+SOURCE: Wikipedia, "Wizard of Oz experiment", https://en.wikipedia.org/wiki/Wizard_of_Oz_experiment — raw wikitext retrieved 2026-09-22. Text available under the Creative Commons Attribution-ShareAlike License (CC BY-SA 4.0); authors are the Wikipedia contributors to that article (history at the URL). Note: the article contains NO mention of Amazon, Alexa or Echo; see the method doc for the Alexa case and its separate sourcing.
+
+----------------------------------------------------------------------
+
+{{Short description|Copenhagen}}{{Multiple issues|{{more sources|date=January 2026}}}}[[File:Racknitz_-_The_Turk_3.jpg | thumb | right | alt=alt=Refer to caption  | Image of Kempelen's "The Turk".]]
+In the field of [[human–computer interaction]], a '''Wizard of Oz experiment''' is a [[research]] experiment in which subjects interact with a [[computer]] system that subjects believe to be autonomous, but that is actually operated or partially operated by an unseen [[human being]].<ref>Bella, M. & Hanington, B., 2012. Universal Methods of Design, Beverly, MA: Rockport Publishers. p204</ref>
+
+== Concept ==
+The phrase ''Wizard of Oz'' (originally ''OZ Paradigm'') has come into common usage in the fields of [[experimental psychology]], human factors, [[ergonomics]], [[linguistics]], and [[usability engineering]] to describe a specific type of testing or iterative design.  In such an experiment, a laboratory experimenter (the "wizard") simulates the behavior of a theoretical intelligent computer application, often by going into another room and intercepting all communications between participant and system. Sometimes this is done without the participant's prior knowledge, to manage the participant's expectations and encourage natural behaviors, while at other times the participant is aware.
+
+For example, a test participant may think that he is communicating with a computer using a speech interface, when the wizard is actually covertly entering the participant's words into the computer, enabling them to be processed as a text stream, rather than as an audio stream. The missing system functionality that the wizard provides may be implemented in later versions of the system, or it may be speculative capabilities that current-day systems do not have; the precise details are generally considered irrelevant to the study. In testing situations, the goal of such experiments may be to observe the use and effectiveness of a proposed [[user interface]] by the test participants, rather than to measure the quality of an entire system.
+
+== Origin ==
+The name of the experiment comes from [[L. Frank Baum]]'s 1900 novel ''[[The Wonderful Wizard of Oz]]'', in which [[Wizard of Oz (character)|an ordinary man]] hides behind a curtain and uses "amplifying" technology to pretend to be a powerful [[Wizard (fantasy)|wizard]].
+
+John F. Kelley coined the phrases "Wizard of OZ" and "OZ Paradigm" for this purpose circa 1980 to describe the method he developed during his [[dissertation]] work at [[Johns Hopkins University]].  During the study, in addition to [[one-way mirror]]s and other techniques, there was a blackout curtain separating Kelley (the "Wizard") from the participant's view.{{Citation needed|date=January 2023}}
+
+The "Experimenter-in-the-Loop" technique had been pioneered at Chapatis' Communications Research Lab at Johns Hopkins as early as 1975, three years before Kelley's arrival. W. Randolph Ford used the experimenter-in-the-loop technique with his CHECKBOOK program, wherein he obtained language samples in a naturalistic setting. In Ford's method, a preliminary version of the [[natural language processing]] system would be placed in front of the user. When the user entered an unrecognized syntax, he would receive a "Could you rephrase that?" prompt from the software. After the session, the processing algorithms would be modified to address the newly obtained samples, and another session would take place. This approach led to the eventual development of his natural language processing technique, "Multi-Stage Pattern Reduction".  Ford believed that Kelley coined the phrase "Wizard of Oz Paradigm" to describe a technique employed at least twice before Kelley began his work.  Another team, Allen Munro and Don Norman from the University of California, San Diego, (Bobrow, et al.) used a similar technique to model a [[natural language understanding]] system at the Xerox Palo Alto Research Center circa 1975.
+
+In that employment, the wizard sat at a terminal in an adjacent room separated by a one-way mirror so the subject could be observed. Every input from the user was processed correctly by a combination of software processing and real-time wizard intervention.  As the process was repeated in subsequent sessions, more and more software components were added, and the wizard's role was gradually reduced.  Eventually, the machine reached a point at which it could be left unattended, enabling the wizard to validate the final system's unattended performance.
+
+In their 1985 [[University of Michigan]] [http://deepblue.lib.umich.edu/bitstream/2027.42/174/2/71952.0001.001.pdf technical report], Green and Wei-Haas state the following: ''The first appearance of the "Wizard of Oz" name in print was in Jeff Kelley's thesis (Kelley, 1983a, 1983b, 1984a). It is thought the name was coined in response to a question at a graduate seminar at Hopkins (Chapanis, 1984; Kelley, 1984b). "What happens if the subject sees the experimenter [behind the "curtain" in an adjacent room acting as the computer]?" Kelley answered: "Well, that's just like what happened to Dorothy in the Wizard of Oz." And so the name stuck.''
+
+There is also a passing reference to planned use of the "Wizard of Oz experiments" in a [http://portal.acm.org/citation.cfm?doid=990100.990122 1982 proceedings paper] by Ford and Smith.
+
+Originally, Kelley also used "OZ" as an acronym for "Offline Zero", a reference to the wizard's real-time interpretation of user input during the simulation phase.
+
+Similar experimental setups had occasionally been used earlier under other names. Design researcher [[Nigel Cross]] conducted studies in the 1960s with "simulated" [[computer-aided design]] systems where the purported simulator was actually a human operator, using text and graphical communication via [[CCTV]]. As he explained, "All that the user perceives of the system is this remote-access console, and the remainder is a black box to him. ... one may as well fill the black box with people as with machinery. Doing so provides a comparatively cheap simulator, with the remarkable advantages of the human operator's flexibility, memory, and intelligence, and which can be reprogrammed to give a wide range of computer roles merely by changing the rules of operation. It sometimes lacks the real computer's speed and accuracy, but a team of experts working simultaneously can compensate to a sufficient degree to provide an acceptable simulation."<ref>{{cite book | author = Nigel Cross | title = The Automated Architect | publisher = Pion Limited | year = 1977 | isbn = 0850860571 | page = 107}}</ref> Cross later referred to this as a kind of [[Reverse Turing test]].<ref>Cross, N (2001) "Can a Machine Design?", ''Design Issues'', Vol. 17, No.41, pp. 44-50.</ref>
+
+== Significance ==
+The Wizard of Oz method is very powerful. Originally, Kelley created a simple keyboard-input natural language recognition system that far exceeded the recognition rates of any of the far more complex systems of the day. Contemporary computer scientists and linguists thought that, in order for a computer to be able to "understand" natural language enough to be able to assist in useful tasks, the software would have to be attached to a formidable "dictionary" having a large number of categories for each word. The categories would enable a very complex parsing algorithm to unravel the ambiguities inherent in naturally produced language. The daunting task of creating such a dictionary led many to believe that computers simply would never truly "understand" language until they could be "raised" and "experience life" as humans, since humans seem to apply a life's worth of experiences to the interpretation of language.{{Fact|date=December 2021}}
+
+The key enabling factor for the first use of the OZ method was that the system was designed to work in a single context (calendar-keeping), which greatly constrained user input so greatly that a simple language processing model could meet the goals of the application. The processing model was a two-pass keyword/key-phrase matching approach, based loosely on the algorithms of Weizenbaum's [[ELIZA|Eliza]] program. By inducing participants to generate language samples in the context of solving an actual task (using a computer that they believed actually understood what they were typing), the variety and complexity of the lexical structures gathered was greatly reduced and simple keyword matching algorithms could be developed to address the actual language collected.{{Fact|date=December 2021}}
+
+This first use of OZ was in the context of an [[iterative design]] approach. In the early development sessions, the experimenter simulated the system ''in toto'', performing all the database queries and composing all the responses to the participants by hand. As the process matured, the experimenter replaced human interventions, piece by piece, with newly created developed code, which was designed to process all previously received inputs. By the end of the process, the experimenter could observe and analyze the sessions in a "hands-off" mode.{{Fact|date=December 2021}}
+
+OZ addressed the obvious criticism that iterative methods could not be used to build a separate natural language system (dictionaries, syntax) for each new context, as such a method would require repeatedly adding new structures and algorithms to handle each new batch of inputs. OZ's empirical approach made this feasible; in its original application, dictionary and syntax growth reached asymptotic (achieving from 86% to 97% recognition rates, depending on the measurements employed) after only 16 experimental trials and the resulting program, with dictionaries, was less than 300k of code.
+
+Since its initial publication, the OZ method has been employed in a wide variety of settings, notably in the prototyping and usability testing of proposed user interface designs in advance of having actual application software in place.{{Fact|date=December 2021}}
+
+== See also ==
+{{Portal|Literature|Books|Novels}}
+* [[Reverse Turing test]] – a Turing test in which the objective or roles between computers and humans have been reversed
+* [[Chinese room]] – a thought experiment with a similar premise
+* The [[Mechanical Turk]] – a Wizard of Oz device used as a fake chess-playing machine
+
+== References ==
+
+{{reflist}}
+
+{{DEFAULTSORT:Wizard of Oz experiment}}
+[[Category:Human–computer interaction]]
+[[Category:Usability]]
+[[Category:Design of experiments]]
+[[Category:Cognitive ergonomics]]
+[[Category:Product design]]
+[[Category:User interface techniques]]
