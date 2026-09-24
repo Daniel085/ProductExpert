@@ -282,6 +282,20 @@ use experiments, not features; use what you learn and move on; keep
 customers in the loop early and often. *(Robinson; Ries; Blank; the
 MVP-versus-MVI context rule of principle 23.)*
 
+### 29. Don't run the Product Death Cycle — in either version
+David Bland's original: *no one uses our product → ask customers what
+features are missing → build them → repeat.* The AI-era version: *no one
+uses our AI product → ask AI what features are missing → build the
+missing AI features → repeat.* The second is more dangerous because it
+feels data-driven while skipping the same work — validating a real user
+problem — and because the technology makes shipping unwanted software
+cheaper. The way out is not better features and not a better model; it
+is customer discovery: talk to users, understand the problem, *then*
+decide whether anything (and whether AI) solves it. A missing-feature
+list, from a customer or a model, is a pile of solution guesses; trace
+each to a problem or set it aside. *(Bland; Perri, "Escaping the Build
+Trap" and its AI-era update.)*
+
 ---
 
 ## System design principles
@@ -316,6 +330,18 @@ the agents' `description` fields too, so auto-delegation routes correctly.
 Agents prep, structure, extract, analyze, and coach. **You** conduct the
 interviews and field the surveys. No agent pretends to do the part that
 requires being in the room — and each one's description says so.
+
+### Agent output is never customer evidence
+A system of AI product agents is one shortcut away from the AI-era
+Product Death Cycle (principle 29): ask the agent what customers want,
+build it, repeat. The guard is structural. Everything an agent generates
+— a landscape scan, a synthesized segment, a list of likely pains, a
+suggested experiment — enters the ledger as **BACKGROUND at most**;
+INFERRED needs a real person's words and CONFIRMED needs them verbatim
+and attributed. No agent may declare a problem validated from desk
+research, mark a *Yes* on a single evidence type, or fill an evidence
+table with its own answers. The agents make the discovery work sharper
+and faster; they do not stand in for it.
 
 ### Descriptions are the router
 Claude auto-delegates to subagents by matching their `description` fields.

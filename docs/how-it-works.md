@@ -96,7 +96,9 @@ where it can be shared, versioned, and corrected in one place.
    the survey builder verifies it has *curated* statements with a coverage
    report; the data scientist verifies N ≥ 180 and < 10% missing). Failing
    input goes back upstream with a specific request — that's a feature, not
-   an error.
+   an error. One gate is universal: nothing the agent itself generated
+   counts as customer evidence (BACKGROUND at most) — the structural
+   guard against the AI-era Product Death Cycle (`principles.md` §29).
 4. **Working.** The agent produces its deliverables in the formats its
    method doc defines, saving artifacts as files in your working folder
    (guides, statement sets, instruments, scripts, plots) so the next stage

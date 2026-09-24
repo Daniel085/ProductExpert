@@ -305,6 +305,7 @@ generative/evaluative need; the pass/fail lines are on the card.
 | **Slice by what's easy** | The MVP is whatever the team could build in a sprint | Slice by what you are trying to prove |
 | **No kill line** | Experiment "still running" at month five | *Would disprove* written up front; time-box; Gusto killed at 4–6 months |
 | **Solving the business's problem directly** | "Increase enrollment" → a sign-up promotion | Find the user need that, served, moves the business metric |
+| **The Product Death Cycle, either version** | No one uses it → ask customers (or a model) which features are missing → build them → repeat | Missing-feature lists are solution guesses; go back to the problem: talk to users, understand the job, then decide what (if anything, and if AI) solves it |
 
 ## 8. Cases, briefly
 

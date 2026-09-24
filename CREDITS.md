@@ -24,6 +24,18 @@ the property of their authors and are included for reference and attribution.
 - These materials are the authors' work, included here for reference and
   attribution; all rights remain with them.
 
+### The Product Death Cycle
+- **David Bland** — the *Product Death Cycle* (2014: no one uses our
+  product → ask customers what features are missing → build them →
+  repeat) and its AI-era update (ask AI what features are missing).
+- **Melissa Perri** — featured the original in *Escaping the Build Trap*
+  (O'Reilly, 2018); her LinkedIn post on the updated cycle ("it's the
+  build trap with a shiny AI wrapper... the solution isn't better AI
+  features, it's better customer discovery") is preserved at
+  `methods/customer-interviews/materials/MelissaPerri-ProductDeathCycle-AIVersion-LinkedIn.pdf`
+  with a transcription under `materials/extracted/`. Grounds principle
+  29 and the system rule that agent output is never customer evidence.
+
 ### Intellectual lineage
 - **Steve Blank** — Customer Development and "get out of the building"
   (*The Four Steps to the Epiphany*, *The Startup Owner's Manual*).

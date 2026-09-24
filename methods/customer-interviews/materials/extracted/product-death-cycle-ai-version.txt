@@ -1,0 +1,67 @@
+SOURCE: Melissa Perri, LinkedIn post, "We've created a new version of the
+Product Death Cycle, and it's even more dangerous than the original."
+(c. 2025; captured 2026). The original Product Death Cycle is David
+Bland's (2014), featured in Perri's *Escaping the Build Trap* (O'Reilly,
+2018). Transcribed from the PDF alongside; LinkedIn chrome and reaction
+counts removed; selected comments kept. The updated cycle diagram (and
+Dean Peters' "after-market tweak" image) are not reproduced. All rights
+remain with the authors.
+
+----------------------------------------------------------------------
+
+We've created a new version of the Product Death Cycle, and it's even
+more dangerous than the original.
+
+My friend David Bland created the Product Death Cycle that I featured in
+"Escaping the Build Trap". Recently, he shared an updated version that
+made me laugh and cry at the same time: no one uses our AI product → ask
+AI what features are missing → building the missing AI features → repeat
+
+The irony is painful. Companies think they're being strategic by using AI
+to inform their roadmaps, but they're actually avoiding the fundamental
+work of understanding customer needs. It's the build trap with a shiny AI
+wrapper.
+
+This new cycle is particularly dangerous because it feels data-driven.
+You're not just guessing what to build next or asking a single customer,
+you're asking AI! But you're still building without validating real user
+problems. The technology makes it cheaper and easier to ship useless
+software, so we're already seeing a graveyard of AI products and features
+that nobody wanted in the first place.
+
+The solution isn't better AI features. It's better customer discovery.
+Talk to users, understand their problems, then decide if AI can actually
+solve them.
+
+What's the most ridiculous AI product or feature you've seen shipped
+without clear user value?
+
+----------------------------------------------------------------------
+Selected comments:
+
+Gitumani Barman: "...what AI can help with is to take along a visible and
+working prototype to the customer discovery sessions, show them and ask
+whether it is really solving their pain points. AI can expedite the
+feedback loop!!"
+
+Nouran El-Behairy: "...the real conversation isn't whether AI should guide
+product roadmaps, but where it fits in discovery, we know that AI can
+accelerate pattern recognition, surface insights, and even structure
+research...etc but can it replace direct user conversations? and the real
+question is: at what point in discovery should teams lean on AI without
+losing the customer's voice?"
+
+Geraldine Bauer: "...people have the feeling that they are working 'data
+driven', with the argument that AI is based on a lot of data. Personally,
+I find AI great as a 'sparring partner' to gain inspiration at the
+beginning of my work and then to get feedback at the end of my work. [...]
+I would use AI to ask about possible methods for surveying my users if I
+am currently lacking ideas or to check which statistical biases are
+influencing me in my evaluations."
+
+Ben Berkompas: quotes Jurassic Park's Dr. Malcolm — "so preoccupied with
+whether they could, they didn't stop to think if they should."
+
+(For reference, the original cycle as Bland drew it: no one uses our
+product → ask customers what features are missing → build the missing
+features → repeat.)

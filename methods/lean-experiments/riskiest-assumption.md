@@ -146,6 +146,7 @@ transfers beyond the request that started it.
 | **Testing on the wrong surface** | Null result, verdict "no demand" | Null-result rule: check reach before value |
 | **Faking without a comparison** | "We tried it and sales went up" | Controlled comparison or a pre-registered baseline (→ `experimentation` when traffic allows) |
 | **Learning stays local** | Effect found, feature shipped, nothing else changes | Ask what the confirmed assumption implies for strategy, not just for the request |
+| **The observation is a model's answer** | "We asked the AI what was missing and it said X" | Not an observation — a BACKGROUND guess. Find what a real user said or did, or treat the request as a preference |
 
 ## Sources & materials
 

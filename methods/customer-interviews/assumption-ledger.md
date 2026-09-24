@@ -25,7 +25,13 @@ rule — both credited in [`../../CREDITS.md`](../../CREDITS.md).*
   **BACKGROUND** (public info, desk research, landscape scans — validated
   by nobody you've talked to). The tier definitions are the same ones used
   in multi-call discovery (`methods/odi/interviewing.md`); never launder a
-  lower tier into a higher one.
+  lower tier into a higher one. **Anything an agent — or any model —
+  generated is BACKGROUND at most**: a scan, a synthesized persona, a
+  list of "likely pains," a suggested feature. INFERRED requires words a
+  real person said; CONFIRMED requires them verbatim and attributed.
+  Asking a model what customers want and recording the answer as
+  evidence is the Product Death Cycle with an AI wrapper (see
+  `docs/principles.md` §29).
 - **What would disprove it:** a concrete observation, stated before
   looking. If nothing could disprove it, it isn't an assumption — it's a
   belief you're protecting.
