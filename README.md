@@ -260,6 +260,24 @@ Completed: [Design Thinking (Stanford d.school)](docs/methodology-evaluations/de
 - **Strategy stress-tester** (Rumelt, *Good Strategy Bad Strategy*) —
   kernel-or-fluff critique of strategy docs; pressure-tests the ODI growth
   strategy recommendation.
+- **Solution prioritization & roadmapping** — the system ranks *problems*
+  (`problem-selection`) and tests *solutions* (`lean-experiments`) but has
+  no method for sequencing validated solutions across a roadmap: the
+  "conflicting solution requirements" half of rubric criterion 3.1 left
+  open by the Design Thinking evaluation. Ground it in a real method —
+  Torres's opportunity solution trees (above) as the structure, with
+  cost-of-delay / WSJF (Reinertsen) or a scored matrix as the sequencing
+  rule — never in a generic RICE prompt. Must inherit the problem
+  evidence and the experiment readouts rather than re-scoring features
+  from opinion.
+- **Stakeholder communication** — no agent helps a PM write status
+  updates, escalations, or executive decision memos; `prfaq`'s
+  narrative-over-slides discipline covers only the product vision. A
+  writing task rather than a discovery method, so outside the current
+  scope, but recurring enough in a PM's week to earn a place. Candidate
+  grounding: Amazon's six-page narrative (Bryar & Carr), the Minto
+  pyramid (*The Pyramid Principle*), and a rule that every update carries
+  the decision it asks for and the evidence tier behind each claim.
 - ~~Jobs-to-be-Done interviews~~ — covered by the ODI family
   (`odi-interviewer`).
 - ~~Survey design~~ — covered for needs-quantification by
