@@ -341,9 +341,12 @@ the property of their authors and are included for reference and attribution.
   building ____ will satisfy the job [JTBD] for [customer segment] and
   result in [KPI]* · Problem · Behavior change · In scope · Out of scope
   · Dependencies · Risks / unknowns · Success metrics & outcomes ·
-  Iteration plan) and the "minimum feature set is v1.0, not the MVP; use
-  cost of delay to decide what to postpone" rule are **Daniel O'Rorke's**
-  working notes.
+  Iteration plan) is **Daniel O'Rorke's**, in his own words; its
+  structure is similar to the option template taught by **Product
+  Institute** (founded by **Melissa Perri**), acknowledged as lineage
+  and not reproduced. The "minimum feature set is v1.0, not the MVP;
+  use cost of delay to decide what to postpone" rule is likewise
+  **Daniel O'Rorke's** working note.
 - **Donald G. Reinertsen** — *The Principles of Product Development
   Flow: Second Generation Lean Product Development* (Celeritas, 2009) —
   cost of delay as the economic basis for scheduling decisions; the

@@ -3,7 +3,9 @@
 *How to capture a solution once it has been researched and tested: the
 **option card**. An option is a high-level solution you have already
 researched and tested — not an idea, not a feature list, not a spec. The
-template's eleven fields are the PM's (Daniel O'Rorke); the field
+template's eleven fields are **Daniel O'Rorke**'s, in his own words —
+structurally similar to the option template taught by **Product
+Institute**, acknowledged as lineage and not reproduced. The field
 guidance, the gates, the comparison table and the hand-offs are this
 repo's operational extension. See
 [`../../CREDITS.md`](../../CREDITS.md).*
@@ -154,7 +156,10 @@ them).
   building ____ will satisfy the job [JTBD] for [customer segment] and
   result in [KPI]*) · Problem · Behavior change · In scope · Out of
   scope · Dependencies · Risks / unknowns · Success metrics & outcomes ·
-  Iteration plan — **Daniel O'Rorke**'s working template.
+  Iteration plan — **Daniel O'Rorke**'s working template, in his own
+  words; structurally similar to **Product Institute**'s option
+  template (*Product Management Foundations*), acknowledged as lineage
+  and not reproduced.
 - The hypothesis form descends from the lean-startup "we believe"
   hypothesis (Ries; the Wilkie format in
   [`../customer-interviews/research-and-insight.md`](../customer-interviews/research-and-insight.md)).
