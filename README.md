@@ -291,7 +291,11 @@ Completed: [Design Thinking (Stanford d.school)](docs/methodology-evaluations/de
   *Partly built:* `solution-options` now applies cost of delay at the
   **feature level within one option** (the v1.0 minimum feature set and
   its deferred list); sequencing *across* options and initiatives is
-  still open.
+  still open. Perri's rule for whatever fills it: ranking games, $100
+  exercises, MoSCoW and arbitrary weighted scoring are beginner tools,
+  and gathering stakeholder scores is consensus, not prioritization —
+  the agent must start from a stated strategy and back every score into
+  data and dollars (Arnold's benefit buckets and urgency profiles).
 - **Stakeholder communication** — no agent helps a PM write status
   updates, escalations, or executive decision memos; `prfaq`'s
   narrative-over-slides discipline covers only the product vision. A

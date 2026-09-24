@@ -1,0 +1,87 @@
+SOURCE: Joshua J. Arnold, "Understanding Value", Black Swan Farming (blackswanfarming.com/understanding-value/). Transcribed from the PDF alongside; site chrome removed. All rights remain with the author.
+
+----------------------------------------------------------------------
+
+Understanding Value
+Value, value, value. Everyone talks about it, and there is no shortage of opinions
+about what it is – but it’s hard to nail down and reach broad agreement on what
+people actually mean when they say it. Many seem afraid of attempting to
+measure or estimate the value of the opportunities that an organisation might
+pursue via various strategies and initiatives and projects. While of course many
+will focus on “delighting the customer”, or perhaps operational efficiency, at
+some point (eventually), the actions we invest our scarce resources in should
+help the organisation to sustain itself and possibly even grow.
+Given the scarcity, there’s just no getting round the fundamental problem that all
+organisations face. We can’t have it all, and at the very least, we need to decide
+where to start. Perhaps more importantly, how do we decide when to stop and
+move on to something else with more value? In order to assess opportunities and
+make difficult trade-off and priority decisions about where to focus our scarce
+resources, we really need to be able to compare opportunities on a like-for-like
+basis. We could attempt to convert everything into bananas, but given that most
+of the cost side of the equation is measured in money, perhaps that might
+provide a useful means of comparison?
+To make this easier, I’ve been developing and testing a simple framework for
+assessing the economic impact of the investment decisions we are making. It
+consists of four benefit types (or buckets) that an idea, feature or requirement
+might contribute to one or more of. Because we want to be able to compare
+between opportunities, they are necessarily focused on the  likely impact to
+revenue and costs…
+Increase Revenue
+This is the revenue associated with either increasing sales to existing customers
+or gaining new customers. This may involve increasing share of wallet, market
+share or even the size of the market itself. This could be by making changes that
+add value to existing products or services that customers are willing to pay for, or
+new products or services that either existing or new customers are willing to pay
+for. The changes you develop here are likely to be “delighting” features for either
+current customers, or new ones. This is also where “disruptive innovation”
+ occurs, enabling new business models and increasing the size of the market
+by serving new markets and undercutting others.
+Protect Revenue
+This is the revenue that is currently being received from existing customers who
+are paying for the products and services you already sell. Sustaining (and
+building a moat around) this revenue often requires ongoing improvements to at
+least keep up with competitors and maintain existing market share. The actions
+taken here are more defensive in nature, making processes faster and easier to
+use and removing any pain that might drive them to consider switching to a
+competing product or service. The changes made here are usually not
+considered valuable enough for existing customers to pay extra though. This is
+the basic maintenance of existing products and services that could be described
+as “sustaining innovations”.
+Reduce Costs
+These are where all those ideas about how to be more efficient contribute. The
+changes that add to this bucket will reduce the costs that we are currently
+incurring. Typical examples of this could be changes that speed up or automate
+processes, reducing the number of people required. It could also result in
+savings in overheads, equipment or other costs.
+Avoid Costs
+These are costs we are not currently incurring but there is some likelihood that
+we will in the future, unless some action is taken. Some examples of these might
+be the need to hire additional people to handle a new process, fines we may have
+to pay, or loss of reputation that impacts goodwill or brand value. This category
+would typically include a lot of things that many organisations might consider to
+be operational or strategic risks – often with an estimate of the probability of an
+event occurring.
+Shouldn’t we focus on customer delight rather than economics?
+This is seemingly one of the paradoxes of Product Development that many
+struggle with. We know we should be focusing on the customer but we also need
+to keep in mind the economic tradeoffs we have to make in product development.
+Ultimately, insufficient profit makes it very difficult to sustain any sort of focus on
+the customer.
+However, the risk of too much focus on the economics is relatively small and one
+could argue that it has been largely ignored for far too long. How can we possibly
+attract new revenue or protect existing revenue if we aren’t searching for
+opportunities to delight the customer? The biggest risks organisations suffer
+from is where we find opportunities to reduce costs that may ultimately impact
+the customer experience. This is particularly problematic for service
+organisations, where a more efficient operation often translates to an increase in
+Failure Demand and unhappy customers. B2B organisations have it hard too as it
+can be difficult to identify who the real customer is, and end-users tend to get a
+poor experience as they are orthogonal to the economic value-stream. At the
+very least, I’d encourage you to give it a go.
+“In the absence of information about Value, of course the system optimises
+for other things. Why should this surprise anyone?
+— Joshua J. Arnold (@joshuajames) January 5, 2014”
+Here are some tips on working out the economic benefits for your feature,
+project or initiative.
+[15]
+[16]

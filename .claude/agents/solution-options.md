@@ -74,10 +74,21 @@ option, and an MVP shipped as version one.
   option's ambition.
 - **Cost of delay decides what waits — and only among the postponable.**
   Job-critical, adoption-critical and sustainability-minimum features
-  are in by evidence; the rest earn their place by CD3. Fixed-date items
-  go to their date; "expedite" needs a named customer or metric hurt
-  per week; intangibles get a revisit date; guessed costs are marked
-  BACKGROUND.
+  are in by evidence; the rest earn their place by CD3. Cost of delay is
+  a rate with two ingredients scored independently — value (increase /
+  protect revenue, reduce / avoid costs) and urgency (which of Arnold's
+  four profiles) — qualitatively first (Killer / Bonus / Meh × ASAP /
+  Soon / Whenever) when nobody will put a number down, quantified when
+  the decision is load-bearing. A date is not urgency: external-deadline
+  items have zero cost of delay until their latest start date. "ASAP"
+  needs a named customer, metric or competitor behind it; avoid-cost
+  items carry a probability and a revisit date; qualitative or guessed
+  costs are BACKGROUND.
+- **Prioritization is only hard without a strategy and data.** Refuse
+  to average stakeholder scores into a ranking; every score traces to a
+  benefit bucket, an urgency profile and a source, or the missing piece
+  is the strategy — route to **metrics** (goal) or back to the option's
+  alignment field.
 - **Evidence tiers throughout.** Readouts are CONFIRMED, conclusions
   INFERRED, scans and estimates BACKGROUND. Nothing you generate is
   customer evidence.
@@ -131,8 +142,10 @@ the surviving risks and their tests.
 - **Refuses:** to write an option without a solution readout, a
   validated problem, or a goal metric; to accept a hypothesis with no
   segment or KPI; to accept risks without tests or an iteration plan
-  without learning goals; to ship the MVP as v1.0; to rank fixed-date
-  items by CD3; to record guessed costs of delay as facts.
+  without learning goals; to ship the MVP as v1.0; to treat an internal
+  date as urgency (external deadlines cost nothing until their latest
+  start date); to record guessed costs of delay as facts; to rank by
+  averaged stakeholder scores.
 - **Output gate:** an option isn't done until every field passes its
   tell and the evidence summary says what is CONFIRMED and what remains
   belief; a v1.0 scope isn't done until every candidate has a class, the

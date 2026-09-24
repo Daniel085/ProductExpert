@@ -1,0 +1,101 @@
+SOURCE: Melissa Perri, "Prioritization Shouldn't Be Hard", The Produx Labs (Medium), 31 Oct 2019. Transcribed from the PDF alongside; Medium chrome and author-bio blocks removed; the "Don't Do This" weighted-scoring table image is not reproduced. All rights remain with the author.
+
+----------------------------------------------------------------------
+
+A while ago, I was interviewing a VP of Product candidate for a client. They
+were on the case study portion of the interview, where they had to prioritize
+major initiatives for the company. We explained that the objective wasn’t to
+get the prioritization completely right, and it was more for us to understand
+their thought process. They had access to any people or any data they
+needed from the company.
+The candidate first went to the CEO and talked to him about the short term
+and long term goals of the company, which ended up being something like
+this:
+Grow revenue
+Reduce costs for operation
+Expand upmarket
+Then they spent a week interviewing various stakeholders in the company
+from sales to marketing to the current product managers and developers.
+They asked these stakeholders to each rank the importance of each feature
+on a scale from 1–5 in each category, and took the average of their scores. At
+the end of this, the candidate put together something that looked like the
+following:
+Don’t Do This ^
+When I saw this, I immediately told the CEO, “this is not your VP of Product. ”
+“Why?” he asked. “They helped us get some order into a very messy
+situation. We really need the help. ”
+I’m going to explain to you what I explained to him.
+When you need to hire an executive Product Manager, a CPO or a VP of
+Product, you are at a moment in your company where you have a ton of
+choices. If you’re a scale up, you can go upmarket with a new product, you
+can build that new feature in your existing product, you can roll down a
+feature that’s not being used. If you’re enterprise, you typically have a large
+portfolio of products that all need work done to them, but it has to be
+balanced with your budget.
+Providing structure around that mess is not enough. You need to have a
+framework to know if they are the right choices for your business. You need
+this person to not just prioritize, but make a product strategy.
+A senior Product person’s job is to help you create and deploy that strategy in
+a way where every team member can easily make a prioritization decision
+on a day to day basis. Instead of this candidate telling us how they were
+going to create that strategy and framework — using hard data from the
+market, customers, and financials — they took the accountability away from
+themselves and put it back on the rest of the organization. They asked them
+to prioritize the work. All they did was put it into a pretty table, with some
+arbitrary numbers. While this method looks simple and clean, they did not
+actually prioritize. They guessed. They asked the company to come to a
+consensus on what to do. They did not lead.
+Our CEO needed a leader, not a consensus builder. He waited, and got one.
+There are a lot of gimmicks out there on how to prioritize. If you do a quick
+Google search, you’ll immediately find a few of the methods we were all
+brought up on as newly minted Product Managers:
+Ranking the features from 1–10
+Giving your stakeholders $100 fake dollars and having them place them
+on what they want
+MoSCoW
+Weighted Scoring (what our candidate did above, with arbitrary scores,
+not data to back it up)
+But that’s just the thing — these are techniques I would expect a new Product
+Manager to use. And only when leadership has not set a strategy for them. In
+fact, I teach some of these concepts to new Product Managers to start
+strategically thinking about how to prioritize if they never had to before. But,
+these methods are not the end game.
+A mature product organization and senior product people should not be
+using these techniques listed above forever. They don’t give you real business
+insights. Only a product strategy will give you that. Product leaders and
+leadership in general should be setting the strategy that lets teams get rid of
+these methods and start using real data. When leaders continue to use these
+methods instead of setting strategy, that tells me they are shifting the
+accountability of prioritization from themselves onto others. That is not
+leadership.
+Good prioritization is based on cold, hard facts. When you have data and you
+have a clear strategy, prioritization becomes easy.
+For example, if your strategic intent at your company is to move upmarket
+and increase new sales by $5MM in the next year, you want to look at each of
+your products or features and ask “Which ones are specific to our upmarket
+customers? How much more will this feature help us close new sales
+compared to the other?”
+How do you get that data? By finding out which features or problems are
+preventing you from closing sales, calculating out how much the potential
+contracts were that you missed, and how many other customers are like
+those out there. And yes, this means you’ll have to (gasp!) talk to the sales
+team to figure this out.
+This is why Cost of Delay is a great prioritization technique. It involves
+backing out all decisions into hard dollar amounts. Even weighted scoring,
+that I mentioned above, can be evolved if you back-up the percentages and
+scores by data and dollars.
+In the absence of a product strategy, the most critical job function of a
+Product Leader is to set one. If you want your teams to prioritize, you need to
+provide the framework. And not just some arbitrary framework where you
+estimate a bunch of numbers, wag your finger in the air, and say “feels like a
+3, Bob” . Your people need a real strategy, based on data, and aligned to a
+company’s goals.
+So as you go into 2020 planning, ask yourself, do I have a strategy that
+enables my teams to prioritize? Do I have the infrastructure for them to pull
+data to support their prioritization?
+If the answer is no, get started now. Make this your biggest priority. Take the
+time to step back from the day-to-day craziness, consider your company’s
+current state, and where you want to go. Get help from the team to pull data
+to understand how to set good goals. Then, formulate a strategy that enables
+your people to make well-prioritized product decisions.
+Melissa Perri is the CEO of Produx Labs, a Product Management

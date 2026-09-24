@@ -354,7 +354,21 @@ the property of their authors and are included for reference and attribution.
 - **Joshua J. Arnold** (with **Özlem Yüce**) — *Black Swan Farming*:
   **CD3**, cost of delay divided by duration
   (https://blackswanfarming.com/cost-of-delay-divided-by-duration/);
-  the same idea appears as WSJF in SAFe (**Dean Leffingwell**).
+  the same idea appears as WSJF in SAFe (**Dean Leffingwell**). Three
+  articles preserved at `methods/lean-experiments/materials/`:
+  *"Understanding Value"* (Increase Revenue · Protect Revenue · Reduce
+  Costs · Avoid Costs), *"Urgency Profiles"* (four profiles; external
+  deadlines as zero cost of delay until the latest start date), and
+  *"Qualitative Cost of Delay"* (Killer / Bonus / Meh × ASAP / Soon /
+  Whenever; cost of delay as a rate; dates shift urgency). They remain
+  the author's property.
+- **Melissa Perri** — *"Prioritization Shouldn't Be Hard"*, The Produx
+  Labs (Medium), 31 Oct 2019 — prioritization needs a strategy and data;
+  scoring games and stakeholder averages are beginner tools and
+  consensus, not leadership; cost of delay backs decisions into dollars.
+  Preserved at
+  `methods/lean-experiments/materials/MelissaPerri-PrioritizationShouldntBeHard-2019.pdf`
+  with a transcription under `materials/extracted/`.
 - **Gus Power** — "minimum sustainable product" (see the MVI entry
   above).
 - The field guidance and tells, the comparison table, the five feature

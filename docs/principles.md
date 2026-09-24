@@ -323,10 +323,17 @@ the MVP (which learned) but version one (which delivers the job
 end-to-end, at lovable quality, to a segment that includes people who
 won't forgive). Job-critical, adoption-critical and sustainability
 features are in by evidence; everything else earns its place by **cost
-of delay divided by duration**, fixed-date items go to their date, and
-what is deferred is recorded with what the delay costs — so the roadmap
-argument starts from numbers. *(Reinertsen; Arnold's CD3; the option
-template.)*
+of delay divided by duration**. Cost of delay is a *rate* with two
+ingredients that multiply — value (increase revenue · protect revenue ·
+reduce costs · avoid costs) and urgency (how the value decays with
+time) — scored independently, qualitatively first if need be (Killer /
+Bonus / Meh × ASAP / Soon / Whenever). A date does not make a feature
+urgent: its cost of delay is zero until the latest start date. What is
+deferred is recorded with what the delay costs, so the roadmap argument
+starts from numbers — and, per Perri, from a strategy; arbitrary scores
+averaged across stakeholders are consensus, not prioritization.
+*(Reinertsen; Arnold's benefit buckets, urgency profiles and CD3; Perri;
+the option template.)*
 
 ---
 

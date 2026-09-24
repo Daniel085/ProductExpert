@@ -1,0 +1,99 @@
+SOURCE: Joshua J. Arnold, "Urgency Profiles", Black Swan Farming (blackswanfarming.com/urgency-profiles/). Transcribed from the PDF alongside; site chrome removed; the four profile charts are not reproduced. All rights remain with the author.
+
+----------------------------------------------------------------------
+
+Urgency Profiles
+In order to understand the urgency of ideas, we need to understand the life-cycle
+of benefits, and the effect of being late. The effect of delay can be different
+depending on what the type of benefits are, and whether there is any influence
+from the wider market. The two main variables to consider are a) the length of
+the lifecycle of benefits (how quickly the benefits ramp up and down) and b)
+whether the peak is affected by delay or not.
+1) Short life-cycle; Peak affected by delay
+In some cases the life-cycle of benefits is relatively short. Benefits ramp up to a
+peak and quickly decline again. Sometimes this is because the value-add quickly
+becomes standard for customers (rather than “delighting”). This is common in
+consumer electronics, where the feeds and speeds that are top of the line and
+differentiating today will be bargain basement stuff in months rather than years.
+In other examples, the market is always creating new alternatives, moving on
+quickly to the new “new thing”. The fashion industry is a good example of this,
+which is why Zara competes by having very short lead-time from spotting the
+new look on the catwalk, to on the hangers in the store.
+With these types of benefits, if you are late, the peak benefits are affected, as
+shown below.
+2) Long life-cycle; Peak affected by delay
+Another urgency profile is where there is a first-mover advantage, making it
+difficult for latecomers to recover position. This can be due to barriers to entry or
+the advantage that scale can bring. Extreme examples of this might be cola-
+flavoured soft-drinks, PC operating systems and other products or services for
+which the market consolidates down to one or two major players. These products
+benefit from some form of preferential attachment mechanism or “network
+effect”.
+3) Long life-cycle, peak unaffected by delay
+A third urgency profile is where the lifecycle benefits are long-lived. Benefits
+ramp up to a peak, and are sustained over a long period. In most established
+organisations this is the most common urgency profile you will find. A typical
+example is where we are automating a process or improving efficiency, reducing
+time or cost. The ramp up and peak of benefits is effectively the same, whether
+the solution is late or not. This is also the easiest urgency profile for which to
+calculate the Cost of Delay, as it approximates nicely with a simple parallelogram.
+An example, to illustrate:
+“Example 1: Automating a process
+This new feature is required to automate part of the invoicing process in order
+to improve invoice accuracy. The value of improving invoice accuracy is
+expected to come from:
+· Reduction in number of customers paying late, providing cash that can be
+invested elsewhere and reducing the Accounts Receivable Turnover. This is
+estimated to be worth an additional $4,000,000 per annum, categorized as
+“Increase Revenue” benefit type.
+· Reduction in number of calls currently costing about 5 FTEs at $20k per FTE.
+This is worth $100,000 per annum and categorized as “Reduce Cost” benefit
+type.
+Total benefit gained from this feature is equal to $4.1million per annum.
+Delaying this requirement by 1 week is worth ~$79,000 per week.
+If the feature were available now it would be generating ~$79,000 per week.
+If this feature was delayed by four weeks then the Delay Cost incurred is
+calculated as $79,000 times 4 weeks which adds up to ~$316,000.”
+4) Impact of External deadline
+Where requirements have a specific deadline the Urgency Profile is slightly
+different. The benefits profile itself can look like any of the above three, but the
+benefits only ramp up around a certain date. As a result, the Cost of Delay is zero
+until the point where you need to start development – to avoid incurring any delay
+cost.
+For example, consider a product or service oriented around a specific
+seasonality. Let’s say you’re in the business of selling Christmas cards. Sales for
+this product only start in late November, reaching a peak in mid-December
+before dropping off a cliff in the last few days before the 25th. In this case, the
+benefits life-cycle is short and the peak is affected by delay, so it looks
+something like the curves shown in 1) above. Where it differs is that the date at
+which you need to have a product ready to go to market is relatively fixed.
+Another extreme example where the benefits have an extremely short life-cycle
+and a peak that is affected by delay might be something related to a single-day
+event, like Red Nose Day: if you’re building functionality for processing donations
+faster, it had better work on the one day in the year that donations are flooding in.
+To calculate the point at which the Cost of Delay kicks in, we need to consider
+the likely lead-time, ensuring that the solution is delivered just-in-time, rather
+than too early or too late.  Here’s an example, but with a long benefits life-cycle,
+and peak unaffected by delay:
+“Example 2 – Impact of an external deadline:
+There is a new regulation that will be effective from 1st of December 2013. As
+of December, front-office staff will need to prepare extra documentation in
+order to meet this regulation. This requirement is to automate the new
+documentation process so that the front-office employees can produce the
+documentation automatically.
+The requirement will avoid the additional manual processing resource, which
+is estimated to cost about 20 FTEs at $20k per FTE. The benefit type is
+categorized as “Avoid Cost”.
+20FTE x $20k= $400,000 per annum " $0.4m/52 weeks = $7,692 per week
+Let’s say it is 1st of June 2013 right now, which means we have got 5 months
+to do something about this requirement. It’s going to take about 13 weeks[24]
+to deliver this new feature. If we start developing the solution now it will be
+delivered in September, but we don’t need it until December.
+We deal with this by calculating when we need to start developing the
+solution by subtracting the duration from the external deadline. In this case
+we need to start development by the 1st of September at the latest (13 weeks
+before the external deadline of December 1st).
+Before the 1st of September: Cost of Delay is $0 per week.
+After the 1st of September: Cost of Delay is ~$7,700 per week.”
+Hopefully the discussion of these profiles provide some help when considering
+the impact delay can have on value. If I’ve missed anything, let me know.
