@@ -296,10 +296,26 @@ the property of their authors and are included for reference and attribution.
   photographers example; the manual-Groupon example is common lore of
   the same lesson. **Eric Ries** — *The Lean Startup* (MVP, concierge
   MVP). Not reproduced here.
+- **Wikipedia contributors** — *"Minimum viable product"*, Wikipedia,
+  retrieved 2026-09-24; text under **CC BY-SA 4.0**, wikitext preserved
+  at `methods/lean-experiments/materials/extracted/wikipedia-minimum-viable-product.txt`.
+  Credits the term to **Frank Robinson** (2001), popularized by **Steve
+  Blank** and **Eric Ries** (*Minimum Viable Product: a guide*, 2009;
+  *The Lean Startup*).
+- **The eight assumption questions** (problem for us; target audience;
+  opportunity size; alternatives and market; constraints; go-to-market;
+  strategic KPIs; critical success factors), the "fastest path to
+  insight" framing, the two MVP failure modes, the four
+  learning-alignment questions and the four maxims are **Daniel
+  O'Rorke's** working notes.
+- The feature-request breakdown protocol and its null-result rule were
+  **informed by licensed training material that is deliberately not
+  reproduced or paraphrased** anywhere in this repository.
 - The "trying to prove" chooser, the catalogue's
   prerequisite/measure/bias/stop structure, the MVP–MLP–MVI table, the
-  experiment card, the kata record template and the anti-patterns are
-  **this repo's operational extensions**.
+  experiment card, the assumption-chain template, the MVP card, the
+  kata record template and the anti-patterns are **this repo's
+  operational extensions**.
 
 ---
 

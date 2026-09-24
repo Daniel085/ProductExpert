@@ -41,6 +41,8 @@ ProductExpert/
 │   │   └── materials/               #   Product Institute lesson; Strategyzer canvas (PDFs)
 │   ├── lean-experiments/
 │   │   ├── pre-build-experiments.md #   chooser, generative/evaluative, catalogue, card
+│   │   ├── riskiest-assumption.md   #   feature request → 8 questions → chain → riskiest link
+│   │   ├── minimum-viable-product.md #  MVP = fastest path to insight; failure modes; MVP card
 │   │   ├── product-kata.md          #   Toyota Kata → Product Kata; record template
 │   │   └── materials/               #   Kromer, Perri, Matts, BofA case, Gusto podcast
 │   ├── problem-selection/
@@ -295,6 +297,8 @@ Knowledge shared by several agents is written exactly once:
 | Value proposition (functional + emotional jobs → statement; Strategyzer canvas; fit) | `methods/jtbd/value-proposition.md` | lean-experiments, prfaq, odi-interviewer |
 | Pre-build experiments (chooser, generative/evaluative, catalogue, MVP/MLP/MVI, card) | `methods/lean-experiments/pre-build-experiments.md` | lean-experiments, experimentation (triage) |
 | Product Kata (rhythm, coaching questions, record template) | `methods/lean-experiments/product-kata.md` | lean-experiments |
+| Feature-request breakdown (eight assumption questions, chain, riskiest link, null-result rule) | `methods/lean-experiments/riskiest-assumption.md` | lean-experiments, ideation, prfaq |
+| MVP as learning vehicle (canon, failure modes, alignment questions, maxims, MVP card) | `methods/lean-experiments/minimum-viable-product.md` | lean-experiments |
 | Requirement intake (constraint / theory / hypothesis) | `methods/jtbd/requirements-are-hypotheses.md` | customer-interviews, odi-interviewer, prfaq |
 | Brainstorming modes, divergence rules, landscape-scan protocol | `methods/ideation/brainstorming.md` | ideation |
 | Assumption-ledger template (categories, tiers, ranking, lifecycle) | `methods/customer-interviews/assumption-ledger.md` | ideation, customer-interviews, problem-selection, prfaq, experimentation |

@@ -56,6 +56,10 @@ and the metric. Common answers, in the order they usually arrive:
 | The effect is causal at scale | Controlled comparison, pre-registered | A/B test → `experimentation` |
 
 If you cannot fill the first column, you are not ready to run anything.
+When the starting point is a **feature request** rather than a belief,
+get to that sentence through the breakdown protocol in
+[`riskiest-assumption.md`](./riskiest-assumption.md): observation →
+eight questions → assumption chain → the one riskiest link.
 
 ## 3. Generative or evaluative? (Kromer's axis)
 
@@ -238,7 +242,10 @@ measure · known biases · when to stop.
 
 ## 5. Choose your minimum: MVP · MLP · MVI
 
-Three words that get confused, and the context that decides:
+Three words that get confused, and the context that decides. What any
+of them is *for* — the fastest path to insight, never a small v1 — and
+how to align one with a learning goal is in
+[`minimum-viable-product.md`](./minimum-viable-product.md).
 
 | You are… | The minimum is a… | What it means |
 |----------|-------------------|---------------|

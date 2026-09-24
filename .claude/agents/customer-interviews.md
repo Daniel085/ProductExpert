@@ -10,7 +10,10 @@ description: >-
   "Talking to Humans" and Steve Blank's Customer Development. Trigger it when the
   user mentions customer interviews, customer discovery, validating an idea, an
   interview guide, making sense of interview notes, or a requirements list /
-  feature requests / stakeholder asks that need tracing back to real problems.
+  feature requests / stakeholder asks that need tracing back to real problems
+  (when the problem behind a request is already validated and the question
+  is whether THIS solution is right, lean-experiments breaks the request
+  down to its riskiest assumption instead).
   It prepares and synthesizes; it does NOT conduct interviews. This is the OPEN-ENDED,
   qualitative track (is the problem real? who has it?); for structured
   ODI/JTBD discovery — job maps, desired outcome statements,

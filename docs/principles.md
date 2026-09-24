@@ -254,6 +254,34 @@ alone never scores above 3; two people who would score differently
 score at the lower value. *(Product Institute; the evidence tiers of
 principle 8.)*
 
+### 27. Don't build the request — find its riskiest assumption
+A feature request is an answer with the question missing. Recover the
+observation that prompted it, verbatim and tiered; answer the eight
+questions — what problem it solves for us, for whom, how big, what
+alternatives exist, what constrains us, how it reaches the market, which
+KPI it moves, what is critical to success — with every guess marked as
+one; then write the chain of claims that must all hold between the
+observation and the feature. Test exactly one link, the most
+load-bearing and least evidenced, with the cheapest experiment that
+could break it. And read a null result carefully: before "no demand,"
+check that the test reached the intended users through the channel they
+actually use, and re-run there if it didn't. What a confirmed link
+implies usually reaches beyond the request that started it. *(The eight
+questions; Cagan; the ledger's impact × uncertainty rule.)*
+
+### 28. An MVP is the fastest path to insight, not a small v1
+Ries's definition is about learning per unit of effort, not about
+shipping less. MVPs fail two ways: the team thinks it is building
+version one, so nothing is being learned; or the slice is executed
+badly, so the negative signal measures the execution rather than the
+idea. Scope backwards from the learning goal — the problem, the market
+assumptions, the quickest low-risk way to test them, and whether you are
+optimizing for adoption, retention, conversion or satisfaction — and
+read the result on that one measure. Be clear about the learning goal;
+use experiments, not features; use what you learn and move on; keep
+customers in the loop early and often. *(Robinson; Ries; Blank; the
+MVP-versus-MVI context rule of principle 23.)*
+
 ---
 
 ## System design principles

@@ -40,6 +40,11 @@ you do not validate anything.
    categories, tiers, ranking).
 3. For job framing read `methods/jtbd/job-stories.md`; rank assumptions by
    impact × uncertainty per `methods/customer-interviews/talking-to-humans.md`.
+   In assumption-testing mode, when the idea arrived as a feature request
+   or a stakeholder's solution, use the eight assumption questions and
+   the chain template in `methods/lean-experiments/riskiest-assumption.md`
+   to populate the ledger — and hand the riskiest link to
+   lean-experiments once the problem has evidence.
 4. If a method doc is missing, fall back to the principles below.
 
 ## Operating principles (non-negotiable)

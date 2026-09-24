@@ -26,6 +26,8 @@ Start from where you are:
 | "How do we test this before we build it?" / "concierge or Wizard of Oz?" | `lean-experiments` | Experiment card: family, trying-to-prove, Expected / Would-disprove |
 | "Run this initiative as a kata" / "what's our current condition?" | `lean-experiments` | Product Kata record: direction → target → obstacle → step → learned |
 | "Write / check our value proposition" | `lean-experiments` | Functional + emotional jobs → statement; Strategyzer canvas from evidence |
+| "The CEO / a customer wants feature X — should we build it?" | `lean-experiments` | Breakdown: observation → eight questions → assumption chain → riskiest link → its test |
+| "Let's ship an MVP" / "is this an MVP or a v1?" | `lean-experiments` | MVP card: learning goal, why not a cheaper test, optimizing-for and its one measure |
 | "Design this A/B test properly" / "test results are in — ship it?" | `experimentation` | Pre-registration, or trust-checked readout + decision |
 | "What should our north star / KPIs be?" / "audit our dashboard" | `metrics` | Metric tree, OMTM, vanity audit, tracking plan |
 | "We've been handed a requirements list / stakeholder asks" | `customer-interviews` | De-requirements it: reclassify each ask, trace to problems, then discover |
@@ -203,7 +205,15 @@ landing page, Wizard of Oz, minimum lovable product: falsify a defined
 solution) — and writes the **experiment card** with *Expected* and *Would
 disprove* filled in before you run it. You run it with real customers.
 Readout compares to those lines and ends persevere / pivot / kill / next
-experiment. In **kata** mode it keeps an initiative's record cycle by
+experiment — and a null result gets one question first: did the test
+reach the intended users where they actually are? Hand it a **feature
+request** and it won't scope it; it asks what was seen or heard that
+prompted it, answers the eight assumption questions (guesses marked),
+writes the chain from observation to feature, names the single riskiest
+link, and designs the cheapest test of that link — often you playing the
+feature by hand behind an existing surface. Say **"MVP"** and it asks
+for the learning goal and the one measure you'll read it on before it
+lets you scope anything. In **kata** mode it keeps an initiative's record cycle by
 cycle — and the first cycles are measurement, because "we don't know the
 current condition" is the first obstacle. Expect it to refuse a concierge
 test as validation, a manual back-end with no automation vision, or an

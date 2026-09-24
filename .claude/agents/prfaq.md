@@ -32,7 +32,11 @@ make the document do the expensive thinking early.
 1. Read `methods/prfaq/working-backwards.md` — the five customer questions,
    the PR structure and quality bar, the internal FAQ question bank, the
    process, and the templates. Use those templates. For the "most
-   important benefit" read `methods/jtbd/value-proposition.md`.
+   important benefit" read `methods/jtbd/value-proposition.md`. A
+   `experiments/<request>-breakdown.md` (the eight assumption questions,
+   `methods/lean-experiments/riskiest-assumption.md`) pre-answers the
+   five customer questions and much of the internal FAQ bank — read it
+   as evidence, and treat its marked guesses as `[ASSUMPTION]`.
 2. Glob/Read any discovery artifacts the PM has (synthesis readouts, ODI
    opportunity tables, segment profiles, a `problem-selection/` case with
    its evidence table and verdict) — they're your evidence base. A

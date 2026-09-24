@@ -14,6 +14,7 @@ authors.
 | `ProduxLabs-Ep200-MinimalLovableProduct-TomerLondon.pdf` → `extracted/produxlabs-ep200-minimal-lovable-product.txt` (raw) | Product Thinking podcast ep. 200, Melissa Perri with Tomer London (Gusto), Dec 2024 | Minimum *lovable* product; "what are we trying to prove"; the manual back-end with an automation vision; grow-only-while-unit-economics-improve; functional / intuitive / delightful; killing QSEHRA |
 | `BusinessInsider-InsideStoryAmazonEcho-Kim2016.pdf` → `extracted/businessinsider-inside-story-amazon-echo.txt` | Eugene Kim, Business Insider, 2 Apr 2016 | Amazon Echo / Alexa: Wizard-of-Oz tests with satisfaction reports (50 testers, varied latency and phrasing); the reported one-second latency bar and the sub-1.5 s result; music as the engagement hook |
 | `extracted/wikipedia-wizard-of-oz-experiment.txt` (wikitext, CC BY-SA) | Wikipedia, "Wizard of Oz experiment", retrieved 2026-09-22 | The method's HCI origin (Kelley c. 1980; Ford; Munro & Norman; Cross) and the wizard-replaced-by-code iteration. No Amazon mention |
+| `extracted/wikipedia-minimum-viable-product.txt` (wikitext, CC BY-SA) | Wikipedia, "Minimum viable product", retrieved 2026-09-24 | Definitions (Robinson 2001; Ries; Blank); MVP as business-hypothesis experiment; testing; not "release early, release often"; the criticism section (imitation, reputation, app-store switching) |
 
 Also referenced but **not** attached here:
 
@@ -26,6 +27,12 @@ Also referenced but **not** attached here:
   Alexa** story above (now preserved). Kromer's article separately cites
   **CardMunch**'s use of Amazon's Mechanical Turk as its wizard — a
   different Amazon connection.
+
+Deliberately **absent**: the training-course example that informed the
+feature-request breakdown protocol
+([`../riskiest-assumption.md`](../riskiest-assumption.md)). It is
+licensed material and is neither reproduced nor paraphrased anywhere in
+this repo; only the generalizable rules it illustrates are recorded.
 
 Add your own experiment cards, kata records and post-mortems too — the
 agent reads `.md`, `.txt` and (via `extracted/`) `.pdf`. When you add a

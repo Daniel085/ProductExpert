@@ -169,7 +169,16 @@ and *Would disprove* written before the run. Runs the **Product Kata**
 (Perri, from Toyota Kata) as the rhythm for an initiative: direction →
 current condition → obstacle → small step → learned → re-measure. Also
 writes **value propositions** — functional + emotional jobs → "We [deliver
-outcome] by [solving key job]" — on the Strategyzer canvas. Not A/B tests
+outcome] by [solving key job]" — on the Strategyzer canvas. When the
+input is a **feature request**, it doesn't build it — it breaks it down:
+the observation behind it, the **eight assumption questions** (problem
+for us · audience · opportunity · alternatives · constraints ·
+go-to-market · KPIs · critical success factors), the assumption chain,
+the one **riskiest assumption**, and its cheapest test; a null result is
+checked for reach before it is read as "no demand." Treats the **MVP**
+as the fastest path to insight, never a small v1: no learning goal, no
+MVP; scoped backwards from the one thing to learn and the one measure
+(adoption · retention · conversion · satisfaction). Not A/B tests
 (`experimentation`), not problem validation.
 Methods: [`methods/lean-experiments/`](methods/lean-experiments/) ·
 [`methods/jtbd/value-proposition.md`](methods/jtbd/value-proposition.md)
