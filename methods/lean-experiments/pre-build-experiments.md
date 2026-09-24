@@ -4,8 +4,10 @@
 from **Tristan Kromer** (Wizard of Oz vs. concierge; generative vs.
 evaluative), the **Bank of America "Keep the Change"** case (concept
 test), **Tomer London / Gusto** on the minimum *lovable* product and the
-manual back-end, **Chris Matts** on MVP vs. MVI, and **Paul Graham**'s
-"do things that don't scale" — sources in [`./materials/`](./materials/).
+manual back-end, **Chris Matts** on MVP vs. MVI, **Paul Graham**'s
+"do things that don't scale", **Nielsen Norman Group** on prototype
+fidelity, and **Patrick Vlaskovits** on the "faster horse" myth — sources
+in [`./materials/`](./materials/).
 The experiment card, the chooser, and the gates are this repo's
 operational extension. The iteration rhythm lives in
 [`product-kata.md`](./product-kata.md). See
@@ -38,6 +40,33 @@ operational extension. The iteration rhythm lives in
    user in it. The product came from watching a mother round up her
    checkbook. Solve the user's need in a way that serves the business
    goal; never the reverse.
+
+## 1b. Customers can't hand you the solution — so test it
+
+The line usually pinned on Henry Ford — *if I'd asked people what they
+wanted, they'd have said a faster horse* — is apocryphal: Patrick
+Vlaskovits traced it for HBR (2011) and found no record of Ford saying
+it; the earliest appearances are from around 2001–02, and Snopes (2025)
+reached the same conclusion. Two things are still true, and they pull
+in opposite directions:
+
+- **Customers describe their problem in the vocabulary of today's
+  solutions.** "Faster horse" is a perfectly good statement of the job
+  (get there sooner) wrapped in the only solution the speaker has seen.
+  Bank of America's customers could not have asked for Keep the Change;
+  they could be watched rounding up their checkbooks. Discovery finds
+  the job; it rarely hands you the design.
+- **Ignoring customers is not the moral.** Vlaskovits's point is that
+  Ford's actual contempt for customer opinion later cost him the market
+  when buyers wanted more than a black Model T. Ford's success was in
+  reading the *job* (affordable, reliable transport), not in refusing
+  to listen.
+
+So the solution is validated the same way the problem was — by
+behaviour, not by asking. "Would you use this?" is the faster-horse
+question in reverse. Put the solution (or a faithful fake of it) in
+front of the job executor and watch what they do with it: that is what
+every card in the catalogue below is for.
 
 ## 2. Know what you are trying to prove
 
@@ -228,17 +257,128 @@ measure · known biases · when to stop.
   stop and build the back-end before selling more. No fixed cap; a
   required trend.
 
-### Prototype / usability test *(evaluative — can they use it)*
-- Clickable or paper prototype in front of the job executor doing a real
-  task. Tests **usability**, not desirability — a smooth prototype of an
-  unwanted product tests nothing that matters. Roadmap: a dedicated
-  usability-testing method (Krug) is planned; until then, run it as an
-  evaluative card here.
+### Clickable prototype *(evaluative — is the flow understandable and wanted)*
+- **What it tests:** whether the job executor can find their way through
+  the intended flow and whether the *concept behind the screens* draws
+  them — comprehension, navigation, information hierarchy, and (with a
+  commitment question at the end) desirability of what the screens
+  promise.
+- **How:** linked screens with no back-end — paper, wireframes, or a
+  design-tool prototype — walked by a real user on a real task while
+  you watch. Fidelity is a choice on three axes (visual, content,
+  interactivity — NN/g): **low fidelity** for early, fast, many-variant
+  tests of flow and concept; **high fidelity** when the question is a
+  specific component, hierarchy, legibility or engagement. Choose the
+  lowest fidelity that can answer the question; a static screen with a
+  human "responding" to taps is often enough.
+- **Prerequisites:** a defined task from the job map; a solution
+  hypothesis specific enough to draw; the job executor, not a proxy.
+- **Measure:** task completion and where they hesitate or misread;
+  their words for what they think it does; a commitment ask ("would you
+  switch / pay / start next week?") if desirability is in question.
+- **Bias:** a polished prototype invites praise for the polish; low
+  fidelity keeps feedback on substance. It cannot test *value delivered*
+  — nothing happens when they click — so a smooth prototype of an
+  unwanted product tests nothing that matters. And it is the test most
+  exposed to the faster-horse trap: users react to what they are shown.
+- **Best suited for:** interaction and concept questions before build;
+  cheap comparison of two or three flows; stakeholder alignment on what
+  "it" is. *Roadmap:* a dedicated usability-testing method (Krug) is
+  planned; run it as an evaluative card here until then.
+
+### Functional prototype *(evaluative — does the mechanism deliver the outcome)*
+- **What it tests:** whether the core mechanism actually produces the
+  customer's outcome on real data, in real conditions — the technical
+  hypothesis (can it work) and the value hypothesis (does it help)
+  together.
+- **How:** a working slice of the capability, ugly and unscalable: a
+  script, a spreadsheet model, a single hard-coded path, a
+  hand-assembled integration. Given to a few job executors to use on
+  their own cases for days or weeks, not minutes. Where a human can
+  stand in for the mechanism, prefer a Wizard of Oz (above); build a
+  functional prototype when the mechanism itself is the unknown (an
+  algorithm, a data pipeline, a device) or when real-time behaviour is
+  the point.
+- **Prerequisites:** a validated problem; a value proposition; a
+  measure of the outcome the mechanism must move; the engineering
+  hard-part named (knowledge-gap area 4).
+- **Measure:** the outcome metric on real cases; repeat use; what users
+  did around the prototype's gaps (their workarounds are the spec);
+  the technical numbers (accuracy, latency, failure modes) against the
+  bar the value needs.
+- **Bias:** early adopters forgive ugliness — good; but a prototype
+  that is *too* rough measures its own bugs, not the idea (the second
+  MVP failure mode). Keep the mechanism's slice at a quality where a
+  negative result is about the mechanism.
+- **Best suited for:** feasibility-plus-value questions; products whose
+  value is in the engine rather than the interface; things that cannot
+  be faked by a human at acceptable speed.
+
+### API access / developer preview *(evaluative — is the capability itself the value)*
+- **What it tests:** whether job executors want the *capability* badly
+  enough to integrate it themselves before any interface exists — and,
+  for developer or partner customers, whether the capability fits their
+  workflow at all.
+- **How:** expose the mechanism as an endpoint, a CLI, a data export or
+  a sandbox with keys, docs and a channel for questions; invite a
+  handful of technical users or partners; let them build against it.
+  Stripe's early demand signal was developers integrating a bare
+  payments API from a minimal site; many AI products today ship the
+  model behind an API before any product surface.
+- **Prerequisites:** a functional mechanism (above); a segment that can
+  integrate; support capacity for the questions integration raises;
+  clear terms on data and stability.
+- **Measure:** integration attempts started and completed;
+  time-to-first-call; calls per active integrator over time (retention
+  of the integration); what they built with it — which reveals the jobs
+  you didn't know about; questions and workarounds in the support
+  channel (that log is the product spec).
+- **Bias:** technical early adopters over-represent tinkering; count
+  integrations that reach production or real use, not sign-ups. Silence
+  is a finding: a capability nobody bothers to wire up is not the value.
+- **Best suited for:** developer, platform and partner products (see
+  `odi-interviewer`'s partner and developer discovery modes); testing
+  whether the value is in the capability rather than the interface;
+  learning the real use cases before designing a UI for the wrong one.
 
 ### A/B test *(evaluative — causal effect at scale)*
-- Requires a live product, traffic, and a randomizable unit. Hand the
-  belief to the **experimentation** agent, which owns pre-registration,
-  power, trust checks and readout.
+- **What it tests:** that a specific change *causes* a measured change
+  in a metric, with the size estimated and the trust checks passed.
+- **Prerequisites:** a live product, enough traffic for the effect size
+  you care about, a randomizable unit, and a pre-registered metric and
+  decision boundary. Hand the belief to the **experimentation** agent,
+  which owns pre-registration, power, trust checks and readout.
+- **Best suited for:** the *last* question, not the first — an
+  optimization or a variant of a solution whose value is already
+  evidenced; comparisons where the difference is small enough to need
+  statistics; guarding a rollout. It cannot tell you *why*, it cannot
+  test a solution that isn't built, and a null result on an unreached
+  segment is a reach failure ([`riskiest-assumption.md` §4](./riskiest-assumption.md)).
+
+## 4b. Choosing the test through the kata
+
+The Product Kata ([`product-kata.md`](./product-kata.md)) names one
+**obstacle** per cycle. The obstacle's *type* picks the test; the test's
+cost and speed are then compared against what the obstacle is costing
+you (the "cost of not knowing"). Read the rows as *the obstacle in the
+way now → the cheapest test that removes it*:
+
+| The obstacle is… | Type | Cheapest test that removes it | Reach for the next one when… |
+|------------------|------|-------------------------------|------------------------------|
+| We don't know what the solution should be | generative | Concierge; interviews with a job map | You can write the solution as a step list |
+| We don't know if they want the promise | evaluative · desirability | Concept test; landing / smoke test | Commitment shows up (or clearly doesn't) |
+| We don't know if they'd understand or use the flow | evaluative · usability | Clickable prototype (lowest fidelity that answers it) | Task completion on the core path |
+| We don't know if the mechanism delivers the outcome | evaluative · feasibility + value | Wizard of Oz if a human can stand in; functional prototype if the mechanism is the unknown | Outcome metric moves on real cases |
+| We don't know if the capability alone is valued | evaluative · value-vs-interface | API access / developer preview | Integrations reach real use |
+| We don't know if a narrow real version earns love | evaluative · product-market fit | Minimum lovable product with manual back-end | Love signals in the slice |
+| We don't know the size of the effect / which variant | evaluative · causal | A/B test (→ `experimentation`) | Pre-registered boundary is met or missed |
+| We don't know the current condition | measurement | Instrument and count (MVI's first step) | A baseline exists |
+
+Two kata rules apply to the choice. **Steps take a week or less** — if
+the cheapest test on the row is bigger than that, break it down or pick
+the row above it. **Every step names its measure** — the "reach for the
+next one when" column is that measure; write it on the card as
+*Expected* before running.
 
 ## 5. Choose your minimum: MVP · MLP · MVI
 
@@ -305,6 +445,9 @@ generative/evaluative need; the pass/fail lines are on the card.
 | **Slice by what's easy** | The MVP is whatever the team could build in a sprint | Slice by what you are trying to prove |
 | **No kill line** | Experiment "still running" at month five | *Would disprove* written up front; time-box; Gusto killed at 4–6 months |
 | **Solving the business's problem directly** | "Increase enrollment" → a sign-up promotion | Find the user need that, served, moves the business metric |
+| **Asking instead of testing** | "We showed them the mockup and they said they'd use it" | Faster-horse in reverse; get a commitment or a behaviour, not an opinion |
+| **Prototype fidelity mismatch** | Pixel-perfect prototype to test a flow; paper sketch to test legibility | Lowest fidelity that answers the question (NN/g's three axes) |
+| **A/B test as the first test** | Building the feature to A/B it | A/B is the last question; test the solution's value before it exists |
 | **The Product Death Cycle, either version** | No one uses it → ask customers (or a model) which features are missing → build them → repeat | Missing-feature lists are solution guesses; go back to the problem: talk to users, understand the job, then decide what (if anything, and if AI) solves it |
 
 ## 8. Cases, briefly
@@ -415,6 +558,19 @@ generative/evaluative need; the pass/fail lines are on the card.
   lesson. Not reproduced here.
 - **Eric Ries**, *The Lean Startup* — the MVP and concierge-MVP framing
   the sources above respond to.
+- **Patrick Vlaskovits**, *"Henry Ford, Innovation, and That 'Faster
+  Horse' Quote"*, Harvard Business Review, 29 Aug 2011 — the quote is
+  unattested before c. 2001–02; Ford's later disregard for customers
+  cost him. **Snopes** (23 Feb 2025) independently found no proof Ford
+  said it. Neither reproduced here.
+- **Nielsen Norman Group**, *"UX Prototypes: Low Fidelity vs. High
+  Fidelity"* — fidelity on three axes (visual, content, interactivity);
+  low fidelity for fast, many-variant flow and concept tests; high
+  fidelity for specific components, hierarchy, legibility, engagement.
+  Not reproduced here.
+- **Stripe**'s API-first origin (developers integrating a bare payments
+  API from a minimal site) is widely reported by its founders; cited as
+  common knowledge, not from a preserved source.
 - The "trying to prove" chooser (§2), the catalogue's prerequisite /
   measure / bias / stop structure (§4), the MVP-MLP-MVI table (§5), the
   experiment card (§6) and the anti-patterns (§7) are this repo's

@@ -120,6 +120,9 @@ opportunity-solution tree only if the PM asks (note the Ulwick/Torres
 - The riskiest assumption is about the **solution** and the problem
   already has evidence → **lean-experiments** designs the cheapest test
   the ledger only sketched (concept test, concierge, Wizard of Oz).
+- Vocabulary: your "options" are untested candidates. A *solution
+  option* (**solution-options**) is one that has survived experiments;
+  never hand a brainstorm option to that agent as if it were one.
 - "How would we measure this?" surfaces → **metrics**.
 - Problem exploration ends with **several candidate problems** and the
   question becomes which one to pursue → **problem-selection**, passing

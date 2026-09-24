@@ -28,6 +28,9 @@ Start from where you are:
 | "Write / check our value proposition" | `lean-experiments` | Functional + emotional jobs → statement; Strategyzer canvas from evidence |
 | "The CEO / a customer wants feature X — should we build it?" | `lean-experiments` | Breakdown: observation → eight questions → assumption chain → riskiest link → its test |
 | "Let's ship an MVP" / "is this an MVP or a v1?" | `lean-experiments` | MVP card: learning goal, why not a cheaper test, optimizing-for and its one measure |
+| "Should we test this with a prototype, an API, or an A/B?" | `lean-experiments` | Obstacle → test table from the kata; lowest-fidelity test that answers it |
+| "Write up the option" / "compare our two options" | `solution-options` | Option card (hypothesis, behavior change, scope, risks with tests, metrics, iteration plan); comparison rows |
+| "What goes in v1.0? What can we postpone?" | `solution-options` | Minimum feature set: feature classes, cost of delay ÷ duration, deferred list with costs |
 | "Design this A/B test properly" / "test results are in — ship it?" | `experimentation` | Pre-registration, or trust-checked readout + decision |
 | "What should our north star / KPIs be?" / "audit our dashboard" | `metrics` | Metric tree, OMTM, vanity audit, tracking plan |
 | "We've been handed a requirements list / stakeholder asks" | `customer-interviews` | De-requirements it: reclassify each ask, trace to problems, then discover |
@@ -217,7 +220,32 @@ lets you scope anything. In **kata** mode it keeps an initiative's record cycle 
 cycle — and the first cycles are measurement, because "we don't know the
 current condition" is the first obstacle. Expect it to refuse a concierge
 test as validation, a manual back-end with no automation vision, or an
-"MVP" that is really a rewrite.
+"MVP" that is really a rewrite. Ask which test and it reads the kata's
+current obstacle: concierge when the solution is unknown, concept or
+smoke test for desirability, a clickable prototype at the lowest
+fidelity that answers a flow question, Wizard of Oz or a functional
+prototype for the mechanism, API access when the capability itself may
+be the value, and an A/B test last.
+
+**Solution options** (`solution-options`)
+> "Use the **solution-options** agent to write up `<solution>` as an
+> option from `experiments/` and `problem-selection/`."
+> "Compare options A and B." · "Scope v1.0 of `<option>`."
+
+Give it the readouts, the problem case and the goal metric; it refuses
+to write an option without all three. You get the **option card** —
+title, alignment, the one-sentence hypothesis (*we believe building X
+will satisfy the job … for … and result in …*), problem, behavior
+change, in and out of scope with reasons, dependencies, risks each with
+a test, one to three baselined success metrics, and an iteration plan
+that is a kata sequence — with an evidence summary of what is confirmed
+and what is still belief. With several options you get them on the same
+rows and a recorded choice. Then **v1.0**: every candidate feature
+classed (job-critical, adoption-critical, sustainability minimum,
+postponable, speculative), the postponable ranked by **cost of delay ÷
+duration**, fixed-date items pinned to their dates, and a deferred list
+that carries its costs to the roadmap conversation. Expect it to refuse
+the MVP as v1.0 and to question every "expedite."
 
 ## The define–test–measure layer
 
@@ -258,7 +286,8 @@ working.
 
 **How they chain:** discovery evidence → `problem-selection` (the problem
 worth a document, with its evidence table) → `lean-experiments` (prove
-the solution cheaply; write the value proposition) → `prfaq` (vision +
+the solution cheaply; write the value proposition) → `solution-options`
+(the option card and the v1.0 minimum feature set) → `prfaq` (vision +
 "what we'd need to believe") → `experimentation` (A/B-test the beliefs a
 live product can carry) → `metrics` (define what success means, feeding
 goal metrics to katas and OECs to tests). A typical loop: PR/FAQ flags

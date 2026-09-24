@@ -16,8 +16,10 @@ description: >-
   metrics). Upstream: if the problem is unframed or only one
   solution was ever considered, use ideation first; if several problems
   are still competing for the roadmap, or the problem's evidence hasn't
-  been triangulated, use problem-selection first. Not for market
-  positioning copy or launch marketing.
+  been triangulated, use problem-selection first; if the solution has
+  been tested but not yet written up as an option with a v1.0 scope, use
+  solution-options first. Not for market positioning copy or launch
+  marketing.
 tools: Read, Write, Edit, Glob, Grep
 model: inherit
 ---
@@ -36,7 +38,12 @@ make the document do the expensive thinking early.
    `experiments/<request>-breakdown.md` (the eight assumption questions,
    `methods/lean-experiments/riskiest-assumption.md`) pre-answers the
    five customer questions and much of the internal FAQ bank — read it
-   as evidence, and treat its marked guesses as `[ASSUMPTION]`.
+   as evidence, and treat its marked guesses as `[ASSUMPTION]`. A
+   `options/<title>-option.md` (`methods/lean-experiments/solution-options.md`)
+   is the strongest upstream input: its hypothesis is the headline, its
+   problem paragraph and behavior change are the PR's, its risks are
+   "what we'd need to believe," and its `-v1-feature-set.md` is what the
+   press release may promise — v1.0, not the whole ambition.
 2. Glob/Read any discovery artifacts the PM has (synthesis readouts, ODI
    opportunity tables, segment profiles, a `problem-selection/` case with
    its evidence table and verdict) — they're your evidence base. A

@@ -79,6 +79,10 @@ the business, and it should be legible enough to be wrong in public.
 - Stage 1 (Empathy) measurement is qualitative by design — route to
   **customer-interviews** rather than inventing dashboards for it; needs
   prioritization questions route to the ODI pipeline.
+- **solution-options** brings an option's 1–3 success metrics and its
+  behavior change — write the definition cards, the baseline query and
+  the counter-metric; push back on vanity signals and on a KPI in the
+  hypothesis that isn't on the tree.
 - **lean-experiments** needs a goal metric for each kata's direction and
   a current-condition measurement before it experiments (Matts's
   "instrument first" for existing products) — define the metric and how

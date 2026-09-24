@@ -296,6 +296,38 @@ list, from a customer or a model, is a pile of solution guesses; trace
 each to a problem or set it aside. *(Bland; Perri, "Escaping the Build
 Trap" and its AI-era update.)*
 
+### 30. Customers can't hand you the solution — so test it, don't ask
+The "faster horse" line is apocryphal (Vlaskovits, HBR 2011; Snopes
+2025), but the half-truth in it is real: customers describe their
+problem in the vocabulary of today's solutions, so discovery finds the
+*job* and rarely hands you the design. The other half is Ford's own
+lesson — ignoring customers later cost him the market. Resolve it the
+way the problem was resolved: by behaviour. Put the solution, or a
+faithful fake of it, in front of the job executor and watch — a
+concierge to find the shape, a concept test or smoke test for the
+promise, a clickable prototype at the lowest fidelity that answers the
+flow question, a Wizard of Oz or functional prototype for the mechanism,
+API access when the capability may be the value, and an A/B test last.
+Let the kata's current obstacle choose; "would you use this?" is the
+faster-horse question in reverse. *(Vlaskovits; NN/g on fidelity;
+Rother/Perri's kata.)*
+
+### 31. An option is a tested solution; v1.0 is not the MVP
+Write a solution up as an **option** only once an experiment has read
+out on it: one hypothesis — *we believe building X will satisfy the job
+for the segment and result in the KPI* — a behavior change you could
+observe without a dashboard, scope in and out with reasons, risks each
+carrying a test, one to three baselined metrics, and an iteration plan
+that learns each chunk. Then cut it to the **minimum feature set**: not
+the MVP (which learned) but version one (which delivers the job
+end-to-end, at lovable quality, to a segment that includes people who
+won't forgive). Job-critical, adoption-critical and sustainability
+features are in by evidence; everything else earns its place by **cost
+of delay divided by duration**, fixed-date items go to their date, and
+what is deferred is recorded with what the delay costs — so the roadmap
+argument starts from numbers. *(Reinertsen; Arnold's CD3; the option
+template.)*
+
 ---
 
 ## System design principles

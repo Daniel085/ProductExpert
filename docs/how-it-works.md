@@ -16,6 +16,7 @@ ProductExpert/
 │   ├── odi-data-scientist.md        #   ODI Phase 3: analyze & act
 │   ├── problem-selection.md         #   which problem, on what evidence
 │   ├── lean-experiments.md          #   pre-build tests, product kata, value props
+│   ├── solution-options.md          #   option cards; v1.0 minimum feature set (cost of delay)
 │   ├── prfaq.md                     #   Working Backwards PR/FAQ coach
 │   ├── experimentation.md           #   A/B test design & readout
 │   └── metrics.md                   #   North Star trees, OMTM, tracking plans
@@ -43,6 +44,8 @@ ProductExpert/
 │   │   ├── pre-build-experiments.md #   chooser, generative/evaluative, catalogue, card
 │   │   ├── riskiest-assumption.md   #   feature request → 8 questions → chain → riskiest link
 │   │   ├── minimum-viable-product.md #  MVP = fastest path to insight; failure modes; MVP card
+│   │   ├── solution-options.md      #   the option card (11 fields), comparison, gates
+│   │   ├── minimum-feature-set.md   #   v1.0 ≠ MVP; feature classes; cost of delay & CD3
 │   │   ├── product-kata.md          #   Toyota Kata → Product Kata; record template
 │   │   └── materials/               #   Kromer, Perri, Matts, BofA case, Gusto podcast
 │   ├── problem-selection/
@@ -115,9 +118,10 @@ below are the boundaries between them:
 ```
  1 · OPPORTUNITY DISCOVERY      2 · PROBLEM VALIDATION            3 · SOLUTION VALIDATION
  ideation                       customer-interviews (synthesis)   lean-experiments
- customer-interviews (prep)     odi-outcome-editor → survey       (concept · concierge · WoZ
- odi-interviewer                   builder → data-scientist         · MLP · kata · value prop)
-                                problem-selection                 prfaq · experimentation · metrics
+ customer-interviews (prep)     odi-outcome-editor → survey       (concept · concierge · WoZ ·
+ odi-interviewer                   builder → data-scientist         prototypes · API · MLP · kata)
+                                problem-selection                 solution-options (option · v1.0)
+                                                                  prfaq · experimentation · metrics
  ─── what's worth a look? ───>  ─── real? for whom? which? ───>   ─── does THIS solve it, cheaply? ───>
                                        │ exit gate: knowledge-gap
                                        │ scorecard, no area < 3
@@ -247,16 +251,20 @@ Validation exits only with no area below 3.
 
 ### The solution-validation layer
 
-Four agents sit around both tracks and consume their evidence:
+Five agents sit around both tracks and consume their evidence:
 
 ```
 discovery evidence (Track 1 insights · Track 2 scores/segments · problem-selection Yes)
         │
         ▼
  lean-experiments ──(passed; needs causal rigor)──> experimentation
-   concept · concierge · WoZ · MLP · kata                 ▲
-   value proposition                                      │
-        │                                                 │
+   concept · concierge · WoZ · prototypes                 ▲
+   API access · MLP · kata · value proposition            │
+        │ readouts                                        │
+        ▼                                                 │
+ solution-options ──(iteration plan = kata cycles)──> lean-experiments
+   option card · comparison · v1.0 by cost of delay       │
+        │ chosen option + v1.0 scope                      │
         ▼                                                 │
       prfaq ──("what we'd need to believe")───────────────┤
         │                                                 │
@@ -266,7 +274,13 @@ discovery evidence (Track 1 insights · Track 2 scores/segments · problem-selec
 
 - **lean-experiments** proves the solution before anything is built —
   the cheapest experiment that could say no, gated on problem evidence
-  and a written value proposition; iterates in Product Kata cycles.
+  and a written value proposition; iterates in Product Kata cycles, the
+  current obstacle picking the test.
+- **solution-options** writes what the team now believes it should
+  build as an option card (refusing any without a solution readout),
+  compares options, and cuts the chosen one to a v1.0 minimum feature
+  set by cost of delay — the deferred list, with costs, is the roadmap's
+  input.
 
 - **prfaq** writes the product vision *backwards* from the customer, citing
   discovery artifacts as its evidence base; its hardest open beliefs become
@@ -300,7 +314,9 @@ Knowledge shared by several agents is written exactly once:
 | Pre-build experiments (chooser, generative/evaluative, catalogue, MVP/MLP/MVI, card) | `methods/lean-experiments/pre-build-experiments.md` | lean-experiments, experimentation (triage) |
 | Product Kata (rhythm, coaching questions, record template) | `methods/lean-experiments/product-kata.md` | lean-experiments |
 | Feature-request breakdown (eight assumption questions, chain, riskiest link, null-result rule) | `methods/lean-experiments/riskiest-assumption.md` | lean-experiments, ideation, prfaq |
-| MVP as learning vehicle (canon, failure modes, alignment questions, maxims, MVP card) | `methods/lean-experiments/minimum-viable-product.md` | lean-experiments |
+| MVP as learning vehicle (canon, failure modes, alignment questions, maxims, MVP card) | `methods/lean-experiments/minimum-viable-product.md` | lean-experiments, solution-options |
+| Option card (11 fields, tells, comparison, gates) | `methods/lean-experiments/solution-options.md` | solution-options, prfaq |
+| Minimum feature set (v1.0 ≠ MVP, feature classes, cost of delay, CD3, postponement rules) | `methods/lean-experiments/minimum-feature-set.md` | solution-options |
 | Requirement intake (constraint / theory / hypothesis) | `methods/jtbd/requirements-are-hypotheses.md` | customer-interviews, odi-interviewer, prfaq |
 | Brainstorming modes, divergence rules, landscape-scan protocol | `methods/ideation/brainstorming.md` | ideation |
 | Assumption-ledger template (categories, tiers, ranking, lifecycle) | `methods/customer-interviews/assumption-ledger.md` | ideation, customer-interviews, problem-selection, prfaq, experimentation |

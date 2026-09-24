@@ -323,6 +323,40 @@ the property of their authors and are included for reference and attribution.
 - The feature-request breakdown protocol and its null-result rule were
   **informed by licensed training material that is deliberately not
   reproduced or paraphrased** anywhere in this repository.
+- **Patrick Vlaskovits** — *"Henry Ford, Innovation, and That 'Faster
+  Horse' Quote"*, Harvard Business Review, 29 Aug 2011 — the quote is
+  unattested before c. 2001–02; **Snopes** (23 Feb 2025) independently
+  found no proof Ford said it. Cited, not reproduced.
+- **Nielsen Norman Group** — *"UX Prototypes: Low Fidelity vs. High
+  Fidelity"* — prototype fidelity on three axes (visual, content,
+  interactivity) and when each level pays. Cited, not reproduced.
+- **Stripe**'s API-first origin — cited as common knowledge from the
+  founders' public accounts; no source preserved.
+
+---
+
+## Solution Options agent (solution-options)
+
+- **The option template** (Title · Alignment · Hypothesis — *We believe
+  building ____ will satisfy the job [JTBD] for [customer segment] and
+  result in [KPI]* · Problem · Behavior change · In scope · Out of scope
+  · Dependencies · Risks / unknowns · Success metrics & outcomes ·
+  Iteration plan) and the "minimum feature set is v1.0, not the MVP; use
+  cost of delay to decide what to postpone" rule are **Daniel O'Rorke's**
+  working notes.
+- **Donald G. Reinertsen** — *The Principles of Product Development
+  Flow: Second Generation Lean Product Development* (Celeritas, 2009) —
+  cost of delay as the economic basis for scheduling decisions; the
+  urgency-profile shapes as commonly applied from his work.
+- **Joshua J. Arnold** (with **Özlem Yüce**) — *Black Swan Farming*:
+  **CD3**, cost of delay divided by duration
+  (https://blackswanfarming.com/cost-of-delay-divided-by-duration/);
+  the same idea appears as WSJF in SAFe (**Dean Leffingwell**).
+- **Gus Power** — "minimum sustainable product" (see the MVI entry
+  above).
+- The field guidance and tells, the comparison table, the five feature
+  classes, the postponement rules, both templates and the anti-patterns
+  are **this repo's operational extensions**.
 - The "trying to prove" chooser, the catalogue's
   prerequisite/measure/bias/stop structure, the MVP–MLP–MVI table, the
   experiment card, the assumption-chain template, the MVP card, the

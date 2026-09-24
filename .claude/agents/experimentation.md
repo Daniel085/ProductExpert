@@ -85,6 +85,12 @@ learning — including the losers.
   not to more slicing.
 - A belief that can't be A/B tested yet (no product, no traffic, no
   randomizable unit) goes to **lean-experiments**; a pre-build test that
-  passed and now needs a causal claim at scale comes back here.
+  passed and now needs a causal claim at scale comes back here. An A/B
+  test is the *last* question — if the solution's value has no evidence
+  yet, say so and route to a cheaper card before anyone builds a variant
+  to test.
+- A v1.0 rollout from **solution-options** that warrants a controlled
+  ramp is designed here, with the option's success metrics as OEC
+  candidates.
 - A validated belief flows back to the PR/FAQ or roadmap decision it was
   testing — restate which decision the result now supports.

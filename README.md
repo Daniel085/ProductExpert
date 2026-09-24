@@ -37,7 +37,7 @@ exists and runs *before* engineering, not after.
 |-------|--------------|--------|
 | **1 · Opportunity Discovery** | What's out there, and what's worth a look? | `ideation`, `customer-interviews` (prep), `odi-interviewer` |
 | **2 · Problem Validation** | Is the problem real, for whom, how much, and which one first — and what don't we know yet? | `customer-interviews` (synthesis), `odi-outcome-editor` → `odi-survey-builder` → `odi-data-scientist`, `problem-selection` (verdict + knowledge-gap scorecard + root cause) |
-| **3 · Solution Validation** | Does *this* solution solve it — proven cheaply, before we build? | `lean-experiments` (concept · concierge · Wizard of Oz · MLP · kata), `prfaq`, `experimentation`, `metrics` |
+| **3 · Solution Validation** | Does *this* solution solve it — proven cheaply, before we build — and what exactly do we commit to? | `lean-experiments` (concept · concierge · Wizard of Oz · prototypes · API access · MLP · kata), `solution-options` (option cards · v1.0 by cost of delay), `prfaq`, `experimentation`, `metrics` |
 
 ## The two tracks
 
@@ -64,9 +64,9 @@ customer-interviews                    you field the survey   scores · segments
         both tracks · tickets · analytics · stakeholder asks
                               │
                               ▼
-                      problem-selection ──── Yes ──────────> lean-experiments ──> prfaq
-                      theme → case → rank ── Not yet ──────> back to discovery      │
-                                          ── Probably not ─> archive          experimentation
+                      problem-selection ──── Yes ──────────> lean-experiments ──> solution-options ──> prfaq
+                      theme → case → rank ── Not yet ──────> back to discovery      (option card · v1.0)    │
+                                          ── Probably not ─> archive                               experimentation
 ```
 
 Between discovery and the documents sits a **selection gate**:
@@ -183,6 +183,24 @@ MVP; scoped backwards from the one thing to learn and the one measure
 Methods: [`methods/lean-experiments/`](methods/lean-experiments/) ·
 [`methods/jtbd/value-proposition.md`](methods/jtbd/value-proposition.md)
 
+### Solution Options — `solution-options`
+Closes Solution Validation. Writes a tested solution up as an **option
+card** — title, alignment, the hypothesis *we believe building X will
+satisfy the job [JTBD] for [segment] and result in [KPI]*, problem,
+behavior change, in and out of scope, dependencies, risks with their
+tests, one to three success metrics, and an iteration plan that is a
+kata sequence — and refuses to write one without an experiment readout
+on the solution itself. Compares competing options on the same rows.
+Then defines the **minimum feature set for v1.0** (not the MVP: the job
+end-to-end at lovable quality for a segment that includes people who
+won't forgive): job-critical, adoption-critical and sustainability
+features are in by evidence; the postponable are ranked by **cost of
+delay ÷ duration** (Reinertsen; Arnold's CD3), fixed-date items go to
+their date, and the deferred list carries its costs into the roadmap
+conversation.
+Methods: [`methods/lean-experiments/solution-options.md`](methods/lean-experiments/solution-options.md) ·
+[`methods/lean-experiments/minimum-feature-set.md`](methods/lean-experiments/minimum-feature-set.md)
+
 ### PR/FAQ — `prfaq`
 Drafts, critiques, and iterates **Working Backwards** PR/FAQs (Bryar &
 Carr / Amazon): one-page future-dated press release in customer language +
@@ -247,8 +265,9 @@ Completed: [Design Thinking (Stanford d.school)](docs/methodology-evaluations/de
   "opportunity" (an underserved outcome) ≠ Torres's "opportunity" (an unmet
   need/pain/desire on the tree) — the agent will need to define both.*
 - **Usability testing** (Krug) — evaluative complement to generative
-  discovery; `lean-experiments` carries a placeholder prototype-test card
-  until it exists.
+  discovery; `lean-experiments` now carries clickable- and
+  functional-prototype cards (fidelity per NN/g) until a dedicated
+  method exists.
 - **Positioning & messaging** (Dunford) — *Obviously Awesome*, with launch/
   GTM and sales-narrative work (*Sales Pitch*) folded into the same family.
 - **Pricing & packaging** (Ramanujam & Tacke, *Monetizing Innovation*) —
@@ -266,10 +285,13 @@ Completed: [Design Thinking (Stanford d.school)](docs/methodology-evaluations/de
   "conflicting solution requirements" half of rubric criterion 3.1 left
   open by the Design Thinking evaluation. Ground it in a real method —
   Torres's opportunity solution trees (above) as the structure, with
-  cost-of-delay / WSJF (Reinertsen) or a scored matrix as the sequencing
-  rule — never in a generic RICE prompt. Must inherit the problem
-  evidence and the experiment readouts rather than re-scoring features
-  from opinion.
+  cost-of-delay / CD3 (Reinertsen; Arnold) as the sequencing rule —
+  never in a generic RICE prompt. Must inherit the problem evidence and
+  the experiment readouts rather than re-scoring features from opinion.
+  *Partly built:* `solution-options` now applies cost of delay at the
+  **feature level within one option** (the v1.0 minimum feature set and
+  its deferred list); sequencing *across* options and initiatives is
+  still open.
 - **Stakeholder communication** — no agent helps a PM write status
   updates, escalations, or executive decision memos; `prfaq`'s
   narrative-over-slides discipline covers only the product vision. A
@@ -283,5 +305,5 @@ Completed: [Design Thinking (Stanford d.school)](docs/methodology-evaluations/de
 - ~~Survey design~~ — covered for needs-quantification by
   `odi-survey-builder`; a general-purpose survey agent remains optional.
 - ~~PR/FAQ~~, ~~experimentation~~, ~~metrics~~, ~~problem selection~~,
-  ~~lean experiments / product kata / value proposition~~ — built (see
-  Agents above).
+  ~~lean experiments / product kata / value proposition~~,
+  ~~solution options / minimum feature set~~ — built (see Agents above).

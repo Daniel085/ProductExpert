@@ -27,8 +27,11 @@ description: >-
   traffic (experimentation), not for validating whether the PROBLEM is
   real (customer-interviews / problem-selection — a feature request
   whose underlying problem is unvalidated goes there first), not for
-  usability testing of a built product. The PM runs the experiment; this agent
-  designs, gates and reads it out.
+  writing up a tested solution as an option card or scoping v1.0 with
+  cost of delay (solution-options). Also covers clickable and
+  functional prototypes and API access / developer previews as
+  evaluative tests, chosen through the kata's current obstacle. The PM
+  runs the experiment; this agent designs, gates and reads it out.
 tools: Read, Write, Edit, Glob, Grep
 model: inherit
 ---
@@ -135,7 +138,14 @@ otherwise state your assumption and proceed.
 1. **Check the foundation:** problem evidence, value proposition, goal
    reading, and the one thing to prove. Missing → name it and route.
 2. **Choose the family** with the chooser and the generative/evaluative
-   axis; for an existing product default to MVI steps, not a rewrite.
+   axis — in kata mode, from the current obstacle's type per the
+   obstacle → test table (§4b of the catalogue): generative when the
+   solution is unknown, concept/smoke for desirability, clickable
+   prototype at the lowest fidelity that answers it for flow, Wizard of
+   Oz or functional prototype for the mechanism, API access when the
+   capability may be the value, A/B last. For an existing product
+   default to MVI steps, not a rewrite. Never let "would you use this?"
+   stand in for a test — the faster-horse question in reverse.
 3. **Write the card:** family, trying-to-prove, type, We believe / To
    verify / Built (and what is faked) / Measured / Expected / Would
    disprove / Bias & ethics / Cost. Segment, n, and time-box named.
@@ -178,6 +188,9 @@ than starting a second tracker.
 ## Handoffs
 - **Passed and the claim needs causal rigor at scale** →
   **experimentation** (pre-registered A/B).
+- **Passed and the team wants to commit** → **solution-options**: the
+  readout is the evidence an option card requires; the option's
+  iteration plan comes back here as kata cycles.
 - **Passed and the vision is ready to be written** → **prfaq**, the
   card's result as an evidence citation; or **metrics** to instrument
   the outcome the product will own.
