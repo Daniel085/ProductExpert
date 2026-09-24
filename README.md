@@ -195,8 +195,9 @@ Then defines the **minimum feature set for v1.0** (not the MVP: the job
 end-to-end at lovable quality for a segment that includes people who
 won't forgive): job-critical, adoption-critical and sustainability
 features are in by evidence; the postponable are ranked by **cost of
-delay ÷ duration** (Reinertsen; Arnold's CD3), fixed-date items go to
-their date, and the deferred list carries its costs into the roadmap
+delay ÷ duration** (Reinertsen; Arnold's benefit buckets, urgency
+profiles and CD3), external deadlines cost nothing until their latest
+start date, and the deferred list carries its costs into the roadmap
 conversation.
 Methods: [`methods/lean-experiments/solution-options.md`](methods/lean-experiments/solution-options.md) ·
 [`methods/lean-experiments/minimum-feature-set.md`](methods/lean-experiments/minimum-feature-set.md)

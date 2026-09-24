@@ -243,7 +243,9 @@ and what is still belief. With several options you get them on the same
 rows and a recorded choice. Then **v1.0**: every candidate feature
 classed (job-critical, adoption-critical, sustainability minimum,
 postponable, speculative), the postponable ranked by **cost of delay ÷
-duration**, fixed-date items pinned to their dates, and a deferred list
+duration** (value in Arnold's four buckets × one of his four urgency
+profiles, qualitatively first if need be), external-deadline items
+costing nothing until their latest start date, and a deferred list
 that carries its costs to the roadmap conversation. Expect it to refuse
 the MVP as v1.0 and to question every "expedite."
 
