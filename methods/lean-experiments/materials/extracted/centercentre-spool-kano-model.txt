@@ -1,0 +1,172 @@
+SOURCE: Jared M. Spool, "Understanding the Kano Model – A Tool for Sophisticated Designers", UX Articles by Center Centre (articles.centercentre.com), published 7 November 2018 (originally UIE). Transcribed from the PDF alongside (print capture 2026-09-24); page headers, translation credits and figure captions removed; the five diagrams (the two axes; performance payoff; basic expectations; excitement generators; the full model) are not reproduced. The article spells the model's creator "Noriaka Kano"; the usual transliteration is Noriaki Kano. All rights remain with the author / Center Centre.
+
+----------------------------------------------------------------------
+
+Understanding the Kano Model – A
+To o l  fo r  S o p h i s t i c a t e d  D e s i g n e r s
+Years ago, when Flickr, the photo-sharing website, first appeared on the
+scene, the designers delighted their users with a variety of interesting
+innovations. One of those innovations was something that now seems
+strikingly simple in concept: a customized home page.
+At that time, practically every other website had a standard home page.
+When a user typed in the site’s main URL, they saw an identical page to
+every other user.
+Flickr’s page was different. When registered users typed Flickr.com into
+their browser’s address bar, they saw a personalized page complete
+with their own latest uploads and recent pictures from their friends and
+contacts. We interviewed users who told us they found the personalized
+page very exciting, including the happy “Hello” that appeared in a
+different language each time they visited.
+It wasn’t very long before other sites started incorporating similar
+capabilities. We saw many sites with a personalized dashboard showing
+recent activity. We even saw other sites copy the multi-lingual
+greeting prompt.
+The interesting thing is, as these innovative features propagated into
+other sites’ designs, they became less remarkable and less delightful to
+those sites’ users. These users rarely mentioned the features and never
+seemed as excited about it as those initial Flickr users did.
+The Kano Model—A tool for sophisticated
+designers
+Years ago, we came across the work of Noriaka Kano, a Japanese
+expert in customer satisfaction and quality management. In studying his
+writing, we learned about a model he created in the 1980s, known as
+the Kano Model.
+This model predicted users’ reactions as the key elements of Flickr’s
+personalized home page appeared on other websites. It predicted why
+users were initially delighted and why the delight faded over time.
+We find the Kano Model to be an indispensable tool for designers. Let’s
+take the model apart, so we can understand why it’s so useful.
+The two dimensions of Kano: Investment versus
+Satisfaction
+The easiest way to think of the model is on a two-dimensional grid.
+The horizontal axis represents the investment the organization makes.
+As investment increases, the organization spends more resources on
+improving the quality (remember, Noriaka was a quality guy at heart) or
+adding new capabilities.
+The vertical dimension represents the satisfaction of the user, moving
+from an extreme negative of frustration to an extreme positive of
+delight. (Neutral satisfaction being neither frustrated nor delighted is in
+the middle of the axis.)
+It’s against the backdrop of these two axes that we see how the Kano
+Model works. It shows us there are three forces at work, which we can
+use to predict our users’ satisfaction with the investment we make.
+Performance payoff
+When blogging first started, a blog author needed to know basic HTML
+to do anything fancy with their formatting. Many blogs were absent of
+any style just simple words on the page.
+The first blogging systems added basic formatting features, like bold
+and italics, to their text input fields. These features would give a small
+word-processing feel to an otherwise bland input tool. Users were
+delighted.
+The designers took the hint. They started adding more word
+processing-like features. We saw bullets, justification, image insertion,
+and fancy link capabilities. Each feature took more investment and
+returned more satisfaction.
+We’ve all seen instances like this. By adding new features or cleaning up
+the quality of the product, we generate more shouts of delight from a
+thankful audience. This is the Performance Payoff, the most visible force
+of the Kano Model.
+Every design has a performance payoff as the design team evolves the
+functionality and quality. Its key designers understand how much delight
+is generated with each new feature, as it takes more investment to
+garner more delight over time by just adding features in this fashion.
+Basic expectations
+Google Docs changed the game of office software. It eliminated the
+notion of a file and let your data live in “the cloud.” Google Docs makes
+it easy to share and collaborate with colleagues because it eliminates
+the emailing of duplicated files. Everybody works from the same source.
+Each person sees the same changes instantly.
+A downside of editing in the cloud is the need for constant connectivity.
+If a user is editing someplace where the connection is spotty,
+intermittent problems occur. Something as simple as saving a draft
+becomes a frustrating moment for the user, who doesn’t know the state
+of their document.
+Document saving isn’t a feature that will make anyone excited. But its
+absence or unreliability will frustrate folks immensely.
+This is a defining trait of the Kano Model’s Basic Expectations.
+Capabilities that users expect will frustrate those users when they don’t
+work. However, when they work well, they don’t delight those users. A
+basic expectation, at best, can reach a neutral satisfaction a point where
+it, in essence, becomes invisible to the user.
+Try as it might, Google’s development team can only reduce the file-
+save problems to the point of it working 100% of the time. However,
+users will never say, “Google Docs is an awesome product because it
+saves my documents so well.” Users just expect the software to save
+their files correctly at all times.
+Basic expectations are often related to bugs and reliability. When a
+Skype conversation is cut off by a bad connection, it can frustrate the
+people on the call. When an e-commerce application double charges
+the site’s shopper, that’s frustrating, too.
+However, a basic expectation may be something the user is already
+familiar with, such as automatically receiving a confirmation email after
+they complete a transaction. Your users may expect your product or
+service to have features they find in other products or services they
+frequent regularly.
+As a designer, you need to pay close attention to the basic expectations
+of your users. It’s easy to focus on the new and novel elements of our
+design, forgetting to look back at how our users are using our existing
+capabilities while making sure we’re meeting all of the basics.
+Excitement generators
+Zappos customers report, while they often purchase using the
+company’s 4-5 day free shipping frequently, they’ll receive that order
+within one or two days at no extra charge. This delights the customers,
+who go on to tell their friends. Zappos has a special relationship with
+their shippers to accelerate the deliveries. It’s part of their desire to
+“under promise and over deliver.”
+There are many ways to add the Kano Model’s Excitement Generators
+into the user experience. Zappos does it through their delivery
+operations and customer support, but that’s not the only way.
+Groupon generates delight through their clever use of advertising copy
+for the products they sell. For example, a recent ad for half-price
+gourmet brownies started with: “Without chocolate, the world would
+still be under the oppressive rule of the Turnip King and his tasteless
+parsnip army.” Groupon’s customers regularly say they find the clever
+copy delightful.
+Tripit.com’s users tell us how much they love the travel-itinerary site’s
+automatic confirmation parsing feature. When the users email their hotel
+or airline confirmation email to the site, it automatically parses out the
+dates and locations, adding it to their trip’s itinerary. If no itinerary exists
+for the reservation dates, it automatically creates one. These Tripit users
+love that they don’t have to enter a ton of information to get all their
+reservation details into one, nicely formatted page.
+Exploring the users’ context and overall experience helps identify
+potential excitement generators. These don’t have to take a huge
+investment. While Zappos invests a lot in their customer service, writing
+creative copy, like Groupon’s, can be a much simpler method to garner
+the user’s delight. (Copywriting is hard, and good copywriters are not
+cheap, but it’s easier to establish a good copywriting practice than it is
+to move a distribution center within 10 miles of the overnight
+shipping hub.)
+Of course, excitement generators won’t delight users who are frustrated
+when you don’t meet their basic expectations. Designers need to
+ensure they are focusing on both ends of the model.
+The migration from excitement generator to
+basic expectations
+A great model can help us understand what we’re seeing. Flickr’s
+delightful home page experience, for example, became less delightful
+when it started showing up in other designs.
+One of the predictions that the Kano Model makes is that once
+customers become accustomed to excitement generator features,
+those features are not as delightful. The features initially become part of
+the performance payoff and then eventually migrate to basic
+expectations.
+Flickr’s designers did something delightfully novel by creating a
+personalized home page, with a customized dashboard that showed the
+users’ own photographs, contacts, and activities. As other sites
+implemented similar dashboard-like pages, these users became more
+accustomed to it. The feature lost its luster.
+Today, many users will be frustrated if they don’t see a dashboard page,
+or if they’re required to log in before seeing it. The feature, once a
+delighter, is now a basic expectation.
+
+Applying the Kano Model
+Working with our clients, we’ve seen teams prioritize their work using
+the Kano Model. They’re constantly monitoring their users’ current basic
+expectations, to make sure there’s nothing they’re missing. They are
+always on the lookout for inexpensive ways to add excitement
+generators. And they use the performance payoff to help understand
+how much delight they can generate with new features.
+The model becomes a great way to explain to stakeholders and project
+owners how to tackle hard decisions. It’s a great way to keep teams
+focused on the right priorities.
+Published here on November 7, 2018.

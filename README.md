@@ -297,6 +297,13 @@ Completed: [Design Thinking (Stanford d.school)](docs/methodology-evaluations/de
   and gathering stakeholder scores is consensus, not prioritization —
   the agent must start from a stated strategy and back every score into
   data and dollars (Arnold's benefit buckets and urgency profiles).
+  RICE is out for the same reason Product Institute gives: it looks
+  quantitative but its inputs are subjective. Methods noted but not yet
+  evaluated for this slot: **metric-impact prioritization** (rank by
+  expected movement of the goal metric — close to what `metrics` plus an
+  option's success metrics already supply), **portfolio prioritization**
+  (across products and initiatives), and the **Kano Model** as a lens
+  (now a section in the minimum-feature-set doc, not a ranking method).
 - **Stakeholder communication** — no agent helps a PM write status
   updates, escalations, or executive decision memos; `prfaq`'s
   narrative-over-slides discipline covers only the product vision. A

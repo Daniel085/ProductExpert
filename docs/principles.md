@@ -331,9 +331,13 @@ Bonus / Meh × ASAP / Soon / Whenever). A date does not make a feature
 urgent: its cost of delay is zero until the latest start date. What is
 deferred is recorded with what the delay costs, so the roadmap argument
 starts from numbers — and, per Perri, from a strategy; arbitrary scores
-averaged across stakeholders are consensus, not prioritization.
-*(Reinertsen; Arnold's benefit buckets, urgency profiles and CD3; Perri;
-the option template.)*
+averaged across stakeholders are consensus, not prioritization, and a
+formula over gut inputs (RICE) is the same thing with a veneer. Kano is
+the second lens: basics reach neutral at best and must be audited,
+performance features are what cost of delay ranks, and cheap
+excitement generators belong in v1.0 — knowing they migrate into basics
+as they spread. *(Reinertsen; Arnold's benefit buckets, urgency profiles
+and CD3; Perri; Kano via Spool; the option template.)*
 
 ---
 

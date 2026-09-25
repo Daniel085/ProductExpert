@@ -236,6 +236,10 @@ measure · known biases · when to stop.
   problem end-to-end** (the W-2 also gets mailed), **intuitive** (the
   product tells you what to do today; no manual), **delightful**
   (captures an emotional moment — relieve a stress, celebrate a payday).
+  In Kano's terms the first two are basic expectations done to neutral
+  and the third an excitement generator — and delighters migrate into
+  basics as they spread, so today's delight is a decaying asset
+  ([`minimum-feature-set.md` §2b](./minimum-feature-set.md)).
 - **Bias:** early adopters forgive; a slice can be lovable and
   un-generalizable (Gusto rebuilt its system several times as state
   rules arrived). The MLP proves love, not architecture.

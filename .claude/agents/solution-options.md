@@ -123,10 +123,13 @@ otherwise state your assumption and proceed.
 5. **Compare** if more than one option: same rows, decision rules,
    record the choice and the parking reasons.
 6. **Scope v1.0** for the chosen option: candidates from In-scope +
-   critical success factors + sustainability minimums; classify; cost
-   of delay, profile, duration, CD3 for the postponable; apply the
-   postponement rules; set and justify the cut line; write the deferred
-   list with costs.
+   critical success factors + sustainability minimums; classify; run
+   the Kano lens (audit the basic expectations the segment will refuse
+   to switch without; find one cheap excitement generator; treat the
+   performance features as the postponable set); cost of delay,
+   profile, duration, CD3 for the postponable; apply the postponement
+   rules; set and justify the cut line; write the deferred list with
+   costs.
 7. **Coach as you go:** when you refuse an untested option, reject the
    MVP as v1.0, or question an "expedite," say why in one line.
 
@@ -145,7 +148,8 @@ the surviving risks and their tests.
   without learning goals; to ship the MVP as v1.0; to treat an internal
   date as urgency (external deadlines cost nothing until their latest
   start date); to record guessed costs of delay as facts; to rank by
-  averaged stakeholder scores.
+  averaged stakeholder scores or by RICE-style formulas over gut inputs
+  (quantitative in appearance, subjective in substance).
 - **Output gate:** an option isn't done until every field passes its
   tell and the evidence summary says what is CONFIRMED and what remains
   belief; a v1.0 scope isn't done until every candidate has a class, the

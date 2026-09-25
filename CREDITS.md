@@ -371,9 +371,22 @@ the property of their authors and are included for reference and attribution.
   with a transcription under `materials/extracted/`.
 - **Gus Power** — "minimum sustainable product" (see the MVI entry
   above).
+- **Jared M. Spool** (Center Centre / UIE) — *"Understanding the Kano
+  Model – A Tool for Sophisticated Designers"*, UX Articles by Center
+  Centre, 7 Nov 2018 — performance payoff, basic expectations,
+  excitement generators, and the migration of delighters into basics;
+  after **Noriaki Kano**'s model of customer satisfaction (1984).
+  Preserved at
+  `methods/lean-experiments/materials/CenterCentre-Spool-UnderstandingTheKanoModel-2018.pdf`
+  with a transcription under `materials/extracted/`; it remains the
+  author's property.
+- **Product Institute** — the recommendation against RICE (quantitative
+  in appearance, subjective in inputs), relayed in **Daniel O'Rorke**'s
+  notes and paraphrased, not quoted.
 - The field guidance and tells, the comparison table, the five feature
-  classes, the postponement rules, both templates and the anti-patterns
-  are **this repo's operational extensions**.
+  classes, the Kano-to-class mapping, the postponement rules, both
+  templates and the anti-patterns are **this repo's operational
+  extensions**.
 - The "trying to prove" chooser, the catalogue's
   prerequisite/measure/bias/stop structure, the MVP–MLP–MVI table, the
   experiment card, the assumption-chain template, the MVP card, the

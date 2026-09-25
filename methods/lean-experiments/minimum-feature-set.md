@@ -59,6 +59,38 @@ billing, compliance). Then classify:
 Only the fourth class needs the economics. Everything else is decided
 by the option's evidence.
 
+### 2b. A second lens: the Kano Model
+
+Noriaki Kano's model (1980s; Jared Spool's account for Center Centre,
+2018) plots **investment** against **user satisfaction** (frustration →
+neutral → delight) and finds three forces acting on every feature. It
+is a lens on the classes above, not a replacement for the evidence:
+
+| Kano force (Spool's names; Kano's) | Behaviour | Maps to | What to do |
+|-----------------------------------|-----------|---------|------------|
+| **Basic expectations** (*must-be*) | Absent or unreliable → frustration; present and perfect → *neutral*, invisible. Saving a document; not double-charging; the confirmation email every other product sends | **Adoption-critical** and **sustainability minimum** — much of what the target segment will refuse to switch without | Audit them deliberately; they are easy to forget while chasing the novel. At best they reach zero, so never expect delight from them |
+| **Performance payoff** (*one-dimensional*) | More investment → more satisfaction, roughly linearly (each formatting feature added to an early blog editor) | The **postponable** class — the features cost of delay ranks | Use it to estimate how much delight each increment buys; it is where CD3 does its work |
+| **Excitement generators** (*attractive*) | Unexpected; small investment can produce disproportionate delight (a shipment arriving in two days on the free five-day option; clever copy; parsing a forwarded confirmation into an itinerary) | The **delightful** third of the lovable bar (end-to-end · intuitive · delightful); often cheap | Hunt for inexpensive ones in the customer's context; put one in v1.0. They do nothing for a user whose basics are unmet |
+
+Two rules from the model that bear on scoping:
+
+- **Delighters migrate.** Once a delighter spreads (Flickr's
+  personalized home page became every site's dashboard), it slides into
+  the performance payoff and then into basic expectations — which is
+  Arnold's short-life-cycle urgency profile seen from the customer's
+  side. A v1.0 built entirely on last year's delighters is built on
+  tomorrow's basics.
+- **Both ends, always.** Excitement generators cannot rescue a product
+  that fails its basics. Fund the basics audit before the delighter
+  hunt.
+
+Kano's full method (a questionnaire pairing a functional and a
+dysfunctional question per feature, classifying answers into must-be,
+one-dimensional, attractive, indifferent and reverse) is not detailed
+here; ODI's importance × satisfaction landscape
+([`../odi/opportunity-analysis.md`](../odi/opportunity-analysis.md)) is
+this system's quantitative instrument for the same underlying question.
+
 ## 3. Cost of delay
 
 **Cost of delay** (Reinertsen) is the economic value lost per unit of
@@ -217,6 +249,8 @@ Launch readiness signals: <the option's success metrics, baselined>
 | **Coercion by dates** | An internal date treated as a deadline; cost of delay the same before and after it | Profile 4 is zero until the latest start date; a date with no external effect is not a deadline |
 | **Urgent mistaken for valuable** | "It's urgent, so it must matter" | Score value and urgency independently; Killer × Whenever and Meh × ASAP both exist |
 | **Scores without data** | Stakeholders rate features 1–5, averaged into a table | Perri: a beginner's tool, and consensus is not prioritization; back every score into a bucket, a rate and a source — or set the strategy first |
+| **RICE and its cousins** | Reach × Impact × Confidence ÷ Effort, with each factor a gut number | Looks quantitative, isn't: the inputs are subjective (Product Institute's reason for recommending against it). If the inputs can be evidenced, they are a cost-of-delay estimate already — use the buckets and profiles; if they can't, it's a ranking game with a formula |
+| **Delighters before basics** | v1.0 leads with a novel feature while a basic expectation is unreliable | Kano: excitement generators don't rescue unmet basics; audit the basics first |
 
 ## 6. Hand-offs
 
@@ -257,6 +291,15 @@ Launch readiness signals: <the option's success metrics, baselined>
   `./materials/MelissaPerri-PrioritizationShouldntBeHard-2019.pdf`.
 - **Gus Power** — "minimum sustainable product" (comment on Matts's MVI
   post, preserved in `./materials/`).
+- **Jared M. Spool**, *"Understanding the Kano Model – A Tool for
+  Sophisticated Designers"*, UX Articles by Center Centre, 7 Nov 2018
+  (the Flickr, blog-editor, Google Docs, Zappos, Groupon and Tripit
+  examples) — after **Noriaki Kano**'s model (1984). Preserved at
+  `./materials/CenterCentre-Spool-UnderstandingTheKanoModel-2018.pdf`;
+  transcription under `./materials/extracted/`.
+- **Product Institute** — the recommendation against RICE (quantitative
+  in appearance, subjective in inputs), as relayed in **Daniel
+  O'Rorke**'s notes; not quoted.
 - The v1.0-vs-MVP table, the five feature classes, the postponement
   rules, the template and the anti-patterns are this repo's operational
   extension from **Daniel O'Rorke**'s notes ("not an MVP; v1.0; use cost
