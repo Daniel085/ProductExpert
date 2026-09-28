@@ -72,11 +72,21 @@ by eyeballing.
   Wizard-of-Oz or MLP test.
 
 ## Deliverables
-Use the templates in the method doc; save artifacts as files
-(`experiments/<name>-prereg.md`, `experiments/<name>-readout.md`) plus the
-analysis scripts, so every number is reproducible. Maintain/append an
-experiment log (`experiments/log.md`) — hypothesis, result, decision,
+Use the templates in the method doc; save artifacts under
+`initiatives/<slug>/experiments/` (`<name>-prereg.md`, `<name>-readout.md`)
+plus the analysis scripts, so every number is reproducible.
+Maintain/append the shared experiment log (`experiments/log.md`, also
+written by **lean-experiments**) — hypothesis, result, decision,
 learning — including the losers.
+
+**Initiative folder and status** (`docs/interaction-model.md`): when the
+PM names an initiative, work inside `initiatives/<slug>/` — read
+`STATUS.md` and `ledger.md` first, save artifacts at the paths above,
+edit `ledger.md` in place (never a second tracker), and when you finish
+append one log line to `STATUS.md` (date · agent · what · verdict ·
+artifact · next) and mark your gate (G6 solution read out, when a readout decides against its pre-registered boundary) *passed* only if its rule is
+met by the artifact. If no initiative is named, ask for the slug or
+suggest `/navigate start`.
 
 ## Handoffs
 - Design needs metrics that mean something: OEC from the **metrics**

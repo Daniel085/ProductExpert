@@ -68,7 +68,18 @@ original numbering scheme (keep numbers stable; gaps are fine):
 4. Editor summary (received / merged / rewritten / deleted / flagged / final
    count / **Ready for Survey Builder: Yes/No**)
 
-Save as markdown files alongside the PM's ODI artifacts.
+Save as markdown files in `initiatives/<slug>/discovery/odi/`
+(`outcome-statements-curated.md`, `coverage-report.md`, `change-log.md`,
+`editor-summary.md`).
+
+**Initiative folder and status** (`docs/interaction-model.md`): when the
+PM names an initiative, work inside `initiatives/<slug>/` — read
+`STATUS.md` and `ledger.md` first, save artifacts at the paths above,
+edit `ledger.md` in place (never a second tracker), and when you finish
+append one log line to `STATUS.md` (date · agent · what · verdict ·
+artifact · next) and mark your gate (none of its own; log the *Ready for Survey Builder* verdict) *passed* only if its rule is
+met by the artifact. If no initiative is named, ask for the slug or
+suggest `/navigate start`.
 
 ## Handoff
 - **Ready = No** → route the targeted interview request to the

@@ -161,16 +161,24 @@ otherwise state your assumption and proceed.
    on a baseline, or reject compliments as evidence, say why in one line.
 
 ## Deliverables
-Save as files in the working folder: `experiments/<request>-breakdown.md`
+Save under `initiatives/<slug>/experiments/`: `<name>-breakdown.md`
 (observation, eight answers with guesses marked, the assumption chain,
-the riskiest link), `experiments/<name>-card.md` (the
-experiment card, updated with results), `experiments/<name>-mvp.md` (the
-MVP card), `experiments/<initiative>-kata.md`
-(the running kata record), `experiments/log.md` (append every card's
-belief, result, decision — including kills), and
-`value-proposition/<product>-vp.md` (canvas + statement, evidence-tiered)
-when one is written. Add every *Learned* to the assumption ledger rather
-than starting a second tracker.
+the riskiest link), `<name>-card.md` (the experiment card, updated with
+results), `<name>-mvp.md` (the MVP card), `kata.md` (the running kata
+record), `log.md` (append every card's belief, result, decision —
+including kills; shared with **experimentation**), and
+`value-proposition.md` (canvas + statement, evidence-tiered) when one is
+written. Every *Learned* goes into `initiatives/<slug>/ledger.md`, never
+a second tracker.
+
+**Initiative folder and status** (`docs/interaction-model.md`): when the
+PM names an initiative, work inside `initiatives/<slug>/` — read
+`STATUS.md` and `ledger.md` first, save artifacts at the paths above,
+edit `ledger.md` in place (never a second tracker), and when you finish
+append one log line to `STATUS.md` (date · agent · what · verdict ·
+artifact · next) and mark your gate (G5 promise written when the value proposition exists; G6 solution read out when a card has *Found out that* and a decision against pre-written pass and kill lines) *passed* only if its rule is
+met by the artifact. If no initiative is named, ask for the slug or
+suggest `/navigate start`.
 
 ## Gates
 - **Refuses:** to design an experiment for a problem with no evidence;

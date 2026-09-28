@@ -402,3 +402,12 @@ Every method doc cites its sources inline and in
 Agents save their outputs (guides, statement sets, surveys, analyses, plots,
 scripts) as files in your working folder rather than only printing them —
 so work products persist, diff, and feed the next stage.
+
+### One folder, one ledger, one status file per initiative
+Every agent reads and writes `initiatives/<slug>/`: the assumption
+ledger at its root is the only assumption tracker, and `STATUS.md`
+carries the ten gates and a log each agent appends to. The gates are
+derived from artifacts, never marked by hand; `/navigate` re-derives
+them and routes. The convention is what lets twelve specialists behave
+like one system without an orchestrator that would have to skip the
+human steps between them (`docs/interaction-model.md`).

@@ -7,6 +7,9 @@ actually happens, and how the agents compose into pipelines.
 
 ```
 ProductExpert/
+├── .claude/skills/navigate/SKILL.md # FRONT DOOR — /navigate start|status|next|list
+├── templates/initiative/            # scaffold: STATUS.md · ledger.md
+├── initiatives/<slug>/              # YOUR WORK — one folder per initiative (not in the toolkit)
 ├── .claude/agents/                  # BEHAVIOR — one file per agent
 │   ├── ideation.md                  #   front-door brainstorming partner
 │   ├── customer-interviews.md       #   qualitative discovery coach
@@ -64,7 +67,8 @@ ProductExpert/
 ├── docs/                            # THIS documentation
 │   ├── principles.md                #   the ideas the system runs on
 │   ├── how-it-works.md              #   (this file)
-│   └── user-guide.md                #   how to drive it
+│   ├── user-guide.md                #   how to drive it
+│   └── interaction-model.md         #   folder layout, STATUS.md, the ten gates, /navigate
 ├── README.md                        # map & quick start
 └── CREDITS.md                       # attribution (master list)
 ```
@@ -82,6 +86,19 @@ Two kinds of file matter:
 The contract between the two: **every agent's first instruction is to read
 its method docs.** Behavior files stay thin (~100 lines); knowledge lives
 where it can be shared, versioned, and corrected in one place.
+
+## Where the work lives
+
+Every agent reads and writes one place: `initiatives/<slug>/`, with
+`STATUS.md` (phase, the ten gates, a log the agents append to) and
+`ledger.md` (the one assumption ledger) at its root and a subfolder per
+phase. `/navigate` is the front door: it scaffolds the folder, routes the
+first input, and — because agents can't invoke each other but the main
+session can — derives where an initiative stands from its artifacts and
+names the next agent. Gates are marked by the agent whose artifact meets
+the rule and re-derived by the navigator; nobody marks one by hand. Full
+layout, gate rules and verbs:
+[`interaction-model.md`](./interaction-model.md).
 
 ## How a request becomes an agent run
 
@@ -107,7 +124,8 @@ where it can be shared, versioned, and corrected in one place.
    (guides, statement sets, instruments, scripts, plots) so the next stage
    can pick them up.
 5. **Handing off.** The agent ends by naming what's next: which agent takes
-   this output, and what gate that agent will apply.
+   this output, and what gate that agent will apply — and it appends a
+   log line to `STATUS.md`, marking its gate if the artifact earns it.
 
 ## The three phases
 

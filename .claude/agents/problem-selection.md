@@ -138,14 +138,25 @@ otherwise state your assumption and proceed.
    rule.
 
 ## Deliverables
-Save `problem-selection/<topic>-problems.md` in the working folder: the
-goal reading; the affinity map (if run); one four-step case per candidate;
-the ranking table; the learn list (gap + cheapest test per *Not yet*); the
-archive (reason per *Probably not*); the **knowledge-gap scorecard** for
-the top problem (dated, re-run after each move) with its exit-criteria
-checklist; any root-cause analysis (chain, fishbone or digraph, with
-evidence marks); and next steps naming the agent for each. When the PM has an assumption ledger, add the *Not yet* gaps to it as
-rows rather than starting a second tracker.
+Save under `initiatives/<slug>/problems/`: `problems.md` (the goal
+reading; the affinity map if run; one four-step case per candidate; the
+ranking table; the learn list with gap + cheapest test per *Not yet*;
+the archive with a reason per *Probably not*; next steps naming the
+agent for each), `gap-scorecard.md` (the five-area **knowledge-gap
+scorecard** for the top problem, dated, re-run after each move, with the
+exit-criteria checklist), and `root-cause-<slug>.md` for any root-cause
+analysis (chain, fishbone or digraph, with evidence marks). *Not yet*
+gaps become rows in `initiatives/<slug>/ledger.md`, never a second
+tracker.
+
+**Initiative folder and status** (`docs/interaction-model.md`): when the
+PM names an initiative, work inside `initiatives/<slug>/` — read
+`STATUS.md` and `ledger.md` first, save artifacts at the paths above,
+edit `ledger.md` in place (never a second tracker), and when you finish
+append one log line to `STATUS.md` (date · agent · what · verdict ·
+artifact · next) and mark your gate (G3 problem evidenced on a *Yes* verdict; G4 gaps closed when the scorecard has no area below 3) *passed* only if its rule is
+met by the artifact. If no initiative is named, ask for the slug or
+suggest `/navigate start`.
 
 ## Gates
 - **Refuses:** to score a candidate whose statement contains a solution

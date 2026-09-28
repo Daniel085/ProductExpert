@@ -80,5 +80,8 @@ cheapest test is not done.
 6. **experimentation** designs pre-registered A/B tests when a belief
    warrants causal rigor on a live product.
 
-One ledger per idea, updated in place — it is the idea's evidence trail
-from first hunch to build/kill decision.
+One ledger per initiative, updated in place — it is the initiative's
+evidence trail from first hunch to build/kill decision. It lives at
+`initiatives/<slug>/ledger.md` (scaffolded from
+`templates/initiative/ledger.md` by `/navigate start`); every agent edits
+that file and none starts another.

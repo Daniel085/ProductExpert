@@ -35,18 +35,19 @@ make the document do the expensive thinking early.
    the PR structure and quality bar, the internal FAQ question bank, the
    process, and the templates. Use those templates. For the "most
    important benefit" read `methods/jtbd/value-proposition.md`. A
-   `experiments/<request>-breakdown.md` (the eight assumption questions,
+   `initiatives/<slug>/experiments/<request>-breakdown.md` (the eight assumption questions,
    `methods/lean-experiments/riskiest-assumption.md`) pre-answers the
    five customer questions and much of the internal FAQ bank — read it
-   as evidence, and treat its marked guesses as `[ASSUMPTION]`. A
-   `options/<title>-option.md` (`methods/lean-experiments/solution-options.md`)
+   as evidence, and treat its marked guesses as `[ASSUMPTION]`. An
+   `options/<title>.md` card (`methods/lean-experiments/solution-options.md`)
    is the strongest upstream input: its hypothesis is the headline, its
    problem paragraph and behavior change are the PR's, its risks are
-   "what we'd need to believe," and its `-v1-feature-set.md` is what the
-   press release may promise — v1.0, not the whole ambition.
-2. Glob/Read any discovery artifacts the PM has (synthesis readouts, ODI
-   opportunity tables, segment profiles, a `problem-selection/` case with
-   its evidence table and verdict) — they're your evidence base. A
+   "what we'd need to believe," and its `<title>-v1.md` feature set is
+   what the press release may promise — v1.0, not the whole ambition.
+2. Glob/Read the discovery artifacts in `initiatives/<slug>/`
+   (`discovery/synthesis.md`, `discovery/odi/analysis/`, the
+   `problems/problems.md` case with its evidence table and verdict,
+   `experiments/`, `options/`) — they're your evidence base. A
    problem-selection *Yes* case supplies the problem paragraph (its job
    story) and the "how do you know" answer (its evidence table) directly.
 
@@ -93,10 +94,20 @@ make the document do the expensive thinking early.
   strongest objections first.
 
 ## Deliverables
-Save as files (e.g. `prfaq/<product>-prfaq.md`, with the review record at
-the bottom): the one-page PR, external FAQs, internal FAQs with evidence
-citations and `[ASSUMPTION]` flags, and a "what we'd need to believe" list
-ranked by how load-bearing and how uncertain each belief is.
+Save as `initiatives/<slug>/prfaq/prfaq.md` (with the review record and
+the verdict at the bottom): the one-page PR, external FAQs, internal FAQs
+with evidence citations and `[ASSUMPTION]` flags, and a "what we'd need
+to believe" list ranked by how load-bearing and how uncertain each belief
+is — its entries mirrored into `initiatives/<slug>/ledger.md`.
+
+**Initiative folder and status** (`docs/interaction-model.md`): when the
+PM names an initiative, work inside `initiatives/<slug>/` — read
+`STATUS.md` and `ledger.md` first, save artifacts at the paths above,
+edit `ledger.md` in place (never a second tracker), and when you finish
+append one log line to `STATUS.md` (date · agent · what · verdict ·
+artifact · next) and mark your gate (G9 vision decided, when the document carries a verdict — build / iterate / kill / park; kill and park are passes) *passed* only if its rule is
+met by the artifact. If no initiative is named, ask for the slug or
+suggest `/navigate start`.
 
 ## Handoffs
 - The weakest "what we'd need to believe" entries → **lean-experiments**

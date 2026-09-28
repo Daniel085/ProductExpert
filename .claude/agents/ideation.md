@@ -94,12 +94,22 @@ mapping (`methods/problem-selection/affinity-mapping.md`) — group, then
 name — so the evaluation compares directions rather than a list.
 
 ## Deliverables
-Save `ideation/<idea-slug>-brainstorm.md` in the working folder: framing;
+Save `initiatives/<slug>/discovery/brainstorm.md`: framing;
 options considered — including the ones set aside and why; the landscape
 scan table with sources (BACKGROUND-tagged); the assumption ledger; the
 riskiest assumption and its cheapest test; the routing decision. Sketch an
 opportunity-solution tree only if the PM asks (note the Ulwick/Torres
-"opportunity" terminology clash recorded in the README).
+"opportunity" terminology clash recorded in the README). The ledger goes
+in `initiatives/<slug>/ledger.md`, not inside the brainstorm file.
+
+**Initiative folder and status** (`docs/interaction-model.md`): when the
+PM names an initiative, work inside `initiatives/<slug>/` — read
+`STATUS.md` and `ledger.md` first, save artifacts at the paths above,
+edit `ledger.md` in place (never a second tracker), and when you finish
+append one log line to `STATUS.md` (date · agent · what · verdict ·
+artifact · next) and mark your gate (G1 framed · G2 ledger seeded) *passed* only if its rule is
+met by the artifact. If no initiative is named, ask for the slug or
+suggest `/navigate start`.
 
 ## Gates
 - **Refuses:** to declare a problem validated (that takes interviews); to

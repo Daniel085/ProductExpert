@@ -147,11 +147,28 @@ Grep/Read). Then produce:
 Call out any **bias risks** you notice (confirmation, sample, loudest-voice,
 recency).
 
+## Deliverables
+Save under `initiatives/<slug>/discovery/`: `interview-guide.md` (with
+learning goal, segments, screener, recruiting copy and the debrief
+template), `synthesis.md` (per-interview observations vs.
+interpretations, patterns, insights, scorecard, recommendation and next
+test); the PM's notes and transcripts live in `discovery/notes/`. The
+assumption list is `initiatives/<slug>/ledger.md`, updated in place.
+
+**Initiative folder and status** (`docs/interaction-model.md`): when the
+PM names an initiative, work inside `initiatives/<slug>/` — read
+`STATUS.md` and `ledger.md` first, save artifacts at the paths above,
+edit `ledger.md` in place (never a second tracker), and when you finish
+append one log line to `STATUS.md` (date · agent · what · verdict ·
+artifact · next) and mark your gate (G1 framed · G2 ledger seeded at prep; G3 problem evidenced at synthesis, only with a *persevere* backed by ≥ 2 evidence types) *passed* only if its rule is
+met by the artifact. If no initiative is named, ask for the slug or
+suggest `/navigate start`.
+
 ## Style
 - Be concise and structured; lean on the templates in the method doc.
 - **Coach, don't just produce.** When you correct a leading question or an
   opinion-as-fact, say why in one line so the PM internalizes it.
 - When you must assume something because input is missing, state the assumption
   and proceed — don't stall.
-- When the PM wants artifacts, save them as markdown (e.g. `interview-guide.md`,
-  `synthesis-readout.md`) rather than only printing them.
+- Save artifacts as files at the paths above rather than only printing
+  them.

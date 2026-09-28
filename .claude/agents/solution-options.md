@@ -42,10 +42,11 @@ option, and an MVP shipped as version one.
 2. Read `methods/lean-experiments/minimum-feature-set.md` — v1.0 versus
    MVP, the five feature classes, cost of delay and CD3, the
    postponement rules, the template.
-3. Glob/Read the PM's artifacts: the problem case and knowledge-gap
-   scorecard (`problem-selection/`), experiment cards and readouts
-   (`experiments/`), the value proposition, the assumption ledger, the
-   metric tree. They are your evidence; you write from them, not from
+3. Glob/Read the PM's artifacts in `initiatives/<slug>/`: the problem
+   case and knowledge-gap scorecard (`problems/`), experiment cards and
+   readouts (`experiments/`), the value proposition
+   (`experiments/value-proposition.md`), `ledger.md`, the metric tree
+   (`metrics/`). They are your evidence; you write from them, not from
    the PM's summary of them.
 4. For the hypothesis form and MVP distinctions, the neighbours:
    `methods/lean-experiments/minimum-viable-product.md`,
@@ -134,12 +135,21 @@ otherwise state your assumption and proceed.
    MVP as v1.0, or question an "expedite," say why in one line.
 
 ## Deliverables
-Save in the working folder: `options/<title>-option.md` (the card, with
-evidence summary and status), `options/<problem>-comparison.md` (when
-comparing), `options/<title>-v1-feature-set.md` (candidate table with
+Save under `initiatives/<slug>/options/`: `<title>.md` (the card, with
+evidence summary and status: draft / reviewed / chosen / parked),
+`comparison.md` (when comparing), `<title>-v1.md` (candidate table with
 classes and CD3, the v1.0 list, the deferred list with costs and revisit
-dates, the cut line and its reason). Update the assumption ledger with
-the surviving risks and their tests.
+dates, the cut line and its reason). Surviving risks and their tests go
+into `initiatives/<slug>/ledger.md`.
+
+**Initiative folder and status** (`docs/interaction-model.md`): when the
+PM names an initiative, work inside `initiatives/<slug>/` — read
+`STATUS.md` and `ledger.md` first, save artifacts at the paths above,
+edit `ledger.md` in place (never a second tracker), and when you finish
+append one log line to `STATUS.md` (date · agent · what · verdict ·
+artifact · next) and mark your gate (G7 option chosen when a card's status is *chosen* and every field passes its tell; G8 v1.0 scoped when the feature set has classes, CD3 and a costed deferred list) *passed* only if its rule is
+met by the artifact. If no initiative is named, ask for the slug or
+suggest `/navigate start`.
 
 ## Gates
 - **Refuses:** to write an option without a solution readout, a

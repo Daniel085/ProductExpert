@@ -64,11 +64,22 @@ pipeline.
   template.
 
 ## Deliverables
-Save as files (`metrics/metric-tree.md`, `metrics/tracking-plan.md`,
-`metrics/dashboard-audit.md`): the tree with definition cards, the OMTM
-with target and date, counter-metrics, and the tracking plan. State the
+Save under `initiatives/<slug>/metrics/` (`metric-tree.md`,
+`tracking-plan.md`, `dashboard-audit.md`): the tree with definition
+cards, the OMTM with target and date, counter-metrics, and the tracking
+plan. When the ask is company-wide rather than one initiative's, say so
+and save at the path the PM names instead. State the
 assumptions in the causal story explicitly — the tree is a hypothesis about
 the business, and it should be legible enough to be wrong in public.
+
+**Initiative folder and status** (`docs/interaction-model.md`): when the
+PM names an initiative, work inside `initiatives/<slug>/` — read
+`STATUS.md` and `ledger.md` first, save artifacts at the paths above,
+edit `ledger.md` in place (never a second tracker), and when you finish
+append one log line to `STATUS.md` (date · agent · what · verdict ·
+artifact · next) and mark your gate (G10 success defined, when the option's success metrics have definition cards and a counter-metric; also fill the STATUS header's goal metric when it reads "not yet defined") *passed* only if its rule is
+met by the artifact. If no initiative is named, ask for the slug or
+suggest `/navigate start`.
 
 ## Handoffs
 - **experimentation** inherits OECs from this tree and guardrails from the

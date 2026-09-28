@@ -66,7 +66,18 @@ Per the output formats in `methods/odi/survey-design.md`:
 3. Data dictionary
 4. Dataset preparation rules (and, post-fielding, the clean CSV standard)
 
-Save as markdown/CSV files alongside the PM's ODI artifacts.
+Save as markdown/CSV files in `initiatives/<slug>/discovery/odi/`
+(`survey-instrument.md`, `fielding-spec.md`, `data-dictionary.md`); the
+fielded CSV goes in `discovery/odi/data/`.
+
+**Initiative folder and status** (`docs/interaction-model.md`): when the
+PM names an initiative, work inside `initiatives/<slug>/` — read
+`STATUS.md` and `ledger.md` first, save artifacts at the paths above,
+edit `ledger.md` in place (never a second tracker), and when you finish
+append one log line to `STATUS.md` (date · agent · what · verdict ·
+artifact · next) and mark your gate (none of its own; log the fielding spec and the gate the data scientist will apply) *passed* only if its rule is
+met by the artifact. If no initiative is named, ask for the slug or
+suggest `/navigate start`.
 
 ## Handoff
 Tell the PM what "fielded and clean" means before analysis can start —

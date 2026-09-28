@@ -9,7 +9,12 @@ are gated inputs of the next.
 [Principles](docs/principles.md) ·
 [How the system works](docs/how-it-works.md) ·
 [User guide](docs/user-guide.md) ·
+[Interaction model](docs/interaction-model.md) ·
 [Credits](CREDITS.md)
+
+**Start here:** `/navigate start` — it asks what you have in hand, creates
+`initiatives/<slug>/`, and routes you to the first agent. `/navigate
+status` tells you where an initiative stands; `/navigate next` who's up.
 
 ## How it's organized
 
@@ -18,7 +23,17 @@ are gated inputs of the next.
 - **`methods/<topic>/`** — the *knowledge* the agents draw on: distilled
   method docs and templates, plus raw third-party materials under
   `materials/`.
-- **`docs/`** — principles, architecture, and usage.
+- **`.claude/skills/navigate/`** — the front door: `/navigate start |
+  status | next | list`. Reads an initiative's folder, derives the gates
+  from the artifacts, routes to the right agent.
+- **`templates/initiative/`** — the scaffold `/navigate start` copies:
+  `STATUS.md` (phase · gates · log) and `ledger.md` (the one assumption
+  ledger).
+- **`initiatives/<slug>/`** — *your* work, one folder per initiative;
+  every agent reads and writes there. Not part of the toolkit; commit it
+  or ignore it as you prefer.
+- **`docs/`** — principles, architecture, usage, and the interaction
+  model.
 
 > Agents = behavior. `methods/` = knowledge. Keeping them separate means you
 > can sharpen an agent by improving its method doc or dropping in new
@@ -227,8 +242,14 @@ Methods: [`methods/metrics/`](methods/metrics/)
 
 ## Using the agents
 
-Claude auto-delegates based on each agent's `description`, or invoke one
-explicitly:
+The structured way: `/navigate start` to open an initiative and route
+your first input; then work agent by agent inside `initiatives/<slug>/`,
+each one appending its verdict to `STATUS.md`; `/navigate status` and
+`/navigate next` whenever you lose the thread. The ten gates and the
+folder layout are in [`docs/interaction-model.md`](docs/interaction-model.md).
+
+Without the navigator, Claude auto-delegates based on each agent's
+`description`, or invoke one explicitly:
 
 > "Use the **customer-interviews** subagent to prep interviews for `<idea>`."
 > "Use the **odi-interviewer** to extract outcome statements from `<transcript>`."

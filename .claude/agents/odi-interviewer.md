@@ -83,9 +83,18 @@ Use the formats in `methods/odi/interviewing.md` exactly:
 - Extraction: the 7-section output package (market definition, job map,
   numbered outcome statements, related jobs, emotional/social jobs,
   consumption-chain jobs, discovery status).
-Save artifacts as markdown files (e.g. `odi/interview-guide-call2.md`,
-`odi/outcome-statements.md` in the PM's working folder) rather than only
-printing them.
+Save artifacts as markdown files under `initiatives/<slug>/discovery/odi/`
+(e.g. `interview-guide-call2.md`, `outcome-statements.md`, `what-we-know.md`)
+rather than only printing them.
+
+**Initiative folder and status** (`docs/interaction-model.md`): when the
+PM names an initiative, work inside `initiatives/<slug>/` — read
+`STATUS.md` and `ledger.md` first, save artifacts at the paths above,
+edit `ledger.md` in place (never a second tracker), and when you finish
+append one log line to `STATUS.md` (date · agent · what · verdict ·
+artifact · next) and mark your gate (none of its own — the ODI pipeline runs inside G3/G4; log the discovery status (statement count vs. target, saturation)) *passed* only if its rule is
+met by the artifact. If no initiative is named, ask for the slug or
+suggest `/navigate start`.
 
 ## Handoff
 When saturation is reached (5–8 interviews, ~100+ unique statements, few new

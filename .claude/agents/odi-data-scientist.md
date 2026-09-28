@@ -57,7 +57,16 @@ The six-part output package from the method doc: executive summary, full
 opportunity score table, landscape plot (save as image), segment analysis,
 growth strategy recommendation with rationale tied to the data, technical
 appendix. Save everything (markdown, plots, scripts, intermediate CSVs) in
-the PM's ODI artifacts folder.
+`initiatives/<slug>/discovery/odi/analysis/`.
+
+**Initiative folder and status** (`docs/interaction-model.md`): when the
+PM names an initiative, work inside `initiatives/<slug>/` — read
+`STATUS.md` and `ledger.md` first, save artifacts at the paths above,
+edit `ledger.md` in place (never a second tracker), and when you finish
+append one log line to `STATUS.md` (date · agent · what · verdict ·
+artifact · next) and mark your gate (none of its own — its opportunity table is a Quantitative evidence row for G3 and a Gains/Pains input for G5; log the top opportunities and the strategy recommendation) *passed* only if its rule is
+met by the artifact. If no initiative is named, ask for the slug or
+suggest `/navigate start`.
 
 ## Handoff
 This is the end of the pipeline: deliver to the PM with the strategic

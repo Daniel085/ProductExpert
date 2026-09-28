@@ -3,9 +3,28 @@
 How to actually drive ProductExpert: which agent to call when, what to give
 it, what you get back, and two end-to-end walkthroughs.
 
+## Start here: `/navigate`
+
+> `/navigate start`
+
+It asks what you have in hand (an idea, a feature request, a pile of
+tickets, interview notes, survey data, a tested solution), names the
+initiative, creates `initiatives/<slug>/` with `STATUS.md` and
+`ledger.md`, and routes you to the first agent. From then on every agent
+works inside that folder and appends its verdict to `STATUS.md`.
+
+> `/navigate status` · `/navigate next` · `/navigate list`
+
+`status` re-derives the ten gates from the artifacts and tells you the
+phase, what has passed, the blocker, and any gate the status file claims
+that the files don't back. `next` names the agent, what it needs that
+exists, what it needs that doesn't (usually your interviews, your
+fielded survey, your experiment), and the exact invocation. The folder
+layout and the gate rules: [`interaction-model.md`](./interaction-model.md).
+
 ## Which agent, when
 
-Start from where you are:
+Or go straight to an agent — start from where you are:
 
 | Your situation | Agent | Why |
 |----------------|-------|-----|
@@ -54,9 +73,10 @@ yours:
 3. **Deciding** — agents end with evidence and a recommendation; the
    persevere/pivot call and the roadmap bet are yours.
 
-A practical habit: keep one working folder per discovery effort (e.g.
-`discovery/<project>/`) and point the agents at it — they read its artifacts
-and save theirs there, so each stage picks up where the last left off.
+The working folder is `initiatives/<slug>/` — `/navigate start` creates
+it, and every agent reads its artifacts and saves its own there, so each
+stage picks up where the last left off. Drop your notes, transcripts,
+exports and survey data into it too.
 
 ## Track 1 walkthrough — qualitative discovery
 
