@@ -86,7 +86,7 @@ initiative exists, `list` if several, `start` if none.
    correct the table (the artifacts are the truth). A gate the artifacts
    satisfy that the file leaves *open* — mark it passed with today's
    date and the artifact, and say you did.
-4. Derive the phase (Opportunity Discovery until G3; Problem Validation
+4. Derive the phase (Opportunity Discovery until G2; Problem Validation
    until G4; Solution Validation until G9) and update the header if it
    changed.
 5. Report, in this order: phase · gates passed (with dates) · the

@@ -101,8 +101,9 @@ Three parts:
 | G9 | **Vision decided** | A PR/FAQ with a verdict — build / iterate / kill / park | prfaq |
 | G10 | **Success defined** | Metric definition cards for the option's success metrics, with a counter-metric | metrics |
 
-Phase is derived: **Opportunity Discovery** until G3; **Problem
-Validation** until G4; **Solution Validation** until G9. G10 and G5 can
+Phase is derived: **Opportunity Discovery** until G2 (framed, ledger
+seeded); **Problem Validation** until G4; **Solution Validation** until
+G9. G10 and G5 can
 pass any time after G3. Kill and park are passes, not failures — a G9
 verdict of *kill* closes the initiative with its reasons on record.
 

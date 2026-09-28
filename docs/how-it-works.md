@@ -129,20 +129,32 @@ layout, gate rules and verbs:
 
 ## The three phases
 
-Every agent serves one of three phases — **Opportunity Discovery**,
-**Problem Validation**, **Solution Validation** — and the handoff gates
-below are the boundaries between them:
+Every agent serves one of three phases — **Opportunity Discovery**
+(what's worth a look?), **Problem Validation** (real? for whom? which one
+first?), **Solution Validation** (does *this* solve it, cheaply, and what
+do we commit to?) — and the gates on the arrows are the boundaries
+between them (G1–G10 are defined in
+[`interaction-model.md`](./interaction-model.md)):
 
-```
- 1 · OPPORTUNITY DISCOVERY      2 · PROBLEM VALIDATION            3 · SOLUTION VALIDATION
- ideation                       customer-interviews (synthesis)   lean-experiments
- customer-interviews (prep)     odi-outcome-editor → survey       (concept · concierge · WoZ ·
- odi-interviewer                   builder → data-scientist         prototypes · API · MLP · kata)
-                                problem-selection                 solution-options (option · v1.0)
-                                                                  prfaq · experimentation · metrics
- ─── what's worth a look? ───>  ─── real? for whom? which? ───>   ─── does THIS solve it, cheaply? ───>
-                                       │ exit gate: knowledge-gap
-                                       │ scorecard, no area < 3
+```mermaid
+flowchart LR
+  subgraph P1["1 · Opportunity Discovery"]
+    direction TB
+    a1["ideation"] ~~~ a2["customer-interviews (prep)"] ~~~ a3["odi-interviewer"]
+  end
+  subgraph P2["2 · Problem Validation"]
+    direction TB
+    b1["customer-interviews (synthesis)"] ~~~ b2["odi-outcome-editor → survey-builder<br/>→ data-scientist"] ~~~ b3["problem-selection<br/>verdict · gap scorecard · root cause"]
+  end
+  subgraph P3["3 · Solution Validation"]
+    direction TB
+    c1["lean-experiments"] ~~~ c2["solution-options"] ~~~ c3["prfaq · experimentation · metrics"]
+  end
+  P1 -- "G1 framed<br/>G2 ledger seeded" --> P2
+  P2 -- "G3 problem evidenced<br/>G4 gaps closed" --> P3
+  P3 -- "G9 verdict" --> out(["build · iterate<br/>kill · park"])
+  classDef agent fill:#e8f0fe,stroke:#3b6fd6,color:#111
+  class a1,a2,a3,b1,b2,b3,c1,c2,c3 agent
 ```
 
 The third phase is where "we heard what they asked for and built it"
@@ -163,12 +175,13 @@ context, never a verdict; only interviews validate a problem) and a ranked
 **assumption ledger** as the handoff object. Then `customer-interviews`
 takes the ledger forward, with two modes:
 
-```
-PREP:        learning goal → ranked assumptions → segments & screener
-             → non-leading interview guide → recruiting plan → debrief template
-   ↓  (you conduct the interviews)
-SYNTHESIS:   observations vs interpretations → patterns → insights
-             → assumption scorecard → persevere / pivot / dig deeper + next test
+```mermaid
+flowchart LR
+  prep["PREP<br/>learning goal → ranked assumptions<br/>→ segments & screener → non-leading guide<br/>→ recruiting plan → debrief template"] --> you{{"you conduct<br/>the interviews"}} --> syn["SYNTHESIS<br/>observations vs interpretations → patterns<br/>→ insights → assumption scorecard<br/>→ persevere / pivot / dig deeper + next test"]
+  classDef agent fill:#e8f0fe,stroke:#3b6fd6,color:#111
+  classDef human fill:#fff3cd,stroke:#b8860b,color:#333
+  class prep,syn agent
+  class you human
 ```
 
 ### Track 2 — The ODI pipeline (four agents)
@@ -177,33 +190,18 @@ For when the job is validated and the question is *which needs to
 prioritize*. Four agents in series, with one feedback loop and two
 human-in-the-loop steps:
 
-```
-            market definition (Job Executor + Core Functional Job)
-                                    │
-                          ┌─────────▼─────────┐
-                          │  odi-interviewer  │  Phase 1 · Discover
-                          │  job map · guides │  ← you conduct the calls
-                          │  outcome extract  │
-                          └─────────┬─────────┘
-              follow-up    raw statements (100+) · gate: saturation
-              interview   ┌─────────▼─────────┐
-              request ┌───│ odi-outcome-editor│  Phase 1.5 · Curate
-                      └──>│ validate · dedupe │
-                          │ level · coverage  │
-                          └─────────┬─────────┘
-                       curated 80–120 · gate: all checks pass
-                          ┌─────────▼─────────┐
-                          │ odi-survey-builder│  Phase 2 · Quantify
-                          │ instrument · specs│  ← you field the survey
-                          └─────────┬─────────┘
-                        clean CSV · gate: N ≥ 180, < 10% missing
-                          ┌─────────▼─────────┐
-                          │ odi-data-scientist│  Phase 3 · Analyze & Act
-                          │ scores · segments │  gate: silhouette > 0.25
-                          │ strategy          │
-                          └─────────┬─────────┘
-                                    ▼
-              ranked opportunities · segments · growth strategy
+```mermaid
+flowchart TD
+  md(["market definition<br/>Job Executor + Core Functional Job"]) --> i
+  i["odi-interviewer · Phase 1 Discover<br/>job map · guides · outcome extraction<br/><i>you conduct the calls</i>"] -- "raw statements (100+) · gate: saturation" --> e
+  e["odi-outcome-editor · Phase 1.5 Curate<br/>validate · dedupe · level · coverage"] -- "curated 80–120 · gate: all checks pass" --> s
+  e -. "follow-up interview request" .-> i
+  s["odi-survey-builder · Phase 2 Quantify<br/>instrument · fielding specs · data dictionary<br/><i>you field the survey</i>"] -- "clean CSV · gate: N ≥ 180, < 10% missing" --> d
+  d["odi-data-scientist · Phase 3 Analyze & Act<br/>scores · segments · strategy<br/>gate: silhouette > 0.25"] --> out(["ranked opportunities · segments · growth strategy"])
+  classDef agent fill:#e8f0fe,stroke:#3b6fd6,color:#111
+  classDef edge fill:#eee,stroke:#888,color:#333
+  class i,e,s,d agent
+  class md,out edge
 ```
 
 Full step-by-step detail (the 12 steps, gate table): see
@@ -218,10 +216,12 @@ pipeline requires as its first input. The handoff is wired into both sides:
 refuses to start without it (and points back to `customer-interviews` when
 the job itself is still in question).
 
-```
-customer-interviews ──(validated job)──> odi-interviewer ──> … pipeline …
-        ▲                                                          │
-        └── "the problem isn't validated yet" ◄────────────────────┘
+```mermaid
+flowchart LR
+  ci["customer-interviews"] -- "validated job = market definition" --> oi["odi-interviewer"] --> p(["… the pipeline …"])
+  oi -. "the problem isn't validated yet" .-> ci
+  classDef agent fill:#e8f0fe,stroke:#3b6fd6,color:#111
+  class ci,oi agent
 ```
 
 ### The selection gate
@@ -232,25 +232,17 @@ stakeholder theories all nominate problems. **`problem-selection`** is the
 gate between "we know about these problems" and "we're writing the PR/FAQ
 for this one":
 
-```
-Track 1 insights · Track 2 opportunities · tickets · analytics · asks
-                                │
-                    ┌───────────▼───────────┐
-                    │   problem-selection   │
-                    │ theme (affinity map)  │
-                    │ case per problem:     │
-                    │  job story → evidence │
-                    │  table → patterns →   │
-                    │  verdict              │
-                    │ rank on Signal ×      │
-                    │  Alignment            │
-                    └───┬───────┬───────┬───┘
-                   Yes  │  Not  │  Prob.│
-                        │  yet  │  not  │
-                        ▼       ▼       ▼
-                     prfaq   customer-  archive
-                      (or    interviews (with
-                      ODI)   / metrics   reason)
+```mermaid
+flowchart TD
+  in(["Track 1 insights · Track 2 opportunities<br/>tickets · analytics · stakeholder asks"]) --> ps
+  ps["problem-selection<br/>theme (affinity map) → case per problem:<br/>job story → evidence table → patterns → verdict<br/>→ rank on Customer Signal × Business Alignment<br/>→ knowledge-gap scorecard"]
+  ps -- "Yes · gaps closed" --> fwd["lean-experiments<br/>(or the ODI pipeline, for<br/><i>which needs within the job</i>)"]
+  ps -- "Not yet" --> back["customer-interviews / metrics<br/>for the missing evidence type"]
+  ps -- "Probably not" --> arc[("archive, with reason")]
+  classDef agent fill:#e8f0fe,stroke:#3b6fd6,color:#111
+  classDef edge fill:#eee,stroke:#888,color:#333
+  class ps,fwd,back agent
+  class in,arc edge
 ```
 
 Its gates: no solution-noun in a problem statement; no *Yes* from a single
@@ -271,23 +263,21 @@ Validation exits only with no area below 3.
 
 Five agents sit around both tracks and consume their evidence:
 
-```
-discovery evidence (Track 1 insights · Track 2 scores/segments · problem-selection Yes)
-        │
-        ▼
- lean-experiments ──(passed; needs causal rigor)──> experimentation
-   concept · concierge · WoZ · prototypes                 ▲
-   API access · MLP · kata · value proposition            │
-        │ readouts                                        │
-        ▼                                                 │
- solution-options ──(iteration plan = kata cycles)──> lean-experiments
-   option card · comparison · v1.0 by cost of delay       │
-        │ chosen option + v1.0 scope                      │
-        ▼                                                 │
-      prfaq ──("what we'd need to believe")───────────────┤
-        │                                                 │
-        └──("how we'll measure success")──> metrics ──────┘
-                                            (goal metric · OEC & guardrails)
+```mermaid
+flowchart TD
+  ev(["discovery evidence<br/>Track 1 insights · Track 2 scores/segments · problem-selection Yes"]) --> le
+  le["lean-experiments<br/>concept · concierge · WoZ · prototypes · API access · MLP · kata<br/>value proposition"] -- "readouts" --> so
+  le -- "passed; needs causal rigor" --> ex["experimentation"]
+  so["solution-options<br/>option card · comparison · v1.0 by cost of delay"] -- "chosen option + v1.0 scope" --> pr["prfaq"]
+  so -. "iteration plan = kata cycles" .-> le
+  pr -- "what we'd need to believe" --> ex
+  pr -- "how we'll measure success" --> me["metrics<br/>goal metric · OEC & guardrails"]
+  me -.-> le
+  me -.-> ex
+  classDef agent fill:#e8f0fe,stroke:#3b6fd6,color:#111
+  classDef edge fill:#eee,stroke:#888,color:#333
+  class le,so,pr,ex,me agent
+  class ev edge
 ```
 
 - **lean-experiments** proves the solution before anything is built —
