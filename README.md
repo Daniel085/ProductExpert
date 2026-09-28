@@ -62,27 +62,51 @@ needs should we prioritize, for whom, with what strategy?"* The bridge: a
 validated, solution-agnostic job from Track 1 is the market definition that
 starts Track 2.
 
-```
-TRACK 1 · QUALITATIVE                TRACK 2 · ODI PIPELINE (quantitative)
+```mermaid
+flowchart TD
+  nav(["/navigate start"]) --> P1
 
-ideation — the front door            odi-interviewer ──> odi-outcome-editor
-  frame → diverge → provoke                │      ▲______________│
-  → converge → assumption ledger           │      (follow-ups if gaps)
-        │                                  ▼
-        ▼                            odi-survey-builder ──> odi-data-scientist
-customer-interviews                    you field the survey   scores · segments
-  prep → you interview → synthesize                           · strategy
-  → persevere / pivot / dig deeper
-        │
-        └── validated job (= market definition) ──> starts Track 2
+  subgraph P1["1 · Opportunity Discovery — what's worth a look?"]
+    direction LR
+    ideation["ideation<br/>frame · diverge · ledger"] --> ciprep["customer-interviews<br/>prep"]
+  end
 
-        both tracks · tickets · analytics · stakeholder asks
-                              │
-                              ▼
-                      problem-selection ──── Yes ──────────> lean-experiments ──> solution-options ──> prfaq
-                      theme → case → rank ── Not yet ──────> back to discovery      (option card · v1.0)    │
-                                          ── Probably not ─> archive                               experimentation
+  P1 --> you1{{"you interview"}} --> P2
+
+  subgraph P2["2 · Problem Validation — real? for whom? which one first?"]
+    direction LR
+    cisyn["customer-interviews<br/>synthesis"] --> ps["problem-selection<br/>theme · case · rank<br/>gap scorecard · root cause"]
+    cisyn -- "validated job" --> odi["ODI pipeline<br/>interviewer → outcome-editor<br/>→ survey-builder → data-scientist<br/><i>you field the survey</i>"] --> ps
+    inputs[("tickets · analytics<br/>stakeholder asks")] --> ps
+  end
+
+  P2 -- "G3 problem evidenced · G4 gaps closed<br/>(Not yet → back to discovery)" --> P3
+
+  subgraph P3["3 · Solution Validation — does THIS solve it, cheaply? what do we commit to?"]
+    direction LR
+    metrics["metrics<br/>goal metric · OEC"] -.-> le["lean-experiments<br/>value prop · experiment cards · kata<br/><i>you run the experiments</i>"]
+    le -- "G6 read out" --> so["solution-options<br/>option card · v1.0 by cost of delay"]
+    so -- "G7 chosen · G8 scoped" --> prfaq["prfaq<br/>press release + FAQ"]
+    le -- "causal rigor" --> exp["experimentation<br/>A/B tests"]
+  end
+
+  P3 -- "G9 verdict" --> out(["build · iterate · kill · park"])
+
+  classDef human fill:#fff3cd,stroke:#b8860b,color:#333
+  classDef agent fill:#e8f0fe,stroke:#3b6fd6,color:#111
+  classDef edge fill:#eee,stroke:#888,color:#333
+  class you1 human
+  class ideation,ciprep,cisyn,odi,ps,le,so,prfaq,exp,metrics agent
+  class nav,out,inputs edge
 ```
+
+Solid arrows are hand-offs; dotted ones are inputs. Yellow hexagons and
+italics are the steps that stay yours. The loops the diagram leaves out:
+a *Not yet* from problem-selection sends the initiative back to
+discovery for the missing evidence; a failed experiment goes back to the
+option or the problem; and every agent's verdict is appended to the
+initiative's `STATUS.md`, which `/navigate status` reads to derive the
+gates (G1–G10, in [`docs/interaction-model.md`](docs/interaction-model.md)).
 
 Between discovery and the documents sits a **selection gate**:
 **`problem-selection`** takes the competing problems both tracks (and
