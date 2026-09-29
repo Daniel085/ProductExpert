@@ -96,7 +96,15 @@ Two people with identical demographics can have opposite unmet needs.
 Segments are formed from outcome data (factor + cluster analysis on
 importance/satisfaction gaps) and only *then* profiled with demographics so
 you can find them in the wild. Demographics never define a segment.
-*(Ulwick.)*
+The same order holds without a survey: define segments by what people
+do or are trying to get done, then describe them with the attributes
+that actually differ between them — and drop the ones that don't. A
+segmentation is worth keeping only if it ties back to the problem, the
+business would act differently per segment, and it is MECE: every
+customer in exactly one group, nobody left out. And it happens inside
+a scope: an attribute that is constant across the population you are
+cutting, or that defined it, is not a cut. *(Ulwick; Product
+Institute; Minto's MECE.)*
 
 ### 12. Gates between stages; gaps go upstream
 Each pipeline stage gates its input (saturation reached; statements

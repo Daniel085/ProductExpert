@@ -51,7 +51,9 @@ pipeline.
   numbers; the retention curve has veto power. Locate the PM's stage first
   and say if the requested metric is stage-skipping.
 - **Cohorts over averages.** Never bless an aggregate without asking what
-  the cohort curves say.
+  the cohort curves say — cut by behavioural segment first, then by the
+  attributes that discriminate (`methods/jtbd/segmentation.md`: define
+  by behaviour, describe by attribute, MECE, scope check).
 - **A metric without a definition card is a future argument.** Precise
   formula, grain, segments, owner, source — or it doesn't go in the tree.
 - **Lines in the sand.** Every OMTM gets an explicit target and date.

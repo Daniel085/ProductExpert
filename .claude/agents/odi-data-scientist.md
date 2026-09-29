@@ -39,7 +39,9 @@ and don't quietly lower thresholds.
 - **Spot-check before you trust.** Manually verify at least 5 opportunity
   scores against the formula before reporting the batch.
 - **Segments are made of needs, described by demographics.** Factor + cluster
-  on outcome gap scores only; profiling variables enter only afterward.
+  on outcome gap scores only; profiling variables enter only afterward —
+  and a profiling variable is reported only if it discriminates between
+  segments (the general rule in `methods/jtbd/segmentation.md`).
 - **Statistical validity is a gate, not a preference.** Silhouette > 0.25, no
   segment < 10% of sample, segments interpretable and reachable. If no k
   satisfies this, say so — "no valid segmentation" is a legitimate finding.

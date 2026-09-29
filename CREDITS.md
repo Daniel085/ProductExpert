@@ -161,6 +161,30 @@ the property of their authors and are included for reference and attribution.
 
 ---
 
+## Shared method — Segmentation (`methods/jtbd/`)
+
+- **Product Institute** (founded by **Melissa Perri**) — *Product
+  Management Foundations*, the segmentation lesson: segment by what
+  matters to the business (product usage, size of business,
+  geography, industry, experience); follow the money (who buys and
+  stays, who doesn't); avoid segmentations that don't tie back to the
+  problem being solved; a useful segmentation is MECE. Licensed course
+  material — **paraphrased from Daniel O'Rorke's notes; nothing
+  quoted; the course's teacher-segmentation exercise not reproduced.**
+- **Barbara Minto** — *The Pyramid Principle* (Minto International,
+  1987; Pearson eds.) — MECE (mutually exclusive, collectively
+  exhaustive), as practised at McKinsey. Cited, not reproduced.
+- **Tony Ulwick** / **Strategyn** — needs-based segmentation and
+  "demographics describe segments; they never define them" (see the
+  ODI section above); **Alan Klement** — job stories, situation over
+  attributes (see the Job Stories section).
+- The scope rule, the define-by-behaviour / describe-by-attribute
+  procedure, the attribute test, the template, the checks, the tells
+  and the worked example are **this repo's operational extension**,
+  marked as such in the method doc.
+
+---
+
 ## Shared method — Requirements Are Hypotheses (`methods/jtbd/`)
 
 - **Marty Cagan**, "Requirements Are Not," **Silicon Valley Product Group

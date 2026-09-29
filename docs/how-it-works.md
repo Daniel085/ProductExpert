@@ -44,6 +44,7 @@ ProductExpert/
 │   │   ├── job-stories.md           #   job-story framing; user-story rewrites
 │   │   ├── requirements-are-hypotheses.md # de-requirement intake protocol
 │   │   ├── value-proposition.md     #   functional+emotional jobs → statement; Strategyzer canvas
+│   │   ├── segmentation.md          #   define by behaviour, describe by attribute; MECE; scope rule
 │   │   └── materials/               #   Product Institute lesson; Strategyzer canvas (PDFs)
 │   ├── lean-experiments/
 │   │   ├── pre-build-experiments.md #   chooser, generative/evaluative, catalogue, card
@@ -360,6 +361,7 @@ Knowledge shared by several agents is written exactly once:
 | Option card (11 fields, tells, comparison, gates) | `methods/lean-experiments/solution-options.md` | solution-options, prfaq |
 | Minimum feature set (v1.0 ≠ MVP, feature classes, cost of delay, CD3, postponement rules) | `methods/lean-experiments/minimum-feature-set.md` | solution-options |
 | Requirement intake (constraint / theory / hypothesis) | `methods/jtbd/requirements-are-hypotheses.md` | customer-interviews, odi-interviewer, prfaq |
+| Segmentation (three rules, MECE, define by behaviour / describe by attribute, scope rule, attribute test) | `methods/jtbd/segmentation.md` | customer-interviews, metrics, odi-data-scientist, problem-selection, ideation |
 | Brainstorming modes, divergence rules, landscape-scan protocol | `methods/ideation/brainstorming.md` | ideation |
 | Assumption-ledger template (categories, tiers, ranking, lifecycle) | `methods/customer-interviews/assumption-ledger.md` | ideation, customer-interviews, problem-selection, prfaq, experimentation |
 | Problem-selection criteria, goal readings, evidence table, verdicts, ranking | `methods/problem-selection/picking-the-right-problem.md` | problem-selection |
