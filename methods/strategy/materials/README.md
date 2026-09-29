@@ -10,6 +10,7 @@ All rights remain with their authors.
 | `ToyotaKata-Rother-TheImprovementKata.pdf` → `extracted/toyotakata-rother-the-improvement-kata.txt` | Mike Rother, *The Improvement Kata*, Toyota Kata website (University of Michigan), printed 2026-09-29 | The four-step model of scientific thinking (direction or challenge → current condition → next target condition → experiment toward it); scientific thinking as a practised habit, not a default; Starter Kata; the five-question card; the Ichijo & Nonaka excerpt on a firm-specific *kata* as a knowledge asset |
 | `ToyotaKata-Rother-TheCoachingKata.pdf` → `extracted/toyotakata-rother-the-coaching-kata.txt` | Mike Rother, *The Coaching Kata*, Toyota Kata website, printed 2026-09-29 | Coaching cycles: the five questions asked daily, 20 minutes or less, the learner referring to their storyboard; the two purposes (reinforce the pattern; make the learner's thinking visible); the storyboard's six fields (focus process · challenge · target condition with achieve-by · current condition · experimenting record · obstacles parking lot); the second coach |
 | `ToyotaKata-Rother-5Q_Card.pdf` → `extracted/toyotakata-rother-5q-card.txt` | Mike Rother, *5Q Card*, Toyota Kata website, retrieved 2026-09-29 | The plain-language root of the five questions; the card front; the **back of the card** — reflect on the last step (planned · expected · actually happened · learned) before naming the next obstacle; clarifying questions; "go right to question four" at the threshold of knowledge; practise the Starter Kata exactly as written before adapting it |
+| `MelissaPerri-WhatIsGoodProductStrategy-2016.pdf` → `extracted/melissaperri-what-is-good-product-strategy-2016.txt` | Melissa Perri, *"What is Good Product Strategy?"*, melissaperri.com, 14 Jul 2016, printed 2026-09-29 | Her pre-book formulation: strategy is not a plan (the CTO who wanted a list of features and dates); the definition — a system of achievable goals and visions that align the team around outcomes for business and customers; strategy *emerges from experimentation toward a goal*; the four components (**vision · challenge · target condition · current state**), who owns each level, the Uber driver-onboarding example, and "product management is the art of solving your customer's problems to reach your business objectives" |
 
 Also referenced but **not** attached here:
 
@@ -20,7 +21,8 @@ Also referenced but **not** attached here:
   book, distilled in paraphrase in
   [`../product-strategy.md`](../product-strategy.md); nothing quoted.
   Her 2015 blog post on the Product Kata is preserved at
-  `methods/lean-experiments/materials/MelissaPerri-TheProductKata.pdf`.
+  `methods/lean-experiments/materials/MelissaPerri-TheProductKata.pdf`;
+  her 2016 post on product strategy is preserved here (above).
 - **Stephen Bungay**, *The Art of Action* (Nicholas Brealey, 2011) —
   the three strategic gaps (knowledge, alignment, effects) and the
   definition of strategy as a deployable decision-making framework that

@@ -427,6 +427,16 @@ the property of their authors and are included for reference and attribution.
   process that runs it, and the living roadmap's fields. A published
   book — **paraphrased; nothing quoted; the Marquetly example not
   reproduced.**
+- **Melissa Perri** — *"What is Good Product Strategy?"*,
+  melissaperri.com, 14 Jul 2016 — the pre-book product-strategy
+  canvas (vision · challenge · target condition · current state), her
+  definition of product strategy, strategy as something *uncovered*
+  through experimentation rather than dictated, the ownership of each
+  level, the Uber driver-onboarding example, and the "Unified Field
+  Theory" pointer to **Bill Costantino** and **Mike Rother**. Preserved
+  at `methods/strategy/materials/MelissaPerri-WhatIsGoodProductStrategy-2016.pdf`
+  with a transcription under `materials/extracted/`; it remains the
+  author's property.
 - **Stephen Bungay** — *The Art of Action: How Leaders Close the Gaps
   between Plans, Actions and Results* (Nicholas Brealey, 2011): the
   knowledge, alignment and effects gaps, their mission-command

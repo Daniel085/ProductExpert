@@ -132,6 +132,60 @@ Rules for the stack:
   minimum; if it isn't written, each level will fill the gap with its
   own version — the alignment gap by another route.
 
+### 3a. Where the levels came from — Perri's 2016 canvas
+
+Two years before the book, Perri wrote the same stack with kata
+vocabulary (*"What is Good Product Strategy?"*, 2016 — preserved in
+[`./materials/`](./materials/)). It is worth knowing because the agents
+meet PMs who learned it in this form, and because it shows the stack
+*is* the kata:
+
+| 2016 canvas | What it is | Book-era level |
+|-------------|-----------|----------------|
+| **Vision** | The long-term, qualitative direction of the company or business line — competitors, how customers will see you, expansion | Vision |
+| **Challenge** | The first business goal on the way to the vision; which part of the customer journey or funnel to optimize first; broad, may be qualitative or quantitative | Strategic intent |
+| **Target condition** | The challenge broken into achievable, measurable metrics; the team should *not* yet know how to reach it, only where to start looking | Product initiative's target (and the option-level target condition beneath it) |
+| **Current state** | Measured and quantified before work on the target condition starts | The current condition, at every level |
+
+Her definition then: product strategy is *a system of achievable goals
+and visions that work together to align the team around desirable
+outcomes for both the business and the customers* — and it **emerges
+from experimentation toward a goal**; a list of features, products and
+platforms is "communicated at the wrong time and with the wrong
+intentions," since it is a plan, and plans fail because they assume
+away uncertainty. Ownership by level, in her words: executives set the
+vision; the next level of management (a VP of product per journey or
+business line) sets the challenge; direct managers help teams set
+target conditions, handed down at first and set together once the
+habit forms; the product manager and team find the customer problems
+and obstacles in the way and experiment to remove them. Her worked
+example (Uber, hypothetical beyond the CEO's stated vision): vision —
+the cheap, efficient alternative to owning a car or taking public
+transport; challenge — cut average wait times in cities where they
+exceed ten minutes to under five, by a date; target condition — one
+driver onboarded per fifty residents in each city, by an earlier date;
+current state — one driver per three hundred residents, measured
+before anything is built. And the answer to "this is a business
+strategy, not a product strategy": *product management is the art of
+solving your customer's problems to reach your business objectives* —
+a strategy that does only one of the two is either a wish list or a
+spreadsheet.
+
+Her one-page **Product Strategy Canvas** writes the four as sentence
+frames, which is a useful forcing device when a level resists being
+pinned to a number:
+
+```
+VISION            In <time frame>, <company / division> will be <vision statement>.
+CHALLENGE         In order to reach our vision, we need to <measurable objective> by <date>.
+TARGET CONDITION  In order to reach our challenge, we first need to <measurable objective, dated>.
+CURRENT STATE     After measuring, we know our current state is <measurement>.
+```
+
+The stack template in §7 is this canvas with the two levels the book
+added (intents may be several; initiatives are problems with metrics)
+and the option layer beneath.
+
 ## 4. The Product Kata — the loop at every level
 
 The framework says *what* each level owns. The **Product Kata** is
@@ -490,6 +544,13 @@ A data-import product; the team owns onboarding.
   A published book — **paraphrased; nothing quoted**; the Marquetly
   worked example is not reproduced. Her earlier blog post is preserved
   at `../lean-experiments/materials/MelissaPerri-TheProductKata.pdf`.
+- **Melissa Perri**, *"What is Good Product Strategy?"*,
+  melissaperri.com, 14 Jul 2016 — the pre-book canvas (vision ·
+  challenge · target condition · current state), the definition, the
+  ownership by level and the Uber example in §3a; she marks the post
+  as superseded by the book. Source:
+  `./materials/MelissaPerri-WhatIsGoodProductStrategy-2016.pdf`;
+  transcription under `./materials/extracted/`.
 - **Stephen Bungay**, *The Art of Action: How Leaders Close the Gaps
   between Plans, Actions and Results* (Nicholas Brealey, 2011) — the
   knowledge, alignment and effects gaps, their mission-command
