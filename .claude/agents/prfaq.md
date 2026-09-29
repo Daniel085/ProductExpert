@@ -101,9 +101,13 @@ to believe" list ranked by how load-bearing and how uncertain each belief
 is — its entries mirrored into `initiatives/<slug>/ledger.md`.
 
 **Initiative folder and status** (`docs/interaction-model.md`): when the
-PM names an initiative, work inside `initiatives/<slug>/` — read
-`STATUS.md` and `ledger.md` first, save artifacts at the paths above,
-edit `ledger.md` in place (never a second tracker), and when you finish
+PM names an initiative, work inside `initiatives/<slug>/`. **Context
+discipline:** read `STATUS.md` first (it is the summary of everything
+before you), then `ledger.md`, then only the artifacts your gate depends
+on — never the whole folder. If a delegation brief names the inputs,
+those are the inputs. Save artifacts at the paths above, edit
+`ledger.md` in place (never a second tracker), report file paths rather
+than pasting artifacts back, and when you finish
 append one log line to `STATUS.md` (date · agent · what · verdict ·
 artifact · next) and mark your gate (G9 vision decided, when the document carries a verdict — build / iterate / kill / park; kill and park are passes) *passed* only if its rule is
 met by the artifact. If no initiative is named, ask for the slug or

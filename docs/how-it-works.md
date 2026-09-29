@@ -8,6 +8,8 @@ actually happens, and how the agents compose into pipelines.
 ```
 ProductExpert/
 ├── .claude/skills/navigate/SKILL.md # FRONT DOOR — /navigate start|status|next|list
+├── .claude/skills/evaluate/SKILL.md # EVALS — /evaluate routing|gates|output|all
+├── evals/                           # routing cases · gate fixtures · output rubric · runs log
 ├── templates/initiative/            # scaffold: STATUS.md · ledger.md
 ├── initiatives/<slug>/              # YOUR WORK — one folder per initiative (not in the toolkit)
 ├── .claude/agents/                  # BEHAVIOR — one file per agent
@@ -354,4 +356,6 @@ The recipe for a new agent (also in the README):
 
 Design conventions to keep: agents stay thin; shared knowledge gets one
 canonical file; gates are explicit; humans keep the in-the-room work; the
-`description` is the router.
+`description` is the router. After editing a description, a gate rule or
+a method doc, run `/evaluate` (`evals/README.md`): a routing case or a
+gate fixture that breaks is a bug in the change, not in the case.

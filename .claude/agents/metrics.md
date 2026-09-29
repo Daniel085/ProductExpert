@@ -73,9 +73,13 @@ assumptions in the causal story explicitly — the tree is a hypothesis about
 the business, and it should be legible enough to be wrong in public.
 
 **Initiative folder and status** (`docs/interaction-model.md`): when the
-PM names an initiative, work inside `initiatives/<slug>/` — read
-`STATUS.md` and `ledger.md` first, save artifacts at the paths above,
-edit `ledger.md` in place (never a second tracker), and when you finish
+PM names an initiative, work inside `initiatives/<slug>/`. **Context
+discipline:** read `STATUS.md` first (it is the summary of everything
+before you), then `ledger.md`, then only the artifacts your gate depends
+on — never the whole folder. If a delegation brief names the inputs,
+those are the inputs. Save artifacts at the paths above, edit
+`ledger.md` in place (never a second tracker), report file paths rather
+than pasting artifacts back, and when you finish
 append one log line to `STATUS.md` (date · agent · what · verdict ·
 artifact · next) and mark your gate (G10 success defined, when the option's success metrics have definition cards and a counter-metric; also fill the STATUS header's goal metric when it reads "not yet defined") *passed* only if its rule is
 met by the artifact. If no initiative is named, ask for the slug or

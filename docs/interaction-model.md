@@ -141,6 +141,27 @@ never does an agent's work and never marks a gate itself.
 | A tested solution to write up | **solution-options** | `options/<title>.md` |
 | "What should we measure?" | **metrics** | `metrics/metric-tree.md` |
 
+## Delegation briefs and context discipline
+
+Two rules borrowed from how orchestrated agent systems stay reliable
+(Anthropic's research-system and effective-agents write-ups, cited in
+[`how-it-works.md`](./how-it-works.md)):
+
+- **Every hand-off is a brief, not a nudge.** The navigator (or you, when
+  you invoke an agent directly) gives the agent six things: the
+  objective and mode; the input paths; the output paths and format; the
+  gate it may mark and its rule; the boundaries (what not to do, when to
+  stop and route back); and the effort level (light / standard / deep,
+  from the size of the input). The template is in the navigator skill.
+  An agent given less improvises; an agent given more reads everything.
+- **Agents read the summary, then only what the gate needs.** `STATUS.md`
+  is the condensed record of everything that happened before; an agent
+  reads it first, then `ledger.md`, then the artifacts its gate depends
+  on, and never the whole folder. It writes its results to files and
+  reports **paths**, not contents — the folder is the shared memory;
+  the conversation is not. This keeps each engagement's context small
+  and keeps long initiatives from degrading as they grow.
+
 ## What stays yours
 
 Unchanged from [`user-guide.md`](./user-guide.md): you conduct the

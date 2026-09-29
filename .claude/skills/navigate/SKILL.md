@@ -52,10 +52,9 @@ initiative exists, `list` if several, `start` if none.
    `discovery/odi/`, …).
 4. Route with the table in `docs/interaction-model.md` ("Where each
    input enters"). Say which agent, why, and what it will produce. Then
-   invoke it with the Agent tool, passing the slug, the path to the
-   input, and the instruction to work inside `initiatives/<slug>/` and
-   append to `STATUS.md` when done. If the PM would rather invoke it
-   themselves, give the exact one-line invocation instead.
+   write a **delegation brief** (below) and invoke the agent with the
+   Agent tool, the brief as its prompt. If the PM would rather invoke
+   it themselves, give them the brief to paste.
 
 ### `status [slug]`
 
@@ -100,10 +99,42 @@ Run the `status` derivation silently, then answer three things: **which
 agent** (by the blocker gate's owner), **what it needs that exists**
 (name the files), **what it needs that doesn't** (what the PM must do
 first — conduct interviews, field the survey, run the experiment, state
-a goal), and the **exact invocation** ("Use the **problem-selection**
-agent on `initiatives/<slug>/problems/` — gap-assess the top *Yes*
-problem"). If the blocker needs the PM's hands (interviews, fielding, a
-decision), say that plainly instead of naming an agent.
+a goal), and the **delegation brief** ready to run. If the blocker needs
+the PM's hands (interviews, fielding, a decision), say that plainly
+instead of naming an agent.
+
+## The delegation brief
+
+Every hand-off to an agent carries the same six fields. An agent given
+less than this improvises; an agent given more than this reads the
+whole folder. Fill it from the artifacts, not from memory.
+
+```
+DELEGATION — <agent>                     initiative: <slug>  ·  path: initiatives/<slug>/
+Objective:   <one sentence: the question this engagement answers, and the mode to run>
+Inputs:      <the files to read, by path — STATUS.md and ledger.md always; then only what the
+              gate depends on. Name the PM's own material (notes, exports, data) explicitly>
+Output:      <the artifact(s) to write, by path, and the method-doc format they follow>
+Gate:        <the gate this engagement can mark (G#), its rule verbatim from the interaction
+              model, and "mark it only if the artifact meets the rule">
+Boundaries:  <what NOT to do: e.g. don't validate the problem (that's G3, already passed);
+              don't generate options (that's ideation); if X is missing, stop and route back;
+              never treat your own output as customer evidence>
+Effort:      <light / standard / deep — by how much input there is and what the gate needs;
+              e.g. "3 candidates, light" vs "140 tickets, deep: theme first">
+Finish by:   appending one log line to STATUS.md and reporting the output paths — not the
+              contents.
+```
+
+Effort scaling, so the brief is honest: **light** — a single named
+problem, a one-line idea, or a readout to compare against pre-written
+lines; **standard** — the default engagement in the agent's method doc;
+**deep** — large raw input (a ticket export, many transcripts), several
+competing candidates, or a kata initiative spanning cycles. Say which,
+and why.
+
+After the agent returns, read its log line and the paths it reports.
+Do not re-derive its work; run `status` if the PM asks where they are.
 
 ### `list`
 
@@ -121,3 +152,7 @@ gate. Sort by last log date, newest first.
 - **One ledger.** If you find a second assumption tracker, say so and
   route the merge to the agent that made it.
 - **Be short.** The PM asked where they are, not for the method.
+- **Delegate with the brief, every time.** No bare "use agent X on
+  this" — objective, inputs, output, gate, boundaries, effort.
+- **Pass references, not contents.** Agents report paths; you read the
+  log line. The folder is the shared memory; the conversation is not.

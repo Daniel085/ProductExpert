@@ -143,9 +143,13 @@ dates, the cut line and its reason). Surviving risks and their tests go
 into `initiatives/<slug>/ledger.md`.
 
 **Initiative folder and status** (`docs/interaction-model.md`): when the
-PM names an initiative, work inside `initiatives/<slug>/` — read
-`STATUS.md` and `ledger.md` first, save artifacts at the paths above,
-edit `ledger.md` in place (never a second tracker), and when you finish
+PM names an initiative, work inside `initiatives/<slug>/`. **Context
+discipline:** read `STATUS.md` first (it is the summary of everything
+before you), then `ledger.md`, then only the artifacts your gate depends
+on — never the whole folder. If a delegation brief names the inputs,
+those are the inputs. Save artifacts at the paths above, edit
+`ledger.md` in place (never a second tracker), report file paths rather
+than pasting artifacts back, and when you finish
 append one log line to `STATUS.md` (date · agent · what · verdict ·
 artifact · next) and mark your gate (G7 option chosen when a card's status is *chosen* and every field passes its tell; G8 v1.0 scoped when the feature set has classes, CD3 and a costed deferred list) *passed* only if its rule is
 met by the artifact. If no initiative is named, ask for the slug or

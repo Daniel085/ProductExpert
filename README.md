@@ -26,6 +26,10 @@ status` tells you where an initiative stands; `/navigate next` who's up.
 - **`.claude/skills/navigate/`** — the front door: `/navigate start |
   status | next | list`. Reads an initiative's folder, derives the gates
   from the artifacts, routes to the right agent.
+- **`.claude/skills/evaluate/`** and **`evals/`** — the evaluation suite:
+  `/evaluate routing | gates | output | all` against 24 routing cases,
+  three gate fixtures and an output rubric; runs logged in
+  `evals/runs.md`.
 - **`templates/initiative/`** — the scaffold `/navigate start` copies:
   `STATUS.md` (phase · gates · log) and `ledger.md` (the one assumption
   ledger).

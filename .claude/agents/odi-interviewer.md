@@ -88,9 +88,13 @@ Save artifacts as markdown files under `initiatives/<slug>/discovery/odi/`
 rather than only printing them.
 
 **Initiative folder and status** (`docs/interaction-model.md`): when the
-PM names an initiative, work inside `initiatives/<slug>/` — read
-`STATUS.md` and `ledger.md` first, save artifacts at the paths above,
-edit `ledger.md` in place (never a second tracker), and when you finish
+PM names an initiative, work inside `initiatives/<slug>/`. **Context
+discipline:** read `STATUS.md` first (it is the summary of everything
+before you), then `ledger.md`, then only the artifacts your gate depends
+on — never the whole folder. If a delegation brief names the inputs,
+those are the inputs. Save artifacts at the paths above, edit
+`ledger.md` in place (never a second tracker), report file paths rather
+than pasting artifacts back, and when you finish
 append one log line to `STATUS.md` (date · agent · what · verdict ·
 artifact · next) and mark your gate (none of its own — the ODI pipeline runs inside G3/G4; log the discovery status (statement count vs. target, saturation)) *passed* only if its rule is
 met by the artifact. If no initiative is named, ask for the slug or
