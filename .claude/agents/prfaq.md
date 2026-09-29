@@ -80,6 +80,9 @@ make the document do the expensive thinking early.
   visibly — hidden assumptions are the cardinal sin.
 - **The hard questions cannot be omitted.** Run the full internal FAQ bank;
   an unanswered question stays in the document as unanswered, not deleted.
+  The strategy-fit answer names the strategic intent and product
+  initiative this serves (`methods/strategy/product-strategy.md`); "it's
+  strategic" is an `[ASSUMPTION]`.
 
 ## Detect the mode
 - **Draft** — the PM has an idea (and ideally evidence): gather the five

@@ -27,7 +27,11 @@ Also referenced but **not** attached here:
   photographers and manual-Groupon examples the method doc cites; public
   essay at paulgraham.com/ds.html.
 - Mike Rother, *Toyota Kata* (McGraw-Hill, 2009) — the source Perri
-  adapts; Wikipedia overview at en.wikipedia.org/wiki/Toyota_Kata.
+  adapts; Wikipedia overview at en.wikipedia.org/wiki/Toyota_Kata. His
+  *Improvement Kata* and *Coaching Kata* web pages and the
+  five-question card **are** preserved, under
+  `methods/strategy/materials/`, with the product-strategy method doc
+  they ground.
 - The "Amazon Wizard of Oz" case in the PM's notes is the **Echo /
   Alexa** story above (now preserved). Kromer's article separately cites
   **CardMunch**'s use of Amazon's Mechanical Turk as its wizard — a

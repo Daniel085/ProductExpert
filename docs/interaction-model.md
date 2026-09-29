@@ -69,6 +69,12 @@ Rules:
 - **Commit it or ignore it, your choice.** `initiatives/` holds your
   work, not the toolkit's; version it in your own repo or add it to
   `.gitignore` here.
+- **The strategy stack lives above the initiatives.** If you keep one
+  (vision · strategic intents · product initiatives · options —
+  [`../methods/strategy/product-strategy.md` §7](../methods/strategy/product-strategy.md)),
+  put it at `strategy/strategy.md` next to `initiatives/`; each
+  initiative's *Direction* row cites its intent and initiative from
+  there. Same rule: yours, not the toolkit's.
 
 ## STATUS.md
 
@@ -79,7 +85,11 @@ Template at [`../templates/initiative/STATUS.md`](../templates/initiative/STATUS
 Three parts:
 
 1. **Header** — initiative, slug, owner, created, goal metric (or "not
-   yet defined → metrics"), current phase.
+   yet defined → metrics"), direction (the strategic intent and product
+   initiative this serves, from the PM's strategy stack — or "not
+   stated → the level above owes it"; the ladder itself is in
+   [`../methods/strategy/product-strategy.md` §7](../methods/strategy/product-strategy.md)),
+   current phase.
 2. **Gates** — the ten checkpoints below, each with status, date, the
    artifact it rests on, and the verdict. The gates are the truth about
    where an initiative is; the phase is derived from them.

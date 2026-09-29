@@ -416,6 +416,61 @@ the property of their authors and are included for reference and attribution.
 
 ---
 
+## Shared method — Product Strategy (`methods/strategy/`)
+
+- **Melissa Perri** — *Escaping the Build Trap: How Effective Product
+  Management Creates Real Value* (O'Reilly, 2018): the strategy part of
+  the book — strategy as a framework rather than a plan, the strategic
+  gaps, strategy deployment (with OKRs, Hoshin Kanri and mission
+  command as its kin), the four-level framework (vision · strategic
+  intents · product initiatives · options), the Product Kata as the
+  process that runs it, and the living roadmap's fields. A published
+  book — **paraphrased; nothing quoted; the Marquetly example not
+  reproduced.**
+- **Stephen Bungay** — *The Art of Action: How Leaders Close the Gaps
+  between Plans, Actions and Results* (Nicholas Brealey, 2011): the
+  knowledge, alignment and effects gaps, their mission-command
+  remedies (limit direction to the essential intent; let each level
+  define what it must do; give people freedom to adjust in line with
+  the intent), and the definition of strategy as a deployable
+  decision-making framework that Perri adopts. Cited via Perri; not
+  reproduced.
+- **Mike Rother** — the *Toyota Kata* website (hosted at the
+  University of Michigan): the pages *The Improvement Kata* and *The
+  Coaching Kata* and the *5Q Card* deck, preserved at
+  `methods/strategy/materials/ToyotaKata-Rother-TheImprovementKata.pdf`,
+  `…-TheCoachingKata.pdf` and `…-5Q_Card.pdf` with transcriptions
+  under `materials/extracted/`. The four-step Improvement Kata,
+  scientific thinking as a practised habit, the Starter Kata idea, the
+  five coaching questions with the back-of-card reflection (planned ·
+  expected · actually happened · learned), the coaching-cycle rules
+  (daily, ≤ 20 minutes, clarifying questions, the threshold of
+  knowledge, the second coach) and the storyboard's six fields are
+  his; the books are *Toyota Kata* (McGraw-Hill, 2009) and *The Toyota
+  Kata Practice Guide* (McGraw-Hill, 2017). The materials remain his
+  property.
+- **Kazuo Ichijo & Ikujiro Nonaka** — *Knowledge Creation and
+  Management: New Challenges for Managers* (Oxford University Press,
+  2006), p. 25 — the excerpt on a firm-specific *kata* as a knowledge
+  asset, quoted on Rother's Improvement Kata page and transcribed with
+  it; **Richard R. Nelson & Sidney G. Winter** (1982) on routines, as
+  it cites them.
+- **Jim Huntzinger** (Lean Frontiers) and **Ralph Waldo Emerson** —
+  the two epigraphs on Rother's page, transcribed with it.
+- The four-step **Product Kata summary** — *understand the direction
+  (get clear on the strategy set by the level above) · analyze the
+  current state · set the next goal (the product initiatives that
+  achieve the company and portfolio goals) · execute or deploy (run
+  experiments, deliver solutions, or communicate strategy)* — is
+  **Daniel O'Rorke's**, after Perri.
+- The clause-by-clause tests of a strategy, the gap table's
+  wrong-and-right fixes, the stack rules, the cadence-by-level table,
+  the strategy stack and direction ladder templates, the plug-in table,
+  the anti-patterns and the worked example are **this repo's
+  operational extension**, marked as such in the method doc.
+
+---
+
 ## Methodology evaluations (`docs/methodology-evaluations/`)
 
 - The 25-criterion evaluation **rubric** is **Daniel O'Rorke's** own;

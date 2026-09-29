@@ -43,7 +43,10 @@ Or go straight to an agent — start from where you are:
 | "Why is this happening?" / "find the root cause" | `problem-selection` | 5 Whys, fishbone or interrelationship digraph, every why evidenced or marked a guess |
 | "Write/review the one-pager for this product idea" | `prfaq` | Working Backwards PR/FAQ, draft or critique |
 | "How do we test this before we build it?" / "concierge or Wizard of Oz?" | `lean-experiments` | Experiment card: family, trying-to-prove, Expected / Would-disprove |
-| "Run this initiative as a kata" / "what's our current condition?" | `lean-experiments` | Product Kata record: direction → target → obstacle → step → learned |
+| "Run this initiative as a kata" / "what's our current condition?" | `lean-experiments` | Product Kata record: direction → target → obstacle → step → learned; the five coaching questions with the reflection on the last step |
+| "Where does this initiative fit our strategy?" / "no one has told us the direction" | `lean-experiments` (kata step 1) | The direction ladder — vision → intent → initiative; an unstated direction is the first obstacle, owed by the level above |
+| "Leadership set an intent — which product initiatives should serve it?" | `problem-selection` | Initiatives are problems with metrics; ranked on Business Alignment against the intent |
+| "Stress-test our strategy / this strategic intent / this big bet" | `ideation` | Strategy exploration against the six tests and the three gaps (`methods/strategy/product-strategy.md`) |
 | "Write / check our value proposition" | `lean-experiments` | Functional + emotional jobs → statement; Strategyzer canvas from evidence |
 | "The CEO / a customer wants feature X — should we build it?" | `lean-experiments` | Breakdown: observation → eight questions → assumption chain → riskiest link → its test |
 | "Let's ship an MVP" / "is this an MVP or a v1?" | `lean-experiments` | MVP card: learning goal, why not a cheaper test, optimizing-for and its one measure |

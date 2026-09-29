@@ -22,12 +22,20 @@ status` tells you where an initiative stands; `/navigate next` who's up.
   This is *behavior*.
 - **`methods/<topic>/`** — the *knowledge* the agents draw on: distilled
   method docs and templates, plus raw third-party materials under
-  `materials/`.
+  `materials/`. One topic has no agent of its own and every agent reads
+  it: [`methods/strategy/product-strategy.md`](methods/strategy/product-strategy.md)
+  — strategy as a deployable framework (Bungay, via Perri), the three
+  strategic gaps, the four levels (vision → strategic intents → product
+  initiatives → options), and the **Product Kata** as the loop at every
+  level: *understand the direction · analyze the current state · set
+  the next goal · execute or deploy*, with Rother's Improvement Kata and
+  Coaching Kata (the five questions, and the reflection on the back of
+  the card) preserved as its source.
 - **`.claude/skills/navigate/`** — the front door: `/navigate start |
   status | next | list`. Reads an initiative's folder, derives the gates
   from the artifacts, routes to the right agent.
 - **`.claude/skills/evaluate/`** and **`evals/`** — the evaluation suite:
-  `/evaluate routing | gates | output | all` against 24 routing cases,
+  `/evaluate routing | gates | output | all` against 26 routing cases,
   three gate fixtures and an output rubric; runs logged in
   `evals/runs.md`.
 - **`templates/initiative/`** — the scaffold `/navigate start` copies:
@@ -218,7 +226,10 @@ the observation behind it, the **eight assumption questions** (problem
 for us · audience · opportunity · alternatives · constraints ·
 go-to-market · KPIs · critical success factors), the assumption chain,
 the one **riskiest assumption**, and its cheapest test; a null result is
-checked for reach before it is read as "no demand." Treats the **MVP**
+checked for reach before it is read as "no demand." In kata mode the
+direction is the **direction ladder** from the strategy method (which
+intent, which initiative, signed by the level above) and an unstated
+direction is the first obstacle, never invented. Treats the **MVP**
 as the fastest path to insight, never a small v1: no learning goal, no
 MVP; scoped backwards from the one thing to learn and the one measure
 (adoption · retention · conversion · satisfaction). Not A/B tests
@@ -335,7 +346,12 @@ that none of them covers.
   one when it arrives.
 - **Strategy stress-tester** (Rumelt, *Good Strategy Bad Strategy*) —
   kernel-or-fluff critique of strategy docs; pressure-tests the ODI growth
-  strategy recommendation.
+  strategy recommendation. *Partly grounded:*
+  `methods/strategy/product-strategy.md` now defines what a strategy
+  is and isn't (the six tests, the three gaps, the four-level stack)
+  and `ideation`'s strategy-exploration mode tests a direction against
+  it; the Rumelt kernel (diagnosis · guiding policy · coherent actions)
+  as a critique of a written stack is still open.
 - **Solution prioritization & roadmapping** — the system ranks *problems*
   (`problem-selection`) and tests *solutions* (`lean-experiments`) but has
   no method for sequencing validated solutions across a roadmap: the

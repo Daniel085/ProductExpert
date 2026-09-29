@@ -1,6 +1,6 @@
 # Routing cases
 
-24 inputs as a PM would type them, with the agent and mode they should
+26 inputs as a PM would type them, with the agent and mode they should
 land on. "Alternates" are acceptable second answers; anything else is a
 miss. The **why** names the description phrase that should catch the
 input — if a case fails, that phrase is what to fix.
@@ -31,10 +31,14 @@ input — if a case fails, that phrase is what to fix.
 | 22 | "Recovery tested well. Write it up as an option and scope v1.0." | solution-options | define + scope v1.0 | — | "write up the solution", "v1.0 scope" |
 | 23 | "Draft the PR/FAQ for import recovery from the option card." | prfaq | draft | — | "PR/FAQ", "press release" |
 | 24 | "What should our north star be, and audit our dashboard for vanity metrics." | metrics | design + audit | — | "north star metric", "vanity metrics" |
+| 25 | "Leadership's strategic intent this year is to grow self-serve revenue 40%. Which product initiatives should serve it? We have retention, import and billing problems on the table." | problem-selection | rank (initiatives against the intent) | ideation (problem exploration, if the candidates are still fuzzy) | "which product initiatives serve this strategic intent"; initiatives are problems ranked on Business Alignment against the stated goal |
+| 26 | "Set up the kata for the import-recovery initiative. Nobody has told us which strategic intent it serves." | lean-experiments | kata (direction ladder; unstated direction = first obstacle) | — | "product kata", "current condition"; the strategy method's rule that an unstated direction is the first obstacle, not something to invent |
 
 Near-miss pairs the router must keep apart (each appears above): 6 vs
 17 (requirements with vs. without a validated problem); 13 vs 22
 (ranking problems vs. defining a tested solution); 18 vs 21 (pre-build
 test vs. A/B on a live product); 2 vs 22 (brainstorm options vs. solution
 option); 11 vs 13 (outcomes within a job vs. problems across the
-business).
+business); 3 vs 25 (stress-testing a direction vs. choosing the
+initiatives under a stated one); 25 vs 26 (setting initiatives one
+level up vs. reading the direction into one initiative's kata).

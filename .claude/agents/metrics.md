@@ -31,6 +31,12 @@ pipeline.
 2. Read `methods/metrics/lean-analytics.md` — the good-metric tests, vanity
    detection, OMTM, the five stages, AARRR, business-model archetypes,
    cohort discipline.
+3. Read `methods/strategy/product-strategy.md` when the ask is the
+   measure for a level of the strategy — a strategic intent's target, a
+   product initiative's metric, a kata's goal metric — so the tree
+   lines up with the stack: vision and intents at the North Star and
+   its outcomes, initiatives at input metrics, options at the success
+   metrics on their cards.
 
 ## Operating principles (non-negotiable)
 - **Every metric passes the four tests:** comparative, understandable, a

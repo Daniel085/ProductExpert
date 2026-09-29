@@ -1,0 +1,522 @@
+# Product Strategy — Method Reference
+
+*Strategy as a **deployable framework that enables action toward
+desired outcomes** — not a plan. Distilled from **Melissa Perri**'s
+*Escaping the Build Trap* (the strategy chapters: what strategy is, the
+strategic gaps, the strategic framework, the Product Kata), which
+builds on **Stephen Bungay**'s *The Art of Action* (the three gaps; the
+definition of strategy) and **Mike Rother**'s *Toyota Kata* (the
+Improvement Kata and the Coaching Kata — the two source pages are
+preserved in [`./materials/`](./materials/)). The four-step Product
+Kata summary is the PM's; the direction ladder, the strategy stack,
+the level-by-level cadence table and the anti-patterns are this repo's
+operational extension. The kata's *mechanics* — record template, rules
+of the form, the worked seller-portal example — stay in
+[`../lean-experiments/product-kata.md`](../lean-experiments/product-kata.md);
+this doc is about where the **direction** comes from and how the loop
+runs at every level. See [`../../CREDITS.md`](../../CREDITS.md).*
+
+> **Where this sits.** Every agent in this system asks for a direction
+> it does not create: `problem-selection` scores Business Alignment
+> against a *stated goal*; `lean-experiments` opens a kata with a
+> *direction*; `solution-options` fills an *Alignment* field; `metrics`
+> defines the *goal metric*. This doc is where those come from. A
+> strategy is the framework that lets a team decide what to work on
+> without asking permission — and the Product Kata is the loop that
+> keeps the framework honest at every level, from the company's vision
+> to this week's experiment.
+
+## 1. What strategy is — and what it isn't
+
+Bungay's definition, which Perri adopts, in paraphrase: strategy is a
+**deployable decision-making framework** — it enables action toward
+desired outcomes, it is constrained by what the organization can
+currently do, and it is coherent with the context it operates in. Every
+clause is a test:
+
+| Clause | The test | Fails when |
+|--------|----------|-----------|
+| **Deployable** | Can each level of the organization pick it up and decide with it? | It lives in an executive deck nobody below can act on |
+| **Decision-making framework** | Does it tell a team what to say *no* to? | It is a list of everything; nothing is excluded |
+| **Enables action** | Can a team start on Monday? | It is a vision statement with no next step |
+| **Toward desired outcomes** | Is the outcome named and measurable? | It names features or activities instead |
+| **Constrained by current capabilities** | Is it honest about what we can do now? | It assumes a team, a technology or a market position we don't have |
+| **Coherent with context** | Does it fit the market, the customers, the competition as they are? | It was written for the company we wish we were |
+
+What strategy is **not**:
+
+- **Not a plan.** A plan is a list of features and dates. It assumes
+  the path is known in advance; the Improvement Kata's first premise is
+  that it can't be (*"the path to a challenging goal can't be
+  determined in advance"*). Plans produce the three gaps in §2.
+- **Not a vision alone.** A vision says where; strategy says what we
+  will do next and how we will know it worked.
+- **Not a backlog.** Prioritized features are outputs. The build trap
+  (Perri) is the state of measuring success by outputs shipped rather
+  than outcomes achieved; a "strategy" that is a feature list is the
+  trap with a title.
+- **Not consensus.** Perri's prioritization rule applies one level up:
+  strategy comes from a diagnosis and a choice, not from averaging
+  stakeholder wishes ([`../lean-experiments/minimum-feature-set.md`](../lean-experiments/minimum-feature-set.md)).
+
+## 2. The three strategic gaps
+
+Bungay found that organizations treating strategy as a plan keep
+failing to get what they planned, and traced it to three gaps between
+plans, actions and outcomes. Perri applies them to product
+organizations. Each gap has a **wrong** fix — more detail, more
+control, more reporting — that widens it, and a **right** fix that
+narrows it:
+
+| Gap | Between | What it looks like in product | The fix that widens it | The fix that narrows it |
+|-----|---------|-------------------------------|------------------------|-------------------------|
+| **Knowledge gap** | What we would like to know and what we actually know | Leaders write detailed plans to compensate for what nobody knows; teams execute the plan instead of learning | More planning, more detail | Leaders limit direction to the **essential intent** and its measure; teams close the gap by *learning* — research, measurement, experiments (the kata) |
+| **Alignment gap** | What we want people to do and what they actually do | Teams build what they were told or what they felt like; neither connects to the intent | Cascading tasks; micromanaging the *how* | Each level **defines what it will do to achieve the intent above it** — and writes it down (§3) |
+| **Effects gap** | What we expect our actions to achieve and what they actually achieve | Features ship; the metric doesn't move; nobody adjusts until the annual review | More reporting, more controls | Give people the **freedom to adjust their actions in line with the intent** — short cycles, re-measure, change course (§4) |
+
+Perri's name for the practice that closes all three is **strategy
+deployment**: intent flows down; each level decides its own *how*;
+learning flows back up. It is not new — OKRs, Toyota's Hoshin Kanri
+and the military's mission command are all forms of it. What they
+share: **the level above states the outcome and its measure; the
+level below chooses the actions.** A level that specifies the actions
+of the level below has re-opened the knowledge gap (it doesn't know
+enough to) and the alignment gap (the team stops thinking).
+
+Two failure modes bracket the practice. **Direction without
+autonomy** — the level above dictates features — is the classic build
+trap. **Autonomy without direction** — "empowered" teams with no
+stated intent — is its mirror: teams pick problems that don't add up,
+and leadership takes the wheel back with a feature list. Autonomy
+*requires* a stated direction; that is what strategy is for.
+
+## 3. The strategic framework — four levels
+
+Perri's framework is a stack of four levels, each answering *what* for
+the level below and *how* for the level above. Horizons are hers,
+roughly; adapt them to the business, but keep the order.
+
+| Level | Who sets it | Horizon | What it states | Form | Example (a data-import product) |
+|-------|-------------|---------|----------------|------|----------------------------------|
+| **Vision** | Company leadership | 5–10 years | What the company wants to be, for whom | A sentence anyone can repeat | *Every team can trust its data the day it arrives* |
+| **Strategic intents** | The executive team | 1–3 years, reviewed at least yearly | The **few** business outcomes that move the company toward the vision, each with a measure and a target | 1–3 at a time, no more; outcome + number + date + owner | *Grow revenue from self-serve workspaces 40% by end of next year* |
+| **Product initiatives** | Product leadership (CPO / heads of product), with the teams | Up to a year | The **customer problems** the product will solve that, solved, move an intent — with the outcome metric each will move | A job story + a metric with baseline → target; several per intent | *New workspaces can get to a trusted first import in one session* (31% abandon at the mapping step; abandoners retain 22 pts worse) |
+| **Options** | The product team | Weeks to a quarter | The **possible solutions** to an initiative's problem — bets to explore, test and, if they survive, deliver | Hypotheses with a test each; several per initiative; most die | *Import recovery flow · guided mapping · import concierge for the first week* |
+
+Rules for the stack:
+
+- **Every level states an outcome and its measure.** A level without
+  a number is a wish; a level whose "measure" is a feature shipped is
+  an output ([`../metrics/north-star.md`](../metrics/north-star.md)
+  supplies the definitions).
+- **A level names the *what*; the level below owns the *how*.** The
+  executive team says *enterprise revenue*; product leadership decides
+  *which customer problems* get there; the team decides *which
+  solutions* to try. Reverse the ownership and you get the gaps.
+- **Fewer is better at every level.** One vision; one to three
+  intents; a handful of initiatives per intent; a few live options per
+  initiative. A strategy with twelve intents is a list of departments.
+- **Initiatives are problems, never features.** An initiative passes
+  the same tell as a problem statement: no solution noun in it
+  ([`../jtbd/job-stories.md`](../jtbd/job-stories.md)). "Ship the
+  import wizard" is an option wearing an initiative's clothes.
+- **Options are hypotheses until tested.** An option earns delivery
+  the way a solution option does here — through a readout
+  ([`../lean-experiments/solution-options.md`](../lean-experiments/solution-options.md)).
+  Killing most options is the framework working.
+- **The level above is the direction for the level below.** For a
+  product leader the direction is the strategic intent; for a team the
+  direction is the initiative. That is what step 1 of the kata reads
+  (§4).
+- **It is written down, dated and owned.** The stack in §7 is the
+  minimum; if it isn't written, each level will fill the gap with its
+  own version — the alignment gap by another route.
+
+## 4. The Product Kata — the loop at every level
+
+The framework says *what* each level owns. The **Product Kata** is
+*how* each level works toward it: Perri's adaptation of Rother's
+Improvement Kata, a four-step model of scientific thinking practised
+until it is a habit. Three phrasings of the same four steps:
+
+| # | Rother — Improvement Kata | Perri — Product Kata | The PM's summary (this repo) |
+|---|---------------------------|----------------------|-------------------------------|
+| 1 | Understand the direction or challenge | Understand the direction | **Understand the direction** — get clear on the strategy set by the level above |
+| 2 | Grasp the current condition | Analyze the current state | **Analyze the current state** — know where you are, through research and data |
+| 3 | Establish the next target condition | Set the next goal | **Set the next goal** — define the product initiatives (or the option's goal) that move the level above |
+| 4 | Experiment toward the target condition | Choose the step of the product process; plan it, take it, evaluate | **Execute or deploy** — run experiments, deliver solutions, or communicate the strategy |
+
+Rother's premise, worth keeping verbatim in spirit: scientific thinking
+is *comparing what you think (theory) with what actually happens
+(evidence) and adjusting on the difference* — and it is **not our
+default**; our brains jump to conclusions, so the pattern has to be
+practised. The kata is that practice. The seven-step operational form
+and the record template are in
+[`../lean-experiments/product-kata.md`](../lean-experiments/product-kata.md);
+what follows is what each step means for *strategy*.
+
+### Step 1 — Understand the direction
+
+Get clear on the strategy set by the level above. "Clear" has a test:
+you can write, in one line each, **the outcome the level above wants,
+its measure and target, its horizon, and why now** — and the owner of
+that level would sign it. Write it as the top of the **direction
+ladder** (§7): vision → intent → initiative, down to the level you are
+working at.
+
+- The direction is **lofty by design** (Perri: you may never reach a
+  challenge exactly; you get as close as you can). Don't shrink it into
+  something achievable; that's what target conditions are for.
+- **If the level above hasn't stated it, that is the first obstacle**
+  — not a licence to invent it. Get it written, with its owner; the
+  `metrics` agent defines the measure, `ideation`'s
+  strategy-exploration mode helps a leader articulate the choice. A
+  team that invents its own direction has automated the alignment gap.
+- Direction comes with **constraints** (capabilities, context — §1's
+  last two clauses). Record the real ones; classify the rest as
+  preferences ([`../jtbd/requirements-are-hypotheses.md`](../jtbd/requirements-are-hypotheses.md)).
+
+### Step 2 — Analyze the current state
+
+Know where you are — with a number, not a feeling — relative to the
+direction. At the strategy level this is research *and* data:
+
+- **The measure now.** The level above's metric, today, and its trend.
+  If it can't be measured, the first cycles are measurement (Perri's
+  seller-portal kata counted calls for three cycles before changing
+  anything; "unknown" is a legitimate current condition and the first
+  obstacle).
+- **The product now.** What it does, for whom, how well — the metric
+  tree's inputs ([`../metrics/north-star.md`](../metrics/north-star.md)),
+  the retention curve, the funnel.
+- **The customer now.** How they get the job done today, what they
+  fire and hire, where the pain concentrates — Track 1 synthesis and
+  Track 2 opportunity scores are current-condition artifacts.
+- **What we don't know.** At the initiative level the
+  five-area knowledge-gap scorecard
+  ([`../problem-selection/knowledge-gaps.md`](../problem-selection/knowledge-gaps.md))
+  *is* the current-condition tool: it says which unknown is the
+  biggest obstacle.
+
+The discipline most teams skip is this step. Strategy set without a
+current condition is a plan; the kata's insistence on it is what makes
+the strategy adaptive.
+
+### Step 3 — Set the next goal
+
+Establish the **next target condition**: a measurable intermediate
+state, dated, on the way to the direction — not the direction itself.
+What it is depends on the level:
+
+| Level you work at | Direction (from above) | The next goal you set |
+|-------------------|------------------------|-----------------------|
+| Executive team | The vision | This period's strategic intents, with targets |
+| Product leadership | A strategic intent | The product initiatives that, solved, move it — each with a metric and a target for the year |
+| Product team | A product initiative | The option's goal: the intermediate state an experiment or a delivery should produce this cycle (sellers call < 2×/week; mapping-step abandonment < 15%) |
+
+Rules: a target condition has a **number and a date**; it is
+**achievable from the current condition in a few cycles**, not a
+restatement of the challenge; and it is **chosen by the level that
+will pursue it**, in view of the level above (closing the alignment
+gap is exactly this act). When product leadership sets initiatives,
+the candidates are *problems* with evidence — which is why
+`problem-selection` ranks them on Business Alignment against the
+intent ([`../problem-selection/picking-the-right-problem.md`](../problem-selection/picking-the-right-problem.md)).
+
+### Step 4 — Execute or deploy
+
+Move toward the target condition through short, measured steps. Perri
+splits the step into choosing **which part of the product process the
+current obstacle calls for**, then planning, taking and evaluating the
+step:
+
+| The current obstacle is… | The step is in… | Runs as |
+|--------------------------|-----------------|---------|
+| We don't understand the problem (who, why, how painful) | **Explore the problem** | `customer-interviews`, the ODI pipeline, `problem-selection` (root cause) |
+| We don't know if this solution delivers | **Explore the solution** | `lean-experiments` — the obstacle → test table in [`../lean-experiments/pre-build-experiments.md` §4b](../lean-experiments/pre-build-experiments.md) |
+| The solution works; the number isn't there yet | **Optimize the solution** | `solution-options` (v1.0 scope), `experimentation` (A/B), delivery |
+| The level below doesn't know the direction | **Communicate the strategy** — deployment | The strategy stack (§7) written, shared, and the level below's kata opened against it |
+
+The fourth row is why the PM's summary says *execute **or deploy***: at
+the strategy level, the step is often not an experiment but an act of
+communication — the intent, its measure and its *why*, written so the
+next level can set its own target condition. A strategy that has not
+been deployed has not been executed.
+
+Each step is planned with a **prediction** (what do you expect?),
+taken, and **evaluated** against it (what actually happened? what did
+you learn?) — the coaching kata's back-of-card questions (§5). Then
+**re-measure the current state and repeat**: target met → set the next
+target condition; not met → the next obstacle. The loop never ends; a
+strategy is re-planned when the evidence says so, not when the
+calendar does.
+
+### Cadence by level *(repo extension)*
+
+| Level | The kata cycle | Coaching cycle |
+|-------|----------------|----------------|
+| Vision | Revisited when intents keep being met or keep missing — years | — |
+| Strategic intents | Set yearly; current condition re-read quarterly; changed when the evidence demands, not on a schedule | Quarterly review of intent progress with product leadership |
+| Product initiatives | Set for the year; a cycle a quarter — re-measure the initiative's metric, pick the next obstacle | Monthly: the head of product asks the five questions of each initiative owner |
+| Options | Cycles of a week or two, per the kata record | Weekly (or daily during an experiment): the PM and the team on the kata record |
+
+The horizons nest: an option cycle's *learned* updates the initiative's
+current condition; an initiative's *target met* updates the intent's.
+Learning flows up the same ladder the direction came down.
+
+## 5. The Coaching Kata — the check-in
+
+Rother's second kata is for the person **above** the learner. Without
+it, people practise the wrong pattern or drift back to jumping to
+conclusions. One **coaching cycle**: the coach asks the five questions
+of the learner, who answers from their storyboard — once a day at a
+scheduled time (plus as needed), **twenty minutes or less**. The five
+questions are headings; after each, the coach asks clarifying
+questions.
+
+**Front of the card — the five questions:**
+
+1. What is the **target condition**?
+2. What is the **actual condition** now?
+   *— turn the card over: reflect on the last step —*
+3. What **obstacles** do you think are preventing you from reaching
+   the target condition? Which **one** are you addressing now?
+4. What is your **next step** (next experiment)? What do you
+   **expect**?
+5. **How quickly** can we go and see what we have **learned** from
+   taking that step?
+
+**Back of the card — reflect on the last step taken** (*"because you
+don't actually know what the result of a step will be"*):
+
+1. What did you **plan** as your last step?
+2. What did you **expect**?
+3. What **actually happened**?
+4. What did you **learn**?
+
+…then return to question 3, and have the learner state the obstacle
+being worked on. In plain words the pattern is: *what are we trying to
+achieve · where are we now · what's in our way · what's our next
+experiment and what do we expect · when can we see what we learned.*
+
+Rules of the coaching cycle that carry straight into product work:
+
+- **The two purposes:** reinforce the pattern, and **make the
+  learner's current thinking visible** so the coach can give feedback
+  — like asking a music student to play a few bars. The coach's
+  feedback is on the *thinking*, not the answer.
+- **The storyboard is the artifact.** Rother's board has six fields —
+  *focus process · challenge · target condition (achieve by) · current
+  condition · experimenting record · obstacles parking lot* — which map
+  onto the kata record in
+  [`../lean-experiments/product-kata.md` §4](../lean-experiments/product-kata.md).
+  The learner points at the board; nothing is recalled from memory.
+- **Find the threshold of knowledge.** When the learner reaches the
+  edge of what they actually know — at any question — go straight to
+  question 4: the next step is to *find out*, not to guess. This is
+  the kata's version of "an unknown is an obstacle."
+- **Practise the Starter Kata exactly as written first.** Read the
+  card as printed until the pattern is automatic; adapt it only once
+  it is, and keep the core pattern intact. Teams that "improve" the
+  questions before they've run them lose the reflection step first.
+- **A second coach** watches the coach. In a product organization the
+  level above coaches the level below — the head of product coaches
+  initiative owners; the PM coaches the team's option cycles — and
+  someone occasionally coaches the coach.
+
+In this system the agents ask the questions: `lean-experiments` runs
+the cycle on the kata record; `/navigate status` is the storyboard
+read-back for an initiative; the reflection block in the record
+template ([`../lean-experiments/product-kata.md` §4](../lean-experiments/product-kata.md))
+is the back of the card.
+
+## 6. Communicating the strategy
+
+Deployment *is* communication, and what gets communicated decides
+which gap opens. Communicate **intent and its measure**, not the
+actions — and communicate it in a form the next level can decide with:
+
+- **Down:** the stack (§7). Each level reads the row above it as its
+  direction and writes its own row beneath. The *why* travels with the
+  *what*: an intent without its reasoning is a quota.
+- **Across:** the initiative's direction ladder in its `STATUS.md`
+  header and at the top of its kata record, so every agent and every
+  reader sees which intent this work serves.
+- **Up:** the current condition and what was learned — the kata's
+  *learned* lines, the readouts, the *target met?* answers. Leaders
+  re-plan on this, not on status colours.
+- **The roadmap is a communication device for strategy, not a
+  commitment device for features.** Perri's living roadmap carries,
+  per item: the **theme** (the initiative it serves), the
+  **hypothesis**, the **goal and success metrics**, the **stage** the
+  work is in (exploring the problem · exploring solutions · building ·
+  released), and the few real milestones. Dates belong to the
+  external-deadline items with a latest start date
+  ([`../lean-experiments/minimum-feature-set.md`](../lean-experiments/minimum-feature-set.md)),
+  not to every row.
+
+The tell for a strategy communicated as a plan: the level below can
+recite the features and not the outcome. Ask any team what their
+initiative's metric is and where it stands today; if the answer is a
+feature name, the knowledge gap is open at that level.
+
+## 7. Templates *(repo extension)*
+
+### The strategy stack
+
+One page for the whole product organization; dated; owned per row.
+Lives outside any single initiative — `strategy/strategy.md` next to
+`initiatives/`, or wherever the PM keeps it — and every initiative's
+direction ladder cites it.
+
+```
+STRATEGY STACK — <company / product>                            as of <date>
+
+VISION (<owner>, horizon <years>)
+  <one sentence: what we want to be, for whom>
+
+STRATEGIC INTENTS (<owner>, reviewed <cadence>)         ≤ 3
+  SI-1  <business outcome>  ·  measure <metric: definition>  ·  now <n>  →  target <n> by <date>
+        why now: <one line>
+  SI-2  …
+
+PRODUCT INITIATIVES (<owner>, this year)                 a handful per intent, problems not features
+  PI-1  serves SI-<n>
+        problem:  When <situation>, I want to <motivation>, so I can <outcome>.   (job story; no solution noun)
+        measure:  <metric> baseline <n> → target <n> by <date>
+        evidence: <problem case · verdict · date>            gaps: <scorecard areas < 3>
+        current condition: <the number now, as of <date>>    next target condition: <n by date>
+  PI-2  …
+
+OPTIONS (<team>, this quarter)                           hypotheses; status per option
+  OP-1  under PI-<n>   We believe <solution> will <outcome> for <segment>, moving <metric>.
+        status: exploring problem / testing solution / delivering / killed (<reason>) / parked
+        last readout: <card · result · date>
+  OP-2  …
+
+Deployment log
+  <date> · <level> · <what changed and why — the learning that changed it>
+```
+
+### The direction ladder (per initiative)
+
+The top of an initiative's kata record and the *Direction* row of its
+`STATUS.md` header. It is the initiative's answer to kata step 1.
+
+```
+DIRECTION — <initiative>                                          as of <date>
+  Vision:               <sentence>
+  Strategic intent:     SI-<n> <outcome · measure · target · date · owner>
+  Product initiative:   PI-<n> <problem as job story · measure · baseline → target · owner>
+  This initiative is:   <the initiative itself / one option under PI-<n>>
+  Constraints (real):   <capability, context — verified>
+  Why now:              <one line>
+  Level above signs:    <name · date>      ("not stated → get it written" is a legitimate value, and the first obstacle)
+```
+
+## 8. Where it plugs in
+
+| Agent / skill | What it takes from here | What it gives back |
+|---------------|-------------------------|--------------------|
+| **navigate** | Fills the `STATUS.md` header's *Direction* row from the ladder (or "not stated") when it scaffolds an initiative | Reports an initiative with no stated direction as its first blocker |
+| **ideation** (strategy exploration) | The stack's levels and the tells in §1, to pressure-test an intent, an initiative or a big bet; the gaps in §2 to diagnose why a strategy isn't landing | Candidate intents or initiatives as options in the ledger — untested, BACKGROUND |
+| **problem-selection** | The strategic intent as the *stated goal* Business Alignment is scored against; product initiatives are the *Yes* problems that rank highest against it | The ranked initiatives with their evidence; *Not yet* problems as the learn list beneath an intent |
+| **metrics** | The measure every level must carry: vision and intents map to the North Star and its tree; initiatives to input metrics; options to the success metrics on their cards | Definition cards, baselines, counter-metrics per level; the goal metric a kata needs before cycle 1 |
+| **lean-experiments** (kata mode) | Step 1's direction ladder; step 3's target condition at option level; step 4's choice of product-process step | The cycle's *learned* and re-measured current condition, which flow up the ladder |
+| **solution-options** | The *Alignment* field names the initiative and the intent, not "strategic" | A chosen option's success metrics as the initiative's next target condition |
+| **prfaq** | The internal FAQ's strategy-fit answer cites the intent and initiative by name; the vision paragraph is the level-above sentence | "What we'd need to believe" entries that are strategy-level assumptions go back to the stack's deployment log |
+| **experimentation** | An OEC that is the initiative's measure | A causal readout on the intent's input metric |
+
+Roadmap: the README's **strategy stress-tester** (Rumelt's kernel —
+diagnosis, guiding policy, coherent actions) would critique a written
+stack; this doc is the input it needs, not a substitute for it.
+
+## 9. Anti-patterns (coach's tells)
+
+| Anti-pattern | Tell | Fix |
+|--------------|------|-----|
+| **Strategy as a feature plan** | The "strategy" is a roadmap of features with quarters | Rewrite each row as the outcome it is meant to move; the features become options under it |
+| **Direction as target** | The next goal *is* the vision ("be the leader in…") | Set an intermediate, measurable target condition reachable in a few cycles |
+| **Intents by the dozen** | Twelve strategic intents, one per department | ≤ 3; the rest are initiatives or operations |
+| **Cascading tasks** | The level above hands the level below a to-do list | The level above states the outcome; the level below writes its own *how* (alignment gap) |
+| **Autonomy without direction** | "Empowered" teams; no written intent; leadership later takes the wheel back with a feature list | Write the stack; deployment before autonomy |
+| **Skipping the current state** | Intents set with no baseline; initiatives with no number | Cycle 1 is measurement; "unknown" is the obstacle |
+| **Roadmap as promise** | Every row has a date; none has a hypothesis or a stage | Theme · hypothesis · metric · stage; dates only on external deadlines |
+| **Options committed, not tested** | The initiative's option is already a project with a team | An option is a hypothesis with a card until a readout says otherwise |
+| **Inventing the level above** | The team writes its own "strategic intent" because none was stated | Get it written with its owner's signature; that *is* the first step of the kata |
+| **Kata theatre** | The five questions are asked; the last step is never reflected on | Turn the card over: planned · expected · actually happened · learned, every cycle |
+| **Annual strategy, never re-measured** | The intent's number was read once, at planning | Current condition re-read every cycle at every level; re-plan on evidence |
+| **Adapting the kata before practising it** | "Our version" of the questions, before anyone has run a coaching cycle | Practise the Starter Kata as written until it is a habit; then adapt, core intact |
+
+## 10. Worked example (short)
+
+A data-import product; the team owns onboarding.
+
+- **Direction (step 1).** Vision: *every team can trust its data the
+  day it arrives.* Intent SI-1: *grow self-serve workspace revenue 40%
+  by end of next year* (CFO owns; measure: self-serve ARR). Initiative
+  PI-1 under it, set by the head of product with the team: *new
+  workspaces reach a trusted first import in one session* — measure:
+  90-day retention of new workspaces, baseline 41% → target 55% by Q4.
+  The team's own work is one option under PI-1.
+- **Current state (step 2).** 31% of imports abandon at the mapping
+  step; abandoners retain 22 points worse (funnel, confidence 5); six
+  of eight interviewees re-entered data after a partial failure
+  (qualitative, 4); the knowledge-gap scorecard scores *user behavior*
+  at 2 — nobody has watched the recovery workaround.
+- **Next goal (step 3).** Target condition for the quarter:
+  mapping-step abandonment below 15% for workspaces created after the
+  change, measured weekly. Not "retention 55%" — that is the
+  initiative's target, one level up.
+- **Execute (step 4).** The current obstacle is a knowledge gap (area
+  2), so the step is *explore the problem*: five recovery-path
+  observation sessions this week (`customer-interviews`), expected to
+  show re-entry from scratch; learned: most users re-import the whole
+  file and lose their mapping. Next cycle's obstacle is a solution
+  question → a Wizard-of-Oz card for the recovery flow
+  (`lean-experiments`). Each cycle's *learned* updates PI-1's current
+  condition; at quarter's end the head of product asks the five
+  questions of PI-1, and the intent's owner reads PI-1's number as
+  part of SI-1's current condition.
+
+## Sources & materials
+
+- **Melissa Perri**, *Escaping the Build Trap: How Effective Product
+  Management Creates Real Value* (O'Reilly, 2018) — Part IV,
+  "Strategy" (what strategy is; strategic gaps; creating a good
+  strategic framework; company-level vision and strategic intents;
+  product vision and portfolio) and Part V's chapter on the Product
+  Kata; the living roadmap's fields from the communication chapters.
+  A published book — **paraphrased; nothing quoted**; the Marquetly
+  worked example is not reproduced. Her earlier blog post is preserved
+  at `../lean-experiments/materials/MelissaPerri-TheProductKata.pdf`.
+- **Stephen Bungay**, *The Art of Action: How Leaders Close the Gaps
+  between Plans, Actions and Results* (Nicholas Brealey, 2011) — the
+  knowledge, alignment and effects gaps, their mission-command
+  remedies, and the definition of strategy as a deployable
+  decision-making framework that Perri adopts. Cited via Perri; not
+  reproduced.
+- **Mike Rother**, *The Improvement Kata* and *The Coaching Kata* —
+  pages 1 and 2 of the Toyota Kata website (University of Michigan),
+  and the *5Q Card* deck linked from them. Sources:
+  `./materials/ToyotaKata-Rother-TheImprovementKata.pdf`,
+  `./materials/ToyotaKata-Rother-TheCoachingKata.pdf`,
+  `./materials/ToyotaKata-Rother-5Q_Card.pdf`; transcriptions under
+  `./materials/extracted/`. The four-step model, scientific thinking
+  as a practised habit, the Starter Kata, the five questions and the
+  back-of-card reflection, coaching-cycle rules and the storyboard
+  fields are his; the books are *Toyota Kata* (McGraw-Hill, 2009) and
+  *The Toyota Kata Practice Guide* (McGraw-Hill, 2017).
+- **Kazuo Ichijo & Ikujiro Nonaka**, *Knowledge Creation and
+  Management: New Challenges for Managers* (Oxford University Press,
+  2006), p. 25 — the excerpt on a firm-specific *kata* as a knowledge
+  asset, quoted on Rother's page and transcribed with it.
+- The four-step **Product Kata summary** (understand the direction ·
+  analyze the current state · set the next goal · execute or deploy)
+  is **Daniel O'Rorke's**, after Perri.
+- The clause-by-clause tests (§1), the gap table's wrong/right fixes
+  (§2), the stack rules (§3), the cadence table (§4), the strategy
+  stack and direction ladder (§7), the plug-in table (§8), the
+  anti-patterns (§9) and the worked example (§10) are **this repo's
+  operational extension**.
+- See [`../../CREDITS.md`](../../CREDITS.md) for full attribution.

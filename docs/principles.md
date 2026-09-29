@@ -339,6 +339,28 @@ excitement generators belong in v1.0 — knowing they migrate into basics
 as they spread. *(Reinertsen; Arnold's benefit buckets, urgency profiles
 and CD3; Perri; Kano via Spool; the option template.)*
 
+### 32. Strategy is a deployable framework, not a plan — and the kata runs at every level
+A strategy enables action toward desired outcomes: each level of the
+organization can decide with it, it says what to say no to, it is
+honest about current capabilities and context, and it names an
+outcome with a measure. Treating it as a plan opens Bungay's three
+gaps — knowledge (leaders plan what nobody knows), alignment (teams
+act without the intent), effects (features ship, nothing moves) — and
+the remedies are the same at each level: **state the intent and its
+measure; let the level below choose the how; give it room to adjust
+on what it learns.** The framework is four levels — vision, a few
+strategic intents, product initiatives written as customer problems
+with metrics, and options that are hypotheses until tested — and the
+Product Kata is how each level works toward the level above:
+understand the direction, analyze the current state, set the next
+goal, then execute or deploy — an experiment, a delivery, or the act
+of communicating the strategy so the next level can start its own
+loop. Two rules keep it honest: an unstated direction is the first
+obstacle, never something a team invents; and the coaching cycle
+turns the card over — planned, expected, actually happened, learned —
+before it names the next step. *(Bungay; Perri, Escaping the Build
+Trap; Rother's Improvement and Coaching Kata.)*
+
 ---
 
 ## System design principles

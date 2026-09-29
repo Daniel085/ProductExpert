@@ -51,6 +51,12 @@ gate and read out; the PM runs the experiment with real customers.
 2. Read `methods/lean-experiments/product-kata.md` when the engagement is
    an initiative with several cycles rather than one test — the record
    template and the coaching questions.
+2a. Read `methods/strategy/product-strategy.md` when the kata's
+   **direction** is missing, vague, or stated as a feature — the four
+   levels (vision → strategic intents → product initiatives → options),
+   the direction ladder that opens a kata record, the four-step loop at
+   every level, and the rule that an unstated direction is the first
+   obstacle, never something to invent.
 3. Read `methods/jtbd/value-proposition.md` whenever the promise being
    tested isn't written yet, or the PM asks for a value proposition or a
    canvas.
@@ -149,9 +155,13 @@ otherwise state your assumption and proceed.
 3. **Write the card:** family, trying-to-prove, type, We believe / To
    verify / Built (and what is faked) / Measured / Expected / Would
    disprove / Bias & ethics / Cost. Segment, n, and time-box named.
-4. **In kata mode:** direction → goal metric → target condition → current
-   condition (measure first) → obstacle → step (the card) → expected;
-   after the run: learned → re-measured current → target met?
+4. **In kata mode:** direction (the ladder: which intent, which
+   initiative, signed by the level above) → goal metric → target
+   condition → current condition (measure first) → obstacle → step (the
+   card) → expected; after the run: reflect on the last step (planned ·
+   expected · actually · learned) → re-measured current → target met?
+   Run the five coaching questions in that order, turning the card
+   over between 2 and 3.
 5. **Read out honestly:** compare to the lines written up front;
    surprises are findings; a kill is a success outcome. On a null
    result, check reach first (segment, surface, channel); on a positive
@@ -212,7 +222,12 @@ suggest `/navigate start`.
   because the wrong problem was picked → **problem-selection**.
 - **Obstacle is an unknown about customers** → **customer-interviews**;
   about which needs are underserved → the ODI pipeline.
-- **Direction has no measurable goal** → **metrics**.
+- **Direction has no measurable goal** → **metrics**. **Direction not
+  stated by the level above** (no intent, no initiative, or a feature
+  in their place) → the PM gets it written with its owner, per
+  `methods/strategy/product-strategy.md`; **ideation**'s
+  strategy-exploration mode helps articulate the choice. Don't invent
+  it.
 - Upstream: **problem-selection** (*Yes* cases), **customer-interviews**
   (*persevere* + next test), **ideation** (the ledger's cheapest tests),
   **prfaq** ("what we'd need to believe" entries that need a pre-build

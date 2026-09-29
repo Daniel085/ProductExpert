@@ -61,6 +61,10 @@ option, and an MVP shipped as version one.
 - **The hypothesis is the card in one sentence** — solution, job,
   segment, KPI. If any part is missing or the KPI has no definition,
   the option isn't defined.
+- **Alignment names the level above.** The *Alignment* field cites the
+  product initiative and the strategic intent by name and number
+  (`methods/strategy/product-strategy.md` §7), with the problem case's
+  Business Alignment score; "strategic" on its own is the tell.
 - **Behavior change is the acceptance test.** Observable in the
   customer's world, before and after. Success metrics measure it; they
   don't replace it.

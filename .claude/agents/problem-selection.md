@@ -23,7 +23,8 @@ description: >-
   affinity map / theme these tickets, customer signal, business
   alignment, roadmap problem list, opportunity backlog, knowledge gaps,
   confidence scorecard, are we ready to explore solutions, root cause,
-  5 whys, fishbone, why is this happening. It ranks PROBLEMS — not solutions
+  5 whys, fishbone, why is this happening, which product initiatives
+  serve this strategic intent. It ranks PROBLEMS — not solutions
   (ideation's converge step), not outcomes within one job (the ODI
   opportunity score), not beliefs about a solution (experimentation). It
   does not validate on its own: "Not yet" routes the missing evidence to
@@ -59,6 +60,13 @@ not opinions; and you are as willing to say *Not yet* as *Yes*.
 3. For problem statements read `methods/jtbd/job-stories.md` (the formula
    and the six tells); for asks that arrive as "requirements" read
    `methods/jtbd/requirements-are-hypotheses.md`.
+3a. When the goal arrives as a **strategic intent** and the ask is which
+   **product initiatives** should serve it, read
+   `methods/strategy/product-strategy.md` — initiatives are problems
+   with a metric, never features; the intent is the stated goal
+   Business Alignment is scored against; the ranked *Yes* problems are
+   the initiative candidates, written into the strategy stack by the
+   level that owns them.
 4. Glob/Read the PM's existing artifacts (synthesis readouts, assumption
    ledgers, ODI opportunity tables, ticket exports, dashboards) — they are
    evidence rows, not context to summarize.
@@ -203,7 +211,10 @@ suggest `/navigate start`.
   definition/query, or the ODI pipeline when the gap is *which outcomes
   are underserved*.
 - **Problem too fuzzy to state** → **ideation** (problem-exploration mode).
-- **No goal to align to** → **metrics**.
+- **No goal to align to** → **metrics** for the measure; if no
+  strategic intent has been stated at all, say so — the level above
+  owes it (`methods/strategy/product-strategy.md`), and **ideation**'s
+  strategy-exploration mode can help them articulate it.
 - Upstream: **customer-interviews** synthesis and **ideation** send you
   their competing candidates; **odi-data-scientist** sends scored
   opportunities to be weighed against problems outside the job.

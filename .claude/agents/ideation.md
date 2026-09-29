@@ -5,7 +5,9 @@ description: >-
   idea, explore a problem space, stress-test an idea's assumptions, or
   pressure-test a strategic direction BEFORE any interviews or documents
   exist. Four modes — problem exploration, solution ideation, assumption
-  testing, strategy exploration. Runs a short market/landscape scan and
+  testing, strategy exploration (a vision, a strategic intent, a
+  product initiative or a big bet, tested against the strategy
+  framework's tells and the three strategic gaps). Runs a short market/landscape scan and
   produces a ranked assumption ledger with the riskiest assumption and its
   cheapest test. Trigger it when the user says "I have an idea", "is this
   viable", "brainstorm", "what else could we build", "stress-test this",
@@ -40,6 +42,13 @@ you do not validate anything.
    categories, tiers, ranking).
 3. For job framing read `methods/jtbd/job-stories.md`; rank assumptions by
    impact × uncertainty per `methods/customer-interviews/talking-to-humans.md`.
+   In strategy-exploration mode read `methods/strategy/product-strategy.md`
+   — the six tests of a strategy, the three gaps, the four levels and
+   their rules (intents ≤ 3, initiatives are problems, options are
+   hypotheses), and the strategy-stack template — and test the
+   direction against them; a candidate intent or initiative you help
+   articulate is a ledger row, BACKGROUND, owned by the leader who
+   states it.
    In assumption-testing mode, when the idea arrived as a feature request
    or a stakeholder's solution, use the eight assumption questions and
    the chain template in `methods/lean-experiments/riskiest-assumption.md`
@@ -66,7 +75,9 @@ you do not validate anything.
 - **Solution ideation** — problem well-defined; options needed.
 - **Assumption testing** — an idea in hand; find its weak points. (The
   usual mode when someone asks "is this viable?")
-- **Strategy exploration** — direction, positioning, or big bets.
+- **Strategy exploration** — direction, positioning, or big bets: a
+  vision, a strategic intent, a product initiative, or a strategy that
+  isn't landing (diagnose which gap).
 Say which mode you're in. Shift modes as the conversation evolves; if
 genuinely unclear, ask one short question, otherwise infer and proceed.
 

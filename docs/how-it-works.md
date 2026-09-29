@@ -59,6 +59,9 @@ ProductExpert/
 │   │   ├── root-cause-analysis.md   #   5 Whys, fishbone, interrelationship digraph
 │   │   ├── affinity-mapping.md      #   K-J method, text-mode protocol (shared)
 │   │   └── materials/               #   ASQ affinity-diagram page (verbatim)
+│   ├── strategy/
+│   │   ├── product-strategy.md      #   strategy as a deployable framework; gaps; four levels; the kata at every level
+│   │   └── materials/               #   Rother's Improvement Kata & Coaching Kata pages, the five-question card
 │   ├── prfaq/
 │   │   └── working-backwards.md     #   PR structure, FAQ banks, process
 │   ├── experimentation/
@@ -350,7 +353,8 @@ Knowledge shared by several agents is written exactly once:
 | Job-story framing (needs vs. features; user-story rewrites) | `methods/jtbd/job-stories.md` | customer-interviews, odi-interviewer, prfaq |
 | Value proposition (functional + emotional jobs → statement; Strategyzer canvas; fit) | `methods/jtbd/value-proposition.md` | lean-experiments, prfaq, odi-interviewer |
 | Pre-build experiments (chooser, generative/evaluative, catalogue, MVP/MLP/MVI, card) | `methods/lean-experiments/pre-build-experiments.md` | lean-experiments, experimentation (triage) |
-| Product Kata (rhythm, coaching questions, record template) | `methods/lean-experiments/product-kata.md` | lean-experiments |
+| Product Kata (rhythm, coaching questions and reflection, record template) | `methods/lean-experiments/product-kata.md` | lean-experiments |
+| Product strategy (deployable framework, three gaps, vision → intents → initiatives → options, the four-step kata at every level, strategy stack, direction ladder) | `methods/strategy/product-strategy.md` | lean-experiments, ideation, problem-selection, metrics, solution-options, prfaq, navigate |
 | Feature-request breakdown (eight assumption questions, chain, riskiest link, null-result rule) | `methods/lean-experiments/riskiest-assumption.md` | lean-experiments, ideation, prfaq |
 | MVP as learning vehicle (canon, failure modes, alignment questions, maxims, MVP card) | `methods/lean-experiments/minimum-viable-product.md` | lean-experiments, solution-options |
 | Option card (11 fields, tells, comparison, gates) | `methods/lean-experiments/solution-options.md` | solution-options, prfaq |
