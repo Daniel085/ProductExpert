@@ -128,6 +128,15 @@ Rules for the stack:
   product leader the direction is the strategic intent; for a team the
   direction is the initiative. That is what step 1 of the kata reads
   (§4).
+- **Every intent implies a stop-doing list.** Collins's good-to-great
+  leaders were distinguished by the discipline to stop doing whatever
+  didn't fit their one organizing idea (Kimberly-Clark sold its
+  namesake paper mills to concentrate on consumer products). A strategic
+  intent that names no initiative, product line or market the company
+  will *stop* investing in has not yet said no to anything — which is
+  the "decision-making framework" test in §1. Write the stop-doing
+  list next to the intent; the option card's out-of-scope decision log
+  is the same discipline one level down.
 - **It is written down, dated and owned.** The stack in §7 is the
   minimum; if it isn't written, each level will fill the gap with its
   own version — the alignment gap by another route.
@@ -318,6 +327,26 @@ The horizons nest: an option cycle's *learned* updates the initiative's
 current condition; an initiative's *target met* updates the intent's.
 Learning flows up the same ladder the direction came down.
 
+**The flywheel and the doom loop (Collins).** The cadence has a
+failure mode at the intent level that Jim Collins named from his
+good-to-great study: the **doom loop** — disappointing results lead to
+reaction without understanding, which leads to a new direction (a new
+leader, a new program), which leads to no momentum, which leads to
+disappointing results. His comparison companies changed strategic
+direction roughly once per CEO and never built momentum; the companies
+that made the leap pushed one heavy **flywheel** in one direction,
+turn after turn, with no single breakthrough moment anyone could date,
+until the accumulated momentum carried it. Two rules for the stack
+follow. **Re-plan an intent on evidence, not on one bad reading**: a
+missed target condition is the kata's normal case (next obstacle), and
+only a current condition that keeps refusing to move after honest
+cycles is grounds to change the intent. And **keep the direction long
+enough to learn**: an intent replaced every planning season never gets
+its current condition measured twice. The flywheel is not an argument
+against changing course — the effects gap says adjust — it is an
+argument for changing *steps* fast and *direction* slowly, on what the
+steps taught you.
+
 ## 5. The Coaching Kata — the check-in
 
 Rother's second kata is for the person **above** the learner. Without
@@ -500,6 +529,9 @@ stack; this doc is the input it needs, not a substitute for it.
 | **Inventing the level above** | The team writes its own "strategic intent" because none was stated | Get it written with its owner's signature; that *is* the first step of the kata |
 | **Kata theatre** | The five questions are asked; the last step is never reflected on | Turn the card over: planned · expected · actually happened · learned, every cycle |
 | **Annual strategy, never re-measured** | The intent's number was read once, at planning | Current condition re-read every cycle at every level; re-plan on evidence |
+| **The doom loop** | One bad quarter → a new direction, a new program, a new leader; the flywheel never completes a turn | Change *steps* fast and *direction* slowly; an intent is replaced only when its current condition refuses to move after honest cycles (Collins) |
+| **No stop-doing list** | The intent adds a focus without removing one; every existing initiative survives | Name what the intent stops; the level below inherits it as out-of-scope with a reason |
+| **The enterprise trap** | A big contract dictates the roadmap; initiatives become one customer's feature list | An initiative is a problem with breadth under the goal reading, not an account's asks; treat the contract's asks as requirements-to-trace (Atlassian's lesson; [`../jtbd/requirements-are-hypotheses.md`](../jtbd/requirements-are-hypotheses.md)) |
 | **Adapting the kata before practising it** | "Our version" of the questions, before anyone has run a coaching cycle | Practise the Starter Kata as written until it is a habit; then adapt, core intact |
 
 ## 10. Worked example (short)
@@ -572,6 +604,29 @@ A data-import product; the team owns onboarding.
   Management: New Challenges for Managers* (Oxford University Press,
   2006), p. 25 — the excerpt on a firm-specific *kata* as a knowledge
   asset, quoted on Rother's page and transcribed with it.
+- **Jim Collins**, *"Good to Great"*, Fast Company, October 2001
+  (republished at jimcollins.com) — the flywheel effect and the doom
+  loop, the stop-doing list, and the finding that transformations had
+  no datable breakthrough moment; from the study behind *Good to Great*
+  (HarperBusiness, 2001). The hedgehog concept, Level 5 leadership and
+  "first who, then what" are company-leadership material and are
+  cited, not distilled. Source:
+  `./materials/JimCollins-GoodToGreat-FastCompany-2001.pdf`;
+  transcription under `./materials/extracted/`.
+- **HubSpot**, *"Why it's Time to Replace your Funnel with a
+  Flywheel"* (hubspot.com/flywheel) — the flywheel as a growth model
+  (attract · engage · delight; force and friction), after James Watt's
+  mechanism. Read for the force/friction vocabulary; not preserved,
+  since the North Star tree's inputs already carry the same
+  decomposition.
+- **Cameron Deatsch**, *"10 Lessons on using the Flywheel Effect to
+  Grow Your Business"*, Inside Atlassian, 31 Aug 2021 — the enterprise
+  trap (large contracts dictating the roadmap), "treat human
+  interaction as a bug" (each support question is missing product,
+  fixed systematically), and active users as the leading signal. The
+  go-to-market lessons (public pricing, partner channels, community,
+  localization) belong to the positioning and pricing agents on the
+  README roadmap. Cited, not preserved.
 - The four-step **Product Kata summary** (understand the direction ·
   analyze the current state · set the next goal · execute or deploy)
   is **Daniel O'Rorke's**, after Perri.

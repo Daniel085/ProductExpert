@@ -467,6 +467,23 @@ the property of their authors and are included for reference and attribution.
   it cites them.
 - **Jim Huntzinger** (Lean Frontiers) and **Ralph Waldo Emerson** —
   the two epigraphs on Rother's page, transcribed with it.
+- **Jim Collins** — *"Good to Great"*, Fast Company, October 2001, as
+  republished at jimcollins.com (from *Good to Great: Why Some
+  Companies Make the Leap… and Others Don't*, HarperBusiness, 2001) —
+  the flywheel effect and the doom loop, the stop-doing list, the
+  seven change myths and the no-miracle-moment finding; preserved at
+  `methods/strategy/materials/JimCollins-GoodToGreat-FastCompany-2001.pdf`
+  with a transcription under `materials/extracted/`; copyright Jim
+  Collins. The hedgehog concept, Level 5 leadership and "first who,
+  then what" are acknowledged and not distilled.
+- **HubSpot** — *"Why it's Time to Replace your Funnel with a
+  Flywheel"* (hubspot.com/flywheel): the flywheel growth model
+  (attract · engage · delight; force and friction), crediting **James
+  Watt** for the mechanism. Cited, not preserved.
+- **Cameron Deatsch** — *"10 Lessons on using the Flywheel Effect to
+  Grow Your Business"*, Inside Atlassian, 31 Aug 2021: the enterprise
+  trap, "treat human interaction as a bug", active users as the
+  leading signal. Cited, not preserved.
 - The four-step **Product Kata summary** — *understand the direction
   (get clear on the strategy set by the level above) · analyze the
   current state · set the next goal (the product initiatives that
