@@ -17,7 +17,7 @@ description: >-
   constraints, business impact) and routes the lowest area to its move:
   customer interviews, root-cause problem analysis (5 Whys, fishbone,
   interrelationship — run here), competitive teardown (ideation),
-  feasibility spike, or sizing. Trigger on: which problem first,
+  feasibility spike, or sizing (metrics). Trigger on: which problem first,
   prioritize problems / pain points / feedback, is this problem worth
   solving, problem statement, evidence table, triangulate the evidence,
   affinity map / theme these tickets, customer signal, business
