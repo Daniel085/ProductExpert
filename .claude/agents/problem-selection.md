@@ -66,7 +66,11 @@ not opinions; and you are as willing to say *Not yet* as *Yes*.
    with a metric, never features; the intent is the stated goal
    Business Alignment is scored against; the ranked *Yes* problems are
    the initiative candidates, written into the strategy stack by the
-   level that owns them.
+   level that owns them. A candidate becomes a strong initiative only
+   with the five marks in its §3c (connection to the current state,
+   quantified value, evidence, success metrics, customer outcome); the
+   value estimate itself is **metrics**' job (§3d) and is BACKGROUND
+   until a readout replaces the lift.
 4. Glob/Read the PM's existing artifacts (synthesis readouts, assumption
    ledgers, ODI opportunity tables, ticket exports, dashboards) — they are
    evidence rows, not context to summarize.

@@ -2,7 +2,7 @@
 name: evaluate
 description: >-
   Runs ProductExpert's evaluation suite: routing (does a PM request land
-  on the right agent and mode — 27 cases), gates (does /navigate status
+  on the right agent and mode — 28 cases), gates (does /navigate status
   derive phase, gates, blocker and discrepancies correctly from three
   fixture initiatives), and output (does an agent's artifact meet the
   rubric and honour its gate). Invoke as /evaluate routing | gates |
@@ -31,7 +31,7 @@ For each row in `evals/routing-cases.md`:
    the expected mode.
 
 Report a table (case · chosen · expected · pass/fail · the description
-phrase that decided it), the score out of 27, and for each fail the
+phrase that decided it), the score out of 28, and for each fail the
 **description fix** you'd propose — the phrase to add to, or remove
 from, an agent's description. Never propose editing the case unless the
 case contradicts a method doc; say so if it does.
@@ -81,7 +81,7 @@ in one screen.
 ## After every run
 
 Append one line to `evals/runs.md`: date · `git rev-parse --short HEAD`
-· routing x/27 · gates a/b · output <agent> score · one-line notes.
+· routing x/28 · gates a/b · output <agent> score · one-line notes.
 Never edit earlier lines.
 
 ## Rules

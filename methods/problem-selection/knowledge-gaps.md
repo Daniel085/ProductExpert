@@ -61,7 +61,7 @@ them explicitly:
 | Low area | Move | Runs as |
 |----------|------|---------|
 | **Technical constraints** | A feasibility conversation or spike — engineering names the hard part and which constraints are real | The PM with engineering; classify each constraint per [`../jtbd/requirements-are-hypotheses.md`](../jtbd/requirements-are-hypotheses.md) (true constraint vs. preference); record in the ledger |
-| **Business impact** | Size it and tie it to a goal | **metrics** for the goal metric and its inputs; the problem case's alignment score; **prfaq**'s internal FAQ bank for the sizing and counter-case questions, answered early |
+| **Business impact** | Size it and tie it to a goal | **metrics** for the goal metric and its inputs, and for the value estimate — lever, primary metric, impact formula with sourced and tiered factors, the four oversights ([`../strategy/product-strategy.md` §3d](../strategy/product-strategy.md)); the problem case's alignment score; **prfaq**'s internal FAQ bank for the sizing and counter-case questions, answered early |
 
 Decision rules *(repo extension)*:
 

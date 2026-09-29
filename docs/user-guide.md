@@ -56,6 +56,7 @@ Or go straight to an agent — start from where you are:
 | "What goes in v1.0? What can we postpone?" | `solution-options` | Minimum feature set: feature classes, cost of delay ÷ duration, deferred list with costs |
 | "Design this A/B test properly" / "test results are in — ship it?" | `experimentation` | Pre-registration, or trust-checked readout + decision |
 | "What should our north star / KPIs be?" / "audit our dashboard" | `metrics` | Metric tree, OMTM, vanity audit, tracking plan |
+| "Quantify the business value of this initiative" / "what's a 10% activation lift worth?" | `metrics` | The value estimate: lever, primary metric vs. signal, impact formula with sourced and tiered factors, discounted for side effects, decay, vanity and attribution (`methods/strategy/product-strategy.md` §3d) |
 | "We've been handed a requirements list / stakeholder asks" | `customer-interviews` | De-requirements it: reclassify each ask, trace to problems, then discover |
 
 Rules of thumb:

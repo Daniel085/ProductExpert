@@ -366,8 +366,14 @@ of communicating the strategy so the next level can start its own
 loop. Two rules keep it honest: an unstated direction is the first
 obstacle, never something a team invents; and the coaching cycle
 turns the card over — planned, expected, actually happened, learned —
-before it names the next step. *(Bungay; Perri, Escaping the Build
-Trap; Rother's Improvement and Coaching Kata.)*
+before it names the next step. A strong initiative carries five
+things — a connection to the current-state picture, quantified
+business value (a formula with sourced, tiered factors and a range,
+BACKGROUND until a readout replaces the lift), evidence, defined
+success metrics, and a measurable customer outcome — and the set stays
+few and gets re-read every cycle. *(Bungay; Perri, Escaping the Build
+Trap; Rother's Improvement and Coaching Kata; Carter's quantification
+method.)*
 
 ---
 

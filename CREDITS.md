@@ -506,6 +506,44 @@ the property of their authors and are included for reference and attribution.
   with a transcription under `materials/extracted/`; copyright Jim
   Collins. The hedgehog concept, Level 5 leadership and "first who,
   then what" are acknowledged and not distilled.
+- **Brooke Carter** — *"How Product Managers Can Effectively Quantify
+  Business Impact"*, Built In, 8 Jan 2021: the metric vocabulary
+  (North Star, OKR, goal, signal, primary metric, hypothesis, support
+  data), the revenue-impact formula, the four measurement oversights
+  and the "two plus two equals three" caution. Preserved at
+  `methods/strategy/materials/BuiltIn-HowPMsQuantifyBusinessImpact-Carter-2021.pdf`
+  with a transcription; it remains the author's and Built In's
+  property.
+- **Allie Beazell** — *"The cost-benefit analysis of internal
+  tools"*, Retool Blog, 24 Nov 2020: direct cost as engineer hourly pay
+  × build-and-maintain hours, the internal-tools time benchmarks from
+  Retool's 2020 survey, and the value side (united systems, fewer
+  errors, security, time freed), with the LeadGenius (**Adam Louie**),
+  Neo4j (**Mike Brophy**) and Noble Schools (**Moon Lee**) cases.
+  Vendor content, preserved at
+  `methods/strategy/materials/Retool-CostBenefitAnalysisOfInternalTools-Beazell-2020.pdf`
+  with a transcription; it remains Retool's property.
+- **Jonathan Kim** — *"Becoming product-led: How to connect product
+  decisions to revenue"*, Appcues blog, 28 May 2026: SaaS revenue as a
+  system of four levers, the Rule of 40, net revenue retention,
+  revenue vs. logo churn, product-qualified leads, time-to-value, and
+  shared product-and-revenue metrics. Vendor content, preserved at
+  `methods/strategy/materials/Appcues-BecomingProductLed-Kim-2026.pdf`
+  with a transcription; the product-marketing sections are not
+  distilled; it remains Appcues's property.
+- **Mural** — *"How to create a meaningful product vision"*, Mural
+  blog, 24 Oct 2025: the vision-statement definition and qualities,
+  and the statement format adapted from **Geoffrey Moore**'s
+  positioning template (*Crossing the Chasm*, HarperBusiness, 1991).
+  Vendor content, preserved at
+  `methods/strategy/materials/Mural-HowToCreateAMeaningfulProductVision-2025.pdf`
+  with a transcription; it remains Mural's property.
+- The five marks of a **strong product initiative** (clear connection
+  to the current-state analysis · quantified business value ·
+  evidence-based reasoning · defined success metrics · measurable
+  customer outcomes), the focus rule and the periodic-update rule are
+  **Daniel O'Rorke's** working notes after **Product Institute**'s
+  strategy lessons, paraphrased; nothing quoted.
 - **HubSpot** — *"Why it's Time to Replace your Funnel with a
   Flywheel"* (hubspot.com/flywheel): the flywheel growth model
   (attract · engage · delight; force and friction), crediting **James

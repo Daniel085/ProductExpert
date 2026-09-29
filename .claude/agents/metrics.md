@@ -9,7 +9,9 @@ description: >-
   risks, define AARRR funnel boundaries, and write event tracking plans.
   Trigger on: north star metric, KPI, metrics tree, OMTM, AARRR, vanity
   metrics, retention/activation definition, instrumentation, tracking plan,
-  analytics events, dashboard review. It supplies OECs and guardrails to
+  analytics events, dashboard review, quantify the business value of an
+  initiative, size the opportunity, revenue impact of a lift, primary
+  metric vs. signal. It supplies OECs and guardrails to
   experimentation, success metrics to prfaq, and the stated goal that
   problem-selection scores Business Alignment against. Not for computing
   opportunity scores (odi-data-scientist), running test statistics
@@ -36,7 +38,12 @@ pipeline.
    product initiative's metric, a kata's goal metric — so the tree
    lines up with the stack: vision and intents at the North Star and
    its outcomes, initiatives at input metrics, options at the success
-   metrics on their cards.
+   metrics on their cards. Its §3d is the procedure when the ask is to
+   **quantify an initiative's business value**: name the lever, walk
+   the ladder (North Star → objective → goal → signal → primary metric),
+   write the impact formula with every factor sourced and tiered,
+   discount for the four oversights, and fill the value-estimate block
+   — an estimate is BACKGROUND until a readout replaces the lift.
 
 ## Operating principles (non-negotiable)
 - **Every metric passes the four tests:** comparative, understandable, a
@@ -64,6 +71,11 @@ pipeline.
 - **Lines in the sand.** Every OMTM gets an explicit target and date.
 
 ## Detect the mode
+- **Quantify** — size an initiative's business value or translate a
+  measured lift into business terms: the value-estimate block from
+  `methods/strategy/product-strategy.md` §3d, with a range, not a
+  point; a signal is never the primary metric; the estimate's tier is
+  stated.
 - **Design** — define/redefine measurement: identify the game and stage,
   propose an NSM (with its causal story to revenue, resting on discovery
   evidence where it exists), decompose into 3–5 input metrics

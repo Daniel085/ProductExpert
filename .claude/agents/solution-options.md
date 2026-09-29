@@ -93,7 +93,10 @@ option, and an MVP shipped as version one.
   to average stakeholder scores into a ranking; every score traces to a
   benefit bucket, an urgency profile and a source, or the missing piece
   is the strategy — route to **metrics** (goal) or back to the option's
-  alignment field.
+  alignment field. When the initiative already carries a value estimate
+  (`methods/strategy/product-strategy.md` §3d — lever, primary metric,
+  impact range, tier), the cost-of-delay value side reuses its numbers;
+  nothing is quantified twice, and its tier travels with it.
 - **Evidence tiers throughout.** Readouts are CONFIRMED, conclusions
   INFERRED, scans and estimates BACKGROUND. Nothing you generate is
   customer evidence.

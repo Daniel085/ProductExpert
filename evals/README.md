@@ -11,7 +11,7 @@ Run with `/evaluate` (`.claude/skills/evaluate/SKILL.md`):
 
 | Command | What it checks | Cases |
 |---------|----------------|-------|
-| `/evaluate routing` | That a PM's request lands on the right agent and mode | [`routing-cases.md`](./routing-cases.md) — 27 inputs with expected agent, mode, and accepted alternates |
+| `/evaluate routing` | That a PM's request lands on the right agent and mode | [`routing-cases.md`](./routing-cases.md) — 28 inputs with expected agent, mode, and accepted alternates |
 | `/evaluate gates` | That `/navigate status` derives phase, gates and blocker correctly from artifacts, and flags status-file claims the artifacts don't back | [`gate-fixtures/`](./gate-fixtures/) — three initiative folders, each with `expected.md` |
 | `/evaluate output <agent> <fixture>` | That an agent's artifact meets the output rubric and the agent honoured its gate | [`output-rubric.md`](./output-rubric.md), run against a fixture input |
 | `/evaluate all` | All three, summarized | |
@@ -19,7 +19,7 @@ Run with `/evaluate` (`.claude/skills/evaluate/SKILL.md`):
 ## What "pass" means
 
 - **Routing:** the chosen agent matches the expected one (or a listed
-  alternate) *and* the mode matches. Report a score out of 27 and every
+  alternate) *and* the mode matches. Report a score out of 28 and every
   mismatch with the input text, so the fix is to the agent's
   `description`, not to the case.
 - **Gates:** for each fixture, phase, passed gates and blocker match

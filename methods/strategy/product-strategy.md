@@ -141,6 +141,148 @@ Rules for the stack:
   minimum; if it isn't written, each level will fill the gap with its
   own version — the alignment gap by another route.
 
+### 3b. Writing the vision
+
+The vision is the one level that stays put while everything beneath
+it adapts: a vision changes when the company changes what it wants to
+be, not when a quarter misses. Perri's sentence frame (§3a) is the
+minimum — *in <time frame>, <company> will be <vision statement>*.
+When the vision needs to say more (for whom, against what), Mural's
+guide offers the format adapted from Geoffrey Moore's positioning
+statement:
+
+```
+<Product> is for <target customer> who <need or opportunity>. It is a <category>
+that <key benefit>. Unlike <primary alternative>, it <primary differentiation>.
+```
+
+Two cautions on that frame. It was built for **positioning**, which
+is what a product occupies in the market today; a vision is more
+aspirational, so the frame is a checklist of what the sentence must
+cover, not its voice. And "primary alternative" is a landscape-scan
+finding (BACKGROUND), not a decision. Quality tests, from the same
+guide and in this repo's terms: **purposeful** (it serves the company
+vision above it), **achievable** (grounded in current capabilities —
+§1's fifth clause), **aspirational** (it describes a change in
+customers' lives, not a feature set), **customer-focused** (it rests on
+research, not on the roadmap), **concise** (one sentence anyone can
+repeat), and **written down and shared** (§6). The vision is owned by
+the level that sets it and pressure-tested by the level below, which
+is `ideation`'s strategy-exploration mode.
+
+### 3c. Strong product initiatives
+
+A product initiative is the level the PM most often writes, and the
+one most often written badly (as a feature with a date). A strong one
+carries five things, each traceable to an artifact:
+
+| A strong initiative has… | Which means | Traced to |
+|--------------------------|-------------|-----------|
+| **A clear connection to the current-state analysis** | It answers a gap or pain the picture in §6a shows — this segment, this step, this shortfall | The memo's current-state areas; the segmentation's biggest current-versus-desired gap |
+| **Quantified business value** | The intent's metric it moves, by how much, worth what — an estimate with its formula and tier (§3d) | The value estimate block; the problem case's Business Alignment |
+| **Evidence-based reasoning** | Why we believe solving this problem moves that metric — sources converging, confidence per row | The problem case's evidence table and verdict (*Yes*) |
+| **Defined success metrics** | One to three metrics with definition cards, baselines, targets, dates and a counter-metric | `metrics`' definition cards; the option's success metrics |
+| **Measurable customer outcomes** | What the customer will be able to do, or stop doing, that they can't today — observable in their world | The job story and the behaviour-change field ([`../lean-experiments/solution-options.md`](../lean-experiments/solution-options.md)) |
+
+Two rules govern the set of initiatives, not just each one. **Focus**:
+a handful per intent, so that resources are concentrated rather than
+spread thin — an initiative list that includes everything the teams
+are already doing is a status report, not a strategy, and the
+stop-doing list (§3) is how focus is enforced. **Periodic update**:
+initiatives are not set in stone; they are re-read against the
+current state every cycle at their level (§4's cadence), and one that
+has met its target, or whose current condition refuses to move after
+honest cycles, is retired or rewritten — with the change and its
+reason in the deployment log. An initiative that survives every
+planning season unchanged has usually stopped being read.
+
+### 3d. Quantifying an initiative's business value
+
+"Quantified business value" is where most initiatives go soft — an
+adjective ("strategic", "big") where a number should be. The
+procedure, from Carter's quantification method, Arnold's benefit
+buckets and the SaaS lever model, tiered like everything else:
+
+**1. Name the lever.** Which business outcome the initiative moves,
+in the terms the strategic intent is written in. For a revenue
+business the four levers are **acquire** new customers, **expand**
+revenue from existing ones, **reduce churn**, and **price** better;
+they interact (activation cuts churn and unlocks expansion), so name
+the primary one. In Arnold's buckets these are *increase revenue* and
+*protect revenue*; for an internal tool the levers are *reduce costs*
+and *avoid costs* ([`../lean-experiments/minimum-feature-set.md`](../lean-experiments/minimum-feature-set.md)).
+Growth quality matters as much as growth: net revenue retention and
+revenue churn (not logo churn) are the honest reads of a retention or
+expansion initiative.
+
+**2. Walk the metric ladder down to a number you can move.** Carter's
+distinction keeps the terms straight — the **North Star** (what the
+organization must achieve), the **objective** for the period (the
+intent's target), the **goal** (what we want users to do), the
+**signal** (user actions that show it happened), the **primary
+metric** (how the signal is captured in data — one, at most two per
+initiative), and the **hypothesis** (the expected change) with its
+**supporting data**. A signal (visits to the pricing page) tells you
+about engagement; a primary metric (payments received) tells you about
+business impact. Initiatives are judged on primary metrics.
+
+**3. Estimate the impact with the formula written down.** The shape,
+from Carter, for a revenue lever:
+
+```
+expected impact = expected lift on the primary metric
+               × share of the business that metric touches (segment · surface · plan)
+               × baseline value (last period's revenue, or the metric's dollar value)
+               × horizon (growth rate, or years of recurring revenue for a retention lever)
+```
+
+For an internal tool, the cost-side shape from Retool's analysis:
+
+```
+cost of building  = engineer $/hour × hours to build and to maintain over the horizon
+value delivered   = hours saved per person per period × people × loaded $/hour
+                  + errors avoided × cost per error
+                  + revenue protected (renewals, orders) that the tool makes visible in time
+```
+
+Every factor is a row with a source and a tier: the baseline from the
+metric tree (CONFIRMED), the share from segmentation (CONFIRMED or
+INFERRED), the lift from a readout (CONFIRMED) or from a comparable
+case and a guess (BACKGROUND). **An estimate is BACKGROUND until a
+readout replaces the lift.** Write the estimate anyway — the tier is
+what keeps it honest, and a strategic intent's target cannot be
+allocated across initiatives without one.
+
+**4. Discount for the four oversights.** Carter's list, which
+`experimentation`'s trust checks catch after the fact and this step
+anticipates: **side effects** (the metric rose and cannibalized
+another product or plan); **short versus long term** (the lift
+decayed — novelty, or a behaviour merely pulled earlier in the
+lifecycle, which cohorts reveal); **vanity** (clicks moved, the
+primary metric didn't); **attribution** (three other changes shipped
+the same week). Her rule of thumb: expected impact rarely matches
+actual — "two plus two equals three" — so the estimate carries a
+range, not a point.
+
+**5. Write it where the initiative lives.** The stack row (§7) and the
+memo's part 3 carry the estimate; the problem case's Business
+Alignment score is its qualitative twin; `solution-options` reuses
+the same value and urgency numbers as the cost-of-delay rate when it
+cuts v1.0. Nothing is quantified twice.
+
+```
+VALUE ESTIMATE — PI-<n>                                        as of <date>   tier: <BACKGROUND / INFERRED / CONFIRMED>
+Lever:           <acquire / expand / retain / price · or reduce cost / avoid cost / protect revenue>
+Primary metric:  <name · definition>   baseline <n>   signal(s) it rests on: <…>
+Expected lift:   <range>   source: <readout · comparable · guess>
+Share touched:   <segment · surface · plan> = <%>   source: <segmentation>
+Baseline value:  <$ / period>   source: <metric tree>
+Horizon:         <growth rate · months of recurring revenue · tool lifetime>
+Expected impact: <range, $ / period>   formula: <as above>
+Discounts:       side effects <…> · decay <…> · vanity check <…> · attribution <…>
+Compare to:      <cost — engineering hours × $/hour, or cost of delay>
+```
+
 ### 3a. Where the levels came from — Perri's 2016 canvas
 
 Two years before the book, Perri wrote the same stack with kata
@@ -521,6 +663,8 @@ PRODUCT INITIATIVES (<owner>, this year)                 a handful per intent, p
         problem:  When <situation>, I want to <motivation>, so I can <outcome>.   (job story; no solution noun)
         measure:  <metric> baseline <n> → target <n> by <date>
         evidence: <problem case · verdict · date>            gaps: <scorecard areas < 3>
+        value:    <lever · expected impact range · tier>     (value estimate, §3d)
+        customer outcome: <what they can do or stop doing, observable>
         current condition: <the number now, as of <date>>    next target condition: <n by date>
   PI-2  …
 
@@ -704,6 +848,44 @@ A data-import product; the team owns onboarding.
   mechanism. Read for the force/friction vocabulary; not preserved,
   since the North Star tree's inputs already carry the same
   decomposition.
+- **Brooke Carter**, *"How Product Managers Can Effectively Quantify
+  Business Impact"*, Built In, 8 Jan 2021 — the metric vocabulary
+  (North Star · OKR · goal · signal · primary metric · hypothesis ·
+  support data), one or two primary metrics, the revenue-impact
+  formula (lift × share of revenue × annual revenue × growth rate),
+  the four oversights (side effects, short vs. long term, vanity,
+  attribution) and "two plus two equals three" (novelty; behaviour
+  pulled earlier in the lifecycle; track cohorts). Source:
+  `./materials/BuiltIn-HowPMsQuantifyBusinessImpact-Carter-2021.pdf`;
+  transcription under `./materials/extracted/`.
+- **Allie Beazell**, *"The cost-benefit analysis of internal tools"*,
+  Retool Blog, 24 Nov 2020 — direct cost as engineer $/hour ×
+  build-and-maintain hours; the benchmark that teams at companies over
+  twenty people spend more than a fifth of engineering time on internal
+  tools (near two-fifths above a thousand); value as united systems,
+  fewer errors, stronger security and time freed for higher-value work;
+  the LeadGenius, Neo4j and Noble Schools cases. Vendor content.
+  Source: `./materials/Retool-CostBenefitAnalysisOfInternalTools-Beazell-2020.pdf`;
+  transcription under `./materials/extracted/`.
+- **Jonathan Kim**, *"Becoming product-led: How to connect product
+  decisions to revenue"*, Appcues blog, 28 May 2026 — SaaS revenue as
+  a system of four levers (acquire · expand · reduce churn · price),
+  the Rule of 40, net revenue retention as the read of growth quality,
+  revenue vs. logo churn, product-qualified leads and time-to-value,
+  and shared product-and-revenue metrics (activation, feature
+  adoption, NRR). Vendor content; the closing sections describe the
+  vendor's product and are not distilled. Source:
+  `./materials/Appcues-BecomingProductLed-Kim-2026.pdf`; transcription
+  under `./materials/extracted/`.
+- **Mural**, *"How to create a meaningful product vision"*, Mural
+  blog, 24 Oct 2025 — the vision-statement definition, the
+  fill-in-the-blank format adapted from **Geoffrey Moore**'s
+  positioning statement (*Crossing the Chasm*), the six qualities
+  (purposeful · achievable · aspirational · customer-focused · concise
+  · well-documented), vision as relatively static while strategy
+  adapts, and the Tesco, GitLab and Fender examples. Vendor content.
+  Source: `./materials/Mural-HowToCreateAMeaningfulProductVision-2025.pdf`;
+  transcription under `./materials/extracted/`.
 - **Cameron Deatsch**, *"10 Lessons on using the Flywheel Effect to
   Grow Your Business"*, Inside Atlassian, 31 Aug 2021 — the enterprise
   trap (large contracts dictating the roadmap), "treat human
@@ -721,11 +903,18 @@ A data-import product; the team owns onboarding.
   weaknesses · competitive positioning · market and technology
   trends) and the rule to note knowledge gaps and move on — working
   notes after **Product Institute**'s strategy lessons, paraphrased;
-  nothing quoted.
+  nothing quoted. Likewise the five marks of a **strong product
+  initiative** (a clear connection to the current-state analysis ·
+  quantified business value · evidence-based reasoning · defined
+  success metrics · measurable customer outcomes), the focus rule and
+  the rule that initiatives are periodically updated, not set in
+  stone (§3c).
 - The clause-by-clause tests (§1), the gap table's wrong/right fixes
-  (§2), the stack rules (§3), the cadence table (§4), the memo's
-  section-to-artifact mapping (§6a), the strategy stack, memo and
-  direction ladder templates (§7), the plug-in table (§8), the
-  anti-patterns (§9) and the worked example (§10) are **this repo's
-  operational extension**.
+  (§2), the stack rules (§3), the vision cautions (§3b), the
+  initiative-to-artifact table (§3c), the five-step quantification
+  procedure and the value-estimate block (§3d), the cadence table
+  (§4), the memo's section-to-artifact mapping (§6a), the strategy
+  stack, memo and direction ladder templates (§7), the plug-in table
+  (§8), the anti-patterns (§9) and the worked example (§10) are **this
+  repo's operational extension**.
 - See [`../../CREDITS.md`](../../CREDITS.md) for full attribution.
