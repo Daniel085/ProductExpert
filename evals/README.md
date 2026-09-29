@@ -12,7 +12,7 @@ Run with `/evaluate` (`.claude/skills/evaluate/SKILL.md`):
 | Command | What it checks | Cases |
 |---------|----------------|-------|
 | `/evaluate routing` | That a PM's request lands on the right agent and mode | [`routing-cases.md`](./routing-cases.md) — 24 inputs with expected agent, mode, and accepted alternates |
-| `/evaluate gates` | That `/navigate status` derives phase, gates and blocker correctly from artifacts, and flags status-file claims the artifacts don't back | [`gate-fixtures/`](./gate-fixtures/) — three initiative folders, each with `expected.md` |
+| `/evaluate gates` | That `/navigate status` derives phase, gates and blocker correctly from artifacts, and flags status-file claims the artifacts don't back | [`gate-fixtures/`](./gate-fixtures/) — three initiative folders, each with `expected.md`; [`derive_gates.py`](./derive_gates.py) is the deterministic checkpoint the model's reading is reconciled against |
 | `/evaluate output <agent> <fixture>` | That an agent's artifact meets the output rubric and the agent honoured its gate | [`output-rubric.md`](./output-rubric.md), run against a fixture input |
 | `/evaluate all` | All three, summarized | |
 
