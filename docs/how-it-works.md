@@ -102,6 +102,34 @@ the rule and re-derived by the navigator; nobody marks one by hand. Full
 layout, gate rules and verbs:
 [`interaction-model.md`](./interaction-model.md).
 
+## Which agent patterns this is — and which it isn't
+
+In the vocabulary of Anthropic's *Building Effective Agents*, this
+system is a **workflow**, not an autonomous agent: the paths are
+predefined and the model directs the work only *within* a step. Naming
+the patterns keeps the next contributor from adding the wrong kind of
+machinery.
+
+| Pattern | Where it is here |
+|---------|------------------|
+| **Routing** | The `navigate` skill and each agent's `description`: classify the PM's input, hand it to a specialist |
+| **Prompt chaining** with programmatic checkpoints | The phase chain; the ten gates in `STATUS.md` are the checkpoints, derived from artifacts rather than asserted |
+| **Evaluator-optimizer** | Every loop where one agent returns work to another with a specific ask: outcome-editor → interviewer, problem-selection *Not yet* → discovery, prfaq's and solution-options' critique modes, the navigator flagging a gate the artifacts don't back |
+| **Parallelization** (sectioning / voting) | One place only: independent affinity-sort passes for large ticket piles, reconciled afterwards (`methods/problem-selection/affinity-mapping.md` §2b) |
+| **Orchestrator-workers** | **Deliberately absent.** The research-system post shows it pays for parallelizable work with little interdependence and costs ~15× a chat's tokens; a PM pipeline is sequential, interdependent, and has a human step between most stages. The navigator routes and delegates one engagement at a time; it never runs the pipeline |
+| **Autonomous agent** | Absent, by the humans-in-the-loop principle: interviews, fielding, experiments and decisions are yours, so no agent can own a task end to end |
+
+Three other lessons from the same sources are structural here: agents
+**store work in files and pass references** (the initiative folder and
+the status log, not the conversation); every hand-off is a **delegation
+brief** with objective, inputs, outputs, gate, boundaries and effort; and
+the system carries its own **evaluations** (`evals/`) — small, fixed,
+rubric-judged, with a human pass. The agent-computer-interface advice
+(document tools like a junior developer's docstrings; make the wrong
+call hard to make) shows up as routing-rich descriptions with explicit
+"not for" clauses, and as canonical absolute paths so no agent guesses
+where things go.
+
 ## How a request becomes an agent run
 
 1. **Routing.** You either name an agent explicitly ("use the odi-interviewer

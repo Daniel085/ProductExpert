@@ -86,6 +86,23 @@ Agents have no wall, but the discipline transfers:
    text — only the member items — so the categories genuinely emerge
    rather than get imposed. Keep loners as a `(loner)` list; duplicate an
    item into two groups when it truly straddles.
+2b. **Sort in parallel, then reconcile** — the method's "everyone sorts
+   silently at once" step, which is what keeps one voice from choosing
+   the shape. With more than ~30 items, run **two or three independent
+   groupings** of the same items, each from a shuffled order and with no
+   sight of the others, and only then compare:
+   - Items that landed together in every pass are a **stable group**;
+     name those first.
+   - Items that moved between passes are the **controversial notes** —
+     the ones ASQ says to discuss. Record where each pass put them and
+     why the reconciled map chose as it did.
+   - A group present in only one pass is a candidate theme, flagged as
+     such; a loner in every pass is a real loner.
+   When the main session runs theme mode it can spawn the passes as
+   parallel subagents with identical instructions and shuffled input
+   (the parallelization pattern); a single agent working alone runs the
+   passes sequentially from shuffled orders and says so — the passes are
+   less independent, and the reconciliation table carries the caveat.
 3. **Name afterwards.** Write each header as a full-sentence common thread.
    Prefer promoting a member item to the header when one already captures
    it.
@@ -95,7 +112,8 @@ Agents have no wall, but the discipline transfers:
    [`picking-the-right-problem.md`](./picking-the-right-problem.md).)
 5. **Supergroup only if real.** Two levels at most.
 6. **Show the moves.** Log any item you relocated after first grouping and
-   why — the "controversial notes" discussion, in writing.
+   why — the "controversial notes" discussion, in writing. With parallel
+   passes, the reconciliation table *is* this log.
 
 **Output template:**
 
@@ -114,6 +132,12 @@ Items: <N> from <k> sources
 
 Supergroups (if any): <header> ⊃ {theme, theme}
 Moves: <item> moved from <A> to <B> because …
+
+Passes: <n> independent groupings (parallel subagents / sequential, shuffled)
+| Item | Pass 1 | Pass 2 | Pass 3 | Reconciled | Why |
+|------|--------|--------|--------|------------|-----|
+| <controversial item> | A | B | A | A | … |
+Stable groups: <k> · controversial items: <m> · single-pass themes: <j>
 ```
 
 ## What it is not — and what comes next
@@ -137,6 +161,7 @@ Moves: <item> moved from <A> to <B> because …
 |--------------|------|-----|
 | **Pre-labelled bins** | The categories were written before the items were | Delete the headers, regroup silently, name last |
 | **Talking while sorting** | Loudest voice decides the shape | Silent pass first; discussion only at step 3 |
+| **One pass, one sorter** | A single grouping presented as *the* structure | Two or three independent passes from shuffled orders; reconcile; name the controversial items |
 | **Vague headers** | "Misc", "UX", "Performance" | Header = the common thread as a sentence someone could disagree with |
 | **Forcing loners in** | Every note ends up in a group | Loners are legitimate; they are often the surprise |
 | **Counting notes as people** | "Nine items — big theme" | Count distinct sources, keep the tags |
@@ -151,5 +176,8 @@ Moves: <item> moved from <A> to <B> because …
   `./materials/extracted/asq-affinity-diagram.txt`.
 - **Jiro Kawakita** — originator of the K-J Method (1960s).
 - The text-mode adaptation (source tags, group-before-name, distinct-source
-  counts, the output template) is this repo's operational extension.
+  counts, the output template) is this repo's operational extension; the
+  parallel-passes reconciliation applies the *parallelization* pattern
+  (sectioning / voting) from Anthropic's *Building Effective Agents* to
+  ASQ's silent-simultaneous-sort step.
 - See [`../../CREDITS.md`](../../CREDITS.md) for full attribution.

@@ -437,6 +437,22 @@ the property of their authors and are included for reference and attribution.
 
 ---
 
+## System design sources
+
+- **Anthropic**, *Building Effective Agents* (Dec 2024) — the
+  workflow-vs-agent distinction, the pattern vocabulary (routing, prompt
+  chaining, parallelization, orchestrator-workers,
+  evaluator-optimizer), and the agent-computer-interface advice; used to
+  name what this system is and isn't (`docs/how-it-works.md`).
+- **Anthropic**, *How we built our multi-agent research system* (Jun
+  2025) — delegation briefs ("teach the orchestrator how to delegate"),
+  effort scaling, external memory and lightweight references, and the
+  small-sample, rubric-plus-human evaluation approach behind `evals/`.
+- **Anthropic**, *Multiagent orchestration* (Managed Agents
+  documentation) — the shared-filesystem, isolated-context model and the
+  specialization / parallelization / escalation patterns, read as
+  confirmation of the initiative-folder design.
+
 ## How attribution works here
 - Every `methods/<topic>/` doc cites its sources in a **Sources & materials**
   section.

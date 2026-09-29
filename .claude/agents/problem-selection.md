@@ -115,7 +115,13 @@ otherwise state your assumption and proceed.
    Customer Signal and Business Alignment will measure for this exercise.
 2. **Theme if needed** (affinity mapping, text mode): items with source
    tags → silent groupings → headers as full-sentence common threads →
-   distinct-source counts → loners kept → moves logged.
+   distinct-source counts → loners kept → moves logged. With more than
+   ~30 items, run two or three **independent passes** from shuffled
+   orders and reconcile them (stable groups named first; controversial
+   items tabled with where each pass put them). You cannot spawn
+   subagents, so run the passes sequentially and say so; if the
+   navigator ran parallel passes for you, reconcile theirs instead of
+   re-sorting.
 3. **Per candidate, the four-step case:** job-story statement (run the
    tells); evidence table — *Source / Type / Confidence (1–5) / Findings*
    — with every row dated and attributed; patterns — convergence across

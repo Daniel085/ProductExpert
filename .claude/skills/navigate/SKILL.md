@@ -136,6 +136,17 @@ and why.
 After the agent returns, read its log line and the paths it reports.
 Do not re-derive its work; run `status` if the PM asks where they are.
 
+**Fan-out for theme mode.** When the input is a pile of more than ~30
+items (tickets, feedback, asks) bound for problem-selection, run the
+affinity sort as **two or three parallel problem-selection agents** with
+identical briefs (objective: *grouping pass only — group, don't name;
+output `problems/affinity-pass-<n>.md`*), each given the items in a
+different shuffled order and told not to read the other passes. Then
+one problem-selection engagement with the objective *reconcile the
+passes and continue to cases* (`methods/problem-selection/affinity-mapping.md`
+§2b). This is the one place the navigator parallelizes; everything else
+in the system is sequential by design.
+
 ### `list`
 
 One line per `initiatives/*/`: slug · phase · last log date · blocker

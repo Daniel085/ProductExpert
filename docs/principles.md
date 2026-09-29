@@ -403,6 +403,17 @@ Agents save their outputs (guides, statement sets, surveys, analyses, plots,
 scripts) as files in your working folder rather than only printing them —
 so work products persist, diff, and feed the next stage.
 
+### A workflow with gates, not an orchestrator
+The system is routing plus prompt chaining with programmatic
+checkpoints, with evaluator-optimizer loops where one agent sends work
+back and one deliberate use of parallelization (independent affinity
+passes). It has no orchestrator-workers layer and no autonomous agent,
+because the value here is sequential and interdependent and a person
+sits between most stages. Complexity is added only when a simpler shape
+demonstrably fails — and the evaluations are how "demonstrably" gets
+measured. *(Anthropic, Building Effective Agents; the multi-agent
+research system write-up.)*
+
 ### One folder, one ledger, one status file per initiative
 Every agent reads and writes `initiatives/<slug>/`: the assumption
 ledger at its root is the only assumption tracker, and `STATUS.md`
