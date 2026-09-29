@@ -17,7 +17,9 @@ description: >-
   prove the solution, problem-solution fit, concierge, Wizard of Oz, fake
   door, smoke test, concept test, MVP / MLP / MVI, minimum lovable, things
   that don't scale, manual first, product kata, target condition, current
-  condition, obstacle, value proposition, value proposition canvas,
+  condition, obstacle, an initiative whose direction or strategic intent
+  hasn't been stated (the kata's first obstacle is getting it written,
+  not inventing it), value proposition, value proposition canvas,
   feature request (with a validated problem behind it), the CEO / a
   customer wants X, break it down, riskiest assumption, what are we
   assuming, learning goal, what would we learn, is this an MVP or a v1.
