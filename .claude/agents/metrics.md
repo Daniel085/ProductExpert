@@ -53,7 +53,12 @@ pipeline.
 - **Cohorts over averages.** Never bless an aggregate without asking what
   the cohort curves say — cut by behavioural segment first, then by the
   attributes that discriminate (`methods/jtbd/segmentation.md`: define
-  by behaviour, describe by attribute, MECE, scope check).
+  by behaviour, describe by attribute, MECE, scope check), and read the
+  cuts with its five questions: which behaviours go with the success
+  metric, which segments differ in outcome, what the most successful
+  users do, where the current-versus-desired gap is biggest, and what
+  it is worth in business terms. A correlation found this way is a
+  hypothesis for **experimentation**, never a cause.
 - **A metric without a definition card is a future argument.** Precise
   formula, grain, segments, owner, source — or it doesn't go in the tree.
 - **Lines in the sand.** Every OMTM gets an explicit target and date.

@@ -81,6 +81,29 @@ sharing behaviour still are. The tell: an attribute that reads as a
 candidate cut is actually the scope's own definition restated. Write
 the scope at the top of every segmentation so the check is mechanical.
 
+### Reading the data: five questions
+
+Between cutting the data and choosing a segment sits the analysis.
+Perri's questions for it, in paraphrase, with what each one produces
+here:
+
+| Ask of the data | What it yields | Where it goes |
+|-----------------|----------------|---------------|
+| **How do usage patterns relate to the success metric?** Which behaviours go with retention, conversion, expansion — and which don't | The candidate behaviours to segment on (§2 step 1); a correlation, not yet a cause | The metric tree's input candidates ([`../metrics/north-star.md`](../metrics/north-star.md)); a causal claim goes to `experimentation` |
+| **Do any segments show markedly different outcomes?** Same metric, per segment, against the average | The segments that matter — a segment whose outcome matches the average is a label, not a finding | The cohort read per segment (`metrics`); the segment's evidence row in a problem case |
+| **What do the most successful users do that others don't?** The behaviours that distinguish the top of the distribution | The *desired behaviour* — what "success" looks like as an action, observable without a dashboard | The behaviour-change field of an option card ([`../lean-experiments/solution-options.md`](../lean-experiments/solution-options.md)); the activation definition |
+| **Where is the biggest gap between current and desired behaviour?** Which segment, at which step, falls furthest short of what successful users do | The obstacle, and the next target condition: close *this* gap for *this* segment | The kata's current condition and target condition ([`../lean-experiments/product-kata.md`](../lean-experiments/product-kata.md)); the problem statement's situation |
+| **How do these patterns move the key business metrics?** Size the gap in the business's terms — revenue, retention, cost | The business-alignment case for tackling that segment first | `problem-selection`'s Business Alignment score; the strategic intent the initiative serves ([`../strategy/product-strategy.md`](../strategy/product-strategy.md)) |
+
+Two cautions travel with the questions. **A correlation is a
+hypothesis**: successful users may do X because they are the kind of
+user who would have succeeded anyway; the pattern names a belief for
+the ledger and a test for `experimentation` or a pre-build card, not a
+conclusion. And **the desired behaviour is defined by evidence, not by
+the roadmap**: "successful users" are the ones who reached the
+outcome the metric tree names, not the ones who used the feature the
+team is proud of.
+
 ### Which attributes, then?
 
 Try the ones the three rules point at, in this order: what the
@@ -171,6 +194,13 @@ struggle with the lesson marketplace, and whom to help first*.
   segmentation is MECE. Licensed course material — **paraphrased from
   Daniel O'Rorke's notes; nothing quoted; the course's exercise not
   reproduced.**
+- **Melissa Perri** — the five questions for reading usage data
+  (usage patterns against the success metric; segments with different
+  outcomes; what the most successful users do; the biggest gap between
+  current and desired behaviour; the effect on key business metrics),
+  relayed in the PM's notes from her teaching — **paraphrased; nothing
+  quoted.** The yields, destinations and the two cautions are this
+  repo's extension.
 - **Barbara Minto** — *The Pyramid Principle* (the MECE rule: mutually
   exclusive, collectively exhaustive), as used at McKinsey. Cited, not
   reproduced.
@@ -180,7 +210,8 @@ struggle with the lesson marketplace, and whom to help first*.
   and the ODI credits.
 - **Alan Klement** — job stories: situation over attributes
   ([`./job-stories.md`](./job-stories.md)).
-- The scope rule, the two-step procedure, the attribute test, the
-  template, the checks, the tells and the worked example are **this
-  repo's operational extension**.
+- The scope rule, the two-step procedure, the five-question table's
+  yields and destinations, the attribute test, the template, the
+  checks, the tells and the worked example are **this repo's
+  operational extension**.
 - See [`../../CREDITS.md`](../../CREDITS.md) for full attribution.

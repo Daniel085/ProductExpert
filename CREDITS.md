@@ -171,6 +171,12 @@ the property of their authors and are included for reference and attribution.
   problem being solved; a useful segmentation is MECE. Licensed course
   material — **paraphrased from Daniel O'Rorke's notes; nothing
   quoted; the course's teacher-segmentation exercise not reproduced.**
+- **Melissa Perri** — the five questions she asks when analyzing usage
+  data (usage patterns vs. success metrics; segments with different
+  outcomes; the behaviours of the most successful users; the biggest
+  gap between current and desired behaviour; the effect on key
+  business metrics), relayed in **Daniel O'Rorke's** notes from her
+  teaching — **paraphrased; nothing quoted.**
 - **Barbara Minto** — *The Pyramid Principle* (Minto International,
   1987; Pearson eds.) — MECE (mutually exclusive, collectively
   exhaustive), as practised at McKinsey. Cited, not reproduced.
