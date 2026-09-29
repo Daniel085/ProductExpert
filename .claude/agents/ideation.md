@@ -17,7 +17,8 @@ description: >-
   to prfaq (when the idea is strong enough to write the press release).
   For interview prep/synthesis use customer-interviews; for structured job
   maps and outcome statements use odi-interviewer; for a press release and
-  FAQ use prfaq; to rank several candidate problems on customer signal and
+  FAQ use prfaq, and for a written product strategy memo that already
+  exists and needs review, use prfaq too; to rank several candidate problems on customer signal and
   business alignment with an evidence table, use problem-selection; to
   turn the ledger's "cheapest test" into a designed pre-build experiment
   (concierge, Wizard of Oz, concept test, MLP), use lean-experiments.
