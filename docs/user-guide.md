@@ -47,6 +47,7 @@ Or go straight to an agent — start from where you are:
 | "Where does this initiative fit our strategy?" / "no one has told us the direction" | `lean-experiments` (kata step 1) | The direction ladder — vision → intent → initiative; an unstated direction is the first obstacle, owed by the level above |
 | "Leadership set an intent — which product initiatives should serve it?" | `problem-selection` | Initiatives are problems with metrics; ranked on Business Alignment against the intent |
 | "Stress-test our strategy / this strategic intent / this big bet" | `ideation` | Strategy exploration against the six tests and the three gaps (`methods/strategy/product-strategy.md`) |
+| "Review our product strategy memo" | `prfaq` (critique) | The 2–3 page memo — vision · current state (six areas, gaps noted) · initiatives as problems with metrics — read against the strategy method's tests; its sections come from `metrics`, `problem-selection`, `ideation`'s scan and the segmentation method |
 | "Write / check our value proposition" | `lean-experiments` | Functional + emotional jobs → statement; Strategyzer canvas from evidence |
 | "The CEO / a customer wants feature X — should we build it?" | `lean-experiments` | Breakdown: observation → eight questions → assumption chain → riskiest link → its test |
 | "Let's ship an MVP" / "is this an MVP or a v1?" | `lean-experiments` | MVP card: learning goal, why not a cheaper test, optimizing-for and its one measure |

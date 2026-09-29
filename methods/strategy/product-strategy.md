@@ -443,6 +443,59 @@ recite the features and not the outcome. Ask any team what their
 initiative's metric is and where it stands today; if the answer is a
 feature name, the knowledge gap is open at that level.
 
+### 6a. The product strategy memo
+
+The written form of a product's strategy is a **two-to-three-page
+memo** with three parts — the stack of §3 in prose, with the middle
+part expanded:
+
+1. **Product vision** — where we want to go: the vision sentence, the
+   strategic intent(s) this product serves, and why.
+2. **Current state** — where we are, as a *picture* rather than a
+   number (below).
+3. **Product initiatives** — what we will do to get there: the
+   problems we will solve, each with its metric, baseline and target,
+   and the intent it serves. Problems, not features; a memo whose
+   third section is a feature list is a plan with a vision stapled on.
+
+Narrative, not slides, for the same reason the PR/FAQ is
+([`../prfaq/working-backwards.md`](../prfaq/working-backwards.md)):
+prose forces the reasoning between the three parts to be written
+down, and a memo can be reviewed in a silent read.
+
+**A strong current-state analysis creates a picture.** It analyzes
+and documents six things, and in this system each one is an artifact
+another agent already produces — the memo assembles them, it does not
+re-derive them:
+
+| Current-state area | The question it answers | Supplied by |
+|--------------------|-------------------------|-------------|
+| **Current performance of the product** | The North Star and its inputs, now and trending; retention cohorts; the initiative metrics' baselines | `metrics` — the metric tree and cohort reads ([`../metrics/north-star.md`](../metrics/north-star.md)) |
+| **Different user segments** | Who uses it, defined by behaviour and need, described by the attributes that discriminate; sizes | [`../jtbd/segmentation.md`](../jtbd/segmentation.md); ODI needs-based segments where a survey exists |
+| **Customer pain points and opportunities** | What the segments struggle with and what they would value; which problems have evidence and which are *Not yet* | `problem-selection` cases and ranking; Track 1 synthesis; Track 2 opportunity scores |
+| **Strengths and weaknesses of the product** | What it does well enough to build on and where it loses — in the customer's terms (jobs done well vs. badly), not the team's | The value proposition's evidenced gains and pains ([`../jtbd/value-proposition.md`](../jtbd/value-proposition.md)); satisfaction scores; the knowledge-gap scorecard's user-behaviour area |
+| **Competitive positioning** | Who else solves the job, how, at what price, where they fall short, and whether our wedge is a product or a feature | `ideation`'s landscape scan at teardown depth ([`../problem-selection/knowledge-gaps.md` §3](../problem-selection/knowledge-gaps.md)) — BACKGROUND |
+| **Market and technology trends** | What is changing in the context the strategy must be coherent with (§1's last clause): buyer behaviour, regulation, platforms, capabilities that just became cheap | The landscape scan's sources; the PR/FAQ's market FAQs — BACKGROUND until a customer confirms it |
+
+**There won't be perfect information.** The picture is drawn from
+what exists today, tiered (CONFIRMED / INFERRED / BACKGROUND), and
+every area with thin evidence is written as a **knowledge gap with its
+move** — then the memo moves on. This is the kata's current-condition
+rule at product level: "unknown" is a legitimate value and the first
+obstacle, and a memo held back until the picture is complete is a
+memo that never ships. The knowledge-gap scorecard
+([`../problem-selection/knowledge-gaps.md`](../problem-selection/knowledge-gaps.md))
+is the natural appendix: five scores per initiative, evidence-cited,
+with the lowest area's move named.
+
+Rules for the memo: one per product or business line, dated and
+owned; it cites artifacts rather than restating them; the initiatives
+in part 3 pass the job-story tells and carry numbers; the gaps are
+listed, not smoothed over; and it is re-issued when the current state
+changes the initiatives, not on a calendar. `prfaq`'s critique mode
+reviews it as a document — the six tests of §1, the gap-and-move rule,
+and the no-feature-list rule are the review bar.
+
 ## 7. Templates *(repo extension)*
 
 ### The strategy stack
@@ -481,6 +534,36 @@ Deployment log
   <date> · <level> · <what changed and why — the learning that changed it>
 ```
 
+### The product strategy memo (2–3 pages)
+
+Lives with the stack — `strategy/strategy-memo.md` next to
+`strategy/strategy.md` — and cites the initiative folders for its
+evidence.
+
+```
+PRODUCT STRATEGY MEMO — <product / business line>            as of <date>   owner <name>
+
+1. PRODUCT VISION — where we want to go
+   <vision sentence>. Serves strategic intent(s) SI-<n> <outcome · measure · target · date>.
+   Why this, why now: <one paragraph>.
+
+2. CURRENT STATE — where we are
+   Performance:        <North Star + inputs, now and trend; cohorts>            (metrics/…)
+   Segments:           <behaviour-defined segments, sizes, discriminating attributes> (segmentation)
+   Pains & opportunities: <top problems with verdicts; Not-yet list>           (problems/problems.md)
+   Strengths & weaknesses: <jobs done well / badly, in customer terms>        (value proposition; scores)
+   Competitive positioning: <alternatives, how, price, gaps; product or feature wedge> (scan — BACKGROUND)
+   Market & technology trends: <what is changing that the strategy must fit>  (scan — BACKGROUND)
+   Knowledge gaps:     <area → what we don't know → the move and its owner>    (gap-scorecard.md)
+
+3. PRODUCT INITIATIVES — what we'll do to get there
+   PI-1  <problem as job story> · <metric> baseline <n> → target <n> by <date> · serves SI-<n>
+         evidence <case · verdict> · options in play <OP-…> · what we stop doing <…>
+   PI-2  …
+
+Appendix: knowledge-gap scorecards per initiative; the stack; the deployment log.
+```
+
 ### The direction ladder (per initiative)
 
 The top of an initiative's kata record and the *Direction* row of its
@@ -507,7 +590,7 @@ DIRECTION — <initiative>                                          as of <date>
 | **metrics** | The measure every level must carry: vision and intents map to the North Star and its tree; initiatives to input metrics; options to the success metrics on their cards | Definition cards, baselines, counter-metrics per level; the goal metric a kata needs before cycle 1 |
 | **lean-experiments** (kata mode) | Step 1's direction ladder; step 3's target condition at option level; step 4's choice of product-process step | The cycle's *learned* and re-measured current condition, which flow up the ladder |
 | **solution-options** | The *Alignment* field names the initiative and the intent, not "strategic" | A chosen option's success metrics as the initiative's next target condition |
-| **prfaq** | The internal FAQ's strategy-fit answer cites the intent and initiative by name; the vision paragraph is the level-above sentence | "What we'd need to believe" entries that are strategy-level assumptions go back to the stack's deployment log |
+| **prfaq** | The internal FAQ's strategy-fit answer cites the intent and initiative by name; the vision paragraph is the level-above sentence; in critique mode, reviews the product strategy memo (§6a) against the six tests, the gap-and-move rule and the no-feature-list rule | "What we'd need to believe" entries that are strategy-level assumptions go back to the stack's deployment log |
 | **experimentation** | An OEC that is the initiative's measure | A causal readout on the intent's input metric |
 
 Roadmap: the README's **strategy stress-tester** (Rumelt's kernel —
@@ -533,6 +616,8 @@ stack; this doc is the input it needs, not a substitute for it.
 | **No stop-doing list** | The intent adds a focus without removing one; every existing initiative survives | Name what the intent stops; the level below inherits it as out-of-scope with a reason |
 | **The enterprise trap** | A big contract dictates the roadmap; initiatives become one customer's feature list | An initiative is a problem with breadth under the goal reading, not an account's asks; treat the contract's asks as requirements-to-trace (Atlassian's lesson; [`../jtbd/requirements-are-hypotheses.md`](../jtbd/requirements-are-hypotheses.md)) |
 | **Adapting the kata before practising it** | "Our version" of the questions, before anyone has run a coaching cycle | Practise the Starter Kata as written until it is a habit; then adapt, core intact |
+| **The memo that waits for perfect information** | "We can't write the current state until the research is done" | Draw the picture from what exists, tiered; list each gap with its move; ship the memo and re-issue it |
+| **A current state with no picture** | Part 2 is one metric and an adjective | Six areas, each cited to an artifact or marked a gap |
 
 ## 10. Worked example (short)
 
@@ -629,10 +714,18 @@ A data-import product; the team owns onboarding.
   README roadmap. Cited, not preserved.
 - The four-step **Product Kata summary** (understand the direction ·
   analyze the current state · set the next goal · execute or deploy)
-  is **Daniel O'Rorke's**, after Perri.
+  is **Daniel O'Rorke's**, after Perri. So are the **product strategy
+  memo**'s three parts (vision · current state · initiatives, in two
+  to three pages), the six areas of a current-state analysis
+  (performance · segments · pains and opportunities · strengths and
+  weaknesses · competitive positioning · market and technology
+  trends) and the rule to note knowledge gaps and move on — working
+  notes after **Product Institute**'s strategy lessons, paraphrased;
+  nothing quoted.
 - The clause-by-clause tests (§1), the gap table's wrong/right fixes
-  (§2), the stack rules (§3), the cadence table (§4), the strategy
-  stack and direction ladder (§7), the plug-in table (§8), the
+  (§2), the stack rules (§3), the cadence table (§4), the memo's
+  section-to-artifact mapping (§6a), the strategy stack, memo and
+  direction ladder templates (§7), the plug-in table (§8), the
   anti-patterns (§9) and the worked example (§10) are **this repo's
   operational extension**.
 - See [`../../CREDITS.md`](../../CREDITS.md) for full attribution.

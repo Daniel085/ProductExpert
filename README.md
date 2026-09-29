@@ -35,7 +35,7 @@ status` tells you where an initiative stands; `/navigate next` who's up.
   status | next | list`. Reads an initiative's folder, derives the gates
   from the artifacts, routes to the right agent.
 - **`.claude/skills/evaluate/`** and **`evals/`** — the evaluation suite:
-  `/evaluate routing | gates | output | all` against 26 routing cases,
+  `/evaluate routing | gates | output | all` against 27 routing cases,
   three gate fixtures and an output rubric; runs logged in
   `evals/runs.md`.
 - **`templates/initiative/`** — the scaffold `/navigate start` copies:
@@ -350,8 +350,11 @@ that none of them covers.
   `methods/strategy/product-strategy.md` now defines what a strategy
   is and isn't (the six tests, the three gaps, the four-level stack)
   and `ideation`'s strategy-exploration mode tests a direction against
-  it; the Rumelt kernel (diagnosis · guiding policy · coherent actions)
-  as a critique of a written stack is still open.
+  it; `prfaq` reviews a product strategy memo (vision · current state ·
+  initiatives) against those tests. Drafting the memo itself, and the
+  Rumelt kernel (diagnosis · guiding policy · coherent actions) as a
+  critique of a written stack, are still open — the agent that fills
+  this slot owns both.
 - **Solution prioritization & roadmapping** — the system ranks *problems*
   (`problem-selection`) and tests *solutions* (`lean-experiments`) but has
   no method for sequencing validated solutions across a roadmap: the

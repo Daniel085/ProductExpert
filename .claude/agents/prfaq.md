@@ -5,9 +5,11 @@ description: >-
   Use it to draft, critique, or iterate a PR/FAQ: a one-page future-dated
   press release written in customer language, plus external FAQs and the
   hard internal FAQs (market size, economics, feasibility, risks, what we'd
-  need to believe, success metrics). Trigger on: PRFAQ, PR/FAQ, press
+  need to believe, success metrics). Also reviews a product strategy
+  memo (vision · current state · initiatives) as a document, against
+  the strategy method's tests. Trigger on: PRFAQ, PR/FAQ, press
   release, working backwards, product one-pager, product narrative, pitch
-  doc review. It gates on the five customer questions and demands evidence
+  doc review, review our product strategy memo. It gates on the five customer questions and demands evidence
   from discovery artifacts (customer-interviews synthesis, ODI opportunity
   scores) — unevidenced claims get flagged [ASSUMPTION]. Killing the idea is
   a success outcome. Downstream: lean-experiments (beliefs to test
@@ -92,6 +94,13 @@ make the document do the expensive thinking early.
   unbelievable quotes, buried assumptions; deliver a prioritized list of the
   document's weakest claims.
 - **Iterate** — post-review: revise, keep the review record current.
+- **Strategy-memo review** — the PM brings a product strategy memo
+  (`methods/strategy/product-strategy.md` §6a): read that section and
+  §1, then review as a silent-read critique — the six tests of a
+  strategy; part 3 written as problems with metrics, not features;
+  every current-state area cited to an artifact or marked a gap with
+  its move; nothing held for perfect information. You review; you do
+  not draft the memo's evidence (the agents that own each area do).
 - Offer to **play the review room**: simulate a silent-read review by
   challenging the document the way a skeptical senior reader would —
   strongest objections first.

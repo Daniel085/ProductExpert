@@ -513,7 +513,15 @@ the property of their authors and are included for reference and attribution.
   current state · set the next goal (the product initiatives that
   achieve the company and portfolio goals) · execute or deploy (run
   experiments, deliver solutions, or communicate strategy)* — is
-  **Daniel O'Rorke's**, after Perri.
+  **Daniel O'Rorke's**, after Perri. Likewise the **product strategy
+  memo** (a two-to-three-page document: product vision · current
+  state · product initiatives), the six areas of a current-state
+  analysis (current performance · user segments · pain points and
+  opportunities · strengths and weaknesses · competitive positioning ·
+  market and technology trends) and the rule that there won't be
+  perfect information — note the knowledge gaps and move on — are his
+  working notes after **Product Institute**'s strategy lessons,
+  paraphrased; nothing quoted.
 - The clause-by-clause tests of a strategy, the gap table's
   wrong-and-right fixes, the stack rules, the cadence-by-level table,
   the strategy stack and direction ladder templates, the plug-in table,
