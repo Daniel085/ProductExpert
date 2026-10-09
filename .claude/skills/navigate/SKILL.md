@@ -39,15 +39,19 @@ initiative exists, `list` if several, `start` if none.
    problem behind it has evidence); a pile of tickets, feedback or asks;
    interview notes or transcripts; survey data; a tested solution; a
    measurement question — **(b)** a name for the initiative, **(c)** the
-   goal metric if one exists. Infer what you can from files they point
-   at; don't ask what you can read.
+   goal metric if one exists and the direction it serves (the strategic
+   intent and product initiative, from `strategy/strategy.md` if the PM
+   keeps a strategy stack — `methods/strategy/product-strategy.md` §7).
+   Infer what you can from files they point at; don't ask what you can
+   read.
 2. Make the slug (kebab-case of the name). Refuse a slug that already
    exists under `initiatives/`; offer `status` instead.
 3. Scaffold: create `initiatives/<slug>/` and `discovery/`; copy
    `templates/initiative/STATUS.md` and `ledger.md` in, filling the
    header (name, slug, owner if known, today's date, goal metric or
-   "not yet defined → metrics", arrived-with, phase = Opportunity
-   Discovery) and the first log line. Move or copy any files the PM
+   "not yet defined → metrics", direction or "not stated → the level
+   above owes it", arrived-with, phase = Opportunity Discovery) and the
+   first log line. Move or copy any files the PM
    pointed at into the right subfolder (`discovery/notes/`,
    `discovery/odi/`, …).
 4. Route with the table in `docs/interaction-model.md` ("Where each
@@ -91,7 +95,9 @@ initiative exists, `list` if several, `start` if none.
 5. Report, in this order: phase · gates passed (with dates) · the
    **blocker** (the lowest open gate whose predecessors have passed, and
    what would pass it) · discrepancies · the last three log lines. Keep
-   it to a screen.
+   it to a screen. If the header's *Direction* reads "not stated", say
+   so in one line — it is not a gate, but it is the first obstacle of
+   any kata this initiative runs.
 
 ### `next [slug]`
 

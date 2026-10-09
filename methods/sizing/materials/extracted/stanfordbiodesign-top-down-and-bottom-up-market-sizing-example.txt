@@ -1,0 +1,187 @@
+SOURCE: Stanford Byers Center for Biodesign, "Top-Down and Bottom-Up Market Sizing Example", Biodesign Guide, 2022
+(https://biodesignguide.stanford.edu/wp-content/uploads/2022/07/Top-Down-and-Bottom-Up-Market-Sizing-Example.pdf), retrieved 2026-10-09. Transcribed from the PDF document
+alongside. All rights remain with the author.
+
+----------------------------------------------------------------------
+
+--- page 1 ---
+ 
+Top-Down and Bottom-Up Market Sizing 
+Example 
+Market sizing at this stage in the Biodesign process is different than traditional market sizing 
+approaches because you don’t yet have a solution. But it’s still an important part of your need 
+research. 
+As described in Becoming an Expert in Your Need through Research toolkit, there are two different 
+ways to size the market for your need: top-down and bottom-up. It’s a good idea to explore both 
+approaches as they can vary widely. Looking at the market from both directions can help you better 
+understand its true potential. At a basic level, these two approaches are defined as follows: 
+ Top-Down: Determine the size of the population specified in your need statement and 
+then multiply that by the average cost to treat each patient with available solutions or 
+potential money saved by addressing the need. 
+ 
+ Bottom-Up: Identify all of the existing solutions and estimate how much money is spent on 
+them today to address your chosen clinical need. 
+To illustrate how top-down and bottom-up methods differ, we’ll use an example from a team that 
+was working in the area of xerostomia, commonly known as dry mouth. This condition, which 
+affects approximately one-third of the US population, can significantly diminish quality of life. This 
+suffering from moderate to severe dry mouth report that it’s a constant source of distraction an d 
+discomfort, negatively impacting their sleep and even causing mental anguish. 
+Top Down 
+When it was time to size the xerostomia market, the team compiled prevalence estimates of dry 
+mouth across different age groups in the US from their research. Then they reduced the total 
+population in each group by applying two figures from the literature. First, they multiplied the total 
+number of people in each age group by 33% since that was the percentage of all dry mouth that 
+was considered as moderate to severe. Second, they multiplied each segment by 39% since th at 
+was the percentage of all dry mouth sufferers that currently seek treatment. Next, the team 
+assumed an average annual spend of $500 per patient per year based on an estimate derived from 
+looking at the range of prices for available treatments. Adding up the groups, they got a total 
+addressable market estimate of $2.1 billion (see Table 1). 
+  
+--- page 2 ---
+ 
+ 
+TOP-DOWN AND BOTTOM-UP MARKET SIZING EXAMPLE V1, © 2022 STANFORD UNIVERSITY 2 
+ 
+Table 1 – Preliminary Top-Down Market Estimate for Xerostomia 
+  
+Age  
+% of 
+US 
+pop 
+# of 
+people1 
+% of 
+pop 
+with 
+dry 
+mouth
+2 
+# of ppl 
+with dry 
+mouth 
+# of ppl 
+with mod 
+to severe 
+dry 
+mouth 
+(33%)3 
+# of ppl 
+who 
+seek 
+treat-
+ment 
+(39%)4  
+Annual spend 
+on treatment 
+($500/ patient/ 
+year) 
+0-18 24% 78,168,000 0% 0 0 0 $0 
+19-25 9% 29,313,000 5% 1,465,650 483,664 188,629 $94,314,577 
+26-34 12% 39,084,000 17% 6,644,280 2,192,612 855,118 $427,559,418 
+35-54 26% 84,682,000 10% 8,468,200 2,794,506 1,089,857 $544,928,670 
+55-64 13% 42,341,000 14% 5,927,740 1,956,154 762,900 $381,450,069 
+65+ 16% 52,112,000 21% 10,943,520 3,611,361 1,408,431 $704,215,512 
+Total 100% 325,700,000 10.27% 33,449,390 11,038,299 4,304,936 $2,152,468,247 
+Source: Example courtesy of Michael Crowe, Jack Lund, Becca Saenz, and Ash Shaub. (1) US Population Distribution, 
+Kaiser Family Foundation. (2)  AML Benn, et al. Occurrence and Impact of Xerostomia Among Dentate Adult New 
+Zealanders: Findings from a National Survey. Australian Dental Journal, 2015. (3) American Dental Association. 
+"Percentage of Adults in the US Who Experienced Select Problems Due to The Condition of Their Mouth and Teeth as of 
+2015." Statista - The Statistics Portal. (4) Dirix, P, et al. Support Care Cancer, 2008. 
+Using this top-down approach, it seemed that xerostomia was a highly attractive market 
+opportunity. However, the team noted that this estimate hinged on a couple of key assumptions. 
+They would need to confirm whether the 39% figure for those likely to seek treatment was a 
+reasonable average for all age groups. The mean age from the cited source was 64 years old, with 
+a range from 45-80 years old, so they wondered if younger patients be likely to seek treatment at 
+the same rate. Additionally, they knew they should further validate the spending estimate used in 
+their calculations. While $500 per patient per year seemed reasonable for those in sever distress, 
+could be high for those only moderately affected by the condition or with constraints on their ability 
+to pay out-of-pocket for dry mouth solutions, which were largely not reimbursed. 
+Bottom-Up 
+To calculate a bottom-up market estimate, the team looked individually at the main solutions that 
+existed in the market. For each one, they calculated the approximate average annual cost of using 
+the treatment and the number of patients using each one. Multiplying the cost of each treatment by 
+the total number of users and then adding all results gave the team a bottom -up market estimate of 
+$206 million (see Table 2). 
+--- page 3 ---
+ 
+ 
+TOP-DOWN AND BOTTOM-UP MARKET SIZING EXAMPLE V1, © 2022 STANFORD UNIVERSITY 3 
+ 
+Table 2 – Preliminary Bottom-Up Market Estimate for Xerostomia 
+  
+Category Cost calculation 
+Annual cost 
+per 
+treatment 
+Population Total annual 
+cost 
+Oral 
+lubricants, 
+gums, pastes 
+40–150 mL of saliva 
+substitute per day × 
+$0.2/mL approximate US 
+retail price for Biotene 
+Oral Balance Liquid1 
+$455 285,7142 $129,999,870 
+Pilocarpine, 
+Cevilemine 
+Pilocarpine: average 
+spending per dosage unit 
+is $2.46 
+ 
+Cevilemine: average 
+spending per dosage unit 
+is $1.903 
+Pilocarpine: 
+$385 
+ 
+Cevilemine: 
+$1,0303 
+Pilocarpine: 
+126,320 
+ 
+Cevilemine: 
+27,1813 
+$76,568,706 
+Hydration 
+device 
+Device retail price = 
+$7991 $799 N/A N/A 
+Electrical 
+stimulation 
+Device retail price = 
+$5751 $575 N/A N/A 
+  Total US 
+Market: $206,568,576 
+Source: Example courtesy of Michael Crowe, Jack Lund, Becca Saenz, and Ash Shaub. (1) Sasportas, L.S. et al. Oral Surg 
+Oral Med Oral Pathol Oral Radiol, 2013. (2) Mintel Group Ltd. “US Oral Care market report,” 2018. (3) Centers for Medicare 
+and Medicaid Services. Note that the team did not include the hydration device and electrical stimulation in their analysis 
+because the use of these two solutions was negligible. 
+Importantly, they team acknowledged that the data they needed to achieve an accurate bottom -up 
+market size was difficult to find, and that the assumptions they made about the cost of current 
+treatments and number of people using them would require further validation. But, through some 
+additional research, they found a third-party market research report that similarly estimated the 
+current market for dry mouth solutions at $270 million per year, so they knew that they generally 
+were on the right track. 
+Reconciling the Top-Down and Bottom-Up Approach 
+When top-down and bottom-up market estimates vary substantially, it’s not a cause for concern! 
+More than anything, it’s a healthy “reality check” on what the team can realistically expect.  
+More often than not, the bottom-up estimate reflects a realistic estimate of the current solution 
+space while the top-down figure represents the total potential market opportunity for a new, more 
+effective solution. 
+--- page 4 ---
+ 
+ 
+TOP-DOWN AND BOTTOM-UP MARKET SIZING EXAMPLE V1, © 2022 STANFORD UNIVERSITY 4 
+ 
+In the case of the dry mouth project, the team knew that current solution offerings were suboptimal 
+and, as a result, weren’t being widely utilized – even by those with moderate to severe xerostomia. 
+They speculated that if they could come up with a solution that was more effective than existing 
+oral or drug treatments, they could dramatically expand the market. 
+Having both estimates of the market size in their need area gave them a stronger understanding of 
+the market and enabled them to speak more credibly to relevant stakeholders about the potential 
+opportunity. 
+Credits 
+This example was written by Lyn Denend, Michelle de Haaff, and Ravi Pamnani. We’d like to thank 
+Michael Crowe, Jack Lund, Becca Saenz, and Ash Shaub for sharing the example.

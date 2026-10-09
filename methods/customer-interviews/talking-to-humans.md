@@ -88,7 +88,11 @@ you can't reach the mainstream without early adopters first. In a two-sided
 market, you have archetypes on *both* sides. Turn each into a short **screener**
 (3–5 questions) so you talk to the right people, not just the easy-to-reach ones.
 Be smart about who you target; **don't take a shotgun approach, talking to
-anyone with a pulse.**
+anyone with a pulse.** An archetype is a segment defined by what people
+*do* or are trying to get done, described by the attributes that tell it
+apart from its neighbours — the screener asks for both; the rules (MECE,
+the scope check, attributes that discriminate) are in
+[`../jtbd/segmentation.md`](../jtbd/segmentation.md).
 
 ### 4. Write the interview guide
 A guide, **not a script** — don't feel you have to rigidly stick to it. Go in

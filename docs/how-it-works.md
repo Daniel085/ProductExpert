@@ -14,6 +14,7 @@ ProductExpert/
 ├── initiatives/<slug>/              # YOUR WORK — one folder per initiative (not in the toolkit)
 ├── .claude/agents/                  # BEHAVIOR — one file per agent
 │   ├── ideation.md                  #   front-door brainstorming partner
+│   ├── opportunity-sizing.md        #   TAM/SAM/SOM both ways; register, Monte Carlo model, tests
 │   ├── customer-interviews.md       #   qualitative discovery coach
 │   ├── odi-interviewer.md           #   ODI Phase 1: discover
 │   ├── odi-outcome-editor.md        #   ODI Phase 1.5: curate
@@ -44,6 +45,7 @@ ProductExpert/
 │   │   ├── job-stories.md           #   job-story framing; user-story rewrites
 │   │   ├── requirements-are-hypotheses.md # de-requirement intake protocol
 │   │   ├── value-proposition.md     #   functional+emotional jobs → statement; Strategyzer canvas
+│   │   ├── segmentation.md          #   define by behaviour, describe by attribute; MECE; scope rule
 │   │   └── materials/               #   Product Institute lesson; Strategyzer canvas (PDFs)
 │   ├── lean-experiments/
 │   │   ├── pre-build-experiments.md #   chooser, generative/evaluative, catalogue, card
@@ -59,6 +61,12 @@ ProductExpert/
 │   │   ├── root-cause-analysis.md   #   5 Whys, fishbone, interrelationship digraph
 │   │   ├── affinity-mapping.md      #   K-J method, text-mode protocol (shared)
 │   │   └── materials/               #   ASQ affinity-diagram page (verbatim)
+│   ├── strategy/
+│   │   ├── product-strategy.md      #   strategy as a deployable framework; gaps; four levels; the kata at every level
+│   │   └── materials/               #   Rother's Improvement Kata & Coaching Kata pages, the five-question card
+│   ├── sizing/
+│   │   ├── market-sizing.md         #   TAM/SAM/SOM by exclusion; bottom-up build; top-down tree; reconcile; tests; register
+│   │   └── materials/               #   Gurley, Damodaran, a16z, Pear, Janz, StrategyCase, Stanford Biodesign, Blank
 │   ├── prfaq/
 │   │   └── working-backwards.md     #   PR structure, FAQ banks, process
 │   ├── experimentation/
@@ -170,7 +178,7 @@ between them (G1–G10 are defined in
 flowchart LR
   subgraph P1["1 · Opportunity Discovery"]
     direction TB
-    a1["ideation"] ~~~ a2["customer-interviews (prep)"] ~~~ a3["odi-interviewer"]
+    a1["ideation"] ~~~ a2["customer-interviews (prep)"] ~~~ a3["odi-interviewer"] ~~~ a4["opportunity-sizing"]
   end
   subgraph P2["2 · Problem Validation"]
     direction TB
@@ -184,7 +192,7 @@ flowchart LR
   P2 -- "G3 problem evidenced<br/>G4 gaps closed" --> P3
   P3 -- "G9 verdict" --> out(["build · iterate<br/>kill · park"])
   classDef agent fill:#e8f0fe,stroke:#3b6fd6,color:#111
-  class a1,a2,a3,b1,b2,b3,c1,c2,c3 agent
+  class a1,a2,a3,a4,b1,b2,b3,c1,c2,c3 agent
 ```
 
 The third phase is where "we heard what they asked for and built it"
@@ -350,12 +358,15 @@ Knowledge shared by several agents is written exactly once:
 | Job-story framing (needs vs. features; user-story rewrites) | `methods/jtbd/job-stories.md` | customer-interviews, odi-interviewer, prfaq |
 | Value proposition (functional + emotional jobs → statement; Strategyzer canvas; fit) | `methods/jtbd/value-proposition.md` | lean-experiments, prfaq, odi-interviewer |
 | Pre-build experiments (chooser, generative/evaluative, catalogue, MVP/MLP/MVI, card) | `methods/lean-experiments/pre-build-experiments.md` | lean-experiments, experimentation (triage) |
-| Product Kata (rhythm, coaching questions, record template) | `methods/lean-experiments/product-kata.md` | lean-experiments |
+| Product Kata (rhythm, coaching questions and reflection, record template) | `methods/lean-experiments/product-kata.md` | lean-experiments |
+| Product strategy (deployable framework, three gaps, vision → intents → initiatives → options, the four-step kata at every level, strategy stack, direction ladder) | `methods/strategy/product-strategy.md` | lean-experiments, ideation, problem-selection, metrics, solution-options, prfaq, navigate |
+| Market sizing (TAM/SAM/SOM by exclusion, market type, bottom-up build from the source stack, top-down tree, reconciliation, possible/plausible/probable tiers, falsifiability tests, register and Monte Carlo, diffusion) | `methods/sizing/market-sizing.md` | opportunity-sizing, problem-selection (business-impact area), prfaq (TAM FAQ), metrics (share touched) |
 | Feature-request breakdown (eight assumption questions, chain, riskiest link, null-result rule) | `methods/lean-experiments/riskiest-assumption.md` | lean-experiments, ideation, prfaq |
 | MVP as learning vehicle (canon, failure modes, alignment questions, maxims, MVP card) | `methods/lean-experiments/minimum-viable-product.md` | lean-experiments, solution-options |
 | Option card (11 fields, tells, comparison, gates) | `methods/lean-experiments/solution-options.md` | solution-options, prfaq |
 | Minimum feature set (v1.0 ≠ MVP, feature classes, cost of delay, CD3, postponement rules) | `methods/lean-experiments/minimum-feature-set.md` | solution-options |
 | Requirement intake (constraint / theory / hypothesis) | `methods/jtbd/requirements-are-hypotheses.md` | customer-interviews, odi-interviewer, prfaq |
+| Segmentation (three rules, MECE, define by behaviour / describe by attribute, scope rule, attribute test) | `methods/jtbd/segmentation.md` | customer-interviews, metrics, odi-data-scientist, problem-selection, ideation |
 | Brainstorming modes, divergence rules, landscape-scan protocol | `methods/ideation/brainstorming.md` | ideation |
 | Assumption-ledger template (categories, tiers, ranking, lifecycle) | `methods/customer-interviews/assumption-ledger.md` | ideation, customer-interviews, problem-selection, prfaq, experimentation |
 | Problem-selection criteria, goal readings, evidence table, verdicts, ranking | `methods/problem-selection/picking-the-right-problem.md` | problem-selection |

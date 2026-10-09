@@ -1,0 +1,102 @@
+SOURCE: Allie Beazell, "The cost-benefit analysis of internal tools",
+Retool Blog, 24 November 2020
+(https://retool.com/blog/the-cost-benefit-analysis-of-internal-tools),
+printed 2026-09-29. Transcribed from the PDF alongside; site navigation
+removed; two sentences whose letters the PDF spaced out have been
+re-joined. All rights remain with the author and Retool.
+
+----------------------------------------------------------------------
+
+The cost-benefit analysis
+of internal tools
+ALLIE BEAZELL Nov 24, 2020
+Calculating direct investment in internal
+tool development
+Uncovering the value of internal tools
+Uncovering the actualized value of
+internal tooling
+Adam Louie (senior director of business operations at LeadGenius) was tasked with improving visibility into business
+costs and cutting expenses. No easy task. And, on top of that, he had minimal access to engineering resources.
+To  buil d  ou t  a  robus t  suit e  ofinterna l  tool s  t o  giv e  th e  LeadGeniu s  tea m  insigh t  int o  theirbusines s ,  Ada m  turne d  t o
+Retool. The Retool apps Adam built unlocked visibility into their finances and helped them identify cost-cutting
+patterns that saved them around $1M in just one year.
+Internal tools like the ones Adam built provide essential visibility into data and productivity for teams. However, they
+also require commitment and investment from the teams who are building and using them.
+The decision to invest in internal tools is all about striking the right balance. In most cases, that balance lies between
+the engineering overhead to develop (and maintain) internal tools and the workforce productivity those tools deliver
+once they’re up and running.
+Drawing upon our recent survey of The State of Internal Tools in 2020, we thought it would help shine a light on what
+to consider when investing in building internal tools.
+Calculating direct investment in internal tool
+development
+Let’s start with the most direct cost of internal tools: the cost of development. Simply put, we can calculate this by
+taking an engineer’s pay per hour multiplied by the number of hours it takes to build and maintain the tool. Or, $/hour
+x project-hours.
+According to Glassdoor, the national average pay for a software engineer is roughly $92,000 a year. Now, if you’re
+in an industry that uses many custom internal tools (say, financial services and logistics), the math for this is pretty
+simple. You’d probably have at least one (maybe more) software engineers working full time on internal tools, so you’d
+just multiply that average by however many full-time folks you’d need.
+To  calculat e  h a rd  cost s  (wha t  yo u  p ayengineer s  fordevelopin g  interna l  too l s) ,  identifya n  enginee r 's  hourly p ay,  a n d
+multiply that by the hours per week spent on internal tool development or maintenance. Using our Glassdoor
+estimate from before, a conservative $92,000 a year salary is roughly $44 per hour. Maybe one of your engineers
+spends three months (480 hours) building up an internal tool, then an additional 10 hours per week updating and
+maintaining it for the rest of the year. That would mean 600 hours x $44 = $26,400.
+If you're just getting started, looking at benchmark data can provide a useful starting point for estimating engineering
+personnel required for internal tool development. According to a survey about the state of internal tools we
+conducted earlier this year, teams at companies with more than 20 employees spend more than 20% of their time
+building and maintaining internal tools. And as headcount grows, that number jumps to close to 40% for teams at
+companies with more than 1,000 employees.
+The cost of development is the most direct cost of internal tools and is the easiest to quantify. But what about the
+indirect costs of not investing in internal tools? That's where we'll turn to next.
+Uncovering the value of internal tools
+The flip-side of determining the investment in internal tools is looking at the value they bring. When instrumented the
+right way, internal tools add a ton of value, like uniting multiple back-office systems, reducing the probablity of errors,
+and strengthening security. All of these things bring improvements to the workflows of people who use the tools,
+which helps them focus on higher-value work, like keeping customers happy.
+As a hypothetical, let's say your company is an online retailer that sells dog identification tags. You have a team of
+customer support agents who have access to three different programs:
+1. An order management system (OMS) to track orders from customers
+2. A spreadsheet to personalize dog identification tags and export as a CSV for the manufacturer
+3. Customer support software where agents can communicate with customers via phone, text, or email
+One day, a customer emails customer support because the dog identification tag they ordered showed up reading
+"Fido" instead of "Dido." To amend the situation, your customer support agent must first go from the support software
+to the order management system to look at the customer's order. They have to pivot to the dog-tag design
+spreadsheet to customize a new tag, add that order to the OMS, and then email the customer back with their
+updated information. All of this context switching and delay in processing orders introduces more potential for error.
+It also results in an overall worse experience for your workforce and customers.
+It's hard to put a precise number on the cost of not using internal tools (what's the cost of an unhappy customer or
+annoyed support agent?). Instead of calculating these intangibles, we thought it would be helpful to share a few
+examples of the value organizations see as a result of investing in internal tools.
+Neo4j reduced churn by moving renewals out of Salesforce
+Mike Brophy (VP of Global Renewals Sales at Neo4j) built a renewals control center (RCC) to accurately forecast and
+hit renewal targets.
+Before building RCC, Mike would ask his reps for account updates during their regular meetings. He had no way to
+see renewal timelines in one place or track down statuses without involving his team, which felt like he was chasing
+information or interrupting his reps’ days just to get a pulse on their accounts.
+With the RCC, Mike can easily track the stage of each renewal and even filter by rep. He now has a clear
+understanding of the work his team is doing and knows where to deploy reps to make sure renewals are completed
+without a hitch. What's more, the RCC gives every rep a broad overview of their accounts, complete with extra details
+that were often left out of Salesforce profiles. These might include the reason for churn, contract details, or personal
+notes about a contact.
+Noble Schools built an app to keep 12,500 students engaged
+during a pandemic
+Moon Lee (Chief Data and Innovation Officer at Noble Schools) needed a application to take remote attendance,
+conduct wellness checks, track barriers to distance learning for the 2020–2021 school year.
+Moon built a Multi-Tiered System of Support (MTSS), a tool used within Noble's education systems to track the
+learning and well-being of students. MTSS is used to track attendance and as a report generating tool that tracks
+barriers to learning and overall performance to assist teachers in identifying students who need extra help.
+LeadGenius saved $1M with better internal tooling
+As mentioned in the intro, Adam Louie (Senior Director of Business Operations at LeadGenius) built three apps with
+Retool to give his teams real-time visibility into the data they previously couldn't.
+User Profile Editor: An app to view, clean, and organize customer accounts
+Community Costs: An app that tracks contractor cost metrics and displays real-time reports on revenue
+Project Manager Dashboard: An app that enables Project Managers to organize their data campaign workflows
+within a homegrown CRM.
+Uncovering the actualized value of internal tooling
+While it may be challenging to determine (in dollars and cents) the actual cost of not having internal tools, the right
+custom tool can certainly unlock a ton of value. For those who have made a committed investment in building custom
+apps for their workforce, 80% say who say that internal tools are critical to their company’s operational success.
+We built Retool to help developers build internal tools remarkably fast. Retool removes the tedious parts of
+development like wrestling with UI libraries, stitching together data sources, and configuring access controls. In turn,
+engineering teams can ship internal tools 10x faster and focus more time building the core product. TryRetoo l  fo r
+free here.

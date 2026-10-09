@@ -96,7 +96,15 @@ Two people with identical demographics can have opposite unmet needs.
 Segments are formed from outcome data (factor + cluster analysis on
 importance/satisfaction gaps) and only *then* profiled with demographics so
 you can find them in the wild. Demographics never define a segment.
-*(Ulwick.)*
+The same order holds without a survey: define segments by what people
+do or are trying to get done, then describe them with the attributes
+that actually differ between them — and drop the ones that don't. A
+segmentation is worth keeping only if it ties back to the problem, the
+business would act differently per segment, and it is MECE: every
+customer in exactly one group, nobody left out. And it happens inside
+a scope: an attribute that is constant across the population you are
+cutting, or that defined it, is not a cut. *(Ulwick; Product
+Institute; Minto's MECE.)*
 
 ### 12. Gates between stages; gaps go upstream
 Each pipeline stage gates its input (saturation reached; statements
@@ -338,6 +346,55 @@ performance features are what cost of delay ranks, and cheap
 excitement generators belong in v1.0 — knowing they migrate into basics
 as they spread. *(Reinertsen; Arnold's benefit buckets, urgency profiles
 and CD3; Perri; Kano via Spool; the option template.)*
+
+### 32. Strategy is a deployable framework, not a plan — and the kata runs at every level
+A strategy enables action toward desired outcomes: each level of the
+organization can decide with it, it says what to say no to, it is
+honest about current capabilities and context, and it names an
+outcome with a measure. Treating it as a plan opens Bungay's three
+gaps — knowledge (leaders plan what nobody knows), alignment (teams
+act without the intent), effects (features ship, nothing moves) — and
+the remedies are the same at each level: **state the intent and its
+measure; let the level below choose the how; give it room to adjust
+on what it learns.** The framework is four levels — vision, a few
+strategic intents, product initiatives written as customer problems
+with metrics, and options that are hypotheses until tested — and the
+Product Kata is how each level works toward the level above:
+understand the direction, analyze the current state, set the next
+goal, then execute or deploy — an experiment, a delivery, or the act
+of communicating the strategy so the next level can start its own
+loop. Two rules keep it honest: an unstated direction is the first
+obstacle, never something a team invents; and the coaching cycle
+turns the card over — planned, expected, actually happened, learned —
+before it names the next step. A strong initiative carries five
+things — a connection to the current-state picture, quantified
+business value (a formula with sourced, tiered factors and a range,
+BACKGROUND until a readout replaces the lift), evidence, defined
+success metrics, and a measurable customer outcome — and the set stays
+few and gets re-read every cycle. *(Bungay; Perri, Escaping the Build
+Trap; Rother's Improvement and Coaching Kata; Carter's quantification
+method.)*
+
+### 33. A market size is a derivation, not a number — built both ways and reconciled
+A credible sizing is one a skeptic can rebuild from a stated customer
+count and a stated price. Build it **bottom-up first** — the market as
+job executors plus the job, the ICP tiers, counts from official
+statistics, a price from the strongest evidence you hold, SAM by written
+constraints, SOM as a path-to-revenue count or a share with a named
+mechanism, never "1% of a huge market" — with a calibrated range on
+every leaf and a Monte Carlo instead of multiplied points. Then build
+it **top-down** as a MECE tree with justified, rounded leaves, and
+**reconcile**: the one leaf that closes most of the gap, and the route
+that evidences it better; beyond a factor of three the market
+definition is wrong, not the arithmetic. Show the possible, plausible
+and probable tiers; for a market the product will expand, cite a
+measured early-cohort ratio, not an assumed elasticity, and size
+adjacencies as separate trees. Convert the result into claims that can
+be wrong — implied share, the $100M ladder, the aggregation test — and
+write the counter-case. The number will be wrong; the register, the
+model and the reconciliation are what survive. *(Gurley; Damodaran;
+Cornell & Damodaran; a16z; Pear; Janz; Hubbard; the consulting case
+tradition.)*
 
 ---
 

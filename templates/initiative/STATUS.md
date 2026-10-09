@@ -6,6 +6,7 @@
 | **Owner** | <name> |
 | **Created** | <YYYY-MM-DD> |
 | **Goal metric** | <name + definition, or "not yet defined → metrics"> |
+| **Direction** | <strategic intent SI-n → product initiative PI-n, from the strategy stack, or "not stated → the level above owes it"> |
 | **Arrived with** | <idea / feature request / problem pile / notes / data> |
 | **Phase** | Opportunity Discovery |
 

@@ -161,6 +161,135 @@ the property of their authors and are included for reference and attribution.
 
 ---
 
+## Opportunity Sizing agent (opportunity-sizing)
+
+Grounded in a research pass over investor, analyst, consulting and
+founder practice (`reports/Market sizing expert methods.md`, with its
+notes under `research_notes/`). Pages preserved as PDFs with
+transcriptions under `methods/sizing/materials/` remain their authors'
+property.
+
+- **Bill Gurley** — *"How to Miss By a Mile: An Alternative Look at
+  Uber's Potential Market Size"*, Above the Crowd, 11 Jul 2014 — the
+  canonical bottom-up, market-expanding rebuild: "this cannot be
+  yesterday's market"; the San Francisco ratio; price elasticity and
+  local network effects; car-ownership substitution; the scenario math.
+- **Aswath Damodaran** (NYU Stern) — *Musings on Markets*: *"A
+  Disruptive Cab Ride to Riches: The Uber Payoff"* (Jun 2014),
+  *"Possible, Plausible and Probable: Big markets and Network effects"*
+  (Jul 2014), *"On the Uber Rollercoaster"* (Oct 2015), *"The Market is
+  Huge! Revisiting the Big Market Delusion"* (Dec 2019); the Uber
+  valuation deck (Sept 2015: the ladder of nested market definitions,
+  share by network-effect mechanism) and *"Insights on VC pricing:
+  lessons from Uber, WeWork and Peloton"* (Sept 2019: the possible /
+  plausible / probable test and overreach / expanded / constrained
+  TAM). **Bradford Cornell & Aswath Damodaran**, *"The Big Market
+  Delusion: Valuation and Investment Implications"*, *Financial
+  Analysts Journal* 76(2), 2020 (SSRN 2016) — the aggregation test;
+  paywalled, cited via the abstract.
+- **a16z** — *"16 More Startup Metrics"*, 23 Sep 2015 — "we like seeing
+  a bottoms-up analysis"; "why 40%?"; don't game the TAM.
+- **Pear VC** — *"Market Sizing Guide"*, 3 Aug 2021 — customers × ARPA;
+  top-down only to sanity-check; the 10–30% value-capture heuristic.
+- **Christoph Janz** (Point Nine) — *"Five ways to build a $100
+  million business"*, The Angel VC, 5 Oct 2014 — the elephants / deer /
+  rabbits / mice / flies ladder and its funnel multipliers.
+- **Jason Lemkin** (SaaStr) — the "believable path to $100M in seven
+  years" rule and "the market size number matters far less than how
+  you calculated it". Cited, not preserved.
+- **Sequoia Capital** — the business-plan template's "calculate the TAM
+  (top down), SAM (bottoms up) and SOM", the likely origin of the
+  show-both convention. Cited.
+- **StrategyCase** (a former McKinsey consultant) — *"Market Sizing
+  Questions: 25 Examples With Worked Answers"* (2023, updated 2026) —
+  the six-step routine, the structure menu, "round aggressively",
+  "never pull a number from thin air without a one-line
+  justification", the order-of-magnitude / 25% yardstick. **Barbara
+  Minto** — MECE (see the Segmentation section).
+- **Stanford Byers Center for Biodesign** — *"Top-Down and Bottom-Up
+  Market Sizing Example"* (Biodesign guide, 2022) — divergence between
+  the routes as a healthy reality check.
+- **Lightspeed Venture Partners** (Sebastian Duesterhoeft) — *"A Total
+  Addressable Market (TAM) Masterclass"* — analyst reports as a red
+  flag; ratio benchmarks; the fund-return test.
+- **Jared Sleeper** (Matrix Partners) — *"Calculating TAM"*,
+  forEntrepreneurs (**David Skok**) — top-down, bottom-up and "value
+  theory".
+- **Steve Blank** — *"Market Definition — It's the Front End of
+  Customer Discovery"* (4 Nov 2021, with **Tony Ulwick**'s market
+  definition) and *"Death By Revenue Plan"* (16 Feb 2010) — market as
+  job executors + job; the four market types and the revenue curve.
+- **Douglas W. Hubbard** — *How to Measure Anything* (Wiley, 2007 /
+  2010 / 2014) — calibrated 90% intervals, the equivalent bet, the Rule
+  of Five, Monte Carlo, measurement inversion; cited via public
+  summaries. **Craig R. M. McKenzie, Michael J. Liersch & Ilan Yaniv**
+  (*Organizational Behavior and Human Decision Processes*, 2008) —
+  overprecision of judgmental intervals. **Donald G. MacGregor & J.
+  Scott Armstrong** (1994) — when judgmental decomposition helps.
+  **Lawrence Weinstein & John A. Adam** — *Guesstimation* (Princeton,
+  2008). **Philip Tetlock & Dan Gardner** — *Superforecasting* (2015):
+  outside view first, small updates, name what would change your mind.
+- **Frank M. Bass** — *"A New Product Growth for Model Consumer
+  Durables"*, *Management Science* 15(5), 1969; **Vijay Mahajan, Eitan
+  Muller & Frank M. Bass** (*Marketing Science*, 1995) — the diffusion
+  model and the p ≈ 0.03, q ≈ 0.38 defaults. Cited.
+- **Madhavan Ramanujam & Georg Tacke** — *Monetizing Innovation*
+  (Wiley, 2016) — willingness to pay early. **Peter van Westendorp**
+  (price sensitivity meter, 1976) and **André Gabor & Clive Granger**
+  (1966) — the two price-research methods as commonly described. Cited.
+- **Ozzie Gooen** — Guesstimate and Squiggle (Monte Carlo tools), cited.
+- **Uber Technologies** — Form S-1 (Apr 2019) and FY2023–FY2025 results;
+  **Ben Thompson** (Stratechery) on the S-1's TAM; **New Constructs**
+  on Snowflake's implied share. Cited, not preserved.
+- Investors quoted in the research report via TechCrunch and their own
+  sites — **Jahanvi Sardana** (Index), **Aydin Senkut** (Felicis),
+  **Deena Shakir** (Lux), **Jomayra Herrera** (Reach), **Rotem Shacham**
+  (PSG), **Alex Iskold**, **Octopus Ventures**, **Underscore VC**,
+  **Dreamit**, **Pegasus**' **Reichert** — cited, not preserved.
+- Official statistical agencies — **US Census Bureau** (SUSB, CBP,
+  Nonemployer Statistics, Economic Census, ACS), **US Bureau of Labor
+  Statistics** (OEWS), **Eurostat** (SBS), **ONS**, **Statistics
+  Canada**, **OECD**, **World Bank**; **SEC EDGAR** XBRL APIs.
+- The definitions-by-exclusion table, the market-type consequences,
+  the five-step bottom-up build, the reconciliation tolerance, the
+  "simplest PM version" of Bass, the register, model and summary
+  templates, the B2B example, the plug-in table and the anti-pattern
+  checks are **this repo's operational extension**, marked as such in
+  the method doc; the research report records which rules are
+  published standards and which are syntheses.
+
+---
+
+## Shared method — Segmentation (`methods/jtbd/`)
+
+- **Product Institute** (founded by **Melissa Perri**) — *Product
+  Management Foundations*, the segmentation lesson: segment by what
+  matters to the business (product usage, size of business,
+  geography, industry, experience); follow the money (who buys and
+  stays, who doesn't); avoid segmentations that don't tie back to the
+  problem being solved; a useful segmentation is MECE. Licensed course
+  material — **paraphrased from Daniel O'Rorke's notes; nothing
+  quoted; the course's teacher-segmentation exercise not reproduced.**
+- **Melissa Perri** — the five questions she asks when analyzing usage
+  data (usage patterns vs. success metrics; segments with different
+  outcomes; the behaviours of the most successful users; the biggest
+  gap between current and desired behaviour; the effect on key
+  business metrics), relayed in **Daniel O'Rorke's** notes from her
+  teaching — **paraphrased; nothing quoted.**
+- **Barbara Minto** — *The Pyramid Principle* (Minto International,
+  1987; Pearson eds.) — MECE (mutually exclusive, collectively
+  exhaustive), as practised at McKinsey. Cited, not reproduced.
+- **Tony Ulwick** / **Strategyn** — needs-based segmentation and
+  "demographics describe segments; they never define them" (see the
+  ODI section above); **Alan Klement** — job stories, situation over
+  attributes (see the Job Stories section).
+- The scope rule, the define-by-behaviour / describe-by-attribute
+  procedure, the attribute test, the template, the checks, the tells
+  and the worked example are **this repo's operational extension**,
+  marked as such in the method doc.
+
+---
+
 ## Shared method — Requirements Are Hypotheses (`methods/jtbd/`)
 
 - **Marty Cagan**, "Requirements Are Not," **Silicon Valley Product Group
@@ -413,6 +542,134 @@ the property of their authors and are included for reference and attribution.
   example not reproduced.**
 - The tells table, text template and fit-to-agents mapping are this
   repo's operational extension.
+
+---
+
+## Shared method — Product Strategy (`methods/strategy/`)
+
+- **Melissa Perri** — *Escaping the Build Trap: How Effective Product
+  Management Creates Real Value* (O'Reilly, 2018): the strategy part of
+  the book — strategy as a framework rather than a plan, the strategic
+  gaps, strategy deployment (with OKRs, Hoshin Kanri and mission
+  command as its kin), the four-level framework (vision · strategic
+  intents · product initiatives · options), the Product Kata as the
+  process that runs it, and the living roadmap's fields. A published
+  book — **paraphrased; nothing quoted; the Marquetly example not
+  reproduced.**
+- **Melissa Perri** — *"What is Good Product Strategy?"*,
+  melissaperri.com, 14 Jul 2016 — the pre-book product-strategy
+  canvas (vision · challenge · target condition · current state), her
+  definition of product strategy, strategy as something *uncovered*
+  through experimentation rather than dictated, the ownership of each
+  level, the Uber driver-onboarding example, and the "Unified Field
+  Theory" pointer to **Bill Costantino** and **Mike Rother**. Preserved
+  at `methods/strategy/materials/MelissaPerri-WhatIsGoodProductStrategy-2016.pdf`
+  with a transcription under `materials/extracted/`; it remains the
+  author's property.
+- **Stephen Bungay** — *The Art of Action: How Leaders Close the Gaps
+  between Plans, Actions and Results* (Nicholas Brealey, 2011): the
+  knowledge, alignment and effects gaps, their mission-command
+  remedies (limit direction to the essential intent; let each level
+  define what it must do; give people freedom to adjust in line with
+  the intent), and the definition of strategy as a deployable
+  decision-making framework that Perri adopts. Cited via Perri; not
+  reproduced.
+- **Mike Rother** — the *Toyota Kata* website (hosted at the
+  University of Michigan): the pages *The Improvement Kata* and *The
+  Coaching Kata* and the *5Q Card* deck, preserved at
+  `methods/strategy/materials/ToyotaKata-Rother-TheImprovementKata.pdf`,
+  `…-TheCoachingKata.pdf` and `…-5Q_Card.pdf` with transcriptions
+  under `materials/extracted/`. The four-step Improvement Kata,
+  scientific thinking as a practised habit, the Starter Kata idea, the
+  five coaching questions with the back-of-card reflection (planned ·
+  expected · actually happened · learned), the coaching-cycle rules
+  (daily, ≤ 20 minutes, clarifying questions, the threshold of
+  knowledge, the second coach) and the storyboard's six fields are
+  his; the books are *Toyota Kata* (McGraw-Hill, 2009) and *The Toyota
+  Kata Practice Guide* (McGraw-Hill, 2017). The materials remain his
+  property.
+- **Kazuo Ichijo & Ikujiro Nonaka** — *Knowledge Creation and
+  Management: New Challenges for Managers* (Oxford University Press,
+  2006), p. 25 — the excerpt on a firm-specific *kata* as a knowledge
+  asset, quoted on Rother's Improvement Kata page and transcribed with
+  it; **Richard R. Nelson & Sidney G. Winter** (1982) on routines, as
+  it cites them.
+- **Jim Huntzinger** (Lean Frontiers) and **Ralph Waldo Emerson** —
+  the two epigraphs on Rother's page, transcribed with it.
+- **Jim Collins** — *"Good to Great"*, Fast Company, October 2001, as
+  republished at jimcollins.com (from *Good to Great: Why Some
+  Companies Make the Leap… and Others Don't*, HarperBusiness, 2001) —
+  the flywheel effect and the doom loop, the stop-doing list, the
+  seven change myths and the no-miracle-moment finding; preserved at
+  `methods/strategy/materials/JimCollins-GoodToGreat-FastCompany-2001.pdf`
+  with a transcription under `materials/extracted/`; copyright Jim
+  Collins. The hedgehog concept, Level 5 leadership and "first who,
+  then what" are acknowledged and not distilled.
+- **Brooke Carter** — *"How Product Managers Can Effectively Quantify
+  Business Impact"*, Built In, 8 Jan 2021: the metric vocabulary
+  (North Star, OKR, goal, signal, primary metric, hypothesis, support
+  data), the revenue-impact formula, the four measurement oversights
+  and the "two plus two equals three" caution. Preserved at
+  `methods/strategy/materials/BuiltIn-HowPMsQuantifyBusinessImpact-Carter-2021.pdf`
+  with a transcription; it remains the author's and Built In's
+  property.
+- **Allie Beazell** — *"The cost-benefit analysis of internal
+  tools"*, Retool Blog, 24 Nov 2020: direct cost as engineer hourly pay
+  × build-and-maintain hours, the internal-tools time benchmarks from
+  Retool's 2020 survey, and the value side (united systems, fewer
+  errors, security, time freed), with the LeadGenius (**Adam Louie**),
+  Neo4j (**Mike Brophy**) and Noble Schools (**Moon Lee**) cases.
+  Vendor content, preserved at
+  `methods/strategy/materials/Retool-CostBenefitAnalysisOfInternalTools-Beazell-2020.pdf`
+  with a transcription; it remains Retool's property.
+- **Jonathan Kim** — *"Becoming product-led: How to connect product
+  decisions to revenue"*, Appcues blog, 28 May 2026: SaaS revenue as a
+  system of four levers, the Rule of 40, net revenue retention,
+  revenue vs. logo churn, product-qualified leads, time-to-value, and
+  shared product-and-revenue metrics. Vendor content, preserved at
+  `methods/strategy/materials/Appcues-BecomingProductLed-Kim-2026.pdf`
+  with a transcription; the product-marketing sections are not
+  distilled; it remains Appcues's property.
+- **Mural** — *"How to create a meaningful product vision"*, Mural
+  blog, 24 Oct 2025: the vision-statement definition and qualities,
+  and the statement format adapted from **Geoffrey Moore**'s
+  positioning template (*Crossing the Chasm*, HarperBusiness, 1991).
+  Vendor content, preserved at
+  `methods/strategy/materials/Mural-HowToCreateAMeaningfulProductVision-2025.pdf`
+  with a transcription; it remains Mural's property.
+- The five marks of a **strong product initiative** (clear connection
+  to the current-state analysis · quantified business value ·
+  evidence-based reasoning · defined success metrics · measurable
+  customer outcomes), the focus rule and the periodic-update rule are
+  **Daniel O'Rorke's** working notes after **Product Institute**'s
+  strategy lessons, paraphrased; nothing quoted.
+- **HubSpot** — *"Why it's Time to Replace your Funnel with a
+  Flywheel"* (hubspot.com/flywheel): the flywheel growth model
+  (attract · engage · delight; force and friction), crediting **James
+  Watt** for the mechanism. Cited, not preserved.
+- **Cameron Deatsch** — *"10 Lessons on using the Flywheel Effect to
+  Grow Your Business"*, Inside Atlassian, 31 Aug 2021: the enterprise
+  trap, "treat human interaction as a bug", active users as the
+  leading signal. Cited, not preserved.
+- The four-step **Product Kata summary** — *understand the direction
+  (get clear on the strategy set by the level above) · analyze the
+  current state · set the next goal (the product initiatives that
+  achieve the company and portfolio goals) · execute or deploy (run
+  experiments, deliver solutions, or communicate strategy)* — is
+  **Daniel O'Rorke's**, after Perri. Likewise the **product strategy
+  memo** (a two-to-three-page document: product vision · current
+  state · product initiatives), the six areas of a current-state
+  analysis (current performance · user segments · pain points and
+  opportunities · strengths and weaknesses · competitive positioning ·
+  market and technology trends) and the rule that there won't be
+  perfect information — note the knowledge gaps and move on — are his
+  working notes after **Product Institute**'s strategy lessons,
+  paraphrased; nothing quoted.
+- The clause-by-clause tests of a strategy, the gap table's
+  wrong-and-right fixes, the stack rules, the cadence-by-level table,
+  the strategy stack and direction ladder templates, the plug-in table,
+  the anti-patterns and the worked example are **this repo's
+  operational extension**, marked as such in the method doc.
 
 ---
 

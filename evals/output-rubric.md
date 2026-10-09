@@ -22,7 +22,7 @@ enforces, so a disputed score goes to the method doc, not to opinion.
 
 **ideation** — I1 ≥ 5 distinct options before any evaluation, incl. one inversion and one removal (principle 19). I2 landscape scan tagged BACKGROUND, no verdict drawn from it. I3 ledger names exactly one riskiest assumption and a test cheaper than building. I4 routing decision stated.
 
-**customer-interviews** — C1 (prep) every guide question is about a specific past event; no "would you…" (principle 2). C2 (prep) assumptions ranked impact × uncertainty. C3 (synthesis) observations and interpretations in separate columns. C4 (synthesis) each pattern carries a head-count; insights pass Edgley's bar. C5 (synthesis) persevere / pivot / dig deeper with a next test in the We believe / To verify format.
+**customer-interviews** — C1 (prep) every guide question is about a specific past event; no "would you…" (principle 2). C2 (prep) assumptions ranked impact × uncertainty. C3 (synthesis) observations and interpretations in separate columns. C4 (synthesis) each pattern carries a head-count; insights pass Edgley's bar. C5 (synthesis) persevere / pivot / dig deeper with a next test in the We believe / To verify format. C6 (prep) archetypes defined by behaviour or need, MECE, with no attribute that merely restates the scope (`methods/jtbd/segmentation.md`).
 
 **problem-selection** — P1 **gate** no solution-noun in any problem statement; rewrites shown. P2 **gate** no *Yes* on a single evidence type. P3 **gate** no Business Alignment score without a stated goal. P4 goal reading named before scoring. P5 distinct sources counted, not items. P6 conflicts explained or verdict *Not yet*. P7 (gap mode) every score cites an artifact and tier; BACKGROUND-only capped at 3; lowest area routed.
 
@@ -33,6 +33,8 @@ enforces, so a disputed score goes to the method doc, not to opinion.
 **prfaq** — F1 **gate** every claim evidence-cited or flagged `[ASSUMPTION]`. F2 PR fits one page; customer language, no superlatives. F3 problem paragraph is a job story in prose. F4 full internal FAQ bank faced; unanswered stays visible. F5 verdict: iterate / build / kill / park.
 
 **experimentation** — E1 **gate** trust checks (SRM first) before any effect estimate. E2 pre-registration frozen before data; boundary set at design time. E3 sample size computed and shown. E4 "underpowered" said when true; no "trending".
+
+**opportunity-sizing** — Z1 **gate** no SOM without a written segment rule and a sourced price; no bare percentage share, no pasted analyst figure as the number (`methods/sizing/market-sizing.md` §1, §3). Z2 **gate** every leaf carries a source, tier, grain, reference date and a 5/50/95 range; the sizing's tier is the weakest load-bearing leaf (§7). Z3 both routes shown and reconciled by the one leaf that closes the gap; beyond a factor of three the definition is revisited, never averaged (§5). Z4 market defined as job executors + job, type and bucket classified, scope written (§2). Z5 the four tests run (implied share, $100M ladder, fund-return, aggregation) and the counter-case written (§5). Z6 a model that re-runs from the register, saved (§7).
 
 **metrics** — M1 North Star is a value-exchange metric, not revenue. M2 every target ships with a counter-metric. M3 each metric passes the "what would we do differently" test. M4 cohorts over averages.
 
