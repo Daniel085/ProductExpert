@@ -270,6 +270,13 @@ Alignment score is its qualitative twin; `solution-options` reuses
 the same value and urgency numbers as the cost-of-delay rate when it
 cuts v1.0. Nothing is quantified twice.
 
+**When there is no baseline** — the initiative opens a market the
+product doesn't serve yet — the "share touched" factor has nothing to
+multiply. That is a market sizing, not a value estimate:
+[`../sizing/market-sizing.md`](../sizing/market-sizing.md) builds the
+TAM / SAM / SOM both ways with the same tiering rules, and its SAM is
+the share-touched factor this procedure then uses.
+
 ```
 VALUE ESTIMATE — PI-<n>                                        as of <date>   tier: <BACKGROUND / INFERRED / CONFIRMED>
 Lever:           <acquire / expand / retain / price · or reduce cost / avoid cost / protect revenue>
@@ -618,6 +625,7 @@ re-derive them:
 | **Strengths and weaknesses of the product** | What it does well enough to build on and where it loses — in the customer's terms (jobs done well vs. badly), not the team's | The value proposition's evidenced gains and pains ([`../jtbd/value-proposition.md`](../jtbd/value-proposition.md)); satisfaction scores; the knowledge-gap scorecard's user-behaviour area |
 | **Competitive positioning** | Who else solves the job, how, at what price, where they fall short, and whether our wedge is a product or a feature | `ideation`'s landscape scan at teardown depth ([`../problem-selection/knowledge-gaps.md` §3](../problem-selection/knowledge-gaps.md)) — BACKGROUND |
 | **Market and technology trends** | What is changing in the context the strategy must be coherent with (§1's last clause): buyer behaviour, regulation, platforms, capabilities that just became cheap | The landscape scan's sources; the PR/FAQ's market FAQs — BACKGROUND until a customer confirms it |
+| **Size of the opportunity** (for an initiative that opens a market) | How big, both ways, with the reconciling leaf and the counter-case | `opportunity-sizing`'s `discovery/sizing.md` ([`../sizing/market-sizing.md`](../sizing/market-sizing.md)) — its tier is the weakest load-bearing leaf |
 
 **There won't be perfect information.** The picture is drawn from
 what exists today, tiered (CONFIRMED / INFERRED / BACKGROUND), and

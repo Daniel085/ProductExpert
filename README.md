@@ -35,7 +35,7 @@ status` tells you where an initiative stands; `/navigate next` who's up.
   status | next | list`. Reads an initiative's folder, derives the gates
   from the artifacts, routes to the right agent.
 - **`.claude/skills/evaluate/`** and **`evals/`** — the evaluation suite:
-  `/evaluate routing | gates | output | all` against 28 routing cases,
+  `/evaluate routing | gates | output | all` against 30 routing cases,
   three gate fixtures and an output rubric; runs logged in
   `evals/runs.md`.
 - **`templates/initiative/`** — the scaffold `/navigate start` copies:
@@ -62,7 +62,7 @@ exists and runs *before* engineering, not after.
 
 | Phase | The question | Agents |
 |-------|--------------|--------|
-| **1 · Opportunity Discovery** | What's out there, and what's worth a look? | `ideation`, `customer-interviews` (prep), `odi-interviewer` |
+| **1 · Opportunity Discovery** | What's out there, what's worth a look — and how big is it? | `ideation`, `customer-interviews` (prep), `odi-interviewer`, `opportunity-sizing` |
 | **2 · Problem Validation** | Is the problem real, for whom, how much, and which one first — and what don't we know yet? | `customer-interviews` (synthesis), `odi-outcome-editor` → `odi-survey-builder` → `odi-data-scientist`, `problem-selection` (verdict + knowledge-gap scorecard + root cause) |
 | **3 · Solution Validation** | Does *this* solution solve it — proven cheaply, before we build — and what exactly do we commit to? | `lean-experiments` (concept · concierge · Wizard of Oz · prototypes · API access · MLP · kata), `solution-options` (option cards · v1.0 by cost of delay), `prfaq`, `experimentation`, `metrics` |
 
@@ -148,6 +148,30 @@ the riskiest assumption and its cheapest test, plus a routing call
 (interview / quantify / PR-FAQ / park / kill). Distilled from Anthropic's
 `product-brainstorming` plugin skill.
 Method: [`methods/ideation/brainstorming.md`](methods/ideation/brainstorming.md)
+
+### Opportunity Sizing — `opportunity-sizing`
+Builds an investor-grade **TAM / SAM / SOM both ways** and guides a PM
+from "no idea" to a derivation a skeptic can rebuild. **Bottom-up
+first**: the market as job executors + the job, the ICP tiers from the
+segmentation, counts from the official source stack (Census SUSB and
+CBP, BLS, Eurostat, ONS), a price from the evidence hierarchy (own
+deals · normalised filings · transaction benchmarks · willingness-to-pay
+research, bounded by the cost of the problem for a new market), SAM by
+written constraints, SOM as a path-to-revenue count (Janz's $100M
+ladder) or a share with a named mechanism — never "1% of the TAM" —
+every leaf a calibrated 90% range, run as a **Monte Carlo** in a saved
+script. **Top-down second**, as the consulting case tradition does it: a
+MECE tree with justified, rounded leaves, a ladder of nested market
+definitions each marked possible / plausible / probable (Damodaran),
+analyst figures only as a labelled cross-check. Then **reconcile** by
+naming the one leaf that closes the gap, run the falsifiability tests
+(implied share, the $100M ladder, fund-return, aggregation — the Big
+Market Delusion), show constrained and expanded tiers with a measured
+early-cohort ratio (Gurley's Uber rebuild), size adjacencies as separate
+trees, and project with a diffusion curve. Delivers the assumptions
+register, the model and a one-page summary; refuses a SOM without a
+segment rule and a sourced price.
+Method: [`methods/sizing/market-sizing.md`](methods/sizing/market-sizing.md)
 
 ### Customer Interviews — `customer-interviews`
 Preps and synthesizes open-ended discovery interviews. Grounded in *Talking
@@ -321,7 +345,11 @@ Completed: [Design Thinking](docs/methodology-evaluations/design-thinking.md) ·
 **[four-way comparison](docs/methodology-evaluations/comparison.md)**, which
 shows they are complements (their strengths together cover 19 of 25
 criteria) and names the six criteria at the discovery→business-case seam
-that none of them covers.
+that none of them covers. One of those six — 3.3, the size of the
+opportunity with its constraints — is now covered by the system itself
+(`opportunity-sizing`, grounded in the investor and analyst practice the
+[sizing research report](reports/Market%20sizing%20expert%20methods.md)
+collected).
 
 ## Roadmap (candidate agents)
 

@@ -375,6 +375,27 @@ few and gets re-read every cycle. *(Bungay; Perri, Escaping the Build
 Trap; Rother's Improvement and Coaching Kata; Carter's quantification
 method.)*
 
+### 33. A market size is a derivation, not a number — built both ways and reconciled
+A credible sizing is one a skeptic can rebuild from a stated customer
+count and a stated price. Build it **bottom-up first** — the market as
+job executors plus the job, the ICP tiers, counts from official
+statistics, a price from the strongest evidence you hold, SAM by written
+constraints, SOM as a path-to-revenue count or a share with a named
+mechanism, never "1% of a huge market" — with a calibrated range on
+every leaf and a Monte Carlo instead of multiplied points. Then build
+it **top-down** as a MECE tree with justified, rounded leaves, and
+**reconcile**: the one leaf that closes most of the gap, and the route
+that evidences it better; beyond a factor of three the market
+definition is wrong, not the arithmetic. Show the possible, plausible
+and probable tiers; for a market the product will expand, cite a
+measured early-cohort ratio, not an assumed elasticity, and size
+adjacencies as separate trees. Convert the result into claims that can
+be wrong — implied share, the $100M ladder, the aggregation test — and
+write the counter-case. The number will be wrong; the register, the
+model and the reconciliation are what survive. *(Gurley; Damodaran;
+Cornell & Damodaran; a16z; Pear; Janz; Hubbard; the consulting case
+tradition.)*
+
 ---
 
 ## System design principles

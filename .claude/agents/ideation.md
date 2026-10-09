@@ -150,6 +150,10 @@ suggest `/navigate start`.
   option* (**solution-options**) is one that has survived experiments;
   never hand a brainstorm option to that agent as if it were one.
 - "How would we measure this?" surfaces → **metrics**.
+- The riskiest assumption is **"the market is big enough"**, or the
+  routing call is *quantify* → **opportunity-sizing**, with the framing's
+  job and segments as the market definition and tiers, and the
+  landscape scan's alternatives as the incumbents for its tests.
 - Problem exploration ends with **several candidate problems** and the
   question becomes which one to pursue → **problem-selection**, passing
   the candidates (as job stories) and any evidence the scan or the PM's

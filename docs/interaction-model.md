@@ -25,6 +25,9 @@ initiatives/<slug>/
 │   ├── interview-guide.md #   customer-interviews (prep)
 │   ├── notes/             #   your interview notes and transcripts
 │   ├── synthesis.md       #   customer-interviews (synthesis)
+│   ├── sizing.md          #   opportunity-sizing: one-page summary + assumptions register, both routes, tests
+│   ├── sizing.py          #   opportunity-sizing: the re-runnable Monte Carlo model (or a spreadsheet / Guesstimate link)
+│   ├── sizing-sources/    #   downloaded count and price tables
 │   └── odi/               #   the ODI pipeline (guides, statements, survey, data, analysis)
 ├── problems/              # Phase 2 — Problem Validation
 │   ├── problems.md        #   problem-selection: cases, ranking, learn list, archive
@@ -104,7 +107,7 @@ Three parts:
 | G1 | **Framed** | The problem or idea is written as a job story (no solution noun) | ideation · customer-interviews |
 | G2 | **Ledger seeded** | `ledger.md` names exactly one riskiest assumption and its cheapest test | ideation · customer-interviews |
 | G3 | **Problem evidenced** | A problem case carries verdict **Yes** (or synthesis says *persevere* with ≥ 2 evidence types) | problem-selection · customer-interviews |
-| G4 | **Gaps closed** | Knowledge-gap scorecard with no area below 3, evidence-cited | problem-selection |
+| G4 | **Gaps closed** | Knowledge-gap scorecard with no area below 3, evidence-cited; the business-impact area scores 4 or above only with a `discovery/sizing.md` whose load-bearing leaves are at least INFERRED | problem-selection (sizing by opportunity-sizing) |
 | G5 | **Promise written** | A value proposition statement from evidenced jobs, pains and gains | lean-experiments |
 | G6 | **Solution read out** | ≥ 1 experiment card with *Found out that* and a decision, against pass and kill lines written before the run | lean-experiments · experimentation |
 | G7 | **Option chosen** | An option card with status *chosen*, every field past its tell | solution-options |
@@ -148,6 +151,7 @@ never does an agent's work and never marks a gate itself.
 | A pile of tickets, feedback, or stakeholder asks | **problem-selection** (theme mode) | `problems/problems.md` |
 | Interview notes or transcripts | **customer-interviews** (synthesis) | `discovery/synthesis.md` |
 | A validated job and the question "which needs?" | **odi-interviewer** | `discovery/odi/` |
+| "How big is this market / opportunity?" — an investor asked for a TAM, or the gap scorecard's business-impact area is low | **opportunity-sizing** | `discovery/sizing.md` + `discovery/sizing.py` |
 | Survey data | **odi-data-scientist** | `discovery/odi/analysis/` |
 | A tested solution to write up | **solution-options** | `options/<title>.md` |
 | "What should we measure?" | **metrics** | `metrics/metric-tree.md` |

@@ -136,6 +136,11 @@ suggest `/navigate start`.
   with evidenced pains and gains is the problem paragraph's raw material.
 - The "how will we measure success" FAQ → the **metrics** agent for real
   definitions (NSM/input metrics, counter-metrics), not adjectives.
+- The "what's the TAM and how was it estimated" FAQ → cite
+  `discovery/sizing.md` from **opportunity-sizing** (both routes, the
+  reconciling leaf, the tier of the sizing); its weakest load-bearing
+  leaf is the FAQ's `[ASSUMPTION]`. A number with no register is
+  flagged, not pasted.
 - If the evidence base is thin upstream, say which agent fills the gap:
   problem unframed or only one solution considered → **ideation** (its
   assumption ledger seeds "what we'd need to believe"); several problems

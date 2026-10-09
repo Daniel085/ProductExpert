@@ -32,6 +32,8 @@ Or go straight to an agent — start from where you are:
 | "I have an idea — is the problem even real? Who has it?" | `customer-interviews` | Open-ended discovery: assumptions, guide, recruiting |
 | "I have interview notes/transcripts — what did we learn? What now?" | `customer-interviews` | Synthesis: patterns → insights → persevere/pivot |
 | "The job is validated — I need to map it and capture customer success metrics" | `odi-interviewer` | Job map + desired outcome statements |
+| "How big is this market?" / "an investor asked for our TAM" / "is this big enough to pursue?" | `opportunity-sizing` | TAM / SAM / SOM both ways: bottom-up from the ICP tiers, counts and a sourced price, with calibrated ranges and a Monte Carlo; top-down as a MECE tree; reconciled by the one leaf that closes the gap; the four falsifiability tests; register + model + one-page summary |
+| "Critique our TAM slide" / "is this sizing credible?" | `opportunity-sizing` (critique) | The anti-pattern checks (bare shares, pasted analyst figures, every-conceivable-customer, yesterday's market), the implied-share and aggregation tests, the weakest leaf rebuilt |
 | "I'm doing ongoing discovery with a partner / ISV / developer platform" | `odi-interviewer` | Multi-call mode, dual-job framing, developer question banks |
 | "I have 150 raw outcome statements — clean them up" | `odi-outcome-editor` | Validate, dedupe, level, coverage-check |
 | "Turn these curated outcomes into a survey" | `odi-survey-builder` | Importance × satisfaction instrument + fielding specs |

@@ -28,7 +28,7 @@ that backs the score. Scores are per problem, not per team.
 | 2 | **User behavior** | How do users address this need today? | We assume; no observed workaround | We've heard about workarounds; not seen them; frequency unknown | We have watched the current path (tools, workarounds, who, how often, what it costs them) and can name what would get fired |
 | 3 | **Competitive landscape** | Who else solves this, how, and what can we learn from them? | We haven't looked | A list of names; no teardown of how they solve it, what they charge, where they fall short | We know the alternatives (products *and* non-consumption), their approach, price band, and their users' complaints; we know whether our wedge is a product or a feature |
 | 4 | **Technical constraints** | What limits how we could solve it? | Nobody has asked engineering | A hunch about the hard parts; no spike, no data on integration, scale, compliance | Constraints verified (which are real, which are preferences); the hard part identified; a feasibility spike or an expert's read on it |
-| 5 | **Business impact** | Revenue opportunity and strategic alignment? | "It seems important"; no number, no stated goal | Aligned to a goal in words; size is an order-of-magnitude guess | A sized opportunity (customers × value × reachability) tied to a named goal metric, with the counter-case written |
+| 5 | **Business impact** | Revenue opportunity and strategic alignment? | "It seems important"; no number, no stated goal | Aligned to a goal in words; size is an order-of-magnitude guess | A sized opportunity — TAM / SAM / SOM built both ways and reconciled, with a register whose load-bearing leaves are at least INFERRED ([`../sizing/market-sizing.md`](../sizing/market-sizing.md)) — tied to a named goal metric, with the counter-case written |
 
 Rules for scoring:
 
@@ -61,7 +61,7 @@ them explicitly:
 | Low area | Move | Runs as |
 |----------|------|---------|
 | **Technical constraints** | A feasibility conversation or spike — engineering names the hard part and which constraints are real | The PM with engineering; classify each constraint per [`../jtbd/requirements-are-hypotheses.md`](../jtbd/requirements-are-hypotheses.md) (true constraint vs. preference); record in the ledger |
-| **Business impact** | Size it and tie it to a goal | **metrics** for the goal metric and its inputs, and for the value estimate — lever, primary metric, impact formula with sourced and tiered factors, the four oversights ([`../strategy/product-strategy.md` §3d](../strategy/product-strategy.md)); the problem case's alignment score; **prfaq**'s internal FAQ bank for the sizing and counter-case questions, answered early |
+| **Business impact** | Size it and tie it to a goal | **opportunity-sizing** for the market — TAM / SAM / SOM both ways, the register, the model and the counter-case ([`../sizing/market-sizing.md`](../sizing/market-sizing.md)); a 4 or 5 here requires a `discovery/sizing.md` whose load-bearing leaves are at least INFERRED. **metrics** for the goal metric and its inputs, and for the value of a change to a product with a baseline — lever, primary metric, impact formula with sourced and tiered factors, the four oversights ([`../strategy/product-strategy.md` §3d](../strategy/product-strategy.md)); the problem case's alignment score; **prfaq**'s internal FAQ bank for the sizing and counter-case questions, answered early |
 
 Decision rules *(repo extension)*:
 
@@ -82,7 +82,7 @@ Decision rules *(repo extension)*:
                        (why missing)          ── low ──> problem analysis (root cause)
   five-area scorecard  competitive landscape  ── low ──> competitive analysis (landscape teardown)
                        technical constraints  ── low ──> feasibility spike (engineering)
-                       business impact        ── low ──> metrics / sizing
+                       business impact        ── low ──> opportunity-sizing (the market) / metrics (a change)
                                               ── all ≥ 3 ──> SOLUTION VALIDATION (explore options)
 ```
 

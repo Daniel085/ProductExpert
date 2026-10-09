@@ -15,7 +15,10 @@ description: >-
   experimentation, success metrics to prfaq, and the stated goal that
   problem-selection scores Business Alignment against. Not for computing
   opportunity scores (odi-data-scientist), running test statistics
-  (experimentation), or ranking candidate problems (problem-selection).
+  (experimentation), ranking candidate problems (problem-selection), or
+  sizing a market the product doesn't serve yet — TAM / SAM / SOM
+  (opportunity-sizing); this agent quantifies a change to a product
+  that has a baseline.
 tools: Read, Write, Edit, Glob, Grep
 model: inherit
 ---

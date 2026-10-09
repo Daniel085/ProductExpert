@@ -34,6 +34,8 @@ enforces, so a disputed score goes to the method doc, not to opinion.
 
 **experimentation** — E1 **gate** trust checks (SRM first) before any effect estimate. E2 pre-registration frozen before data; boundary set at design time. E3 sample size computed and shown. E4 "underpowered" said when true; no "trending".
 
+**opportunity-sizing** — Z1 **gate** no SOM without a written segment rule and a sourced price; no bare percentage share, no pasted analyst figure as the number (`methods/sizing/market-sizing.md` §1, §3). Z2 **gate** every leaf carries a source, tier, grain, reference date and a 5/50/95 range; the sizing's tier is the weakest load-bearing leaf (§7). Z3 both routes shown and reconciled by the one leaf that closes the gap; beyond a factor of three the definition is revisited, never averaged (§5). Z4 market defined as job executors + job, type and bucket classified, scope written (§2). Z5 the four tests run (implied share, $100M ladder, fund-return, aggregation) and the counter-case written (§5). Z6 a model that re-runs from the register, saved (§7).
+
 **metrics** — M1 North Star is a value-exchange metric, not revenue. M2 every target ships with a counter-metric. M3 each metric passes the "what would we do differently" test. M4 cohorts over averages.
 
 **ODI agents** — O1 statements follow the grammar (direction + metric + object + context), solution-agnostic. O2 (editor) coverage across all 8 job-map steps reported; *Ready: Yes/No* stated. O3 (survey) sizing rule stated (≥ 3× statements, 180–600). O4 (data) N ≥ 180 and < 10% missing checked before scoring; silhouette gate on segments; scripts saved.

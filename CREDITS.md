@@ -161,6 +161,105 @@ the property of their authors and are included for reference and attribution.
 
 ---
 
+## Opportunity Sizing agent (opportunity-sizing)
+
+Grounded in a research pass over investor, analyst, consulting and
+founder practice (`reports/Market sizing expert methods.md`, with its
+notes under `research_notes/`). Pages preserved as PDFs with
+transcriptions under `methods/sizing/materials/` remain their authors'
+property.
+
+- **Bill Gurley** — *"How to Miss By a Mile: An Alternative Look at
+  Uber's Potential Market Size"*, Above the Crowd, 11 Jul 2014 — the
+  canonical bottom-up, market-expanding rebuild: "this cannot be
+  yesterday's market"; the San Francisco ratio; price elasticity and
+  local network effects; car-ownership substitution; the scenario math.
+- **Aswath Damodaran** (NYU Stern) — *Musings on Markets*: *"A
+  Disruptive Cab Ride to Riches: The Uber Payoff"* (Jun 2014),
+  *"Possible, Plausible and Probable: Big markets and Network effects"*
+  (Jul 2014), *"On the Uber Rollercoaster"* (Oct 2015), *"The Market is
+  Huge! Revisiting the Big Market Delusion"* (Dec 2019); the Uber
+  valuation deck (Sept 2015: the ladder of nested market definitions,
+  share by network-effect mechanism) and *"Insights on VC pricing:
+  lessons from Uber, WeWork and Peloton"* (Sept 2019: the possible /
+  plausible / probable test and overreach / expanded / constrained
+  TAM). **Bradford Cornell & Aswath Damodaran**, *"The Big Market
+  Delusion: Valuation and Investment Implications"*, *Financial
+  Analysts Journal* 76(2), 2020 (SSRN 2016) — the aggregation test;
+  paywalled, cited via the abstract.
+- **a16z** — *"16 More Startup Metrics"*, 23 Sep 2015 — "we like seeing
+  a bottoms-up analysis"; "why 40%?"; don't game the TAM.
+- **Pear VC** — *"Market Sizing Guide"*, 3 Aug 2021 — customers × ARPA;
+  top-down only to sanity-check; the 10–30% value-capture heuristic.
+- **Christoph Janz** (Point Nine) — *"Five ways to build a $100
+  million business"*, The Angel VC, 5 Oct 2014 — the elephants / deer /
+  rabbits / mice / flies ladder and its funnel multipliers.
+- **Jason Lemkin** (SaaStr) — the "believable path to $100M in seven
+  years" rule and "the market size number matters far less than how
+  you calculated it". Cited, not preserved.
+- **Sequoia Capital** — the business-plan template's "calculate the TAM
+  (top down), SAM (bottoms up) and SOM", the likely origin of the
+  show-both convention. Cited.
+- **StrategyCase** (a former McKinsey consultant) — *"Market Sizing
+  Questions: 25 Examples With Worked Answers"* (2023, updated 2026) —
+  the six-step routine, the structure menu, "round aggressively",
+  "never pull a number from thin air without a one-line
+  justification", the order-of-magnitude / 25% yardstick. **Barbara
+  Minto** — MECE (see the Segmentation section).
+- **Stanford Byers Center for Biodesign** — *"Top-Down and Bottom-Up
+  Market Sizing Example"* (Biodesign guide, 2022) — divergence between
+  the routes as a healthy reality check.
+- **Lightspeed Venture Partners** (Sebastian Duesterhoeft) — *"A Total
+  Addressable Market (TAM) Masterclass"* — analyst reports as a red
+  flag; ratio benchmarks; the fund-return test.
+- **Jared Sleeper** (Matrix Partners) — *"Calculating TAM"*,
+  forEntrepreneurs (**David Skok**) — top-down, bottom-up and "value
+  theory".
+- **Steve Blank** — *"Market Definition — It's the Front End of
+  Customer Discovery"* (4 Nov 2021, with **Tony Ulwick**'s market
+  definition) and *"Death By Revenue Plan"* (16 Feb 2010) — market as
+  job executors + job; the four market types and the revenue curve.
+- **Douglas W. Hubbard** — *How to Measure Anything* (Wiley, 2007 /
+  2010 / 2014) — calibrated 90% intervals, the equivalent bet, the Rule
+  of Five, Monte Carlo, measurement inversion; cited via public
+  summaries. **Craig R. M. McKenzie, Michael J. Liersch & Ilan Yaniv**
+  (*Organizational Behavior and Human Decision Processes*, 2008) —
+  overprecision of judgmental intervals. **Donald G. MacGregor & J.
+  Scott Armstrong** (1994) — when judgmental decomposition helps.
+  **Lawrence Weinstein & John A. Adam** — *Guesstimation* (Princeton,
+  2008). **Philip Tetlock & Dan Gardner** — *Superforecasting* (2015):
+  outside view first, small updates, name what would change your mind.
+- **Frank M. Bass** — *"A New Product Growth for Model Consumer
+  Durables"*, *Management Science* 15(5), 1969; **Vijay Mahajan, Eitan
+  Muller & Frank M. Bass** (*Marketing Science*, 1995) — the diffusion
+  model and the p ≈ 0.03, q ≈ 0.38 defaults. Cited.
+- **Madhavan Ramanujam & Georg Tacke** — *Monetizing Innovation*
+  (Wiley, 2016) — willingness to pay early. **Peter van Westendorp**
+  (price sensitivity meter, 1976) and **André Gabor & Clive Granger**
+  (1966) — the two price-research methods as commonly described. Cited.
+- **Ozzie Gooen** — Guesstimate and Squiggle (Monte Carlo tools), cited.
+- **Uber Technologies** — Form S-1 (Apr 2019) and FY2023–FY2025 results;
+  **Ben Thompson** (Stratechery) on the S-1's TAM; **New Constructs**
+  on Snowflake's implied share. Cited, not preserved.
+- Investors quoted in the research report via TechCrunch and their own
+  sites — **Jahanvi Sardana** (Index), **Aydin Senkut** (Felicis),
+  **Deena Shakir** (Lux), **Jomayra Herrera** (Reach), **Rotem Shacham**
+  (PSG), **Alex Iskold**, **Octopus Ventures**, **Underscore VC**,
+  **Dreamit**, **Pegasus**' **Reichert** — cited, not preserved.
+- Official statistical agencies — **US Census Bureau** (SUSB, CBP,
+  Nonemployer Statistics, Economic Census, ACS), **US Bureau of Labor
+  Statistics** (OEWS), **Eurostat** (SBS), **ONS**, **Statistics
+  Canada**, **OECD**, **World Bank**; **SEC EDGAR** XBRL APIs.
+- The definitions-by-exclusion table, the market-type consequences,
+  the five-step bottom-up build, the reconciliation tolerance, the
+  "simplest PM version" of Bass, the register, model and summary
+  templates, the B2B example, the plug-in table and the anti-pattern
+  checks are **this repo's operational extension**, marked as such in
+  the method doc; the research report records which rules are
+  published standards and which are syntheses.
+
+---
+
 ## Shared method — Segmentation (`methods/jtbd/`)
 
 - **Product Institute** (founded by **Melissa Perri**) — *Product

@@ -17,7 +17,8 @@ description: >-
   constraints, business impact) and routes the lowest area to its move:
   customer interviews, root-cause problem analysis (5 Whys, fishbone,
   interrelationship — run here), competitive teardown (ideation),
-  feasibility spike, or sizing (metrics). Trigger on: which problem first,
+  feasibility spike, or sizing (opportunity-sizing for the market, metrics
+  for a change to a product that has a baseline). Trigger on: which problem first,
   prioritize problems / pain points / feedback, is this problem worth
   solving, problem statement, evidence table, triangulate the evidence,
   affinity map / theme these tickets, customer signal, business
@@ -201,8 +202,13 @@ suggest `/navigate start`.
   *why* missing → root-cause mode here; competitive landscape low →
   **ideation**'s landscape scan at teardown depth; technical constraints
   low → the PM and engineering (feasibility spike; constraints
-  classified real vs. preferred); business impact low → **metrics** for
-  the goal metric, **prfaq**'s sizing questions answered early.
+  classified real vs. preferred); business impact low →
+  **opportunity-sizing** for the market (TAM / SAM / SOM both ways,
+  register and model — the area scores 4 or above only with
+  `discovery/sizing.md` whose load-bearing leaves are at least
+  INFERRED), **metrics** for the goal metric and for the value of a
+  change to a product with a baseline, **prfaq**'s sizing questions
+  answered early.
 - **Yes** → **prfaq**: the job story is the problem paragraph; the evidence
   table is the "how do you know" answer. If the next question is *which
   needs within this job* → **odi-interviewer** with the job as the market
