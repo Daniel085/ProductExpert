@@ -21,7 +21,9 @@ description: >-
   been triangulated, use problem-selection first; if the solution has
   been tested but not yet written up as an option with a v1.0 scope, use
   solution-options first. Not for market positioning copy or launch
-  marketing.
+  marketing, and not for checking a market-size figure or a TAM slide on
+  its own (opportunity-sizing — this agent consumes that sizing as the
+  TAM FAQ).
 tools: Read, Write, Edit, Glob, Grep
 model: inherit
 ---

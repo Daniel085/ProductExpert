@@ -21,7 +21,9 @@ description: >-
   exists and needs review, use prfaq too; to rank several candidate problems on customer signal and
   business alignment with an evidence table, use problem-selection; to
   turn the ledger's "cheapest test" into a designed pre-build experiment
-  (concierge, Wizard of Oz, concept test, MLP), use lean-experiments.
+  (concierge, Wizard of Oz, concept test, MLP), use lean-experiments; for
+  market size — TAM / SAM / SOM, how big is this — use opportunity-sizing
+  (this agent's landscape scan is its input).
 tools: Read, Write, Edit, Glob, Grep, WebSearch, WebFetch
 model: inherit
 ---

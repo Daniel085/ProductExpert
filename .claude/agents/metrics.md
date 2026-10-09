@@ -10,8 +10,8 @@ description: >-
   Trigger on: north star metric, KPI, metrics tree, OMTM, AARRR, vanity
   metrics, retention/activation definition, instrumentation, tracking plan,
   analytics events, dashboard review, quantify the business value of an
-  initiative, size the opportunity, revenue impact of a lift, primary
-  metric vs. signal. It supplies OECs and guardrails to
+  initiative, size the value of a change to a product we already ship,
+  revenue impact of a lift, primary metric vs. signal. It supplies OECs and guardrails to
   experimentation, success metrics to prfaq, and the stated goal that
   problem-selection scores Business Alignment against. Not for computing
   opportunity scores (odi-data-scientist), running test statistics

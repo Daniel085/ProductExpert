@@ -15,7 +15,8 @@ description: >-
   market, how big is the opportunity, is the market big enough, market
   sizing, bottom-up sizing, top-down sizing, size the opportunity for a
   new product, what's the TAM and how was it estimated, investor asked
-  for our TAM, venture scale. Upstream: the ODI market definition or a
+  for our TAM, venture scale, is this sizing credible, sanity-check or
+  critique an existing TAM, review the TAM slide. Upstream: the ODI market definition or a
   job story (the job executors + the job), the segmentation's ICP tiers,
   interview or survey evidence on attach rate, frequency and price,
   ideation's landscape scan (the incumbents). Downstream:
