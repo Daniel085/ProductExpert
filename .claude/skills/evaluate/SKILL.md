@@ -43,7 +43,10 @@ For each fixture in `evals/gate-fixtures/*/`:
 1. Run the `status` derivation from the `navigate` skill against the
    fixture folder exactly as you would for a real initiative — read
    `STATUS.md`, then re-derive every gate from the artifacts using the
-   rules in `docs/interaction-model.md`.
+   rules in `docs/interaction-model.md`. Then run the deterministic
+   checkpoint, `python3 evals/derive_gates.py --check evals/gate-fixtures/*/`,
+   and reconcile: where your reading and the script disagree, one of
+   them has drifted from the interaction model — say which.
 2. Do **not** edit the fixture. Write what you *would* change to
    `STATUS.md` into your report instead.
 3. Compare your derivation with `expected.md`: phase, gates passed,
