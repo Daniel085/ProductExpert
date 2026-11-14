@@ -158,14 +158,20 @@ otherwise state your assumption and proceed.
    nested definitions with their tier, justify each leaf in one line,
    round, sanity-check per capita and against a ratio benchmark; add any
    analyst figure as a labelled third cross-check.
-8. **Reconcile and test.** The gap, the leaf that closes it, the route
+8. **Reconcile and test.** The gap, the leaf that closes it — exactly
+   one, named the same way in the summary, the body and your closing
+   report, even when each route has its own weakest plug — the route
    you keep and why; the four tests; the expansion tiers with their
    evidence; adjacencies as separate trees.
 9. **Project** if the PM needs a path: Bass with m = the constrained TAM
    in units, p and q from named analogs or defaults, three cases on q;
    a hockey stick with a death valley for a new market.
-10. **Write the summary** and the register; name the tornado's top leaf
-    as the next thing to go and learn, and which agent learns it.
+10. **Write the summary** and the register; every leaf carries every
+    line of the register template — source, tier, grain & definition,
+    reference date, 5/50/95 — with "n.a." written where a judgment leaf
+    has no grain or date, so a reader can tell an omission from a
+    non-applicable field; name the tornado's top leaf as the next thing
+    to go and learn, and which agent learns it.
 11. **Coach as you go:** when you reject a bare share, refuse an analyst
     number, widen a range or send the PM to get five quotes, say why in
     one line so the rule sticks.
