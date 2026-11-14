@@ -8,7 +8,9 @@ description: >-
   or to list all initiatives. Invoke as /navigate start | status [slug] |
   next [slug] | list. Trigger on: where am I, what's next, which agent,
   start a new initiative, status of <initiative>, what have we validated,
-  are we ready for solutions, list initiatives.
+  are we ready for solutions (answered from the gates; writing the
+  knowledge-gap scorecard that closes G4 is problem-selection's job),
+  list initiatives.
 ---
 
 # /navigate
