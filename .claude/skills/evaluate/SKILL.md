@@ -3,7 +3,7 @@ name: evaluate
 description: >-
   Runs ProductExpert's evaluation suite: routing (does a PM request land
   on the right agent and mode — 30 cases), gates (does /navigate status
-  derive phase, gates, blocker and discrepancies correctly from three
+  derive phase, gates, blocker and discrepancies correctly from four
   fixture initiatives), and output (does an agent's artifact meet the
   rubric and honour its gate). Invoke as /evaluate routing | gates |
   output <agent> <fixture> | all. Trigger on: run the evals, test the
@@ -20,21 +20,27 @@ product. Read `evals/README.md` first.
 
 ## `routing`
 
-For each row in `evals/routing-cases.md`:
+The cases are split so the judge can read blind: inputs in
+`evals/routing-inputs.md`, answers in `evals/routing-expected.md`.
 
-1. Read the input exactly as written. Read every agent's `description`
-   in `.claude/agents/*.md` (and the `navigate` skill's).
-2. Decide, from the descriptions alone, which agent you would delegate
-   this to and in which mode — the way auto-delegation would. Do not
-   peek at the expected column first.
-3. Compare. A pass is the expected agent (or a listed alternate) *and*
-   the expected mode.
+1. Read every agent's `description` in `.claude/agents/*.md` (and the
+   `navigate` skill's). Then read `evals/routing-inputs.md` and, for
+   every row, decide from the descriptions alone which agent you would
+   delegate this to and in which mode — the way auto-delegation would.
+   Write all 30 decisions down **before** step 2. Do not open
+   `routing-expected.md` until they are written.
+2. Open `evals/routing-expected.md` and compare. A pass is the expected
+   agent (or a listed alternate) *and* the expected mode.
+3. Run it as a fresh subagent when you can: the judge should hold only
+   the descriptions and the inputs, not this conversation's history of
+   editing them.
 
 Report a table (case · chosen · expected · pass/fail · the description
 phrase that decided it), the score out of 30, and for each fail the
 **description fix** you'd propose — the phrase to add to, or remove
 from, an agent's description. Never propose editing the case unless the
-case contradicts a method doc; say so if it does.
+case contradicts a method doc; say so if it does. When a case is added,
+add it to both files under the same number.
 
 ## `gates`
 
@@ -63,7 +69,9 @@ goes unflagged is a fail.
    against a **copy** of the fixture in your scratch space — never the
    fixture itself — with an objective appropriate to the fixture's
    blocker (e.g. lean-experiments on `b-problem-validated`: write the
-   value proposition and the Wizard-of-Oz card the ledger names).
+   value proposition and the Wizard-of-Oz card the ledger names;
+   opportunity-sizing on `d-sizing-needed`: size the small-team market
+   both ways from the ICP tiers and the price quotes in the ledger).
 2. Invoke the agent with the Agent tool and the brief.
 3. Judge the result against `evals/output-rubric.md`: the universal rows
    and the agent's rows, each 0 / 0.5 / 1, citing the artifact line or
