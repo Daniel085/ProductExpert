@@ -11,8 +11,8 @@ Run with `/evaluate` (`.claude/skills/evaluate/SKILL.md`):
 
 | Command | What it checks | Cases |
 |---------|----------------|-------|
-| `/evaluate routing` | That a PM's request lands on the right agent and mode | [`routing-cases.md`](./routing-cases.md) — 30 inputs with expected agent, mode, and accepted alternates |
-| `/evaluate gates` | That `/navigate status` derives phase, gates and blocker correctly from artifacts, and flags status-file claims the artifacts don't back | [`gate-fixtures/`](./gate-fixtures/) — three initiative folders, each with `expected.md`; [`derive_gates.py`](./derive_gates.py) is the deterministic checkpoint the model's reading is reconciled against |
+| `/evaluate routing` | That a PM's request lands on the right agent and mode | [`routing-inputs.md`](./routing-inputs.md) — 30 inputs as a PM would type them; [`routing-expected.md`](./routing-expected.md) — the expected agent, mode and accepted alternates, kept in a separate file so the judge decides before it sees the answers |
+| `/evaluate gates` | That `/navigate status` derives phase, gates and blocker correctly from artifacts, and flags status-file claims the artifacts don't back | [`gate-fixtures/`](./gate-fixtures/) — four initiative folders, each with `expected.md`; [`derive_gates.py`](./derive_gates.py) is the deterministic checkpoint the model's reading is reconciled against |
 | `/evaluate output <agent> <fixture>` | That an agent's artifact meets the output rubric and the agent honoured its gate | [`output-rubric.md`](./output-rubric.md), run against a fixture input |
 | `/evaluate all` | All three, summarized | |
 
@@ -46,8 +46,10 @@ Run with `/evaluate` (`.claude/skills/evaluate/SKILL.md`):
 
 ## Adding cases
 
-- Routing: one row — input as a PM would type it, expected agent, mode,
-  alternates, and the reason (which description phrase should catch it).
+- Routing: one row in each file under the same number — the input as a
+  PM would type it in `routing-inputs.md`; the expected agent, mode,
+  alternates and the reason (which description phrase should catch it)
+  in `routing-expected.md`.
 - Gates: copy a fixture, change the artifacts, write `expected.md`.
 - Output: add a rubric row only if it maps to a rule in a method doc;
   cite the doc.
