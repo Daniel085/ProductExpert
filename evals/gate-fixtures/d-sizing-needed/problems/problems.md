@@ -25,7 +25,7 @@ Customer Signal: pain 4. Business Alignment: 3 — breadth is the business crite
 | Tier | Rule | Evidence |
 |------|------|----------|
 | T1 — monthly importers | small teams that import structured data at least monthly after setup | 5 of 9 interviewees; frequency unconfirmed by usage data (A2) |
-| T2 — setup-only importers | small teams that import once at setup and never again | 3 of 9 interviewees |
+| T2 — setup-only and occasional importers | small teams that import at setup and then less than monthly, including never again | 3 of 9 interviewees said once at setup; the "every report cycle" answers in T1 may belong here if the cycle is quarterly (A2) |
 | Out of scope | companies under 10 or over 249 employees; regulated sub-industries needing SOC 2 before trial | capability clause: no SOC 2 on the self-serve plan |
 
 ## Ranking
