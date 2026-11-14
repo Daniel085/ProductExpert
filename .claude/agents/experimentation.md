@@ -107,4 +107,10 @@ suggest `/navigate start`.
   ramp is designed here, with the option's success metrics as OEC
   candidates.
 - A validated belief flows back to the PR/FAQ or roadmap decision it was
-  testing — restate which decision the result now supports.
+  testing — restate which decision the result now supports. When the PM
+  asks what the lift is *worth*, hand the measured effect and its
+  interval to **metrics** for the value estimate
+  (`methods/strategy/product-strategy.md` §3d: lift × share touched ×
+  baseline value × horizon, discounted for side effects, decay, vanity
+  and attribution) — the readout supplies the lift as CONFIRMED; it
+  does not invent the revenue number.

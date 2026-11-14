@@ -1,0 +1,124 @@
+SOURCE: Brooke Carter, "How Product Managers Can Effectively Quantify
+Business Impact", Built In (Expert Contributors · Product Management ·
+Product Analytics), 8 January 2021
+(https://builtin.com/product/quantify-business-impact), printed
+2026-09-29. Transcribed from the PDF alongside; site navigation and
+footer removed. All rights remain with the author and Built In.
+
+----------------------------------------------------------------------
+
+How Product Managers Can
+Effectively Quantify Business
+Impact
+Ways product managers can calculate and communicate business impact internally to
+deliver on real business growth.
+Written by Brooke Carter
+Published on Jan. 08, 2021
+Delivering business growth is what product managers strive to achieve — that’s likely why
+you’re reading this article. And while measurement is key to quantifying success,
+communicating results in terms of revenue impact should be the ultimate goal. This ensures
+that growth teams can demonstrate wins, gain internal support, and increase team resources.
+Communicating results clearly starts when planning experiments and requires a critical eye on
+data throughout the process. Beginning with definitions of experiment metrics helps you
+understand what you need to achieve, recognize when results may not tell the whole story, and
+clearly tie data to business impact.
+ 
+Choosing Your Growth Metrics
+Understanding the impact of growth experiments is critical for organizations, but can be
+challenging to align on internally. In some cases, this leads to retroactively defining
+experiment goals to fit the desired narrative. To ensure team cohesion in growth strategies and
+achieve impactful experiments, planning must begin with choosing the right growth metrics.
+It’s important first to understand the nuanced differences between common measurement
+terms. These are some terms that are too often used interchangeably — and how to better
+distinguish between them.
+North Star: What do we need to achieve as an organization or team? An example:
+increasing lifetime value (LTV).
+ 
+OKR: What is the objective and what is the key result that you want to achieve this
+quarter or year? For instance, increasing paid conversion by 10 percent.
+ 
+Goal: What do you want your users to do? Perhaps it’s to convert users from a free to a
+paid product.
+ 
+Signal: What are the user actions that indicate that your goal has been met? This could be
+visits to the pricing page.
+ 
+Primary Metric: How can you capture data about those signals? Such as transaction
+data (payments received).
+ 
+Hypothesis: What is your expected change? Like a new feature that will improve the
+value proposition and increase upgrade rates.
+ 
+Support Data: What data supports your belief that you will achieve the desired change?
+Consider beta user feedback on a new feature.
+It can be easy to confuse signals, primary metrics, and north star metrics — I know I did early
+in my career.
+Having one — at most two — primary metrics helps to stay laser focused on desired results and
+make decisions faster. Primary metrics are how an experiment’s success is ultimately judged,
+such as upgrade rates and paid product retention. In comparison, a signal can tell you
+something about your end users’ behavior, but it may not change your decision on whether to
+implement a new feature. Signals may include click-through rates, the aggregate number of
+users, or visitors to a page. These tell you something about how your audience engages with
+the brand but don’t necessarily mean there is actual business impact.
+Meanwhile, north star metrics are critical for team-wide alignment, pointing everyone in the
+same direction for maximum impact and resource prioritization. Consider north stars as team-
+wide success goals, while primary metrics are specific to features or experiments.
+For example, imagine Company A has one product with several plan types. When Company A
+digs into data, they notice their monthly plan had higher upgrade rates, but the annual plan
+had a higher LTV. What this tells them is that not all plan types are the same. Company A
+could easily decide whether they care more about prioritizing monthly or annual plans with a
+north star metric.
+ 
+Validate Metrics Through Measurement
+Data is abundant these days, and there are many ways to retrieve it. You might consider A/B
+tests, transactional data, or performance data. By setting growth metrics first, you should have
+an understanding of what you need to test. Choose the best measurement approach based on
+your defined performance indicators.
+Unfortunately, there are times when measurement won’t work — at least not immediately. For
+example, if your goal is to increase annual subscriptions, you need to wait an entire year to
+determine whether the experiment was successful. In these situations, consider leveraging
+qualitative data gathered through customer interviews or surveys.
+ 
+Clearly Communicating Impact
+Once you’ve set growth metrics and executed the experiments, it’s time to quantify the impact.
+After I finish an experiment, I quantify the impact of the results to best communicate them to
+my team.
+Let’s look at a simple example: a product that is a one-time purchase with no recurring
+payments (not a subscription product). Let’s say you just ran an A/B test and achieved a
+statistically significant 20 percent increase in day-one upgrade rates for users on desktop.
+What does that actually mean in terms of the actual revenue impact?
+The important factors to consider are the percentage of revenue from day-one upgrades on
+desktop, last year’s annual revenue, and the annual growth rate. Once you have these
+numbers, you can calculate the relative impact of this experiment and its overall impact on
+revenue. In this example, it would be a simple calculation using this formula:
+= 20% (experimental lift) X % of revenue from day-one desktop upgrades X last year’s
+annual revenue X annual growth rate.
+When measuring your impact, it’s important to watch out for these common oversights:
+1. Ignoring Side Effects: My product usage increased, but I’m cannibalizing another
+product.
+ 
+2. Short-Term vs. Long-Term: Upgrade rates improved but then went back to the
+same/lower levels.
+ 
+3. Vanity Metrics: More users are clicking, but there is no change in upgrade rates.
+ 
+4. Attribution: This change drove X increase in retention, but we also made three other
+changes at the same time.
+ 
+Moving From Experiment to Productization
+One rarely sees the expected impact match the actual impact — with growth experiments, two
+plus two often equals three, not four. There are several reasons why this is the case.
+Take the novelty effect. Data will show a short-term lift with a new feature upon rollout, but
+consumer novelty will shrink. This will degrade experiment results over time.
+Additionally, you are not trying to optimize a static world. You are creating a new experience
+for a customer that is changing their behavior. This means that your experiments and how you
+measure the same impacts will need to evolve to keep up.
+Another possibility is that a user’s behavior may have only been shifted earlier in the life cycle.
+For example, an experiment may have gotten a user to upgrade in their first week instead of
+their first month. This means that the impact may be a smaller lift than originally anticipated.
+It is important to track cohorts over time to understand if this might be happening.
+All of this may seem like an awful lot of planning and caveats, but in the end, establishing your
+metrics and being mindful when interpreting your data can make all the difference in
+delivering real business growth. In my experience as a product manager, following these steps
+helps you ensure that you’re not just able to hit your goals — but to communicate what they
+indicate for your organization’s roadmap in a meaningful way.

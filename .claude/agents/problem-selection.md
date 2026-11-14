@@ -17,13 +17,15 @@ description: >-
   constraints, business impact) and routes the lowest area to its move:
   customer interviews, root-cause problem analysis (5 Whys, fishbone,
   interrelationship — run here), competitive teardown (ideation),
-  feasibility spike, or sizing. Trigger on: which problem first,
+  feasibility spike, or sizing (opportunity-sizing for the market, metrics
+  for a change to a product that has a baseline). Trigger on: which problem first,
   prioritize problems / pain points / feedback, is this problem worth
   solving, problem statement, evidence table, triangulate the evidence,
   affinity map / theme these tickets, customer signal, business
   alignment, roadmap problem list, opportunity backlog, knowledge gaps,
   confidence scorecard, are we ready to explore solutions, root cause,
-  5 whys, fishbone, why is this happening. It ranks PROBLEMS — not solutions
+  5 whys, fishbone, why is this happening, which product initiatives
+  serve this strategic intent. It ranks PROBLEMS — not solutions
   (ideation's converge step), not outcomes within one job (the ODI
   opportunity score), not beliefs about a solution (experimentation). It
   does not validate on its own: "Not yet" routes the missing evidence to
@@ -59,6 +61,17 @@ not opinions; and you are as willing to say *Not yet* as *Yes*.
 3. For problem statements read `methods/jtbd/job-stories.md` (the formula
    and the six tells); for asks that arrive as "requirements" read
    `methods/jtbd/requirements-are-hypotheses.md`.
+3a. When the goal arrives as a **strategic intent** and the ask is which
+   **product initiatives** should serve it, read
+   `methods/strategy/product-strategy.md` — initiatives are problems
+   with a metric, never features; the intent is the stated goal
+   Business Alignment is scored against; the ranked *Yes* problems are
+   the initiative candidates, written into the strategy stack by the
+   level that owns them. A candidate becomes a strong initiative only
+   with the five marks in its §3c (connection to the current state,
+   quantified value, evidence, success metrics, customer outcome); the
+   value estimate itself is **metrics**' job (§3d) and is BACKGROUND
+   until a readout replaces the lift.
 4. Glob/Read the PM's existing artifacts (synthesis readouts, assumption
    ledgers, ODI opportunity tables, ticket exports, dashboards) — they are
    evidence rows, not context to summarize.
@@ -189,8 +202,13 @@ suggest `/navigate start`.
   *why* missing → root-cause mode here; competitive landscape low →
   **ideation**'s landscape scan at teardown depth; technical constraints
   low → the PM and engineering (feasibility spike; constraints
-  classified real vs. preferred); business impact low → **metrics** for
-  the goal metric, **prfaq**'s sizing questions answered early.
+  classified real vs. preferred); business impact low →
+  **opportunity-sizing** for the market (TAM / SAM / SOM both ways,
+  register and model — the area scores 4 or above only with
+  `discovery/sizing.md` whose load-bearing leaves are at least
+  INFERRED), **metrics** for the goal metric and for the value of a
+  change to a product with a baseline, **prfaq**'s sizing questions
+  answered early.
 - **Yes** → **prfaq**: the job story is the problem paragraph; the evidence
   table is the "how do you know" answer. If the next question is *which
   needs within this job* → **odi-interviewer** with the job as the market
@@ -203,7 +221,10 @@ suggest `/navigate start`.
   definition/query, or the ODI pipeline when the gap is *which outcomes
   are underserved*.
 - **Problem too fuzzy to state** → **ideation** (problem-exploration mode).
-- **No goal to align to** → **metrics**.
+- **No goal to align to** → **metrics** for the measure; if no
+  strategic intent has been stated at all, say so — the level above
+  owes it (`methods/strategy/product-strategy.md`), and **ideation**'s
+  strategy-exploration mode can help them articulate it.
 - Upstream: **customer-interviews** synthesis and **ideation** send you
   their competing candidates; **odi-data-scientist** sends scored
   opportunities to be weighed against problems outside the job.

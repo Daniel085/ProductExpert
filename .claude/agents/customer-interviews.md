@@ -91,7 +91,11 @@ riskiest thing that must be true. Then produce:
    **problem-selection**'s knowledge-gap scorecard sent you, its low
    areas (problem definition, user behavior) are the learning goal and
    its scores are what synthesis must move.
-3. **Target segment(s)** — 1–3 archetypes and a short screener.
+3. **Target segment(s)** — 1–3 archetypes and a short screener, per
+   `methods/jtbd/segmentation.md`: each archetype defined by behaviour or
+   need, described by attributes that discriminate, MECE, and checked
+   against the scope (an attribute that defines the population is not a
+   cut); the screener asks for both.
 4. **Interview guide** — warm-up/framing, topic flow, 8–12 open-ended
    past-behavior questions, and probes. A guide, not a script.
 5. **Recruiting & outreach** — where to find people, plus a short, low-pressure

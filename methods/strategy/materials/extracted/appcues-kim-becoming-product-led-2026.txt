@@ -1,0 +1,401 @@
+SOURCE: Jonathan Kim, "Becoming product-led: How to connect product
+decisions to revenue", Appcues blog (Lifecycle Marketing · Metrics &
+Benchmarks · Customer Journeys), 28 May 2026, printed 2026-09-29.
+Transcribed from the PDF alongside; the page's title block, which the
+print placed after the body, is restored to the top; site navigation
+and newsletter block removed. Vendor content: the closing sections
+describe Appcues's own product. All rights remain with the author and
+Appcues.
+
+----------------------------------------------------------------------
+
+LIFECYCLE MARKETING
+Becoming product-led: How to
+connect product decisions to revenue
+JONATHAN KIM MAY 28, 2026 METRICS & BENCHMARKS CUSTOMER JOURNEYS
+IN THIS ARTICLE
+What Is SaaS Revenue Growth (and Why
+It's Different from Other Business Models)
+The Rule of 40: Benchmarking Growth
+Against Profitability
+SaaS Revenue Models and Pricing
+Structures
+Key SaaS Revenue Growth Metrics and
+KPIs
+The Four Core Levers of SaaS Revenue
+Growth
+Lever 1 — Acquiring New Customers
+Efficiently
+Lever 2 — Expanding Revenue from
+Existing Customers
+Lever 3 — Reducing Churn to Protect
+Revenue
+Lever 4 — Optimizing Pricing for Revenue
+Growth
+Go-to-Market Spend Optimization:
+Growing Revenue Efficiently
+Building a Cross-Functional SaaS Growth
+Engine
+Connecting Product Decisions to Revenue
+Outcomes
+How Appcues Helps SaaS Teams Drive
+Revenue Growth Through Better Product
+Experiences
+Conclusion: Building a SaaS Revenue
+Growth Engine That Compounds
+
+The pressure on SaaS companies has never been more pointed. Investors and boards want growth — but
+they also want efﬁciency. The era of "grow at any cost" is over, and the companies that thrived on that
+playbook are now scrambling to prove they can scale without burning through cash.
+Here's the thing: SaaS revenue growth is not a single lever. It's a system. Pull only one lever — say,
+aggressive new customer acquisition — and you'll ﬁnd yourself on a treadmill, constantly replacing
+churned revenue instead of compounding it. The companies that scale fastest and most durably are the
+ones that treat growth as an interconnected set of decisions spanning product, pricing, sales, and retention.
+This guide walks through the frameworks, metrics, models, and cross-functional strategies that build a
+compounding SaaS growth engine — one that gets more efﬁcient over time, not less.
+What Is SaaS Revenue Growth
+(and Why It's Different from
+Other Business Models)SaaS revenue growth is the rate at which a company increases its recurring subscription income over time.
+That word — recurring — is what makes it fundamentally different from transactional business models.
+In a one-time transaction model, every sale starts from zero. In SaaS, revenue compounds. A customer
+who signed up two years ago is still generating revenue today. That means small improvements in
+retention or pricing don't just affect this quarter — they affect every quarter that follows.
+The ﬂip side is equally true. Churn silently erodes gains made through acquisition. A company adding
+100 new customers a month while losing 80 isn't growing — it's treading water. The math of SaaS means
+that the quality of revenue matters as much as the quantity.
+This compounding dynamic is why a systems-level view is essential. You can't optimize acquisition in
+isolation from retention. You can't set pricing without thinking about expansion. Every decision ripples
+forward through the revenue model in ways that aren't always visible in the short term.
+The Rule of 40: Benchmarking
+Growth Against ProfitabilityThe Rule of 40 is the industry-standard framework for evaluating whether a SaaS company is growing
+sustainably. The concept is straightforward: add your revenue growth rate (as a percentage) to your proﬁt
+margin (as a percentage). If the combined score is 40 or above, the company is considered healthy. Top-
+performing SaaS companies consistently score above 40.
+For example, a company growing at 50% annually with a -10% proﬁt margin scores 40. A company
+growing at 20% with a 25% margin also scores 45. Both are healthy — just in different ways.
+The Rule of 40 matters because it forces a productive tension between growth speed and ﬁnancial
+discipline. It's not enough to grow fast. It's not enough to be proﬁtable. The question is whether the
+combination of both is sustainable.
+Why High Growth Alone Is No
+Longer Enough
+The SaaS market has shifted decisively away from rewarding top-line growth at the expense of
+proﬁtability. Companies that ignored margins in favor of aggressive expansion have faced signiﬁcant
+valuation compression as market conditions tightened.
+The Rule of 40 captures this shift. It's not a reporting metric you calculate once a year — it's a guiding
+constraint that should inform every major resource allocation decision. When your score drops below 40,
+something in the system is out of balance, and the framework helps you identify whether the problem is on
+the growth side or the efﬁciency side.
+How to Use the Rule of 40 to Guide
+Investment Decisions
+A Rule of 40 score above 40 gives leadership conﬁdence to invest more aggressively in growth — hiring,
+product development, go-to-market expansion. A score below 40 signals the need to tighten operational
+efﬁciency before adding more fuel.
+This benchmark is particularly useful when prioritizing between competing investments. Should you hire
+more sales reps or invest in product-led growth infrastructure? Should you expand into a new market or
+improve retention in your existing base? The Rule of 40 provides a ﬁnancial anchor for those
+conversations.
+SaaS Revenue Models and
+Pricing StructuresBefore you can optimize growth, you need the right monetization foundation. The wrong pricing structure
+creates a ceiling on revenue — no matter how good your product or how efﬁcient your go-to-market
+motion.
+The major SaaS revenue models each carry different growth implications. Pricing is not a one-time
+decision. It's an ongoing lever that should evolve as the product matures and the customer base grows.
+Flat-Rate vs. Usage-Based vs. Tiered
+Pricing
+Flat-rate pricing is simple — one price, one product, everyone pays the same. It's easy to sell and easy to
+understand, but it leaves money on the table from high-value customers and creates friction for smaller
+ones.
+Usage-based pricing aligns cost with value delivered. Customers pay more as they use more, which
+creates a natural expansion motion. The tradeoff is less predictable ARR and more complex forecasting.
+Tiered pricing is the most common structure in SaaS — different plans at different price points, typically
+differentiated by features, seats, or usage limits. Done well, tiered pricing drives both acquisition (lower
+entry tiers) and expansion (upgrade paths to higher tiers).
+The right model depends on your product's value metric — the unit of value that scales with customer
+success. As companies grow, many shift from ﬂat-rate to tiered or usage-based models speciﬁcally to
+unlock expansion revenue.
+Designing Pricing for Expansion
+Revenue
+The best pricing architectures are designed to grow revenue per customer over time. That means building
+in natural expansion paths — through seat additions, usage thresholds, or feature-gated upgrades — that
+align with how customers actually get more value from the product.
+The principle here is alignment: as customers get more value, the company earns more. When pricing is
+misaligned with value delivery, customers feel overcharged at low usage and under-monetized at high
+usage. Getting this right is one of the highest-leverage moves available to a SaaS company.
+Key SaaS Revenue Growth
+Metrics and KPIsYou cannot manage what you do not measure. The metrics below form the measurement layer that sits
+beneath every growth strategy — without them, teams are making decisions based on intuition rather than
+signal. Understanding how these SaaS growth metrics connect to each other is as important as tracking
+them individually.
+ARR, MRR, and Net Revenue
+Retention
+Annual Recurring Revenue (ARR) and Monthly Recurring Revenue (MRR) are the foundational
+measures of SaaS revenue scale. ARR tells you the annualized value of your subscription base; MRR
+gives you a monthly pulse.
+Net Revenue Retention (NRR) is the single most important indicator of growth quality. NRR measures
+the percentage of revenue retained from existing customers over a period, including expansion revenue
+from upsells and cross-sells, minus contraction and churn.
+An NRR above 100% means your existing customer base is growing on its own — even without adding a
+single new customer. This dramatically reduces dependence on new acquisition and is the hallmark of a
+truly compounding growth engine.
+Customer Acquisition Cost and
+LTV:CAC Ratio
+Customer Acquisition Cost (CAC) is the total cost to acquire a new customer — including marketing
+spend, sales salaries, and overhead. Lifetime Value (LTV) is the total revenue that customer generates
+over their relationship with the company.
+The LTV:CAC ratio measures go-to-market efﬁciency. A healthy ratio means the company is generating
+signiﬁcantly more revenue from customers than it costs to acquire them. This ratio should improve over
+time as the company scales — if it's deteriorating, the go-to-market motion is becoming less efﬁcient, not
+more.
+Churn Rate and Revenue Churn vs.
+Logo Churn
+Logo churn counts the number of accounts lost. Revenue churn measures the dollar value lost. These
+two numbers tell very different stories.
+A company can lose many small customers while still growing revenue if it retains its largest accounts.
+Conversely, losing a handful of enterprise customers can devastate revenue even if logo churn looks low.
+For most SaaS businesses, revenue churn is the more operationally meaningful metric — it's the one
+that actually affects ARR.
+Product-Led Growth Metrics: PQLs
+and Time-to-Value
+In product-led growth models, traditional MQL and SQL frameworks don't tell the full story. Product-
+Qualiﬁed Leads (PQLs) — users who have demonstrated buying intent through their product behavior —
+replace or supplement marketing-qualiﬁed leads as the primary signal for sales outreach.
+Time-to-value measures how quickly a new user reaches the moment where they experience the product's
+core value. Reducing time-to-value directly accelerates conversion rates and reduces early churn. It's one
+of the most actionable metrics a product team can optimize.
+The Four Core Levers of SaaS
+Revenue GrowthMost SaaS companies over-invest in one growth lever — usually new customer acquisition — while
+underinvesting in the others. The result is a leaky bucket: impressive top-of-funnel numbers that don't
+translate into durable revenue growth.
+The highest-efﬁciency growth comes from optimizing all four levers in proportion:
+1. Acquiring new customers
+2. Expanding revenue from existing customers
+3. Reducing churn
+4. Optimizing pricing
+Each lever is distinct, but they're deeply interconnected. Better onboarding reduces churn and accelerates
+expansion. Smarter pricing improves both acquisition conversion and expansion revenue. The goal is a
+system where each lever reinforces the others.
+Lever 1 — Acquiring New
+Customers EfficientlyNew customer acquisition is the most visible growth lever — and the most expensive. Efﬁciency matters
+as much as volume. The question isn't just how many new logos you're adding, but whether those
+customers are the right ﬁt. Poor-ﬁt customers churn faster, generate less expansion revenue, and cost more
+to support.
+Lead Qualification and Sales
+Efficiency
+Rigorous lead qualiﬁcation improves revenue growth by concentrating sales resources on prospects most
+likely to convert, retain, and expand. The shift from MQL-driven to PQL-driven qualiﬁcation models is
+signiﬁcant here — product usage signals can identify high-intent prospects before a sales conversation
+even begins.
+When a prospect has already activated key features during a free trial, they're a fundamentally different
+conversation than a cold inbound lead. Improving pipeline quality reduces CAC and increases win rates
+simultaneously — a compounding efﬁciency gain.
+Aligning Marketing and Product for
+Top-of-Funnel Growth
+Product-led acquisition strategies — free trials, freemium tiers, and self-serve onboarding — can
+dramatically expand the top of the funnel without proportionally increasing sales headcount. The product
+does the selling.
+For this motion to work, marketing and product teams must align on the ideal customer proﬁle and the
+activation milestones that signal a user is ready to convert. When those two functions are misaligned, you
+get high trial sign-up rates and low activation — a common and expensive problem.
+Lever 2 — Expanding Revenue
+from Existing CustomersExpansion revenue — upsells, cross-sells, and seat additions from existing customers — is the highest-
+margin growth lever available to a SaaS company. The acquisition cost has already been paid. Every dollar
+of expansion revenue ﬂows through at a dramatically better margin than new customer revenue.
+Companies with strong expansion motions can achieve NRR above 120%, meaning they grow revenue
+even during periods of ﬂat new customer acquisition. That's the power of a well-designed expansion
+engine.
+Upsell and Cross-Sell Strategies That
+Work
+Upsell and cross-sell motions are most effective when customers have already achieved meaningful value
+from the core product. Trying to expand before a customer has activated is counterproductive — it feels
+pushy and often backﬁres.
+The right triggers are value milestones: a user who has completed a key workﬂow, a team that has hit a
+usage threshold, an account that has grown its seat count organically. In-app prompts, usage-based
+triggers, and customer success touchpoints can surface expansion opportunities at exactly the right
+moment. Timing is everything.
+Using Product Data to Identify
+Expansion Opportunities
+Behavioral data from within the product — feature adoption rates, usage frequency, team size growth —
+serves as a leading indicator of expansion readiness. Customers who are deeply engaged with the product
+are far more likely to respond positively to an expansion conversation.
+Product and revenue teams can build a shared dashboard of expansion signals to prioritize outreach and in-
+app messaging. When both teams are looking at the same data, expansion becomes a coordinated motion
+rather than a reactive one.
+Lever 3 — Reducing Churn to
+Protect RevenueChurn is the silent killer of SaaS revenue growth. Every dollar lost to churn must be replaced before the
+company can show net growth. And because of the compounding nature of SaaS revenue, churn doesn't
+just cost you this month's revenue — it costs you every future month that customer would have paid.
+Reducing customer churn is often the highest-ROI investment a SaaS company can make. Retaining a
+customer costs far less than acquiring a new one.
+Understanding Why Customers Churn
+The most common root causes of SaaS churn are predictable: poor onboarding, failure to reach activation,
+lack of ongoing engagement, competitive displacement, and budget cuts. Most churn is not a surprise —
+it's the result of signals that went unnoticed or unaddressed.
+The companies that win at retention are the ones that invest in understanding what precedes cancellation.
+When you know the warning signs, you can intervene before a customer reaches the decision to leave.
+Onboarding as a Churn Prevention
+Strategy
+The onboarding experience is the single most important determinant of long-term retention. Customers
+who fail to activate rarely recover. They don't give the product a second chance — they quietly disengage
+and eventually cancel.
+A well-designed onboarding ﬂow reduces time-to-value, increases feature adoption, and builds the habits
+that make a product sticky. In-product guidance and interactive walkthroughs are particularly effective
+here — they meet users where they are, in the moment they need help, without requiring them to leave the
+product to ﬁnd answers.
+Proactive Retention: Health Scores and
+Early Intervention
+Customer health scores — built from product usage data, support ticket frequency, NPS responses, and
+engagement signals — allow customer success teams to identify at-risk accounts before they churn. This is
+the difference between proactive and reactive retention.
+Proactive outreach, re-engagement campaigns, and in-app interventions can recover accounts that would
+otherwise be lost. The key is acting on health score signals early enough that there's still something to
+save. By the time a customer submits a cancellation request, the window for intervention has usually
+closed.
+Reducing Involuntary Churn Through
+Billing and Payment Optimization
+Not all churn is voluntary. A meaningful percentage of SaaS churn is caused by failed payments, expired
+cards, and billing errors — customers who didn't intend to leave but got churned out by a broken payment
+process.
+Tactics for reducing involuntary churn include dunning email sequences, in-app payment update prompts,
+and proactive card expiration reminders. This is low-hanging fruit that many SaaS companies leave on the
+table. Fixing it doesn't require product investment — it requires process investment.
+Lever 4 — Optimizing Pricing
+for Revenue GrowthPricing optimization is the most underleveraged growth lever in SaaS. Most companies set prices once and
+rarely revisit them — even as their product matures, their customer base evolves, and their competitive
+position strengthens.
+Even modest improvements in pricing — better packaging, value metric alignment, or willingness-to-pay
+research — can have an immediate and compounding effect on ARR without requiring additional
+customers or headcount. It's pure margin improvement.
+Running Pricing Experiments Without
+Alienating Customers
+Pricing changes carry real risk if handled poorly. The way to manage that risk is through cohort analysis,
+customer interviews, and A/B testing — validating changes before rolling them out broadly.
+Grandfathering existing customers and communicating value clearly are the two most important tactics for
+reducing backlash during pricing updates. Customers who feel respected during a price change are far
+more likely to stay than customers who feel blindsided.
+Go-to-Market Spend
+Optimization: Growing
+Revenue EfficientlyRevenue growth is only valuable if the cost of generating it is sustainable. Go-to-market efﬁciency is one
+of the most important levers for improving your Rule of 40 score — and one of the most commonly
+neglected.
+Identifying Your Most Efficient
+Growth Channels
+The mistake most SaaS companies make is evaluating acquisition channels by volume alone. The right
+evaluation looks at downstream metrics: retention rate, expansion revenue, and LTV for customers
+acquired through each channel.
+This analysis often reveals that the highest-volume channels are not the most efﬁcient. A channel that
+drives high sign-up volume but poor activation and high churn is a money pit. Concentrating spend on
+high-LTV channels improves both growth rate and proﬁtability simultaneously.
+Product-Led Growth as a GTM
+Efficiency Strategy
+Product-led growth reduces CAC by letting the product itself drive acquisition, activation, and expansion.
+Instead of relying on expensive outbound sales motions, PLG companies use the product as the primary
+vehicle for demonstrating value and converting users.
+PLG is not just a product strategy — it's a go-to-market efﬁciency play. It directly improves the LTV:CAC
+ratio and contributes to a stronger Rule of 40 score. Companies that execute PLG well can scale revenue
+without scaling headcount at the same rate, which is the deﬁnition of efﬁcient growth.
+Building a Cross-Functional
+SaaS Growth EngineSustainable SaaS revenue growth is not the responsibility of any single team. It requires aligned execution
+across product, marketing, sales, and customer success. Siloed teams create gaps in the customer journey
+that leak revenue at every stage — from acquisition through expansion.
+Aligning Product and Revenue Teams
+Around Shared Metrics
+The most effective way to align product and revenue teams is through shared KPIs — activation rate,
+feature adoption, and NRR — that connect product decisions to revenue outcomes.
+When product teams can see the downstream revenue impact of their decisions, they make better
+prioritization choices. A feature that improves activation by 10% is a revenue investment, not just a UX
+improvement. Shared metrics make that connection explicit.
+The Role of Customer Success in
+Revenue Growth
+Customer success is not a cost center. It's a revenue function — responsible for retention, expansion, and
+the advocacy that drives referral growth.
+CS teams should be structured around revenue metrics like NRR and expansion ARR, not purely
+satisfaction metrics. When CS is measured on revenue outcomes, their work connects directly to the churn
+reduction and expansion levers that drive compounding growth.
+Creating a Revenue Operations
+Function
+Revenue Operations serves as the connective tissue between sales, marketing, and customer success. A
+RevOps function ensures that data, processes, and incentives are aligned across the full customer lifecycle.
+Done well, RevOps identiﬁes revenue leakage, improves forecasting accuracy, and accelerates the
+feedback loops between go-to-market execution and product development. It's the infrastructure layer that
+makes cross-functional alignment possible at scale.
+Connecting Product Decisions
+to Revenue OutcomesOne of the most powerful — and most underutilized — growth levers in SaaS is the direct connection
+between product experience and revenue performance. Product decisions around onboarding, feature
+adoption, and in-app engagement have measurable downstream effects on activation rates, expansion
+revenue, and churn.
+Companies that treat the product as a revenue channel — not just a delivery mechanism — consistently
+outperform those that don't. The in-app revenue opportunity is real, and most SaaS companies are leaving
+it on the table.
+How Feature Adoption Drives
+Expansion and Retention
+Customers who adopt more features of a product are signiﬁcantly less likely to churn and signiﬁcantly
+more likely to expand. Deeper product engagement creates switching costs, builds habits, and
+demonstrates ongoing value — all of which reinforce the customer's decision to stay and grow.
+Tracking product adoption metrics at the cohort level reveals which product experiences correlate with
+long-term retention and revenue growth. This data should inform both product roadmap decisions and
+customer success playbooks — it's the bridge between product and revenue.
+In-App Engagement as a Revenue
+Signal
+In-app engagement metrics — session frequency, feature usage depth, workﬂow completion rates — serve
+as leading indicators of revenue health. When these metrics are strong, retention and expansion tend to
+follow. When they decline, churn often follows weeks or months later.
+That lag is actually an opportunity. Declining in-app engagement gives teams a window to intervene
+before a customer reaches the cancellation decision. The companies that monitor these signals and act on
+them proactively are the ones that consistently outperform on customer retention metrics.
+How Appcues Helps SaaS
+Teams Drive Revenue Growth
+Through Better Product
+ExperiencesAppcues sits at the intersection of product experience and revenue growth. It gives SaaS teams the tools to
+turn their product into an active driver of acquisition, activation, expansion, and retention — not a passive
+delivery mechanism.
+This isn't a UX tool. It's revenue infrastructure that connects product decisions to measurable business
+outcomes.
+Accelerating Activation with Guided
+Onboarding
+Appcues enables product and growth teams to build personalized onboarding ﬂows, checklists, and
+s
+Appcues enables product and growth teams to build personalized onboarding ﬂows, checklists, and
+interactive walkthroughs without engineering resources. The result is a faster path to value for new users
+— and faster activation directly reduces early churn while improving the LTV of every customer acquired.
+When users reach their activation milestone faster, they're more likely to convert from trial to paid, more
+likely to stick around past the ﬁrst 30 days, and more likely to expand over time. Onboarding is not a nice-
+to-have — it's a revenue investment.
+Driving Feature Adoption to Unlock
+Expansion Revenue
+Appcues in-app messaging, tooltips, and feature announcements surface the right features to the right
+users at the right moment. This increases adoption depth and creates the conditions for natural upsell and
+expansion conversations.
+Teams can use Appcues to run targeted campaigns that move users from basic to advanced usage tiers —
+turning passive users into power users, and power users into expansion revenue. The free-to-paid
+conversion motion becomes far more systematic when you can deliver the right message at the right
+moment in the product.
+Using Appcues Analytics to Connect
+Product Behavior to Revenue
+Appcues provides behavioral analytics that allow teams to see exactly which in-app experiences correlate
+with activation, retention, and expansion. This closes the loop between product investment and revenue
+outcomes.
+When product and revenue teams share this data layer, they make faster and more conﬁdent decisions
+about where to invest in the product experience. The guesswork gets replaced by signal.
+Reducing Churn with Proactive In-
+App Interventions
+Appcues can be used to identify disengaged users and deliver targeted re-engagement experiences —
+tutorials, check-ins, or feature spotlights — before those users reach the churn decision.
+This proactive approach to user retention is more scalable than manual customer success outreach and
+more effective than reactive win-back campaigns. You're meeting users where they are, in the product,
+with exactly the help they need — before they've decided to leave.
+Conclusion: Building a SaaS
+Revenue Growth Engine That
+CompoundsSaaS revenue growth is not a single tactic. It's a system of four interconnected levers — acquisition,
+expansion, retention, and pricing — that must be optimized together and measured against a benchmark
+like the Rule of 40.
+The companies that scale most efﬁciently are those that align product, go-to-market, and customer success
+functions around shared revenue metrics. They treat the product experience as a revenue channel, not an
+afterthought. They invest in retention as aggressively as acquisition. And they revisit pricing as the
+product and market evolve.
+Get these systems right, and growth compounds. Each improvement in activation makes retention easier.
+Each improvement in retention makes expansion more likely. Each expansion dollar reduces the pressure
+on new acquisition. That's the ﬂywheel — and it's worth building deliberately.
+Ready to Connect Your Product to
+Revenue Growth?
+See how Appcues helps SaaS teams accelerate activation, reduce churn, and unlock expansion revenue
+through better in-product experiences. Take the tour!

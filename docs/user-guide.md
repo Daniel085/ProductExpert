@@ -32,6 +32,8 @@ Or go straight to an agent — start from where you are:
 | "I have an idea — is the problem even real? Who has it?" | `customer-interviews` | Open-ended discovery: assumptions, guide, recruiting |
 | "I have interview notes/transcripts — what did we learn? What now?" | `customer-interviews` | Synthesis: patterns → insights → persevere/pivot |
 | "The job is validated — I need to map it and capture customer success metrics" | `odi-interviewer` | Job map + desired outcome statements |
+| "How big is this market?" / "an investor asked for our TAM" / "is this big enough to pursue?" | `opportunity-sizing` | TAM / SAM / SOM both ways: bottom-up from the ICP tiers, counts and a sourced price, with calibrated ranges and a Monte Carlo; top-down as a MECE tree; reconciled by the one leaf that closes the gap; the four falsifiability tests; register + model + one-page summary |
+| "Critique our TAM slide" / "is this sizing credible?" | `opportunity-sizing` (critique) | The anti-pattern checks (bare shares, pasted analyst figures, every-conceivable-customer, yesterday's market), the implied-share and aggregation tests, the weakest leaf rebuilt |
 | "I'm doing ongoing discovery with a partner / ISV / developer platform" | `odi-interviewer` | Multi-call mode, dual-job framing, developer question banks |
 | "I have 150 raw outcome statements — clean them up" | `odi-outcome-editor` | Validate, dedupe, level, coverage-check |
 | "Turn these curated outcomes into a survey" | `odi-survey-builder` | Importance × satisfaction instrument + fielding specs |
@@ -43,7 +45,11 @@ Or go straight to an agent — start from where you are:
 | "Why is this happening?" / "find the root cause" | `problem-selection` | 5 Whys, fishbone or interrelationship digraph, every why evidenced or marked a guess |
 | "Write/review the one-pager for this product idea" | `prfaq` | Working Backwards PR/FAQ, draft or critique |
 | "How do we test this before we build it?" / "concierge or Wizard of Oz?" | `lean-experiments` | Experiment card: family, trying-to-prove, Expected / Would-disprove |
-| "Run this initiative as a kata" / "what's our current condition?" | `lean-experiments` | Product Kata record: direction → target → obstacle → step → learned |
+| "Run this initiative as a kata" / "what's our current condition?" | `lean-experiments` | Product Kata record: direction → target → obstacle → step → learned; the five coaching questions with the reflection on the last step |
+| "Where does this initiative fit our strategy?" / "no one has told us the direction" | `lean-experiments` (kata step 1) | The direction ladder — vision → intent → initiative; an unstated direction is the first obstacle, owed by the level above |
+| "Leadership set an intent — which product initiatives should serve it?" | `problem-selection` | Initiatives are problems with metrics; ranked on Business Alignment against the intent |
+| "Stress-test our strategy / this strategic intent / this big bet" | `ideation` | Strategy exploration against the six tests and the three gaps (`methods/strategy/product-strategy.md`) |
+| "Review our product strategy memo" | `prfaq` (critique) | The 2–3 page memo — vision · current state (six areas, gaps noted) · initiatives as problems with metrics — read against the strategy method's tests; its sections come from `metrics`, `problem-selection`, `ideation`'s scan and the segmentation method |
 | "Write / check our value proposition" | `lean-experiments` | Functional + emotional jobs → statement; Strategyzer canvas from evidence |
 | "The CEO / a customer wants feature X — should we build it?" | `lean-experiments` | Breakdown: observation → eight questions → assumption chain → riskiest link → its test |
 | "Let's ship an MVP" / "is this an MVP or a v1?" | `lean-experiments` | MVP card: learning goal, why not a cheaper test, optimizing-for and its one measure |
@@ -52,6 +58,7 @@ Or go straight to an agent — start from where you are:
 | "What goes in v1.0? What can we postpone?" | `solution-options` | Minimum feature set: feature classes, cost of delay ÷ duration, deferred list with costs |
 | "Design this A/B test properly" / "test results are in — ship it?" | `experimentation` | Pre-registration, or trust-checked readout + decision |
 | "What should our north star / KPIs be?" / "audit our dashboard" | `metrics` | Metric tree, OMTM, vanity audit, tracking plan |
+| "Quantify the business value of this initiative" / "what's a 10% activation lift worth?" | `metrics` | The value estimate: lever, primary metric vs. signal, impact formula with sourced and tiered factors, discounted for side effects, decay, vanity and attribution (`methods/strategy/product-strategy.md` §3d) |
 | "We've been handed a requirements list / stakeholder asks" | `customer-interviews` | De-requirements it: reclassify each ask, trace to problems, then discover |
 
 Rules of thumb:

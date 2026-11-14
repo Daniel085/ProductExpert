@@ -1,0 +1,73 @@
+SOURCE: Steve Blank, "Death By Revenue Plan", steveblank.com, 16 February 2010
+(https://steveblank.com/2010/02/16/death-by-revenue-plan/), printed 2026-10-09. Transcribed from the web page
+alongside; site navigation, share widgets and comments removed by marker, so a stray line may remain. All rights remain with the author.
+
+----------------------------------------------------------------------
+
+Death By Revenue Plan
+Posted on February 16, 2010 by steve blank
+
+In my last post I described what happened when a company prematurely scales sales and marketing before adequately testing its hypotheses in Customer Discovery.  You would think that would be enough to get wrong, but entrepreneurs and investors compound this problem by assuming that all startups grow and scale by executing the Revenue Plan.
+
+They don’t.
+
+The Appendix of your business plan has one of the leading cause of death of startups: the financial spreadsheets you attached as your Income Statement, Balance Sheets and Cash Flow Statements.
+
+Reality Meets the Plan
+I got to see this first hand as an observer at a board meeting I wish I could have skipped.
+
+We were at the board meeting of company building a radically new type of communication hardware. The company was going through some tough times. It had taken the company almost twice as long as planned to get their product out the door. But that wasn’t what the heat being generated at this board meeting was about. All discussion focused on “missing the revenue plan.”
+
+Spread out in front of everyone around the conference table were the latest Income Statement, Balance Sheets and Cash Flow Statements. The VC’s were very concerned that the revenue the financial plan called for wasn’t being delivered by the sales team. They were also looking at the Cash Flow Statement and expressed their concern (i.e. raised their voices in a annoyed investor tone) that the headcount and its attendant burn rate combined with the lack of revenue meant the company would run out of money much sooner than anyone planned.
+
+Lets Try to Make the World Match Our Spreadsheet
+The VC’s concluded that the company needed to change direction and act aggressively to increase revenue so the company could “make the plan.”  They told the CEO (who was the technical founder) that the sales team should focus on “other markets.” Another VC added that engineering should redesign the product to meet the price and performance of current users in an adjacent market.
+
+The founder was doing his best to try to explain that his vision today was the same as when he pitched the company to the VC’s and when they funded the company. He said, “I told you it was going to take it least five years for the underlying industry infrastructure to mature, and that we had to convince OEMs to design in our product. All this takes time.” But the VC’s kept coming back to the lack of adoption of the product, the floundering sales force, the burn rate – and “the plan.”
+
+Given the tongue-lashing the VC’s were giving the CEO and the VP of Sales, you would have thought that selling the product was something any high-school kid could have done.
+
+What went wrong?
+
+Revenue Plan Needs to Match Market Type
+What went wrong was that the founder had built a product for a New Market and the VC’s allowed him to execute, hire and burn cash like he was in an Existing Market.
+
+The failure of this company’s strategy happened almost the day the company was funded.
+
+Make the VC’s Happy – Tell Them It’s a Big Market
+There’s a common refrain that VC’s want to invest in large markets >$500Million and see companies that can generate $100M/year in revenue by year five. Enough entrepreneurs have heard this mantra that they put together their revenue plan working backwards from this goal. This may actually work if you’re in an existing market where customers understand what the product does and how to compare it with products that currently exist. The company I observed had in fact hired a VP of Sales from a competitor and staffed their sales and marketing team with people from an existing market.
+
+Inconsistent Expectations
+The VC’s had assumed that the revenue plan for this new product would look like a straight linear growth line. They expected that sales should be growing incrementally each month and quarter.
+
+Why did the VC’s make this assumption? Because the company’s initial revenue plan (the spreadsheet the founders attached to the business plan) said so.
+
+What Market Type Are We?
+Had the company been in an Existing Market, this would have been a reasonable expectation.
+
+Existing Market Revenue Curve
+
+But no one (founders, management, investors) bothered to really dig deep into whether that sales and marketing strategy matched the technical founder’s vision or implementation.  Because that’s not what the founders had built.  They had designed something much, much better  – and much worse.
+
+The New Market
+The founders had actually built a new class of communication hardware, something the industry had never seen before.  It was going to be the right product – someday – but right now it was not the mainstream.
+
+This meant that their revenue plan had been a fantasy from day one. There was no chance their revenue was going to grow like the nice straight line of an existing market.  More than likely the revenue projection would resemble the hockey stick like the graph on the right.
+
+New Market Revenue Curve
+
+(The small hump in year 1 is from the early adopters who buy one of anything. The flat part of the graph, years 1 to 4 is the Death Valley many companies never leave.)
+
+Companies in New Markets who hire and execute like they’re in an Existing Market burn through their cash and go out of business.
+
+Inexperienced Founders and Investors
+I realized I was watching the consequences of Catch 22 of fundraising. Most experienced investors would have understood new markets take time, money and patience. This board had relatively young partners who hadn’t quite grasped the consequences of what they had funded and had allowed the founder to execute a revenue plan that couldn’t be met.
+
+Six months later the VC’s were still at the board table but the founder was not.
+
+Lessons Learned
+
+Customers don’t read your revenue plan.
+Market Type matters. It affects timing of revenue, timing of spending to create demand, etc.
+Make sure your revenue and spending plan matches your Market Type.
+Make sure the founders and VC’s agree on Market Type strategy.

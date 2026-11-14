@@ -1,0 +1,163 @@
+SOURCE: Steve Blank, "Market Definition — It's the Front End of Customer Discovery", steveblank.com, 4 November 2021
+(https://steveblank.com/2021/11/04/market-definition-its-the-front-end-of-customer-discovery/), printed 2026-10-09. Transcribed from the web page
+alongside; site navigation, share widgets and comments removed by marker, so a stray line may remain. All rights remain with the author.
+
+----------------------------------------------------------------------
+
+Market Definition Canvas make the Lean Startup methodology even better by finding and defining a market up front. Here’s their description of why and how.
+
+Problem – Lean Doesn’t Have a Market Definition Step
+The Lean Startup methodology asks innovators to interview potential customers within their “market” to discover the customer’s unmet needs and establish a product/market fit. Given the number of interviews to get meaningful data, this can take months.
+
+As innovators deepen their understanding of the customer, they may pivot their product concept, target a different vertical, demographic, or customer activity, or incorporate a different technology into their solution.
+
+Some innovators define markets around a product, e.g. the vacuum cleaner market or the espresso maker market. Others define markets around verticals, e.g. the financial services market or the healthcare market. Or defined around demographics (the people over 45 market), technologies (the brain sensor market), customer activities (the fitness market), and product portfolios (the heavy equipment market).
+
+Here’s the consequence: Depending on how founders originally define their market, making one or more of these changes can inadvertently alter the original market definition, which in turn changes the “market” they are targeting and invalidates the customer needs they have captured.
+
+This creates a recursive process in which the team is simultaneously iterating on the market definition, customer needs, and the value proposition, with no logical way to exit. This circular loop can cause them to churn, pivot, and fail.
+
+Startups would have a greater chance of success if founders could avoid iterating the market they are targeting while at the same time trying to establish product/market fit.
+
+In most cases, innovators don’t create markets; they create products to serve markets. Thus, the market must be defined and validated in the innovation equation before moving to needs discovery and product definition.
+
+What’s Missing?
+What missing is a process for defining a market that reduces uncertainty, reduces iteration in the effort to establish a product/market fit, and aligns the team around the business objectives and the results.
+
+We’ve spent a good number of years asking ourselves what constitutes the “perfect” market definition. What we have concluded is that a market should be defined in such a way that…
+
+The market definition becomes a constant in the product/market fit equation, not a variable. It does not change as the study of that market unfolds.
+It is stable over time. It does not go away when different solutions or technologies come along, thus making it a valid long-term focal point for value creation.
+It is unique from any other market, making it distinguishable and unambiguous.
+It does not assume a product or a solution. Rather, it is defined in problem space.
+It indicates who the targets are for value creation—making it clear which group of people to focus on.
+It makes the discovery of customer needs quicker, more effective, and less costly.
+It reveals all sources of competition, making disruption and other surprises less likely.
+It is relevant to and aligns the entire organization, e.g., sales, marketing, development, etc.
+
+Given this set of characteristics, how should a market be defined?
+
+How should a market be defined?
+It’s worth remembering that people buy products and services to get a “job” done. A job is defined as a task people are trying to accomplish, a goal or objective they are trying to achieve, a problem they are trying to resolve, something they are trying to avoid, or anything else they are trying to accomplish. More about Jobs-to-be-Done Theory here.
+
+When looking at a market through the Jobs-to-be-Done lens, a market is best defined as: a group of people and the job they are trying to get done.
+
+For example, parents (a group of people) who are trying to “pass on life lessons to children” (a job-to-be-done) constitute a market. As do surgeons (a group of people) who are trying to “repair a torn rotator cuff” (a job-to-be-done), or clinicians (a group of people) who are trying to “diagnose the cause of a patient’s sleep disorder” (a job-to-be-done).
+
+When defining markets with a jobs-to-be-done lens, thousands of unique markets exist. They are stable over time, focus on what people are trying to accomplish rather than solutions, offer a focal point for analysis, and form a foundation for deeply understanding customer needs. Learn about needs through this lens here.
+
+Because the market is defined using “Jobs-to-be-Done” before engaging in the first step of the Lean Startup methodology, the defined market will not change as customer discovery and validation of that market unfolds. This cuts back on the number of iterations and pivots.
+
+Big idea – Even New and Disruptive Markets can all be viewed as “Jobs-to-be-Done”
+How does “Jobs-to-be-Done” work in new and disruptive markets? For example, people often talk about the cryptocurrency market as a new market, but is it really? It depends how you define “market.”
+
+If you choose to define a market around a new product or a new technology, then, by definition, the “cryptocurrency market” would be considered new. But if you define the same market through a jobs-to-be-done lens, the story is very different, as consumers (a group of people) have for centuries been trying to intermediate the storage and exchange of value over time (the job-to-be-done).
+
+When looking through a jobs-to-be-done lens, cryptocurrency is simply a new offering in a pre-existing market. Similarly, Uber, Netflix, electronic evidence discovery, cloud computing, smartphones, online learning, Airbnb, Spotify, Google Maps and many other products considered disruptions are in fact new offerings in pre-existing markets.
+
+Why does this matter? When conducting needs discovery, potential customers struggle to articulate needs for a product that does not yet exist. But when you ask them about their job-to-be-done, customers can state with precision their needs associated with getting the job done better, making needs discovery faster and more effective.
+
+To help you define your market through this lens, we have created the Jobs-to-be-Done Market Definition Canvas. We want to make this canvas available to everyone who has embraced the Lean Startup methodology and want to take it to the next level.
+
+Instructions for using the canvas are included below, and the canvas can be downloaded here.
+
+THE JOBS-TO-BE-DONE MARKET DEFINITION CANVAS
+
+If you can’t see the canvas click here.
+
+The Jobs-to-be-Done Market Definition Canvas is designed to help you define the market you are in or have chosen to serve as [a group of people] + [the job they are trying to get done].
+
+The Market Definition Canvas works for both B2C and B2B applications. While it is optimized to define single-sided markets, it can be used twice to define both sides of a double-sided market. For component manufacturers who sell to OEMs or who are at the top of a long distribution chain, a canvas can be completed for each constituent in the distribution chain, including the end-user, as each constituent has its own unique job to get done.
+
+See this webinar with Tony Ulwick to learn more about this canvas.
+
+8 steps to define Jobs to Be Done
+1. Start with a traditional market definition
+
+What is the product/service/idea you seek to innovate?
+The exercise starts with something you’re familiar with—a product focus. We ask, “What is the product, service, or idea you’re looking to innovate around?” We use this as the grounding point, as the subsequent steps will help transition you from a product view to a jobs-to-be-done view of your market.
+
+2. Job executor determination
+
+Who’s using the product to get a job done?
+
+The focus on “jobs to be done” begins with this step. Ask, who’s using your product (or who would use your product once released) to get a job done? The goal is to reveal the diverse set of potential product users. So, list all the categories of people who use or would use the product to extract its value. Keep in mind; we are focused here on the job executors. Do not list out influencers, economic buyers, people who support the product throughout its lifecycle, or other customer types, just job executors.
+
+For example, Bosch used this approach when trying to enter the North American circular saw market (yes, they began with a product-based market definition in mind). They concluded that finish carpenters, framers, roofers, general contractors, electricians, and plumbers use circular saws. Notice they did not use the formal job titles of the job executors; instead, they listed the categories of people who use circular saws.
+
+3. Abstracted job executor
+
+What overarching term can classify all the categories of people using the product to get a job done?
+
+Next, define the one overarching term that can be used to classify or describe all people using, or potentially using, your product these people as a single group. Remember, we are defining a market as a group of people + the job-to-be-done. When defining the group of people, try not to use an actual job title. Instead, look for an all-inclusive term that encapsulates all job executors, usually a higher-level, generic term.
+
+The Bosch team, for example, abstracted roofers, framers, plumbers, finish carpenters, etc., into a higher-level category using the term “tradespeople.” In other words, the “group of people” using circular saws was conveniently referred to as tradespeople.
+
+For consumer product goods, the job executors are often referred to simply as “consumers.”
+
+4. Job executor
+
+The group of people (job executor) is defined as:
+
+You may have come up with more than one way to describe the “group of people.” Choose a label that fits all types of people using the product, service, or idea you have in mind. For example, you may choose the term surgeons over cardiac surgeons, or tradespeople over tradesmen to be more inclusive. Other examples include educators over teachers, accountants over tax preparers, or consumers over adults.
+
+It is important to define the “group of people” before defining the job-to-be-done, as you will be interviewing representatives of the group to determine, from them alone, the way they define the job they are trying to get done.
+
+5. Function of the product
+
+What “job” does the product/service/idea you want to innovate help the job executor accomplish?
+
+Products don’t have jobs-to-be-done; people do. But to uncover the targeted group’s job-to-be-done, it is often helpful to start by understanding what function/job the product you have in mind performs.
+
+Work with your product team, or preferably use customer discovery to go directly to the “group” of people (defined in step 4) and ask: What does/will the product or service we have in mind help you accomplish from a functional perspective? Collect and cull the responses into a single statement according to this formula:
+
+The product will help the group of people [verb] + [object of the verb] + [contextual clarifier (optional)].
+
+For example, a kettle may be used to “heat + water + to the desired temperature,” or a dental drill may be used to “contour + the shape + of a tooth.”
+
+Keep in mind; this isn’t the customer’s job-to-be-done—it’s the function or the job that the product gets done, which is often only part of the job the customer is trying to get done. For example, while people may use a kettle to “heat water to the desired temperature,” the overall job they are trying to get done may be to “prepare a hot beverage for consumption.”
+
+The goal of the market definition canvas is to help innovators uncover the job-to-be-done as perceived by the customer, not the product developer.
+
+6. Other products used and their functions
+
+What other products do people use in conjunction with the product?
+What “job” does each of the other products get done?
+To get a feel for the entire job your customer is trying to get done, ask them what other products they use immediately before, while, and immediately after using your product/service.
+
+For example, when tradespeople use a circular saw to “cut wood,” what other products are they using in conjunction with a circular saw? Perhaps they are also using a T-square, a measuring tape, sandpaper, and (or) a pencil.
+
+List the products they use in conjunction with the one you have in mind.
+
+Next, document the functions / jobs that each of these other products gets done for the group of people. Use the same format used previously: [verb] + [object of the verb] + [contextual clarifier (optional)].
+
+The Bosch team, for example, determined through customer interviews that while the function of the circular saw was to “cut wood” (a job statement), that tradespeople were using a T-square to ensure they “make a cut in a straight line” (a job statement), and that they were using a pencil to “mark the cut path” (a job statement).
+
+7. Abstracted job statement
+
+When looking at the market through the job executor’s eyes, what core functional job do they say they are trying to get done?
+
+Putting all the pieces together helps reveal the customer’s ultimate job-to-be-done at the right level of abstraction. Assume your product is getting part of a job done. Assume people are using these other products to complete the entire job-to-be-done.
+
+You want to define your customer’s job-to-be-done in a way that includes your product’s function (job) and rationalizes why customers are using all these other products as they cobble together a complete solution. The Bosch team, for example, determined that tradespeople are using a circular saw along with other products so they can “cut wood in a straight line” (the abstracted job statement).
+
+A financial services firm determined that accountants use tax preparation software in conjunction with other products so they can “formulate and execute a tax strategy for a client” (the abstracted job statement).
+
+Defining the market at this level of abstraction allows you to evolve your product over time to help customers get more, and eventually all, of their job done—preferably before competitors do. It offers the innovator a built-in path and vision for growth—tied directly to what customers are trying to accomplish.
+
+Remember, complete steps 5-8 employing customer interviews. Make sure you encapsulate the job of the product you have in mind in the abstracted job statement. If the job of the product is not represented, you have abstracted the job statement to too high a level. Preventing you from capturing customer need statements that will help inform the improvement of the product you have in mind.
+
+8. Customer’s Job-to-be-Done
+
+Now that you have your customer’s job, you can document that job in this box. If you have multiple versions of the job statement, work with job executors to gain consensus on the best version.
+
+With this, the Market Definition Canvas is completed, and your market is defined for you through a jobs-to-be-done lens. Your market = Group of people (Step 4) + Job-to-be-Done (Step 8)
+
+Now you can iterate quickly during your lean innovation process—and more reliably succeed in your market.
+
+To learn more about Jobs Theory and Outcome-Driven Innovation, check out the following resources:
+
+Free E-book and audiobook: Jobs-to-be-Done: Theory to Practice
+The Official Jobs-to-be-Done Playbook
+Jobs-to-be-Done Theory: A Framework for Understanding Customer Needs
+5 Growth Strategies to Transform Your Business

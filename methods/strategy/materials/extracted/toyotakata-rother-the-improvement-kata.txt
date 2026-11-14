@@ -1,0 +1,129 @@
+SOURCE: Mike Rother, "The Improvement Kata" — page 1 of the Toyota Kata
+website hosted at the University of Michigan
+(https://public.websites.umich.edu/~jmondisa/TK/The_Improvement_Kata.html).
+Transcribed from the PDF alongside (printed 2026-09-29). Site navigation
+(the "TOYOTA KATA" menu: 1. Improvement Kata · 2. Coaching Kata · 3. Kata
+Creates Culture · 4. Getting Started · 5. The TK Starter Kata · Challenge ·
+Value Stream Mapping · Supporting Materials · Extras · The Improvement
+Kata Exercise) and video embeds are removed; figures are described in
+[brackets]. All rights remain with the author.
+
+----------------------------------------------------------------------
+
+THE IMPROVEMENT KATA + STARTER KATA
+
+A four-step model of scientific thinking, with practice routines
+
+Today's prescriptions probably won't fit tomorrow's problems, and the
+path to a challenging goal can't be determined in advance anyway. Your
+best bet is to practice a universal means of developing your own
+solutions (a "meta skill" for any situation). That's what you learn by
+practicing the Improvement Kata.
+
+When conditions are complex and dynamic, scientific thinking may be the
+best approach we have for navigating. Scientific thinking means knowing
+that any idea should be tested. It means learning to compare what you
+think (theory) with what actually happens (evidence), and adjusting
+based on what you discover from the difference. It's a way of thinking
+that makes us better at reaching difficult goals through unpredictable
+territory.
+
+However, scientific thinking is not our natural, default mode. What
+normally happens is that our brain quickly and unconsciously jumps to
+conclusions. Scientific thinking is not difficult, it's just not our
+habit.
+
+Adults learn scientific thinking through practice. There are simple
+"Starter Kata" practice routines for each step of the Improvement Kata,
+and for coaching, which speed up your learning and make it easier to
+scale in teams and organizations. The Improvement Kata models a pattern
+of practical, everyday scientific thinking, and the Starter Kata are
+what you practice to develop the thinking. Instructions for the Starter
+Kata are in the Toyota Kata Practice Guide.
+
+[Figure — the four-step model, drawn as a path climbing a staircase:
+  1. Get the Direction or Challenge   (a distant circle, top right)
+  2. Grasp the Current Condition      (where the climber stands now)
+  3. Establish your Next Target Condition  (the next landing, between
+     the current condition and the challenge)
+  4. Conduct Experiments to get there (the zig-zag path — several
+     arrows — from the current condition up to the target condition)]
+
+[Figure — "Introduction to the Improvement Kata", Mike Rother, January
+2011: the same four steps as icons in a thought bubble —
+  1. Understand the Direction or Challenge
+  2. Grasp the Current Condition
+  3. Establish the Next Target Condition
+  4. Iterate Toward the Target Condition (a staircase from CC to TC)]
+
+Improvement Kata Poster (click image for a pdf)
+
+Five-Question Card (click the card, or get preprinted cards here)
+
+[Figure — the front of the five-question card, "TOYOTA KATA — The Five
+Questions":
+  1. What is the Target Condition?
+  2. What is the Actual Condition now?
+     -------- (Turn Card Over) -------->
+  3. What Obstacles do you think are preventing you from reaching the
+     target condition? Which *one* are you addressing now?
+  4. What is your Next Step? (Next experiment) What do you expect?
+  5. How quickly can we go and see what we Have Learned from taking
+     that step?
+  *You'll often work on the same obstacle with several experiments]
+
+You can start practicing one Starter Kata today:
+
+  * You're a manager who needs to run a meeting and are wondering how to
+    best do that.
+  * You would like to add useful (and marketable) skills to your
+    personal portfolio.
+  * You're an educator who wants to help students practice
+    critical-thinking STEM skills.
+  * You want to empower your teams.
+  * You're curious about the Improvement Kata.
+  * You want to develop the necessary mindset to use Lean techniques.
+  * Your new business is growing and you need a management system.
+
+Take a first mini step today. Print out the Improvement Kata poster and
+get a few five question cards. Read through the questions on the card,
+in the order shown, with your team, in meetings, etc. You'll be adding
+scientific-thinking focus and flow to any meeting.
+
+[Video embed — "Memory Aid for the Improvement Kata": a sketch of the
+Current Condition (a ball), a Test (footprints), the Target Condition
+(a flag) and the Challenge (a star), left to right.]
+
+Learning to Learn
+
+Excerpt from: Ichijo, Kazuo and Nonaka, Ikujiro, Knowledge Creation and
+Management: New Challenges for Managers, Oxford University Press, 2006,
+page 25.
+
+  Knowledge assets are not just the knowledge already created, such as
+  know-how, patents, technologies, or brands, but also include the
+  knowledge to create knowledge, such as the organizational capability
+  to innovate. Although current views on knowledge assets tend to focus
+  on the former because they are easier to measure and deal with, it is
+  the latter that need more attention because they are the source of
+  new knowledge to be created, and therefore a source of the future
+  value of the firm.
+
+  One of the most important knowledge assets for a firm is a
+  firm-specific kata (roughly, "pattern" or "Way of doing things") of
+  dialogues and practices. Nelson and Winter (1982) emphasize the
+  importance of routines for the firm's evolutionary process. Here, we
+  focus on "creative routines" of kata, which make knowledge creation
+  possible by fostering creativity and preserving efficiency.
+
+[Image — a figure standing at the entrance of a maze.]
+
+"If you go through the Improvement Kata process you'll get to where you
+need to get to. And the more times you do it the better you will get at
+it."  ~ Jim Huntzinger, President, Lean Frontiers
+
+"Go where there is no path and leave a trail."  ~ Emerson
+
+Click to read about the TK research and findings
+
+Next: 2. The Coaching Kata >>
