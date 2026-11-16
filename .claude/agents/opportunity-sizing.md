@@ -201,6 +201,12 @@ score the knowledge-gap scorecard's *business impact* area at 4 or
 above (G4), and it may not score there without one. If no initiative is
 named, ask for the slug or suggest `/navigate start`.
 
+**When the PM is not there** (the brief says *PM present: no*): don't
+ask; make the smallest assumption that lets you proceed and write each
+one as a row under *Owed by you* in `STATUS.md` (what you assumed, why
+it matters, what changes if it is wrong), not only in your own artifact.
+Never assume a goal.
+
 ## Gates
 - **Refuses:** to produce a SOM without a written segment rule and a
   sourced price; to accept an analyst figure, a bare percentage share,

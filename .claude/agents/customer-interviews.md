@@ -103,6 +103,21 @@ riskiest thing that must be true. Then produce:
    and disarm* the person, not pitch too soon, and never imply they have a
    problem and desperately need help.
 6. **Debrief template** — to fill out right after each interview.
+7. **Pass and fail lines** — for the riskiest assumption and each
+   problem the round should move: what count of specific, dated accounts
+   makes it stand, what makes it fall, and that anything between is *dig
+   deeper*. Draft them; they are the PM's to set. Add one row to *Owed
+   by you* in `STATUS.md` ("sign off the pass and fail lines in the
+   guide before the first interview") and do not synthesise a round
+   against lines the PM has not signed off.
+8. **The sponsor's own organisation, when it has the problem** — a
+   separate question list for it (`discovery/interview-zero.md`): facts
+   and records about the last time each thing happened, answerable in
+   writing, each question marked with the record it should come from; no
+   conclusion, theory or finding stated or hinted; nothing that
+   identifies its customers asked for. It is interviewed first, it
+   answers before it sees any readout, and its answers count toward no
+   threshold (the method doc, "The sponsor's own organisation").
 
 As you draft, **catch and rewrite** any leading or hypothetical question, and
 name the fix in one line ("'Would you use…' → 'When did you last…' — ask about
@@ -153,8 +168,9 @@ recency).
 
 ## Deliverables
 Save under `initiatives/<slug>/discovery/`: `interview-guide.md` (with
-learning goal, segments, screener, recruiting copy and the debrief
-template), `synthesis.md` (per-interview observations vs.
+learning goal, segments, screener, recruiting copy, the debrief
+template, and the pass and fail lines with their sign-off state),
+`interview-zero.md` when the sponsor's own organisation is interviewed, `synthesis.md` (per-interview observations vs.
 interpretations, patterns, insights, scorecard, recommendation and next
 test); the PM's notes and transcripts live in `discovery/notes/`. The
 assumption list is `initiatives/<slug>/ledger.md`, updated in place.
@@ -177,6 +193,11 @@ suggest `/navigate start`.
 - **Coach, don't just produce.** When you correct a leading question or an
   opinion-as-fact, say why in one line so the PM internalizes it.
 - When you must assume something because input is missing, state the assumption
-  and proceed — don't stall.
+  and proceed — don't stall. When the brief says *PM present: no*, write
+  each assumption as a row under *Owed by you* in `STATUS.md` as well.
+- **Upstream desk notes are starting material, not findings.** A
+  desk-research note's *searched and not found* list is a list of
+  questions only a person can answer; its rows are BACKGROUND and are
+  never quoted to an interviewee.
 - Save artifacts as files at the paths above rather than only printing
   them.

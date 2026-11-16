@@ -140,6 +140,15 @@ Passes: <n> independent groupings (parallel subagents / sequential, shuffled)
 Stable groups: <k> · controversial items: <m> · single-pass themes: <j>
 ```
 
+## When more items arrive later
+
+A reconciled map is not re-sorted because a new batch came in. New items
+are **assigned** to the existing groups, to loners, or to a new candidate
+group that two or more of them form; no settled item moves; the header's
+running count (items assigned, by batch) is updated. The steps, and the
+test for when a map must be rebuilt instead, are in
+[`picking-the-right-problem.md`](./picking-the-right-problem.md) §5b.
+
 ## What it is not — and what comes next
 
 - **It does not rank.** Affinity mapping tells you *what the themes are*,

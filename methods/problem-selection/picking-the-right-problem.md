@@ -164,6 +164,30 @@ desk research is **BACKGROUND**
 ([`../customer-interviews/assumption-ledger.md`](../customer-interviews/assumption-ledger.md)).
 Never launder upward.
 
+**Two kinds of row that need a rule of their own** *(repo extension)*:
+
+- **Public first-hand statements** — a forum thread, a review, public
+  testimony, read where the person wrote it. Someone real said it,
+  unprompted, which is more than a scan; but nobody asked, nobody could
+  probe, and the search chose who was heard. Score the row on the
+  anchors up to **3 and no higher** (3 for a thread or testimony read in
+  full with several distinct speakers; 2 for reviews and single-outlet
+  reports; 1 for a snippet, a title, or a machine summary of other
+  people's words). The row's type is Qualitative; its tier is
+  **BACKGROUND**; it never carries a *Yes*. Statements by people who sell
+  to the customer are listed apart and scored as nothing
+  ([`../desk-research/desk-research.md`](../desk-research/desk-research.md) §3).
+- **The team's own organisation as the customer** — when the sponsor's
+  own business has the problem, what it built, bought or did is an
+  **Operational** row at confidence **4 for "this organisation did
+  this"**, and it is **one source, n = 1**: it says nothing about
+  breadth, it is biased toward whatever made the team care, and it never
+  completes a triangulation on its own. Its people's answers to
+  interview questions count toward no threshold set for outside
+  interviews
+  ([`../customer-interviews/talking-to-humans.md`](../customer-interviews/talking-to-humans.md),
+  "The sponsor's own organisation").
+
 ### Step 3 — Identify patterns
 
 Ask three questions of the table:
@@ -264,6 +288,63 @@ evidence table its "how do you know" answer; the split-out enterprise
 mapping problem goes to `customer-interviews` with the missing evidence
 named (pain and breadth among enterprise admins).
 
+## 5a. Testing a theory claim by claim *(repo extension)*
+
+A PM often arrives with a theory, not a pile: "people like X struggle
+with A, B and C because of D". The theory is a stakeholder row at
+confidence 1 until customers say it; the risk is that the cases get
+written around it. So when `STATUS.md` says the initiative *arrived with
+a theory*, the first table in `problems.md` is the **claims table**, and
+it is written before any ranking:
+
+| # | The theory says | What the rows show (cite them) | What they do not show | Verdict |
+|---|-----------------|--------------------------------|-----------------------|---------|
+
+- **Split the theory into its separate claims**, including the
+  explanation ("because they are…"), which is a claim of its own and is
+  usually the least evidenced.
+- **Each claim gets a verdict in the method's own words**: *Yes* / *Not
+  yet* / *Probably not*, or **restated** — the rows support a different
+  problem near the one claimed. A restated claim names the case it
+  became.
+- **"What they do not show" is filled for every claim.** Silence because
+  nobody looked (a *not searched* item in the desk notes) is written as
+  silence, never as absence.
+- **Then list what the rows raised that the theory did not name.** Those
+  candidates get cases like any other; the theory earns its claims no
+  rank.
+
+The claims table is the answer to "was I right?", which is the question
+the PM came with. Give it first, then the ranking.
+
+## 5b. Adding evidence after the cases are written *(repo extension)*
+
+Evidence keeps arriving: a late batch of notes, more saved threads, an
+export. Starting over wastes the reconciled map and invites re-sorting
+around the new items. **Add evidence** instead:
+
+1. **Assign, don't regroup.** Each new row goes to an existing group in
+   `affinity-reconciled.md` (or the affinity map), to *loners*, or to a
+   **new candidate group** when two or more new rows share a thread no
+   group holds. Never move an old row to make room.
+2. **Append to the evidence tables** of the cases the rows reach, as new
+   source rows with their own confidence, dated.
+3. **Re-run step 3 (patterns) only for the cases touched**: does the row
+   converge, conflict, or fill a gap? A row that contradicts a case is
+   added as readily as one that supports it.
+4. **Report the delta** in a dated section of `problems.md`, *Evidence
+   added <date>*: one line per case touched — what was added, and
+   **verdict unchanged / changed from X to Y, by which rule**. Cases not
+   touched are listed as not touched.
+5. **Update the ranking and the learn list only where a verdict or a
+   score moved**, and say which.
+6. **Re-theme from scratch only when the map no longer holds**: more than
+   about a third as many new rows as the original pile, or new rows that
+   mostly land in new groups. Say that this is why.
+
+The grouping file's header keeps a running count (rows assigned, by
+batch), so a reader can see that nothing sits in a note unassigned.
+
 ## 6. Conversions (how this plugs into the system)
 
 - **Affinity map → candidates.** Each theme with ≥ 2 distinct sources is a
@@ -301,6 +382,7 @@ named (pain and breadth among enterprise admins).
 - **Evidence tiers** (CONFIRMED / INFERRED / BACKGROUND) — this repo's
   shared ledger convention, from ODI multi-call discovery.
 - The scoring anchors (§1), confidence anchors and verdict rules (§2), the
-  ranking table (§3) and the anti-patterns (§4) are **this repo's
-  operational extension** of the notes.
+  ranking table (§3), the anti-patterns (§4), the claims table (§5a) and
+  the add-evidence steps (§5b) are **this repo's operational extension**
+  of the notes.
 - See [`../../CREDITS.md`](../../CREDITS.md) for full attribution.

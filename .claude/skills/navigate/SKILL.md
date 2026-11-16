@@ -5,9 +5,12 @@ description: >-
   its folder and route the first input to the right agent), to find out
   where an initiative stands (phase, gates passed, the blocker, derived
   from its artifacts), to learn which agent to invoke next and with what,
-  or to list all initiatives. Invoke as /navigate start | status [slug] |
-  next [slug] | list. Trigger on: where am I, what's next, which agent,
-  start a new initiative, status of <initiative>, what have we validated,
+  to write the case so far as one page for someone who was not in the
+  room, or to list all initiatives. Invoke as /navigate start | status
+  [slug] | next [slug] | readout [slug] | list. Trigger on: where am I,
+  what's next, which agent, start a new initiative, status of
+  <initiative>, what have we validated, what do you still need from me,
+  write up where this stands for the team,
   are we ready for solutions (answered from the gates; writing the
   knowledge-gap scorecard that closes G4 is problem-selection's job),
   list initiatives.
@@ -36,24 +39,35 @@ initiative exists, `list` if several, `start` if none.
 
 ### `start`
 
-1. Ask at most three questions, in one message: **(a)** what the PM has
-   in hand — an idea or direction; a feature request (and whether the
-   problem behind it has evidence); a pile of tickets, feedback or asks;
-   interview notes or transcripts; survey data; a tested solution; a
-   measurement question — **(b)** a name for the initiative, **(c)** the
-   goal metric if one exists and the direction it serves (the strategic
-   intent and product initiative, from `strategy/strategy.md` if the PM
-   keeps a strategy stack — `methods/strategy/product-strategy.md` §7).
-   Infer what you can from files they point at; don't ask what you can
-   read.
+1. Ask at most four questions, in one message: **(a)** what the PM has
+   in hand — an idea or direction; **a theory** (who struggles with what,
+   and why — write its separate claims down as they state them); a
+   feature request (and whether the problem behind it has evidence); a
+   pile of tickets, feedback or asks; interview notes or transcripts;
+   survey data; a tested solution; a measurement question — **(b)** a
+   name for the initiative, **(c)** **what this is for**, as a choice the
+   PM must make or explicitly defer: a new business; a new product or
+   service line for a business that exists; a route to market for
+   something already built; an improvement to a product with users;
+   *undecided* — **(d)** the goal metric if one exists and the direction
+   it serves (the strategic intent and product initiative, from
+   `strategy/strategy.md` if the PM keeps a strategy stack —
+   `methods/strategy/product-strategy.md` §7). Infer what you can from
+   files they point at; don't ask what you can read. **(c) is not
+   optional:** problem-selection cannot score Business Alignment without
+   it, and an initiative that reaches ranking with *undecided* ranks on
+   Customer Signal alone. If the PM defers, write *undecided* in the
+   header and "decide what this is for" as the first row of *Owed by
+   you*.
 2. Make the slug (kebab-case of the name). Refuse a slug that already
    exists under `initiatives/`; offer `status` instead.
 3. Scaffold: create `initiatives/<slug>/` and `discovery/`; copy
    `templates/initiative/STATUS.md` and `ledger.md` in, filling the
-   header (name, slug, owner if known, today's date, goal metric or
-   "not yet defined → metrics", direction or "not stated → the level
-   above owes it", arrived-with, phase = Opportunity Discovery) and the
-   first log line. Move or copy any files the PM
+   header (name, slug, owner if known, today's date, purpose or
+   "undecided", goal metric or "not yet defined → metrics", direction or
+   "not stated → the level above owes it", arrived-with — a theory is
+   recorded with its claims numbered — phase = Opportunity Discovery),
+   the *Owed by you* rows that already apply, and the first log line. Move or copy any files the PM
    pointed at into the right subfolder (`discovery/notes/`,
    `discovery/odi/`, …).
 4. Route with the table in `docs/interaction-model.md` ("Where each
@@ -96,7 +110,9 @@ initiative exists, `list` if several, `start` if none.
    changed.
 5. Report, in this order: phase · gates passed (with dates) · the
    **blocker** (the lowest open gate whose predecessors have passed, and
-   what would pass it) · discrepancies · the last three log lines. Keep
+   what would pass it) · **owed by you** (the open rows of that section,
+   oldest first — decisions, sign-offs and assumptions made in the PM's
+   absence) · discrepancies · the last three log lines. Keep
    it to a screen. If the header's *Direction* reads "not stated", say
    so in one line — it is not a gate, but it is the first obstacle of
    any kata this initiative runs.
@@ -111,9 +127,36 @@ a goal), and the **delegation brief** ready to run. If the blocker needs
 the PM's hands (interviews, fielding, a decision), say that plainly
 instead of naming an agent.
 
+### `readout [slug]`
+
+The case so far, on one page, for someone who was not in the room — a
+sponsor, a colleague, the PM in three weeks. Run the `status` derivation
+silently, then write `initiatives/<slug>/readout.md` **only from the
+artifacts**, in this order:
+
+1. The answer in brief: what is and is not validated, in the gates'
+   terms, and the one place the evidence says to look next.
+2. What the PM arrived with, and what the evidence did to it (the claims
+   table, when there is one, copied not paraphrased).
+3. The ranked problems or the chosen option, with verdicts as the owning
+   agent wrote them.
+4. The size, if `discovery/sizing.md` exists, with its tier.
+5. What is unproven, in the ledger's order of risk.
+6. What happens next, and what is owed by the PM.
+7. What this rests on: the sources by kind, and the limits each agent
+   recorded (including what could not be reached).
+
+Rules: **no claim that is not in an artifact**, cited by path; no new
+verdict, score or recommendation of your own beyond the next step the
+gates imply; dated; says in its first lines which gates are open. It
+marks no gate and is overwritten, not versioned, each time it is run.
+**Never show a readout to anyone who is about to be interviewed**
+(`methods/customer-interviews/talking-to-humans.md`, "The sponsor's own
+organisation") — say so when you hand it over.
+
 ## The delegation brief
 
-Every hand-off to an agent carries the same six fields. An agent given
+Every hand-off to an agent carries the same seven fields. An agent given
 less than this improvises; an agent given more than this reads the
 whole folder. Fill it from the artifacts, not from memory.
 
@@ -125,13 +168,16 @@ Inputs:      <the files to read, by path — STATUS.md and ledger.md always; the
 Output:      <the artifact(s) to write, by path, and the method-doc format they follow>
 Gate:        <the gate this engagement can mark (G#), its rule verbatim from the interaction
               model, and "mark it only if the artifact meets the rule">
+PM present:  <yes — may ask one question / no — do not ask; make the smallest assumption and
+              write each one under "Owed by you" in STATUS.md, and never assume a goal>
 Boundaries:  <what NOT to do: e.g. don't validate the problem (that's G3, already passed);
               don't generate options (that's ideation); if X is missing, stop and route back;
               never treat your own output as customer evidence>
 Effort:      <light / standard / deep — by how much input there is and what the gate needs;
               e.g. "3 candidates, light" vs "140 tickets, deep: theme first">
-Finish by:   appending one log line to STATUS.md and reporting the output paths — not the
-              contents.
+Finish by:   appending one log line to STATUS.md (under 240 characters: what, verdict, artifact,
+              next — the detail lives in the artifact) and reporting the output paths — not
+              the contents.
 ```
 
 Effort scaling, so the brief is honest: **light** — a single named
@@ -143,6 +189,15 @@ and why.
 
 After the agent returns, read its log line and the paths it reports.
 Do not re-derive its work; run `status` if the PM asks where they are.
+
+**Evidence first, when all there is is public.** When the PM arrives
+with an idea or a theory and nothing from customers, the order is
+**ideation** (frame it; one ledger row per claim), then **desk-research**
+(collect against the ledger, riskiest assumption first; several
+desk-research agents may run in parallel on separate questions, each
+writing its own note), then **problem-selection** (theme, theory test,
+rank). When more evidence arrives after the cases exist, brief
+problem-selection in **add-evidence** mode — never a second theme pass.
 
 **Fan-out for theme mode.** When the input is a pile of more than ~30
 items (tickets, feedback, asks) bound for problem-selection, run the
@@ -170,8 +225,15 @@ gate. Sort by last log date, newest first.
   initiative; `list` shows it as closed with the reason.
 - **One ledger.** If you find a second assumption tracker, say so and
   route the merge to the agent that made it.
-- **Be short.** The PM asked where they are, not for the method.
+- **Be short.** The PM asked where they are, not for the method. A log
+  line is one line under 240 characters; if an agent wrote a paragraph,
+  trim it to what, verdict, artifact, next.
+- **One list of what the PM owes.** Decisions deferred, thresholds to
+  sign off, assumptions made in their absence: all in `STATUS.md` under
+  *Owed by you*, never scattered across artifacts. A row is closed by
+  the PM's answer, recorded with its date.
 - **Delegate with the brief, every time.** No bare "use agent X on
-  this" — objective, inputs, output, gate, boundaries, effort.
+  this" — objective, inputs, output, gate, PM present, boundaries,
+  effort.
 - **Pass references, not contents.** Agents report paths; you read the
   log line. The folder is the shared memory; the conversation is not.

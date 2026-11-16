@@ -18,12 +18,15 @@ One directory per initiative, created by `/navigate start` from
 
 ```
 initiatives/<slug>/
-├── STATUS.md              # phase · gates · log — the agents append here
+├── STATUS.md              # phase · gates · owed by you · log — the agents append here
+├── readout.md             # /navigate readout: the case so far, on one page, from the artifacts
 ├── ledger.md              # THE assumption ledger (one per initiative, updated in place)
 ├── discovery/             # Phase 1 — Opportunity Discovery
 │   ├── brainstorm.md      #   ideation
-│   ├── interview-guide.md #   customer-interviews (prep)
-│   ├── notes/             #   your interview notes and transcripts
+│   ├── interview-guide.md #   customer-interviews (prep), with the pass and fail lines and their sign-off
+│   ├── interview-zero.md  #   customer-interviews: the question list for the sponsor's own organisation, when it has the problem
+│   ├── notes/             #   your interview notes and transcripts; desk-research's numbered notes (NN-<topic>.md)
+│   │   └── raw/           #   pages and exports you saved for desk-research (keep out of version control)
 │   ├── synthesis.md       #   customer-interviews (synthesis)
 │   ├── sizing.md          #   opportunity-sizing: one-page summary + assumptions register, both routes, tests
 │   ├── sizing.py          #   opportunity-sizing: the re-runnable Monte Carlo model (or a spreadsheet / Guesstimate link)
@@ -86,9 +89,11 @@ The initiative's audit trail across all three phases — what the kata
 record is within one. Agents append to it; the navigator reads it.
 Template at [`../templates/initiative/STATUS.md`](../templates/initiative/STATUS.md).
 
-Three parts:
+Four parts:
 
-1. **Header** — initiative, slug, owner, created, goal metric (or "not
+1. **Header** — initiative, slug, owner, created, purpose (what this is
+   for: a new business, a new line, a route to market, an improvement —
+   or "undecided", which the PM then owes), goal metric (or "not
    yet defined → metrics"), direction (the strategic intent and product
    initiative this serves, from the PM's strategy stack — or "not
    stated → the level above owes it"; the ladder itself is in
@@ -97,8 +102,15 @@ Three parts:
 2. **Gates** — the ten checkpoints below, each with status, date, the
    artifact it rests on, and the verdict. The gates are the truth about
    where an initiative is; the phase is derived from them.
-3. **Log** — dated entries, one per agent engagement: agent · what was
-   done · verdict · artifact · next. Newest last.
+3. **Owed by you** — the one list of what only the PM can settle:
+   decisions deferred at the start (the purpose, the goal), pass and
+   fail lines awaiting sign-off before a round of interviews or an
+   experiment, and every assumption an agent made while the PM was away.
+   Agents add rows; the PM's answer closes them. No agent keeps such a
+   list in its own artifact instead.
+4. **Log** — dated entries, one per agent engagement: agent · what was
+   done · verdict · artifact · next. Newest last, each one line under
+   240 characters; the detail lives in the artifact.
 
 ### The gates
 
@@ -129,13 +141,14 @@ gate whose artifact doesn't back it.
 ## The navigator: `/navigate`
 
 A slash command that runs in your main session (agents can't call each
-other; the session can). Four verbs:
+other; the session can). Five verbs:
 
 | Verb | What it does |
 |------|--------------|
-| `/navigate start` | Asks what you have in hand — an idea, a feature request, a pile of problems, interview notes, survey data — and a name; scaffolds `initiatives/<slug>/` from the templates; writes the header; routes you to the first agent with the slug and the input |
+| `/navigate start` | Asks what you have in hand — an idea, a theory, a feature request, a pile of problems, interview notes, survey data — a name, and **what this is for** (a choice you make or explicitly defer); scaffolds `initiatives/<slug>/` from the templates; writes the header; routes you to the first agent with the slug and the input |
 | `/navigate status [slug]` | Reads `STATUS.md` and the folder; re-derives the gates from the artifacts; reports phase, gates passed, the blocker, and any gate the status file claims that the artifacts don't back |
 | `/navigate next [slug]` | Names the agent to invoke, what it needs that exists, what it needs that doesn't, and the exact invocation |
+| `/navigate readout [slug]` | Writes `readout.md`: the case so far on one page, for someone who was not in the room, from the artifacts only — what is and isn't validated, what the evidence did to what you arrived with, what is unproven, what happens next, what it rests on. Marks no gate; never shown to anyone about to be interviewed |
 | `/navigate list` | All initiatives with phase, last entry, and open blocker |
 
 With one initiative in the folder the slug is optional. The navigator
@@ -146,6 +159,9 @@ never does an agent's work and never marks a gate itself.
 | You arrive with | The navigator routes to | First artifact |
 |-----------------|------------------------|----------------|
 | An idea, a direction, a hunch | **ideation** | `discovery/brainstorm.md` + `ledger.md` |
+| A theory — who struggles with what, and why — and nothing from customers yet | **ideation** (one ledger row per claim), then **desk-research**, then **problem-selection** (theory test) | `ledger.md`, then `discovery/notes/NN-*.md`, then the claims table in `problems/problems.md` |
+| A question public sources could answer; pages, threads or exports you saved | **desk-research** | `discovery/notes/NN-<topic>.md` |
+| More evidence, after the problem cases are written | **problem-selection** (add evidence) | a dated *Evidence added* section in `problems/problems.md` |
 | A feature request with no evidence behind it | **customer-interviews** (trace the problem first) | `discovery/interview-guide.md` |
 | A feature request for a problem that already has evidence | **lean-experiments** (breakdown mode) | `experiments/<name>-breakdown.md` |
 | A pile of tickets, feedback, or stakeholder asks | **problem-selection** (theme mode) | `problems/problems.md` |
@@ -163,11 +179,11 @@ Two rules borrowed from how orchestrated agent systems stay reliable
 [`how-it-works.md`](./how-it-works.md)):
 
 - **Every hand-off is a brief, not a nudge.** The navigator (or you, when
-  you invoke an agent directly) gives the agent six things: the
+  you invoke an agent directly) gives the agent seven things: the
   objective and mode; the input paths; the output paths and format; the
-  gate it may mark and its rule; the boundaries (what not to do, when to
-  stop and route back); and the effort level (light / standard / deep,
-  from the size of the input). The template is in the navigator skill.
+  gate it may mark and its rule; whether the PM is present; the
+  boundaries (what not to do, when to stop and route back); and the
+  effort level (light / standard / deep, from the size of the input). The template is in the navigator skill.
   An agent given less improvises; an agent given more reads everything.
 - **Agents read the summary, then only what the gate needs.** `STATUS.md`
   is the condensed record of everything that happened before; an agent
@@ -176,6 +192,31 @@ Two rules borrowed from how orchestrated agent systems stay reliable
   reports **paths**, not contents — the folder is the shared memory;
   the conversation is not. This keeps each engagement's context small
   and keeps long initiatives from degrading as they grow.
+
+- **An agent working without you says what it assumed, in one place.**
+  A brief marked *PM present: no* tells the agent not to ask. It makes
+  the smallest assumption that lets it proceed and writes each one under
+  *Owed by you* in `STATUS.md`. Two things are never assumed: a goal
+  (alignment stays unscored) and a pass or fail line for a round the PM
+  has not signed off.
+
+## Public evidence
+
+What is already public is collected by **desk-research**
+([`../methods/desk-research/desk-research.md`](../methods/desk-research/desk-research.md))
+into numbered, source-tagged rows that every later artifact cites by
+number. It is BACKGROUND whatever its volume and never passes G3. Three
+conventions hold across agents:
+
+- **The access ladder.** Fetch; then a browser the agent controls; then
+  your own browser with your go-ahead; then you save the pages into
+  `discovery/notes/raw/`. A refusal is climbed past by the next rung,
+  never worked around.
+- **Intake.** Files you supply are checked on arrival (readable, the
+  right page, duplicates, complete, kind) and you are asked once for
+  re-saves.
+- **Silence is written down.** Every note ends with what was refused,
+  what was not searched, and what was searched and not found.
 
 ## What stays yours
 

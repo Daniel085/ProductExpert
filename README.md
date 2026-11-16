@@ -62,7 +62,7 @@ exists and runs *before* engineering, not after.
 
 | Phase | The question | Agents |
 |-------|--------------|--------|
-| **1 · Opportunity Discovery** | What's out there, what's worth a look — and how big is it? | `ideation`, `customer-interviews` (prep), `odi-interviewer`, `opportunity-sizing` |
+| **1 · Opportunity Discovery** | What's out there, what's worth a look — and how big is it? | `ideation`, `desk-research`, `customer-interviews` (prep), `odi-interviewer`, `opportunity-sizing` |
 | **2 · Problem Validation** | Is the problem real, for whom, how much, and which one first — and what don't we know yet? | `customer-interviews` (synthesis), `odi-outcome-editor` → `odi-survey-builder` → `odi-data-scientist`, `problem-selection` (verdict + knowledge-gap scorecard + root cause) |
 | **3 · Solution Validation** | Does *this* solution solve it — proven cheaply, before we build — and what exactly do we commit to? | `lean-experiments` (concept · concierge · Wizard of Oz · prototypes · API access · MLP · kata), `solution-options` (option cards · v1.0 by cost of delay), `prfaq`, `experimentation`, `metrics` |
 
@@ -149,6 +149,20 @@ the riskiest assumption and its cheapest test, plus a routing call
 `product-brainstorming` plugin skill.
 Method: [`methods/ideation/brainstorming.md`](methods/ideation/brainstorming.md)
 
+### Desk Research — `desk-research`
+Collects what is already public — forum threads, reviews, surveys,
+vendor and pricing pages, official statistics, pages you saved — into
+**numbered, source-tagged observation rows** and fact tables that every
+later artifact cites by number. Spends searches on the ledger's riskiest
+assumption first, tags how far each row is from its speaker (read in
+full · relayed · snippet · machine summary · vendor, counted apart),
+checks files you supply on arrival (wrong page, duplicates, missing
+comments), builds a competitor teardown that ends in a **jobs × coverage
+matrix** with the searches behind every "nobody found", and closes every
+note with what it could not reach. It collects; it never groups, ranks
+or concludes, and everything it produces is BACKGROUND.
+Method: [`methods/desk-research/desk-research.md`](methods/desk-research/desk-research.md)
+
 ### Opportunity Sizing — `opportunity-sizing`
 Builds an investor-grade **TAM / SAM / SOM both ways** and guides a PM
 from "no idea" to a derivation a skeptic can rebuild. **Bottom-up
@@ -178,7 +192,10 @@ Preps and synthesizes open-ended discovery interviews. Grounded in *Talking
 to Humans* (Constable & Rimalovski), Steve Blank's Customer Development, and
 the Fluxx research-and-insight principles.
 **Prep:** learning goal → ranked assumptions → segments + screener →
-non-leading guide → recruiting → debrief template. **Synthesis:**
+non-leading guide → recruiting → debrief template → pass and fail lines
+the PM signs off before the first interview → a facts-and-records
+question list for the sponsor's own organisation when it has the
+problem. **Synthesis:**
 observations vs. interpretations → patterns → insights → assumption
 scorecard → persevere/pivot/dig-deeper + next experiment.
 Method: [`methods/customer-interviews/`](methods/customer-interviews/)
@@ -219,8 +236,11 @@ mapping** (K-J method, ASQ) — group before naming, count distinct sources
 Probably not*. Ranks the *Yes* verdicts on **Customer Signal × Business
 Alignment**, read differently for retention, acquisition, and
 internal-tool goals; *Not yet* becomes a learn list with the missing
-evidence named. Ranks problems — not solutions (`ideation`), not outcomes
-within a job (ODI). Then closes Problem Validation with the **knowledge-gap
+evidence named. When the PM arrived with a **theory**, each of its claims
+gets its own verdict first (the claims table); when evidence arrives
+after the cases are written, it is **added** to them without re-theming,
+with a line per case on whether its verdict moved. Ranks problems — not
+solutions (`ideation`), not outcomes within a job (ODI). Then closes Problem Validation with the **knowledge-gap
 scorecard** (Product Institute): confidence 1–5 in problem definition,
 user behavior, competitive landscape, technical constraints and business
 impact, evidence-cited; the lowest area picks the move — customer
