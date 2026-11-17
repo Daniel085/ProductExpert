@@ -44,3 +44,6 @@ alone. Keep the two files in step: same numbers, same inputs.
 | 34 | "Twelve more tickets and two more threads came in after we ranked the import problems. Does anything change?" |
 | 35 | "Write up where the import-recovery initiative stands for my VP, who hasn't followed any of it." |
 | 36 | "Who already sells stock tools to independent shops, what do they charge as of today, and which jobs does nobody cover? I want the searches behind any gap." |
+| 37 | "Halfway through the supplier-ordering initiative and I've got a new hypothesis: if switching suppliers took one phone call, café owners would switch. What do we do with that?" |
+| 38 | "I'm presenting the import-recovery initiative to the leadership team on Thursday. I need slides of where it stands, not a document." |
+| 39 | "We've added notes and re-ranked since I wrote up the import-recovery case. Is that write-up still current?" |

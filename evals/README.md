@@ -11,7 +11,7 @@ Run with `/evaluate` (`.claude/skills/evaluate/SKILL.md`):
 
 | Command | What it checks | Cases |
 |---------|----------------|-------|
-| `/evaluate routing` | That a PM's request lands on the right agent and mode | [`routing-inputs.md`](./routing-inputs.md) — 36 inputs as a PM would type them; [`routing-expected.md`](./routing-expected.md) — the expected agent, mode and accepted alternates, kept in a separate file so the judge decides before it sees the answers |
+| `/evaluate routing` | That a PM's request lands on the right agent and mode | [`routing-inputs.md`](./routing-inputs.md) — 39 inputs as a PM would type them; [`routing-expected.md`](./routing-expected.md) — the expected agent, mode and accepted alternates, kept in a separate file so the judge decides before it sees the answers |
 | `/evaluate gates` | That `/navigate status` derives phase, gates and blocker correctly from artifacts, and flags status-file claims the artifacts don't back | [`gate-fixtures/`](./gate-fixtures/) — five initiative folders, each with `expected.md`; [`derive_gates.py`](./derive_gates.py) is the deterministic checkpoint the model's reading is reconciled against |
 | `/evaluate output <agent> <fixture>` | That an agent's artifact meets the output rubric and the agent honoured its gate | [`output-rubric.md`](./output-rubric.md), run against a fixture input |
 | `/evaluate all` | All three, summarized | |
@@ -19,7 +19,7 @@ Run with `/evaluate` (`.claude/skills/evaluate/SKILL.md`):
 ## What "pass" means
 
 - **Routing:** the chosen agent matches the expected one (or a listed
-  alternate) *and* the mode matches. Report a score out of 36 and every
+  alternate) *and* the mode matches. Report a score out of 39 and every
   mismatch with the input text, so the fix is to the agent's
   `description`, not to the case.
 - **Gates:** for each fixture, phase, passed gates and blocker match

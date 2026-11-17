@@ -1,7 +1,7 @@
 # Routing expected answers
 
 The answer key for [`routing-inputs.md`](./routing-inputs.md). **The
-judge opens this file only after deciding all 36 cases from the agent
+judge opens this file only after deciding all 39 cases from the agent
 descriptions alone.** "Alternates" are acceptable second answers;
 anything else is a miss. The **why** names the description phrase that
 should catch the input — if a case fails, that phrase is what to fix.
@@ -45,6 +45,9 @@ Keep the two files in step: same numbers, same inputs.
 | 34 | problem-selection | add evidence | — | "more notes / threads / tickets came in — does anything change", "add this evidence to the cases"; not theme mode (cases exist) |
 | 35 | navigate | readout | — | "write up where this stands for the team", "the case so far … for someone who was not in the room"; not prfaq (no press release asked for, no vision to decide) |
 | 36 | desk-research | teardown | ideation (landscape scan at teardown depth) | "competitor teardown with prices", "who already does this and what do they charge", the searches behind every "nobody found" |
+| 37 | navigate | hypothesis | ideation (assumption testing — acceptable only if it adds one ledger row and stops) | "a new hypothesis" part-way through an initiative that exists; not a restart, not `start`; a solution hypothesis for a *Yes* problem would be lean-experiments |
+| 38 | navigate | readout (slides) | — | "slides", "presenting … to the leadership team", "where it stands"; not prfaq (no press release), not opportunity-sizing (no TAM slide to critique) |
+| 39 | navigate | status | — | "is that write-up still current" — the stale-summary check; not readout (asked whether, not to rewrite), not problem-selection |
 
 Near-miss pairs the router must keep apart (each appears above): 6 vs
 17 (requirements with vs. without a validated problem); 13 vs 22
@@ -63,4 +66,6 @@ notes to synthesize vs. saved public pages to file); 12 vs 34 (a first
 pile to theme vs. more evidence for cases that exist); 1 vs 33 (an idea
 to stress-test vs. a theory with evidence to judge); 23 vs 35 (a PR/FAQ
 vs. a status readout); 36 vs 2 (a priced teardown vs. a brainstorm's
-scan).
+scan); 37 vs 1 (a hypothesis inside a running initiative vs. a new
+idea); 38 vs 35 (slides vs. the one-page readout); 39 vs 35 (asking
+whether a write-up is current vs. asking for one).
