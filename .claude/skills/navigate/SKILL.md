@@ -5,12 +5,16 @@ description: >-
   its folder and route the first input to the right agent), to find out
   where an initiative stands (phase, gates passed, the blocker, derived
   from its artifacts), to learn which agent to invoke next and with what,
-  to write the case so far as one page for someone who was not in the
-  room, or to list all initiatives. Invoke as /navigate start | status
-  [slug] | next [slug] | readout [slug] | list. Trigger on: where am I,
-  what's next, which agent, start a new initiative, status of
-  <initiative>, what have we validated, what do you still need from me,
-  write up where this stands for the team,
+  to write the case so far as one page (or as a slide outline) for
+  someone who was not in the room, to take in a new hypothesis part-way
+  through, or to list all initiatives. Invoke as /navigate start | status
+  [slug] | next [slug] | readout [slug] [slides] | hypothesis [slug] |
+  list. Trigger on: where am I, what's next, which agent, start a new
+  initiative, status of <initiative>, what have we validated, what do you
+  still need from me, write up where this stands for the team, a deck or
+  slides of where this stands for management, I have a new hypothesis
+  about this initiative, is the write-up still current (status checks
+  every summary against what it was built from),
   are we ready for solutions (answered from the gates; writing the
   knowledge-gap scorecard that closes G4 is problem-selection's job),
   list initiatives.
@@ -70,7 +74,14 @@ initiative exists, `list` if several, `start` if none.
    the *Owed by you* rows that already apply, and the first log line. Move or copy any files the PM
    pointed at into the right subfolder (`discovery/notes/`,
    `discovery/odi/`, …).
-4. Route with the table in `docs/interaction-model.md` ("Where each
+4. **Preflight when the first agent will collect public evidence**
+   (`methods/desk-research/desk-research.md` §6a): test the folder the
+   PM pointed at, the tools that turn saved pages into text, the search
+   and fetch allowance, the browsers, and the two or three sources the
+   topic leans on. Report the table with a fix per line and put each fix
+   only the PM can make under *Owed by you*. Do not wait on it: route
+   meanwhile.
+5. Route with the table in `docs/interaction-model.md` ("Where each
    input enters"). Say which agent, why, and what it will produce. Then
    write a **delegation brief** (below) and invoke the agent with the
    Agent tool, the brief as its prompt. If the PM would rather invoke
@@ -108,11 +119,22 @@ initiative exists, `list` if several, `start` if none.
 4. Derive the phase (Opportunity Discovery until G2; Problem Validation
    until G4; Solution Validation until G9) and update the header if it
    changed.
-5. Report, in this order: phase · gates passed (with dates) · the
+5. **Check every summary against what it was built from.** A summary
+   is any artifact that restates others: `readout.md`, a slide outline
+   under `readout/`, a business case, a copy published elsewhere that
+   `STATUS.md` logs. Each carries a *Built from* line (below). Compare
+   it with the folder: the last observation row number in
+   `discovery/notes/`, and the dates of `problems/problems.md`,
+   `discovery/sizing.md`, `ledger.md` and the experiment readouts. A
+   summary built from fewer rows, or from an older version of any of
+   them, is **stale**: name it, name what moved, and say `readout` will
+   rebuild it. Also flag a summary that states two different counts of
+   the same thing. Never edit a summary's numbers by hand to catch up.
+6. Report, in this order: phase · gates passed (with dates) · the
    **blocker** (the lowest open gate whose predecessors have passed, and
    what would pass it) · **owed by you** (the open rows of that section,
    oldest first — decisions, sign-offs and assumptions made in the PM's
-   absence) · discrepancies · the last three log lines. Keep
+   absence) · stale summaries · discrepancies · the last three log lines. Keep
    it to a screen. If the header's *Direction* reads "not stated", say
    so in one line — it is not a gate, but it is the first obstacle of
    any kata this initiative runs.
@@ -150,9 +172,57 @@ Rules: **no claim that is not in an artifact**, cited by path; no new
 verdict, score or recommendation of your own beyond the next step the
 gates imply; dated; says in its first lines which gates are open. It
 marks no gate and is overwritten, not versioned, each time it is run.
+
+**The *Built from* line.** The readout's second line names what it was
+made from, so `status` can tell when it has gone stale:
+`Built from: rows 1–<last row> · problems.md <date> · sizing.md <date> ·
+ledger A1–A<n> · <date written>`. **Every count in the readout appears
+once**, in a *Figures* table under that line (rows read, sources by
+kind, interviews held, problems ranked), and the prose cites the table
+rather than restating a number. Any other form of the case (a document
+for another tool, slides, an email) is made **from `readout.md`, never
+from the artifacts directly**, carries the same *Built from* line, and
+is logged in `STATUS.md` with where it lives, so it can be found and
+rebuilt.
+
+**`readout [slug] slides`.** For a room that will not read a page:
+write `initiatives/<slug>/readout/slides.md` from `readout.md`,
+following `templates/readout-slides.md` (a fixed outline, one idea a
+slide, the caveats in the speaker notes, the decision asked of the room
+on its own slide). It is an outline with the words for each slide, not
+a design: whoever builds the deck in a slide tool exports it once and
+looks at every page before it is presented, because a layout that looks
+right while editing can break on export.
 **Never show a readout to anyone who is about to be interviewed**
 (`methods/customer-interviews/talking-to-humans.md`, "The sponsor's own
 organisation") — say so when you hand it over.
+
+### `hypothesis [slug]`
+
+The PM, or anyone they relay, has a new belief part-way through ("if
+importing were easy, people would switch"). It is not a detour and not
+a reason to restart. Do these in order and report each in a line:
+
+1. **Write it down as stated**, then restate it as a claim that could
+   be wrong, and ask the PM to confirm the restatement in one line.
+2. **Is it already in the ledger?** If a row covers it, say which and
+   stop here: point at that row's evidence and test.
+3. **Brief ideation** (assumption testing, light) to add **one ledger
+   row**: category, what would disprove it, the cheapest test, how it
+   relates to the riskiest assumption. Ideation says whether it
+   displaces the riskiest assumption; you do not.
+4. **Brief desk-research** (collect or count, light) for the cheapest
+   public check of that one row, with *who the source leaves out*
+   stated. Skip only if the ledger row's cheapest test is not public.
+5. **If an interview guide exists and its round has not begun**, brief
+   customer-interviews to add one past-behaviour probe for the row. If
+   the round has begun, do not change the guide or its pass and fail
+   lines: record the hypothesis as a question for the next round.
+6. **If problem cases exist**, brief problem-selection in add-evidence
+   mode once the desk note is in.
+
+A hypothesis about a *solution* to a problem with a *Yes* verdict goes
+to lean-experiments instead (breakdown mode). Log one line.
 
 ## The delegation brief
 
@@ -235,5 +305,8 @@ gate. Sort by last log date, newest first.
 - **Delegate with the brief, every time.** No bare "use agent X on
   this" — objective, inputs, output, gate, PM present, boundaries,
   effort.
+- **Summaries are built, never patched.** A readout, a slide outline or
+  a copy elsewhere is regenerated from the artifacts when they move;
+  nobody updates its numbers by hand.
 - **Pass references, not contents.** Agents report paths; you read the
   log line. The folder is the shared memory; the conversation is not.

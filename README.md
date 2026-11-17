@@ -159,8 +159,13 @@ full · relayed · snippet · machine summary · vendor, counted apart),
 checks files you supply on arrival (wrong page, duplicates, missing
 comments), builds a competitor teardown that ends in a **jobs × coverage
 matrix** with the searches behind every "nobody found", and closes every
-note with what it could not reach. It collects; it never groups, ranks
-or concludes, and everything it produces is BACKGROUND.
+note with what it could not reach. It says **who each source leaves
+out** (a complaints site, people who finished switching), never lets
+one source of a kind stand for the kind, can **count a structured
+field** across a public site with its denominator, and runs a
+**preflight** so a blocked folder or forum is found before the
+allowance is spent. It collects; it never groups, ranks or concludes,
+and everything it produces is BACKGROUND.
 Method: [`methods/desk-research/desk-research.md`](methods/desk-research/desk-research.md)
 
 ### Opportunity Sizing — `opportunity-sizing`

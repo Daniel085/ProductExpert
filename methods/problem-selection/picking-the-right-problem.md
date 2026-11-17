@@ -164,7 +164,7 @@ desk research is **BACKGROUND**
 ([`../customer-interviews/assumption-ledger.md`](../customer-interviews/assumption-ledger.md)).
 Never launder upward.
 
-**Two kinds of row that need a rule of their own** *(repo extension)*:
+**Rows that need a rule of their own** *(repo extension)*:
 
 - **Public first-hand statements** — a forum thread, a review, public
   testimony, read where the person wrote it. Someone real said it,
@@ -177,6 +177,13 @@ Never launder upward.
   **BACKGROUND**; it never carries a *Yes*. Statements by people who sell
   to the customer are listed apart and scored as nothing
   ([`../desk-research/desk-research.md`](../desk-research/desk-research.md) §3).
+- **Selection travels with the evidence.** An evidence-table row built
+  on desk notes carries the note's *who it leaves out* in its Findings
+  cell. Where the people a problem statement is about are the ones the
+  source cannot contain (those who wanted to switch and did not; the
+  content majority on a complaints site), the row counts as a **gap**,
+  not as convergence, whatever it appears to say
+  (`../desk-research/desk-research.md` §3a).
 - **The team's own organisation as the customer** — when the sponsor's
   own business has the problem, what it built, bought or did is an
   **Operational** row at confidence **4 for "this organisation did

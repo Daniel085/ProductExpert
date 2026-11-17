@@ -33,6 +33,9 @@ Or go straight to an agent — start from where you are:
 | "What are people already saying about this?" / "File these pages I saved" / "Who already does this, and what do they charge?" | `desk-research` | Numbered, source-tagged observation rows and fact tables; a jobs × coverage matrix; three lists of what could not be reached. BACKGROUND, never validation |
 | "More evidence came in after we ranked — does anything change?" | `problem-selection` (add evidence) | New rows assigned to the existing groups; one line per case on whether its verdict moved |
 | "Write up where this stands for the rest of the team" | `/navigate readout` | The case so far on one page, from the artifacts only |
+| "I need slides of where this stands for leadership" | `/navigate readout <slug> slides` | A slide outline built from the readout: one finding a slide, caveats in the notes, the decision asked of the room |
+| "I have a new hypothesis about this initiative" | `/navigate hypothesis` | One ledger row, the cheapest public check, and an interview probe if no round has begun |
+| "Is my write-up still current?" | `/navigate status` | Names any summary built from older evidence than the folder now holds |
 | "I have an idea — is the problem even real? Who has it?" | `customer-interviews` | Open-ended discovery: assumptions, guide, recruiting |
 | "I have interview notes/transcripts — what did we learn? What now?" | `customer-interviews` | Synthesis: patterns → insights → persevere/pivot |
 | "The job is validated — I need to map it and capture customer success metrics" | `odi-interviewer` | Job map + desired outcome statements |

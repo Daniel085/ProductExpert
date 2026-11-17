@@ -74,8 +74,35 @@ point.
 
 - **A source table** heads each note: one line per source read, with an
   id, where it is from, its date (a relative date converted and marked
-  *approx.*), how much of it was visible, and anything wrong with the
-  copy (cut off, comments collapsed, garbled).
+  *approx.*), how much of it was visible, anything wrong with the copy
+  (cut off, comments collapsed, garbled), and **who it leaves out** (§3a).
+
+### 3a. Who each source leaves out
+
+Every public source selects who speaks. Write the selection beside the
+source, in a few words, before filing a row from it:
+
+| Kind of source | Who is over-counted | Who cannot appear |
+|----------------|---------------------|-------------------|
+| A complaints-led review site | The aggrieved | The content majority |
+| A review site that invites reviews | Customers the vendor asked | Those who left without a word |
+| A review of the product someone moved **to** | People who finished switching | Those who wanted to switch and did not, or tried and gave up |
+| A practitioner forum | People with a problem that week | People for whom it works; people not on that forum |
+| A vendor's survey | The vendor's own list | Non-customers |
+| The team's own organisation | One case | Everyone else |
+
+Two rules follow.
+
+- **Never let one source of a kind stand for the kind.** A rating, a
+  complaint rate or a "most people say" from one review site is filed
+  with a second site of a different selection beside it, or marked
+  *single source of its kind* in the source table. Two sites that share
+  one data set (a group's sister sites) are one source.
+- **Name who the question is really about, and say whether they can
+  appear.** When the people a ledger row turns on are exactly those a
+  source cannot contain, say so in the note's header and put the
+  question under *Searched and not found* with the reason: it is a
+  question for interviews.
 
 ## 4. Fact tables and the coverage matrix
 
@@ -90,6 +117,34 @@ job the customer has to get done, a column per kind of provider, product
 names in the cells, and a last column **Nobody found (what I searched)**
 holding the exact queries behind each absence. An absence resting on one
 or two searches is a weak absence and is written as one.
+
+### 4a. Counting a field across a public site
+
+Some sites publish a structured field on every record: what a reviewer
+switched from, the size of their organisation, a rating by year. Counted
+across the whole site, one field can answer a ledger question no thread
+will. It is still BACKGROUND, and it has rules of its own.
+
+- **Read the site's terms on automated access first.** If they forbid
+  it, page by hand, or ask the PM to; say which in the note.
+- **Public pages only**, signed out unless the PM said otherwise. One
+  request at a time, with a pause between. Stop at the first refusal or
+  human-verification check; it is a rung of the access ladder, not an
+  obstacle.
+- **Keep counts, not people.** No reviewer names or handles leave the
+  page; a kept sentence is a close paraphrase or a short quote with no
+  identifying detail.
+- **Report the denominator every time:** records read of records that
+  exist; how many carry the field; the date range of those that do; and
+  where reading stopped and why.
+- **Report both directions** when the field is a flow (switched from,
+  moved to): arrivals as well as departures, for the same products.
+- **State who the field leaves out** (§3a) in the sentence that gives
+  the count.
+
+The output is a fact table (*Product · Records read · With the field ·
+Count · Share*) and, where text sits beside the field, observation rows
+in the usual format.
 
 ## 5. What could not be reached
 
@@ -121,6 +176,21 @@ A source refused on every rung goes in *Refused or failed*. Paid data
 sources are never used without the PM's say-so, whatever credentials are
 at hand.
 
+### 6a. Preflight: find out what will fail before spending anything
+
+Before the first search, test the environment and report it in one
+table, each line with its fix. A failed line is not a blocker; it is a
+rung the PM can open in a minute now instead of an hour in.
+
+| Check | How | If it fails |
+|-------|-----|-------------|
+| The raw folder is readable | List it and open one file | The PM moves the files inside the initiative folder, or grants access |
+| Saved pages can be turned into text | Extract one PDF and one HTML file | Name the missing tool; ask before installing anything |
+| Search and fetch are available, and how many remain | One query, one fetch | Shorten the query plan to the riskiest rows |
+| A browser the agent controls | Open one public page | Rung 2 is skipped; say so |
+| The PM's browser, and what it is signed in to | Ask; never sign in yourself | Rung 3 is skipped for those sites |
+| Sources this topic depends on that are known to refuse | One fetch each of the two or three forums or review sites the plan leans on | Give the PM the exact searches to save, up front, not after the allowance is spent |
+
 ## 7. Intake of files the PM supplies
 
 Saved pages arrive imperfect. Before filing any, run the intake check and
@@ -148,6 +218,10 @@ expanded), with the list in one message, and file the rest meanwhile.
 | **Breadth before risk** | The allowance spent on context; the riskiest assumption unsearched | The query plan in §2 |
 | **Summary as speaker** | A machine summary quoted as what practitioners think | Tag `[AI]`; fetch the thread it summarises |
 | **The conclusion in the note** | "This shows the market wants…" | Notes hold rows and facts; problem-selection draws the verdicts |
+| **One site as the market** | "Users rate it 2.4", from the site people go to when angry | A second source with a different selection beside it, or *single source of its kind* (§3a) |
+| **Survivors as everyone** | "Nobody found the move hard", from people who completed it | Say who cannot appear in the source; route the question to interviews (§3a) |
+| **A count with no denominator** | "20 reviewers switched from X" | Records read, records with the field, date range, both directions (§4a) |
+| **Finding the wall late** | The forum refuses after the allowance is spent | Preflight (§6a) |
 
 ## Sources & materials
 
@@ -156,6 +230,7 @@ expanded), with the list in one message, and file the rest meanwhile.
 - Evidence tiers: [`../customer-interviews/assumption-ledger.md`](../customer-interviews/assumption-ledger.md).
 - The four scan questions and teardown depth:
   [`../ideation/brainstorming.md`](../ideation/brainstorming.md) §7.
-- The query plan, the three lists, the access ladder and the intake check
-  are this repo's own, written after running the system on an initiative
-  whose first evidence was all public.
+- The query plan, the three lists, the access ladder, the intake check,
+  the selection table, field counting and the preflight are this repo's
+  own, written after running the system on an initiative whose first
+  evidence was all public.

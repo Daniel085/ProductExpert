@@ -20,6 +20,7 @@ One directory per initiative, created by `/navigate start` from
 initiatives/<slug>/
 ├── STATUS.md              # phase · gates · owed by you · log — the agents append here
 ├── readout.md             # /navigate readout: the case so far, on one page, from the artifacts
+├── readout/               # /navigate readout slides: slides.md, and any exported copy of the case
 ├── ledger.md              # THE assumption ledger (one per initiative, updated in place)
 ├── discovery/             # Phase 1 — Opportunity Discovery
 │   ├── brainstorm.md      #   ideation
@@ -146,9 +147,11 @@ other; the session can). Five verbs:
 | Verb | What it does |
 |------|--------------|
 | `/navigate start` | Asks what you have in hand — an idea, a theory, a feature request, a pile of problems, interview notes, survey data — a name, and **what this is for** (a choice you make or explicitly defer); scaffolds `initiatives/<slug>/` from the templates; writes the header; routes you to the first agent with the slug and the input |
-| `/navigate status [slug]` | Reads `STATUS.md` and the folder; re-derives the gates from the artifacts; reports phase, gates passed, the blocker, and any gate the status file claims that the artifacts don't back |
+| `/navigate status [slug]` | Reads `STATUS.md` and the folder; re-derives the gates from the artifacts; reports phase, gates passed, the blocker, any gate the status file claims that the artifacts don't back, and any summary (readout, slides, a copy elsewhere) built from older evidence than the folder now holds |
 | `/navigate next [slug]` | Names the agent to invoke, what it needs that exists, what it needs that doesn't, and the exact invocation |
 | `/navigate readout [slug]` | Writes `readout.md`: the case so far on one page, for someone who was not in the room, from the artifacts only — what is and isn't validated, what the evidence did to what you arrived with, what is unproven, what happens next, what it rests on. Marks no gate; never shown to anyone about to be interviewed |
+| `/navigate readout [slug] slides` | Writes `readout/slides.md` from `readout.md`, following `templates/readout-slides.md`: a fixed outline, one finding a slide, caveats in the speaker notes, the decision asked of the room on a slide of its own |
+| `/navigate hypothesis [slug]` | Takes in a new belief part-way through: one ledger row (ideation), the cheapest public check (desk-research), one interview probe if a round has not begun, then add-evidence if cases exist |
 | `/navigate list` | All initiatives with phase, last entry, and open blocker |
 
 With one initiative in the folder the slug is optional. The navigator
@@ -161,6 +164,7 @@ never does an agent's work and never marks a gate itself.
 | An idea, a direction, a hunch | **ideation** | `discovery/brainstorm.md` + `ledger.md` |
 | A theory — who struggles with what, and why — and nothing from customers yet | **ideation** (one ledger row per claim), then **desk-research**, then **problem-selection** (theory test) | `ledger.md`, then `discovery/notes/NN-*.md`, then the claims table in `problems/problems.md` |
 | A question public sources could answer; pages, threads or exports you saved | **desk-research** | `discovery/notes/NN-<topic>.md` |
+| A new hypothesis, part-way through an initiative | `/navigate hypothesis`: **ideation** (one ledger row), then **desk-research** (the cheapest public check), then **customer-interviews** (one probe, if no round has begun) | a new row in `ledger.md`, then a note |
 | More evidence, after the problem cases are written | **problem-selection** (add evidence) | a dated *Evidence added* section in `problems/problems.md` |
 | A feature request with no evidence behind it | **customer-interviews** (trace the problem first) | `discovery/interview-guide.md` |
 | A feature request for a problem that already has evidence | **lean-experiments** (breakdown mode) | `experiments/<name>-breakdown.md` |
