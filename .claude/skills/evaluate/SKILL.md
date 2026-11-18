@@ -2,8 +2,8 @@
 name: evaluate
 description: >-
   Runs ProductExpert's evaluation suite: routing (does a PM request land
-  on the right agent and mode — 30 cases), gates (does /navigate status
-  derive phase, gates, blocker and discrepancies correctly from four
+  on the right agent and mode — 39 cases), gates (does /navigate status
+  derive phase, gates, blocker and discrepancies correctly from five
   fixture initiatives), and output (does an agent's artifact meet the
   rubric and honour its gate). Invoke as /evaluate routing | gates |
   output <agent> <fixture> | all. Trigger on: run the evals, test the
@@ -27,7 +27,7 @@ The cases are split so the judge can read blind: inputs in
    `navigate` skill's). Then read `evals/routing-inputs.md` and, for
    every row, decide from the descriptions alone which agent you would
    delegate this to and in which mode — the way auto-delegation would.
-   Write all 30 decisions down **before** step 2. Do not open
+   Write all 39 decisions down **before** step 2. Do not open
    `routing-expected.md` until they are written.
 2. Open `evals/routing-expected.md` and compare. A pass is the expected
    agent (or a listed alternate) *and* the expected mode.
@@ -36,7 +36,7 @@ The cases are split so the judge can read blind: inputs in
    editing them.
 
 Report a table (case · chosen · expected · pass/fail · the description
-phrase that decided it), the score out of 30, and for each fail the
+phrase that decided it), the score out of 39, and for each fail the
 **description fix** you'd propose — the phrase to add to, or remove
 from, an agent's description. Never propose editing the case unless the
 case contradicts a method doc; say so if it does. When a case is added,
@@ -56,7 +56,8 @@ For each fixture in `evals/gate-fixtures/*/`:
 2. Do **not** edit the fixture. Write what you *would* change to
    `STATUS.md` into your report instead.
 3. Compare your derivation with `expected.md`: phase, gates passed,
-   blocker, discrepancies flagged, next agent.
+   blocker, discrepancies flagged, next agent — and, where the fixture
+   has an *Owed by you* section, that its open rows were reported.
 
 Report per fixture: match / mismatch on each of the five items, and the
 rule you applied for any gate you decided differently from `expected.md`.
@@ -71,7 +72,9 @@ goes unflagged is a fail.
    blocker (e.g. lean-experiments on `b-problem-validated`: write the
    value proposition and the Wizard-of-Oz card the ledger names;
    opportunity-sizing on `d-sizing-needed`: size the small-team market
-   both ways from the ICP tiers and the price quotes in the ledger).
+   both ways from the ICP tiers and the price quotes in the ledger;
+   problem-selection on `e-theory-desk-only`: add the three new rows the
+   brief supplies to the existing cases and say which verdicts move).
 2. Invoke the agent with the Agent tool and the brief.
 3. Judge the result against `evals/output-rubric.md`: the universal rows
    and the agent's rows, each 0 / 0.5 / 1, citing the artifact line or
@@ -92,7 +95,7 @@ in one screen.
 ## After every run
 
 Append one line to `evals/runs.md`: date · `git rev-parse --short HEAD`
-· routing x/30 · gates a/b · output <agent> score · one-line notes.
+· routing x/39 · gates a/b · output <agent> score · one-line notes.
 Never edit earlier lines.
 
 ## Rules

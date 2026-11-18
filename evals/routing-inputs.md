@@ -1,6 +1,6 @@
 # Routing inputs
 
-30 inputs as a PM would type them. **This file holds only the inputs.**
+36 inputs as a PM would type them. **This file holds only the inputs.**
 The expected agent, mode, alternates and the deciding phrase for each
 case live in [`routing-expected.md`](./routing-expected.md), which the
 judge opens only after deciding every case from the agent descriptions
@@ -38,3 +38,12 @@ alone. Keep the two files in step: same numbers, same inputs.
 | 28 | "Leadership wants a number on the import-recovery initiative. What is fixing mapping-step abandonment worth to us in revenue?" |
 | 29 | "We're considering a self-serve import tool for small teams — a market we don't serve today. An investor asked for our TAM. How big is this, really?" |
 | 30 | "Here's the TAM slide from our deck: $4.2B, 2% share by year three. Is it credible?" |
+| 31 | "Before I book any interviews: what are café owners already saying in forums and reviews about ordering from suppliers? Collect it." |
+| 32 | "I saved a folder of forum threads and review pages into `discovery/notes/raw/`. File them so we can use them." |
+| 33 | "My theory: independent bike shops lose sales because owners can't keep stock counts right, don't trust inventory software, and have no time to learn it. The desk notes are in `discovery/notes/`. Was I right?" |
+| 34 | "Twelve more tickets and two more threads came in after we ranked the import problems. Does anything change?" |
+| 35 | "Write up where the import-recovery initiative stands for my VP, who hasn't followed any of it." |
+| 36 | "Who already sells stock tools to independent shops, what do they charge as of today, and which jobs does nobody cover? I want the searches behind any gap." |
+| 37 | "Halfway through the supplier-ordering initiative and I've got a new hypothesis: if switching suppliers took one phone call, café owners would switch. What do we do with that?" |
+| 38 | "I'm presenting the import-recovery initiative to the leadership team on Thursday. I need slides of where it stands, not a document." |
+| 39 | "We've added notes and re-ranked since I wrote up the import-recovery case. Is that write-up still current?" |
