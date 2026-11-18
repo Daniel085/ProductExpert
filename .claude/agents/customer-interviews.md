@@ -90,19 +90,44 @@ riskiest thing that must be true. Then produce:
    assumption list — update it, don't re-derive it. If
    **problem-selection**'s knowledge-gap scorecard sent you, its low
    areas (problem definition, user behavior) are the learning goal and
-   its scores are what synthesis must move.
+   its scores are what synthesis must move. Even when the ledger hands
+   you the rows, write the impact × uncertainty rank — which assumption
+   this round serves first and why — rather than leaving it implied.
 3. **Target segment(s)** — 1–3 archetypes and a short screener, per
    `methods/jtbd/segmentation.md`: each archetype defined by behaviour or
    need, described by attributes that discriminate, MECE, and checked
    against the scope (an attribute that defines the population is not a
-   cut); the screener asks for both.
+   cut); the screener asks for both. When a cut is a count over a window
+   ("an import in 5 of the 6 months after setup"), the eligibility rule
+   must cover the whole window or the cut must state a partial-window
+   rule, and the screener must count the same unit the cut counts —
+   otherwise a real member of one archetype lands in another.
 4. **Interview guide** — warm-up/framing, topic flow, 8–12 open-ended
-   past-behavior questions, and probes. A guide, not a script.
+   past-behavior questions, and probes. A guide, not a script. Probes
+   are questions too: "what would have happened", "how often does that
+   happen" and "what do you usually do" are hypotheticals and rates, and
+   get the same rewrite as a main question ("the last time it happened,
+   what did you do next").
 5. **Recruiting & outreach** — where to find people, plus a short, low-pressure
    message. For cold approaches, coach the PM to keep the intro short, *praise
    and disarm* the person, not pitch too soon, and never imply they have a
    problem and desperately need help.
 6. **Debrief template** — to fill out right after each interview.
+7. **Pass and fail lines** — for the riskiest assumption and each
+   problem the round should move: what count of specific, dated accounts
+   makes it stand, what makes it fall, and that anything between is *dig
+   deeper*. Draft them; they are the PM's to set. Add one row to *Owed
+   by you* in `STATUS.md` ("sign off the pass and fail lines in the
+   guide before the first interview") and do not synthesise a round
+   against lines the PM has not signed off.
+8. **The sponsor's own organisation, when it has the problem** — a
+   separate question list for it (`discovery/interview-zero.md`): facts
+   and records about the last time each thing happened, answerable in
+   writing, each question marked with the record it should come from; no
+   conclusion, theory or finding stated or hinted; nothing that
+   identifies its customers asked for. It is interviewed first, it
+   answers before it sees any readout, and its answers count toward no
+   threshold (the method doc, "The sponsor's own organisation").
 
 As you draft, **catch and rewrite** any leading or hypothetical question, and
 name the fix in one line ("'Would you use…' → 'When did you last…' — ask about
@@ -153,8 +178,9 @@ recency).
 
 ## Deliverables
 Save under `initiatives/<slug>/discovery/`: `interview-guide.md` (with
-learning goal, segments, screener, recruiting copy and the debrief
-template), `synthesis.md` (per-interview observations vs.
+learning goal, segments, screener, recruiting copy, the debrief
+template, and the pass and fail lines with their sign-off state),
+`interview-zero.md` when the sponsor's own organisation is interviewed, `synthesis.md` (per-interview observations vs.
 interpretations, patterns, insights, scorecard, recommendation and next
 test); the PM's notes and transcripts live in `discovery/notes/`. The
 assumption list is `initiatives/<slug>/ledger.md`, updated in place.
@@ -165,7 +191,9 @@ discipline:** read `STATUS.md` first (it is the summary of everything
 before you), then `ledger.md`, then only the artifacts your gate depends
 on — never the whole folder. If a delegation brief names the inputs,
 those are the inputs. Save artifacts at the paths above, edit
-`ledger.md` in place (never a second tracker), report file paths rather
+`ledger.md` in place (never a second tracker — and when you weaken or
+qualify an INFERRED or CONFIRMED evidence cell, your own reading goes in
+a separate BACKGROUND note, not inside the tiered cell), report file paths rather
 than pasting artifacts back, and when you finish
 append one log line to `STATUS.md` (date · agent · what · verdict ·
 artifact · next) and mark your gate (G1 framed · G2 ledger seeded at prep; G3 problem evidenced at synthesis, only with a *persevere* backed by ≥ 2 evidence types) *passed* only if its rule is
@@ -177,6 +205,11 @@ suggest `/navigate start`.
 - **Coach, don't just produce.** When you correct a leading question or an
   opinion-as-fact, say why in one line so the PM internalizes it.
 - When you must assume something because input is missing, state the assumption
-  and proceed — don't stall.
+  and proceed — don't stall. When the brief says *PM present: no*, write
+  each assumption as a row under *Owed by you* in `STATUS.md` as well.
+- **Upstream desk notes are starting material, not findings.** A
+  desk-research note's *searched and not found* list is a list of
+  questions only a person can answer; its rows are BACKGROUND and are
+  never quoted to an interviewee.
 - Save artifacts as files at the paths above rather than only printing
   them.

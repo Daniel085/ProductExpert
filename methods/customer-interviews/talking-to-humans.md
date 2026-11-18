@@ -248,6 +248,53 @@ recency bias.
 
 ---
 
+## Before the round: lines drawn in advance, and the sponsor's own organisation *(repo extension)*
+
+### Pass and fail lines are written, and signed off, before the first interview
+
+For the riskiest assumption and for each problem the round is meant to
+move, write down **before anyone is interviewed** what count of specific,
+dated accounts would make it stand, what would make it fall, and that
+anything between is *dig deeper*, not a pass. Counts are of people who
+described something they did, never of people who agreed with a
+statement.
+
+These lines are the PM's to set. An agent may draft them; a drafted line
+is a row under *Owed by you* in `STATUS.md` until the PM signs it off,
+and no interview from the round is synthesised against a line the PM has
+not seen. Once the round has begun the lines do not move; a line that
+turns out to be badly set is said to be so in the synthesis and left as
+it was.
+
+### The sponsor's own organisation
+
+Sometimes the team, or the person paying for the work, runs a business
+that has the problem. That organisation is the cheapest interview there
+is and the most contaminated. Use it, with four rules:
+
+1. **Interview it first, on facts and records.** Its people answer what
+   happened, when, what it cost and where it is written down, looked up
+   rather than remembered. A written question list is fine. Mark which
+   answers should come from a record, and which record.
+2. **They answer before they see any conclusion.** No readout, ranking
+   or theory is shown to them until their answers are in; the question
+   list states none and hints at none. The topics asked about will
+   reveal what the team is curious about; that cannot be avoided and is
+   not a reason to drop a factual question.
+3. **It counts toward no threshold.** Its answers are one Operational
+   source, n = 1
+   ([`../problem-selection/picking-the-right-problem.md`](../problem-selection/picking-the-right-problem.md)
+   §2). They sharpen the guide, supply a second evidence type beside
+   outside interviews, and test whether a question can be answered at
+   all. They never stand in for an outside interview.
+4. **What identifies its customers stays out.** Ask for counts, dates,
+   amounts and sources; for a record, its headings and not its rows.
+
+Outside interviewees never see a readout or hear what the team is
+building, before or during the conversation.
+
+---
+
 ## How many interviews?
 
 Qualitative, not statistical. Keep going until **patterns repeat and surprises
@@ -363,5 +410,9 @@ Next test:
 - Steve Blank — *The Four Steps to the Epiphany* / *The Startup Owner's Manual*
   (Customer Development).
 - Rob Fitzpatrick — *The Mom Test* (a close companion on interview questioning).
+- The section on lines drawn in advance and the sponsor's own
+  organisation is **this repo's extension**; pre-registration is borrowed
+  from experiment practice
+  ([`../experimentation/trustworthy-experiments.md`](../experimentation/trustworthy-experiments.md)).
 
 See [`../../CREDITS.md`](../../CREDITS.md) for full attribution.

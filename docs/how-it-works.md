@@ -7,13 +7,14 @@ actually happens, and how the agents compose into pipelines.
 
 ```
 ProductExpert/
-├── .claude/skills/navigate/SKILL.md # FRONT DOOR — /navigate start|status|next|list
+├── .claude/skills/navigate/SKILL.md # FRONT DOOR — /navigate start|status|next|readout|list
 ├── .claude/skills/evaluate/SKILL.md # EVALS — /evaluate routing|gates|output|all
 ├── evals/                           # routing cases · gate fixtures · output rubric · runs log
 ├── templates/initiative/            # scaffold: STATUS.md · ledger.md
 ├── initiatives/<slug>/              # YOUR WORK — one folder per initiative (not in the toolkit)
 ├── .claude/agents/                  # BEHAVIOR — one file per agent
 │   ├── ideation.md                  #   front-door brainstorming partner
+│   ├── desk-research.md             #   public evidence into numbered, tagged rows; what could not be reached
 │   ├── opportunity-sizing.md        #   TAM/SAM/SOM both ways; register, Monte Carlo model, tests
 │   ├── customer-interviews.md       #   qualitative discovery coach
 │   ├── odi-interviewer.md           #   ODI Phase 1: discover
@@ -64,6 +65,8 @@ ProductExpert/
 │   ├── strategy/
 │   │   ├── product-strategy.md      #   strategy as a deployable framework; gaps; four levels; the kata at every level
 │   │   └── materials/               #   Rother's Improvement Kata & Coaching Kata pages, the five-question card
+│   ├── desk-research/
+│   │   └── desk-research.md         #   query plan; observation row and tags; coverage matrix; access ladder; intake
 │   ├── sizing/
 │   │   ├── market-sizing.md         #   TAM/SAM/SOM by exclusion; bottom-up build; top-down tree; reconcile; tests; register
 │   │   └── materials/               #   Gurley, Damodaran, a16z, Pear, Janz, StrategyCase, Stanford Biodesign, Blank

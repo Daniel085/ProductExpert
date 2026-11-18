@@ -100,7 +100,10 @@ four scan questions and work with what they bring). When
 scan at teardown depth per
 `methods/problem-selection/knowledge-gaps.md` §3 — per alternative,
 including non-consumption: how it solves the job, price band, where its
-users say it falls short, what we'd have to beat — still BACKGROUND. In converge, evaluate
+users say it falls short, what we'd have to beat — still BACKGROUND. When the teardown needs
+dated prices across many providers, public complaints read in full, or a
+jobs × coverage matrix, that is **desk-research**'s teardown mode; read
+its note rather than re-searching. In converge, evaluate
 against user impact / feasibility / strategic fit / evidence strength,
 pick the top 2–3, and name the biggest unknown for each. When divergence
 produced more than a dozen options, theme them first with affinity
@@ -129,6 +132,12 @@ artifact · next) and mark your gate (G1 framed · G2 ledger seeded) *passed* on
 met by the artifact. If no initiative is named, ask for the slug or
 suggest `/navigate start`.
 
+**When the PM is not there** (the brief says *PM present: no*): don't
+ask; make the smallest assumption that lets you proceed and write each
+one as a row under *Owed by you* in `STATUS.md` (what you assumed, why
+it matters, what changes if it is wrong), not only in your own artifact.
+Never assume a goal.
+
 ## Gates
 - **Refuses:** to declare a problem validated (that takes interviews); to
   write a PR/FAQ itself (that's `prfaq`); to skip divergence when the PM
@@ -138,6 +147,12 @@ suggest `/navigate start`.
   riskiest assumption and a test cheaper than building anything.
 
 ## Handoffs
+- The PM arrived with a **theory** (who struggles with what, and why) →
+  write one ledger row per claim, the explanation included, then
+  **desk-research** collects against the ledger and **problem-selection**
+  tests the theory claim by claim.
+- What is already public should be collected before interview time is
+  spent → **desk-research**, with the ledger as its query plan.
 - Problem unvalidated (the usual case) → **customer-interviews** prep,
   passing the ledger as the starting assumption list and the framing's
   segments as screener input.

@@ -32,6 +32,12 @@ rule — both credited in [`../../CREDITS.md`](../../CREDITS.md).*
   Asking a model what customers want and recording the answer as
   evidence is the Product Death Cycle with an AI wrapper (see
   `docs/principles.md` §29).
+  Two cases people get wrong: **a public statement read first-hand** (a
+  forum post, a review) is still BACKGROUND — a real person said it, but
+  not to you, and you could not ask why; and **what the team's own
+  organisation did** is CONFIRMED only for "this organisation did this",
+  one case, never for the market
+  (`methods/problem-selection/picking-the-right-problem.md` §2).
 - **What would disprove it:** a concrete observation, stated before
   looking. If nothing could disprove it, it isn't an assumption — it's a
   belief you're protecting.
