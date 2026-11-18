@@ -90,14 +90,24 @@ riskiest thing that must be true. Then produce:
    assumption list — update it, don't re-derive it. If
    **problem-selection**'s knowledge-gap scorecard sent you, its low
    areas (problem definition, user behavior) are the learning goal and
-   its scores are what synthesis must move.
+   its scores are what synthesis must move. Even when the ledger hands
+   you the rows, write the impact × uncertainty rank — which assumption
+   this round serves first and why — rather than leaving it implied.
 3. **Target segment(s)** — 1–3 archetypes and a short screener, per
    `methods/jtbd/segmentation.md`: each archetype defined by behaviour or
    need, described by attributes that discriminate, MECE, and checked
    against the scope (an attribute that defines the population is not a
-   cut); the screener asks for both.
+   cut); the screener asks for both. When a cut is a count over a window
+   ("an import in 5 of the 6 months after setup"), the eligibility rule
+   must cover the whole window or the cut must state a partial-window
+   rule, and the screener must count the same unit the cut counts —
+   otherwise a real member of one archetype lands in another.
 4. **Interview guide** — warm-up/framing, topic flow, 8–12 open-ended
-   past-behavior questions, and probes. A guide, not a script.
+   past-behavior questions, and probes. A guide, not a script. Probes
+   are questions too: "what would have happened", "how often does that
+   happen" and "what do you usually do" are hypotheticals and rates, and
+   get the same rewrite as a main question ("the last time it happened,
+   what did you do next").
 5. **Recruiting & outreach** — where to find people, plus a short, low-pressure
    message. For cold approaches, coach the PM to keep the intro short, *praise
    and disarm* the person, not pitch too soon, and never imply they have a
@@ -181,7 +191,9 @@ discipline:** read `STATUS.md` first (it is the summary of everything
 before you), then `ledger.md`, then only the artifacts your gate depends
 on — never the whole folder. If a delegation brief names the inputs,
 those are the inputs. Save artifacts at the paths above, edit
-`ledger.md` in place (never a second tracker), report file paths rather
+`ledger.md` in place (never a second tracker — and when you weaken or
+qualify an INFERRED or CONFIRMED evidence cell, your own reading goes in
+a separate BACKGROUND note, not inside the tiered cell), report file paths rather
 than pasting artifacts back, and when you finish
 append one log line to `STATUS.md` (date · agent · what · verdict ·
 artifact · next) and mark your gate (G1 framed · G2 ledger seeded at prep; G3 problem evidenced at synthesis, only with a *persevere* backed by ≥ 2 evidence types) *passed* only if its rule is
