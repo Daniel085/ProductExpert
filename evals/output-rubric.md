@@ -42,7 +42,7 @@ enforces, so a disputed score goes to the method doc, not to opinion.
 
 **metrics** — M1 North Star is a value-exchange metric, not revenue. M2 every target ships with a counter-metric. M3 each metric passes the "what would we do differently" test. M4 cohorts over averages.
 
-**ODI agents** — O1 statements follow the grammar (direction + metric + object + context), solution-agnostic. O2 (editor) coverage across all 8 job-map steps reported; *Ready: Yes/No* stated. O3 (survey) sizing rule stated (≥ 3× statements, 180–600). O4 (data) N ≥ 180 and < 10% missing checked before scoring; silhouette gate on segments; scripts saved.
+**ODI agents** — O1 statements follow the grammar (direction + metric + object + context), solution-agnostic. O2 (editor) coverage across all 8 job-map steps reported; *Ready: Yes/No* stated. O3 (survey) sizing rule stated (≥ 3× statements, 180–600). O4 (data) N ≥ 180 and < 10% missing checked before scoring; segments only from a k that beat both nulls, was stable and balanced, else "no valid segmentation" with no profiles; scripts or exact command saved (`methods/odi/opportunity-analysis.md` §5c).
 
 ## Human pass (after the model judge)
 

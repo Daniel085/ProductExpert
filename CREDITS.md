@@ -81,6 +81,20 @@ the property of their authors and are included for reference and attribution.
   - *Jobs to be Done: Theory to Practice* — Anthony Ulwick (free PDF at
     jobs-to-be-done-book.com)
 
+### Segmentation statistics
+- **John L. Horn**, "A rationale and test for the number of factors in
+  factor analysis," *Psychometrika*, 1965 — parallel analysis.
+- **Yufeng Liu, D. Neil Hayes, Andrew Nobel & J. S. Marron**, "Statistical
+  Significance of Clustering for High-Dimension, Low–Sample Size Data,"
+  *JASA*, 2008 — SigClust: test clusters against one population.
+- **B. W. Silverman**, "Using Kernel Density Estimates to Investigate
+  Multimodality," *JRSS B*, 1981 — the critical bandwidth.
+- **Christian Hennig**, "Cluster-wise assessment of cluster stability,"
+  *Computational Statistics & Data Analysis*, 2007 — bootstrap Jaccard and
+  the 0.75 line.
+- `tools/odi/` combines and adapts these; none of the authors proposed
+  this exact gate.
+
 ### Provenance of these agents
 - The four ODI agents and `methods/odi/` were **ported from
   [Daniel085/Product-Discovery-ODI](https://github.com/Daniel085/Product-Discovery-ODI)**

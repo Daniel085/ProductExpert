@@ -108,7 +108,7 @@ Institute; Minto's MECE.)*
 
 ### 12. Gates between stages; gaps go upstream
 Each pipeline stage gates its input (saturation reached; statements
-structurally valid; survey < 25 min; N ≥ 180; silhouette > 0.25). When a gate
+structurally valid; survey < 25 min; N ≥ 180; segments that beat a null and survive a bootstrap). When a gate
 fails, the work goes *back* with a specific request — a coverage gap triggers
 follow-up interviews, not a thinner survey. Quality problems are fixed where
 they were created, never papered over downstream.

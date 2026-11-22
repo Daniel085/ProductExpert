@@ -38,6 +38,8 @@ status` tells you where an initiative stands; `/navigate next` who's up.
   `/evaluate routing | gates | output | all` against 30 routing cases,
   four gate fixtures and an output rubric; runs logged in
   `evals/runs.md`.
+- **`tools/odi/`** — the one piece of analysis *code*: ODI scoring and the
+  segmentation gate, pinned and tested.
 - **`templates/initiative/`** — the scaffold `/navigate start` copies:
   `STATUS.md` (phase · gates · log) and `ledger.md` (the one assumption
   ledger).
@@ -227,9 +229,11 @@ Method: [`methods/odi/survey-design.md`](methods/odi/survey-design.md)
 ### ODI Data Scientist — `odi-data-scientist`
 Phase 3 (Analyze & Act): opportunity scores
 (`Importance + max(Importance − Satisfaction, 0)`), the opportunity
-landscape, needs-based segmentation (factor + cluster, statistically gated),
+landscape, needs-based segmentation (factor + cluster, kept only if it beats
+two nulls and a bootstrap stability check, with every segment ≥ 10%),
 segment profiles, and a growth-strategy recommendation — computed with real,
-saved Python. Method: [`methods/odi/opportunity-analysis.md`](methods/odi/opportunity-analysis.md)
+saved Python ([setup](#running-the-odi-analysis)).
+Method: [`methods/odi/opportunity-analysis.md`](methods/odi/opportunity-analysis.md)
 
 ### Problem Selection — `problem-selection`
 Decides **which problem to work on** when several compete. Themes raw
@@ -346,6 +350,48 @@ Without the navigator, Claude auto-delegates based on each agent's
 Which agent for which situation, end-to-end walkthroughs, and what stays
 human: see the **[user guide](docs/user-guide.md)**. Manage agents with the
 `/agents` command.
+
+## Running the ODI analysis
+
+Scoring, factor analysis and k-means segmentation run as a plain Python
+script, with or without Claude. You need Python 3.9 or newer, up to 3.14.
+From the repo root:
+
+```bash
+python3 -m venv .venv
+.venv/bin/python -m pip install --upgrade pip
+.venv/bin/python -m pip install -r tools/odi/requirements.txt
+```
+
+Try it on synthetic surveys (under a minute each):
+
+```bash
+.venv/bin/python tools/odi/odi_analysis.py evals/odi-fixtures/noise.csv --duration-column duration_min --out initiatives/demo/noise
+.venv/bin/python tools/odi/odi_analysis.py evals/odi-fixtures/planted.csv --duration-column duration_min --out initiatives/demo/planted
+```
+
+The first reports `no valid segmentation`; the second finds the three
+planted segments.
+
+On your own survey, give it a CSV with one row per respondent, a
+`respondent_id` column (or name yours with `--id-column`), and for every
+outcome a `<name>_imp` and `<name>_sat` column rated 1–5. It needs N ≥ 180
+after cleaning. Pass `--duration-column` (minutes) to remove speeders.
+
+It writes `summary.md`, `opportunity_scores.csv`, `cleaning_log.csv`,
+`factor_loadings.csv` and `segmentation_diagnostics.csv`, plus
+`segments.csv` and `segment_scores.csv` only when a segmentation passes.
+Segments pass only if their silhouette beats two single-population nulls
+(p ≤ 0.05 each), every segment is stable under bootstrap (Jaccard ≥ 0.75),
+and every segment is ≥ 10% of the sample. The reasoning is in the
+[method](methods/odi/opportunity-analysis.md#step-5--needs-based-segmentation),
+the measured error rates in [evals](evals/odi-calibration.md).
+
+To run the tests (a few minutes):
+
+```bash
+.venv/bin/python -m unittest discover -s tools/odi
+```
 
 ## Adding the next agent
 

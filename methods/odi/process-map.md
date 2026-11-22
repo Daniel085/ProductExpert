@@ -153,7 +153,7 @@ never papered over downstream.
 | odi-outcome-editor | odi-survey-builder | 80–120 curated statements, coverage report, change log | All quality checks pass |
 | odi-survey-builder | You (to field) | Survey instrument, fielding specs | Survey < 25 min; sample size specified |
 | You (after fielding) | odi-data-scientist | Clean dataset (CSV) | N ≥ 180; < 10% missing data |
-| odi-data-scientist | You | Opportunity scores, segments, strategy | Silhouette score > 0.25 |
+| odi-data-scientist | You | Opportunity scores, segments, strategy | Segments beat both nulls (p ≤ 0.05), are stable (Jaccard ≥ 0.75) and each ≥ 10% of sample — or "no valid segmentation" |
 
 ## Where this sits in ProductExpert
 

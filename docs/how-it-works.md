@@ -9,6 +9,7 @@ actually happens, and how the agents compose into pipelines.
 ProductExpert/
 ├── .claude/skills/navigate/SKILL.md # FRONT DOOR — /navigate start|status|next|readout|list
 ├── .claude/skills/evaluate/SKILL.md # EVALS — /evaluate routing|gates|output|all
+├── tools/odi/                       # CODE — ODI scoring + segmentation gate, pinned and tested
 ├── evals/                           # routing cases · gate fixtures · output rubric · runs log
 ├── templates/initiative/            # scaffold: STATUS.md · ledger.md
 ├── initiatives/<slug>/              # YOUR WORK — one folder per initiative (not in the toolkit)
@@ -238,7 +239,7 @@ flowchart TD
   e["odi-outcome-editor · Phase 1.5 Curate<br/>validate · dedupe · level · coverage"] -- "curated 80–120 · gate: all checks pass" --> s
   e -. "follow-up interview request" .-> i
   s["odi-survey-builder · Phase 2 Quantify<br/>instrument · fielding specs · data dictionary<br/><i>you field the survey</i>"] -- "clean CSV · gate: N ≥ 180, < 10% missing" --> d
-  d["odi-data-scientist · Phase 3 Analyze & Act<br/>scores · segments · strategy<br/>gate: silhouette > 0.25"] --> out(["ranked opportunities · segments · growth strategy"])
+  d["odi-data-scientist · Phase 3 Analyze & Act<br/>scores · segments · strategy<br/>segment gate: both nulls · stability · ≥ 10%"] --> out(["ranked opportunities · segments · growth strategy"])
   classDef agent fill:#e8f0fe,stroke:#3b6fd6,color:#111
   classDef edge fill:#eee,stroke:#888,color:#333
   class i,e,s,d agent
