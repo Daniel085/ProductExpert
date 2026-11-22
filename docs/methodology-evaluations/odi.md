@@ -90,7 +90,7 @@ wrong thing beautifully.
 
 **1.4 — Fully supported.** Opinion is replaced by measurement:
 importance/satisfaction from N ≥ 180, segmentation on needs rather than
-demographics, silhouette-validated clusters, read-back confirmation of
+demographics, clusters tested against nulls, read-back confirmation of
 each statement with the customer. *Weak spot:* capture is still
 interpreted by the interviewer, and the survey can only test outcomes
 someone thought to capture.
@@ -110,7 +110,7 @@ one flavor of "importance" it doesn't capture.
 
 **1.7 — Fully supported.** Confidence is statistical: sample sizing
 (180–600; ≥ 3× the statement count), data-quality gates (< 10% missing,
-speeders, straight-liners), silhouette > 0.25 for segments, manual
+speeders, straight-liners), null and bootstrap tests for segments, manual
 spot-checks. *Caveat:* completeness of the outcome list is judged by
 saturation, not statistics.
 

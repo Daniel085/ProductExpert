@@ -89,21 +89,66 @@ explain *why* customers have different unmet needs. ODI segments on
 **5a. Prepare** — use importance AND satisfaction **gap scores**
 (Importance − Satisfaction) per outcome; standardize (z-scores).
 
-**5b. Factor analysis** — exploratory factor analysis (EFA) on the gap
-scores; choose factor count via scree plot and eigenvalue > 1; identify which
-outcomes load on each factor; **name each factor** for the outcomes it
-represents.
+**5b. Factor analysis** — exploratory factor analysis (EFA, varimax) on
+the gap scores; choose factor count by **parallel analysis** (keep factors
+whose eigenvalue beats the 95th percentile of column-permuted data; Horn
+1965); identify which outcomes load on each factor; **name each factor**
+for the outcomes it represents. Don't use eigenvalue > 1, which keeps many
+factors from pure noise. A different count may be set, but before seeing
+the segmentation result, and it is reported.
 
 **5c. Cluster analysis** — k-means on the factor scores, testing k = 2…8.
-Evaluate each k on:
-- **Silhouette score** — higher is better; require **> 0.25**
-- **Segment balance** — no segment < 10% of total
-- **Interpretability** — segments must have distinct, meaningful unmet-needs
-  profiles
+A k is a valid segmentation only if **all four** hold:
 
-**5d. Validate** — cross-tabulate segments with profiling variables; verify
-segments differ meaningfully on unmet needs; check segments are **reachable**
-(identifiable in the real world).
+| Check | Rule | What it rules out |
+|-------|------|-------------------|
+| **Response-shaped null** | silhouette beats it, p ≤ 0.05 | Clusters made by the rating scale, ceiling effects, or correlation between outcomes |
+| **Single-peak null** | silhouette beats it on both axis sets, p ≤ 0.05 | Clusters cut out of one skewed or heavy-tailed population |
+| **Stability** | every segment's mean bootstrap Jaccard ≥ 0.75 (after Hennig 2007) | Segments that vanish when the sample changes |
+| **Segment balance** | no segment < 10% of total | Segments too small to act on |
+
+If no k passes, the result is **"no valid segmentation"**.
+
+- *Why not a fixed silhouette cut.* k-means divides any cloud of points,
+  and with few factors the pieces score well: one factor of pure noise
+  gives silhouettes near 0.55. The question is whether the score is higher
+  than one population would give (the idea behind SigClust, Liu et al.
+  2008).
+- *Response-shaped null.* Simulated respondents from one correlated
+  population (a Gaussian copula) with each outcome's observed distribution
+  and the observed correlations, refitted through the same factor analysis
+  and k-means.
+- *Single-peak null.* Each factor's scores resampled with just enough
+  smoothing to leave one peak (Silverman 1981), then the same k-means.
+  Done on the varimax axes and again on the principal axes of the scores;
+  the worse p counts. With more factors than real traits, varimax splits
+  one trait across several factors, and the first alone would pass it.
+- *Why both.* Either alone passes data with no segments: the first on
+  skewed traits, the second on ceiling effects. Plain permutation is not
+  enough, because it also removes the correlations between outcomes.
+- *Trying seven values of k.* Each p compares with the best k of every
+  simulated dataset, so searching over k earns nothing.
+- *Stability is not evidence by itself.* A bell curve cut in half is very
+  stable; that is why the nulls are required too.
+- *Choosing among passing k.* The one furthest above the weaker of its
+  two nulls.
+- *Limits.* The gate is conservative: at N = 180 faint or heavily
+  overlapping segments will usually read as no valid segmentation, which
+  means "none detected", not "everyone is alike". So can groups whose
+  answers are nearly identical within each group. Measured error rates
+  are in [`../../evals/odi-calibration.md`](../../evals/odi-calibration.md).
+
+**5d. Validate** — these need a person and can only reject a k that
+passed, never rescue one that failed:
+- **Interpretability** — segments must have distinct, meaningful
+  unmet-needs profiles (significance tests between segments on the outcomes
+  that formed them are circular; don't offer them as evidence)
+- **Reachability** — cross-tabulate segments with profiling variables;
+  check segments are identifiable in the real world
+
+When either can't be judged (no outcome wording, no profiling variables),
+report a k that passed as **provisional** and say what is missing. A
+strategy that rests on a provisional segment is conditional on that check.
 
 ### Step 6 — Profile each segment
 
@@ -138,6 +183,10 @@ Demographics **describe** segments; they never **define** them.
 | **Discrete** | Niche segment with extreme unmet needs | Specialized solution for one segment |
 | **Sustaining** | Market mostly well-served | Incremental improvements to hold position |
 
+With no valid segmentation, choose only from what the whole-sample scores
+support. Differentiated and Discrete require a validated segment, and so
+does any claim that a *segment* is overserved.
+
 ### Step 8 — Evaluate solution concepts (if provided)
 
 For each concept:
@@ -154,26 +203,32 @@ For each concept:
    strategy.
 2. **Full opportunity score table** — every outcome, ranked.
 3. **Opportunity landscape** — the labeled scatter plot.
-4. **Segment analysis** — profile per segment.
+4. **Segment analysis** — profile per segment, or "no valid segmentation"
+   with the diagnostics and no profiles.
 5. **Growth strategy recommendation** — with rationale tied to the data,
    specific outcomes to target, segments to prioritize.
 6. **Technical appendix** — cleaning log (records removed and why), factor
-   loadings and variance explained, cluster diagnostics (silhouette scores
-   and sizes for each k tested), methodology notes.
+   loadings and variance explained, cluster diagnostics (silhouette, both
+   null p-values, stability and smallest segment for each k tested),
+   methodology notes.
 
 ## Tooling
 
-Preferred stack: **Python** — pandas, numpy, scipy, scikit-learn
-(`sklearn.decomposition.FactorAnalysis` or the `factor_analyzer` library;
-`sklearn.cluster.KMeans` + `sklearn.metrics.silhouette_score`), matplotlib /
-seaborn for the landscape and segment profiles.
+[`tools/odi/odi_analysis.py`](../../tools/odi/odi_analysis.py) runs steps
+1–3 and 5a–5c and is the reference implementation of the gate; setup is in
+the [README](../../README.md#running-the-odi-analysis). It reads
+`<name>_imp` / `<name>_sat` column pairs and does not judge whether
+distributions are sane, draw the landscape, name factors or segments,
+profile on demographics, or pick a strategy. For the landscape and profile
+plots add matplotlib.
 
 ## Quality checklist
 
 - [ ] Data cleaning documented with rationale
 - [ ] Opportunity scores spot-checked manually (≥ 5)
 - [ ] Landscape plot clear and properly labeled
-- [ ] Segmentation statistically valid (silhouette > 0.25)
+- [ ] Segmentation beats both nulls (p ≤ 0.05) and is stable (Jaccard ≥ 0.75),
+      or reported as "no valid segmentation"
 - [ ] Each segment has a distinct unmet-needs profile
 - [ ] No segment < 10% of sample (commercial viability)
 - [ ] Demographic profiles descriptive, not definitional

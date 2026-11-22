@@ -2,3 +2,5 @@
 # (see docs/interaction-model.md, "Commit it or ignore it, your choice").
 initiatives/
 .DS_Store
+__pycache__/
+.venv/

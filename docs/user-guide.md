@@ -177,9 +177,10 @@ the statement count) — and export a clean CSV per the data dictionary.
 **4 · Analyze & act** (`odi-data-scientist`)
 > "Point the **odi-data-scientist** at `discovery/<project>/survey-results.csv`."
 
+It needs Python set up once ([README](../README.md#running-the-odi-analysis)).
 It validates the dataset (N ≥ 180, speeders/straight-liners, missing data),
 computes opportunity scores, and delivers: the ranked opportunity table, the
-opportunity landscape plot, needs-based segments (statistically validated),
+opportunity landscape plot, needs-based segments (or "no valid segmentation"),
 segment profiles, and a growth-strategy recommendation — plus the Python
 scripts, so the analysis is reproducible. If you have solution concepts, give
 it those too and it scores their coverage and segment fit.

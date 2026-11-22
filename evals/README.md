@@ -16,6 +16,11 @@ Run with `/evaluate` (`.claude/skills/evaluate/SKILL.md`):
 | `/evaluate output <agent> <fixture>` | That an agent's artifact meets the output rubric and the agent honoured its gate | [`output-rubric.md`](./output-rubric.md), run against a fixture input |
 | `/evaluate all` | All three, summarized | |
 
+The ODI data scientist's output fixtures are synthetic surveys in
+[`odi-fixtures/`](./odi-fixtures/); their answers are in its `expected/`
+folder, which the agent under test is not given. The gate's measured
+error rates are in [`odi-calibration.md`](./odi-calibration.md).
+
 ## What "pass" means
 
 - **Routing:** the chosen agent matches the expected one (or a listed
